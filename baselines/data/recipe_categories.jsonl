@@ -1,0 +1,400 @@
+{"dish_en": "Beef Bourguignon", "dish_fr": "bœuf bourguignon", "category": "braised_meats"}
+{"dish_en": "Coq au vin", "dish_fr": "coq au vin", "category": "braised_meats"}
+{"dish_en": "Osso buco", "dish_fr": "osso buco", "category": "braised_meats"}
+{"dish_en": "Pot roast", "dish_fr": "rôti de bœuf braisé", "category": "braised_meats"}
+{"dish_en": "Provençal beef daube", "dish_fr": "daube provençale", "category": "braised_meats"}
+{"dish_en": "Lamb shank braised with rosemary", "dish_fr": "souris d'agneau braisée au romarin", "category": "braised_meats"}
+{"dish_en": "Braised pork belly", "dish_fr": "poitrine de porc braisée", "category": "braised_meats"}
+{"dish_en": "Veal Marengo", "dish_fr": "veau Marengo", "category": "braised_meats"}
+{"dish_en": "Braised oxtail", "dish_fr": "queue de bœuf braisée", "category": "braised_meats"}
+{"dish_en": "Carbonnade flamande", "dish_fr": "carbonnade flamande", "category": "braised_meats"}
+{"dish_en": "Braised rabbit with mustard", "dish_fr": "lapin braisé à la moutarde", "category": "braised_meats"}
+{"dish_en": "Braised short ribs", "dish_fr": "travers de bœuf braisés", "category": "braised_meats"}
+{"dish_en": "Pulled pork carnitas", "dish_fr": "porc effiloché braisé", "category": "braised_meats"}
+{"dish_en": "Braised duck legs", "dish_fr": "cuisses de canard braisées", "category": "braised_meats"}
+{"dish_en": "Hungarian goulash", "dish_fr": "goulasch de bœuf braisé", "category": "braised_meats"}
+{"dish_en": "Sauerbraten", "dish_fr": "rôti mariné braisé à l'allemande", "category": "braised_meats"}
+{"dish_en": "French beef consommé", "dish_fr": "consommé de bœuf clarifié", "category": "clear_broths"}
+{"dish_en": "Chicken consommé", "dish_fr": "consommé de volaille", "category": "clear_broths"}
+{"dish_en": "Vegetable court-bouillon", "dish_fr": "court-bouillon de légumes", "category": "clear_broths"}
+{"dish_en": "Dashi broth", "dish_fr": "bouillon dashi traditionnel", "category": "clear_broths"}
+{"dish_en": "Vietnamese pho broth", "dish_fr": "bouillon de pho vietnamien", "category": "clear_broths"}
+{"dish_en": "Slow-simmered bone broth", "dish_fr": "bouillon d'os mijoté", "category": "clear_broths"}
+{"dish_en": "White fish fumet", "dish_fr": "fumet de poisson blanc", "category": "clear_broths"}
+{"dish_en": "Tomato water consommé", "dish_fr": "eau de tomate clarifiée", "category": "clear_broths"}
+{"dish_en": "Wild mushroom broth", "dish_fr": "bouillon clair aux champignons sauvages", "category": "clear_broths"}
+{"dish_en": "Chicken noodle soup broth", "dish_fr": "bouillon clair de poulet aux nouilles", "category": "clear_broths"}
+{"dish_en": "Duck consommé", "dish_fr": "consommé de canard", "category": "clear_broths"}
+{"dish_en": "Lemongrass ginger broth", "dish_fr": "bouillon clair à la citronnelle et gingembre", "category": "clear_broths"}
+{"dish_en": "Clarified seafood broth", "dish_fr": "bouillon clair de fruits de mer", "category": "clear_broths"}
+{"dish_en": "Clear pork bone broth", "dish_fr": "bouillon clair de porc", "category": "clear_broths"}
+{"dish_en": "Herbal vegetable infusion broth", "dish_fr": "infusion claire d'herbes et légumes", "category": "clear_broths"}
+{"dish_en": "Clear white miso broth", "dish_fr": "bouillon clair au miso doux", "category": "clear_broths"}
+{"dish_en": "Clam chowder", "dish_fr": "chaudrée de palourdes", "category": "thick_soups"}
+{"dish_en": "French onion soup", "dish_fr": "soupe à l'oignon gratinée", "category": "thick_soups"}
+{"dish_en": "Minestrone soup", "dish_fr": "soupe minestrone italienne", "category": "thick_soups"}
+{"dish_en": "Split pea soup with bacon", "dish_fr": "soupe de pois cassés au lard", "category": "thick_soups"}
+{"dish_en": "Cream of mushroom soup", "dish_fr": "velouté de champignons de Paris", "category": "thick_soups"}
+{"dish_en": "Butternut squash soup", "dish_fr": "velouté de courge butternut", "category": "thick_soups"}
+{"dish_en": "Creamy lobster bisque", "dish_fr": "bisque de homard crémeuse", "category": "thick_soups"}
+{"dish_en": "Potato leek soup (Potage Parmentier)", "dish_fr": "potage Parmentier aux poireaux", "category": "thick_soups"}
+{"dish_en": "Sweet corn chowder", "dish_fr": "chaudrée de maïs doux", "category": "thick_soups"}
+{"dish_en": "Cream of asparagus soup", "dish_fr": "velouté d'asperges vertes", "category": "thick_soups"}
+{"dish_en": "Broccoli cheddar soup", "dish_fr": "soupe crémeuse au brocoli et cheddar", "category": "thick_soups"}
+{"dish_en": "Roasted cauliflower soup", "dish_fr": "velouté de chou-fleur rôti", "category": "thick_soups"}
+{"dish_en": "Roasted tomato bisque", "dish_fr": "bisque crémeuse de tomates rôties", "category": "thick_soups"}
+{"dish_en": "Spiced mulligatawny soup", "dish_fr": "soupe mulligatawny épicée", "category": "thick_soups"}
+{"dish_en": "Cream of artichoke soup", "dish_fr": "velouté de cœurs d'artichaut", "category": "thick_soups"}
+{"dish_en": "Creamy chestnut soup", "dish_fr": "velouté de châtaignes à la crème", "category": "thick_soups"}
+{"dish_en": "Spanish gazpacho", "dish_fr": "gaspacho andalou traditionnel", "category": "cold_soups"}
+{"dish_en": "Salmorejo cordobais", "dish_fr": "salmorejo cordobais à la tomate", "category": "cold_soups"}
+{"dish_en": "White almond gazpacho (Ajo Blanco)", "dish_fr": "ajo blanco aux amandes et à l'ail", "category": "cold_soups"}
+{"dish_en": "Chilled vichyssoise", "dish_fr": "vichyssoise glacée aux poireaux et pommes de terre", "category": "cold_soups"}
+{"dish_en": "Cold cucumber dill soup", "dish_fr": "soupe froide de concombre à l'aneth", "category": "cold_soups"}
+{"dish_en": "Cold beet borscht", "dish_fr": "bortsch froid de betteraves", "category": "cold_soups"}
+{"dish_en": "Cold avocado lime soup", "dish_fr": "soupe froide d'avocat au citron vert", "category": "cold_soups"}
+{"dish_en": "Chilled melon soup with mint", "dish_fr": "soupe fraîche de melon à la menthe", "category": "cold_soups"}
+{"dish_en": "Chilled tomato watermelon soup", "dish_fr": "soupe glacée de tomates et pastèque", "category": "cold_soups"}
+{"dish_en": "Cold yogurt soup (Tarator)", "dish_fr": "soupe froide de yaourt et concombres", "category": "cold_soups"}
+{"dish_en": "Chilled sweet corn soup", "dish_fr": "gaspacho doux de maïs frais", "category": "cold_soups"}
+{"dish_en": "Cold sour cherry soup", "dish_fr": "soupe froide de griottes", "category": "cold_soups"}
+{"dish_en": "Chilled green pea mint soup", "dish_fr": "velouté glacé de petits pois à la menthe", "category": "cold_soups"}
+{"dish_en": "Chilled strawberry basil soup", "dish_fr": "soupe fraîche de fraises au basilic", "category": "cold_soups"}
+{"dish_en": "Cold zucchini basil soup", "dish_fr": "velouté froid de courgettes au basilic", "category": "cold_soups"}
+{"dish_en": "Cold carrot ginger soup", "dish_fr": "soupe froide de carottes au gingembre", "category": "cold_soups"}
+{"dish_en": "Butter croissant", "dish_fr": "croissant au beurre traditionnel", "category": "yeast_pastries"}
+{"dish_en": "Pain au chocolat", "dish_fr": "pain au chocolat pur beurre", "category": "yeast_pastries"}
+{"dish_en": "Brioche à tête", "dish_fr": "brioche à tête parisienne", "category": "yeast_pastries"}
+{"dish_en": "Kouign-amann", "dish_fr": "kouign-amann breton au beurre salé", "category": "yeast_pastries"}
+{"dish_en": "Danish custard pastry", "dish_fr": "viennoiserie danoise à la crème", "category": "yeast_pastries"}
+{"dish_en": "Cinnamon roll", "dish_fr": "roulé à la cannelle", "category": "yeast_pastries"}
+{"dish_en": "Traditional challah", "dish_fr": "pain brioché traditionnel", "category": "yeast_pastries"}
+{"dish_en": "Rum savarin", "dish_fr": "savarin imbibé de sirop", "category": "yeast_pastries"}
+{"dish_en": "Italian panettone", "dish_fr": "panettone aux fruits confits", "category": "yeast_pastries"}
+{"dish_en": "Almond stollen", "dish_fr": "stollen de Noël aux amandes", "category": "yeast_pastries"}
+{"dish_en": "Chocolate babka", "dish_fr": "babka marbrée au chocolat", "category": "yeast_pastries"}
+{"dish_en": "Alsatian kugelhopf", "dish_fr": "kougelhopf alsacien aux raisins", "category": "yeast_pastries"}
+{"dish_en": "French beignets", "dish_fr": "beignets soufflés traditionnels", "category": "yeast_pastries"}
+{"dish_en": "Hot cross buns", "dish_fr": "petits pains briochés aux épices", "category": "yeast_pastries"}
+{"dish_en": "Cardamom bun", "dish_fr": "brioche suédoise à la cardamome", "category": "yeast_pastries"}
+{"dish_en": "Pain aux raisins", "dish_fr": "pain aux raisins et crème pâtissière", "category": "yeast_pastries"}
+{"dish_en": "Classic Mille-feuille", "dish_fr": "mille-feuille croustillant à la vanille", "category": "laminated_pastries"}
+{"dish_en": "Apple turnover (Chausson aux pommes)", "dish_fr": "chausson aux pommes maison", "category": "laminated_pastries"}
+{"dish_en": "Galette des Rois", "dish_fr": "galette des rois à la frangipane", "category": "laminated_pastries"}
+{"dish_en": "Palmiers (Elephant ears)", "dish_fr": "palmiers feuilletés au sucre caramélisé", "category": "laminated_pastries"}
+{"dish_en": "Almond pithiviers", "dish_fr": "pithiviers feuilleté aux amandes", "category": "laminated_pastries"}
+{"dish_en": "Vol-au-vent puff shell", "dish_fr": "vol-au-vent croustillant", "category": "laminated_pastries"}
+{"dish_en": "Sausage roll in puff pastry", "dish_fr": "feuilleté à la saucisse", "category": "laminated_pastries"}
+{"dish_en": "Cheese straw twists", "dish_fr": "allumettes feuilletées au fromage", "category": "laminated_pastries"}
+{"dish_en": "Spinach feta pastry braid", "dish_fr": "tresse feuilletée aux épinards et feta", "category": "laminated_pastries"}
+{"dish_en": "Mushroom puff pastry tart", "dish_fr": "tarte fine feuilletée aux champignons", "category": "laminated_pastries"}
+{"dish_en": "Sfogliatella riccia", "dish_fr": "sfogliatella napolitaine feuilletée", "category": "laminated_pastries"}
+{"dish_en": "Pastel de Nata", "dish_fr": "pastel de nata feuilleté", "category": "laminated_pastries"}
+{"dish_en": "Eccles cake", "dish_fr": "gâteau feuilleté aux raisins secs", "category": "laminated_pastries"}
+{"dish_en": "Crispy baklava", "dish_fr": "baklava croustillant aux noix et miel", "category": "laminated_pastries"}
+{"dish_en": "Apple strudel", "dish_fr": "strudel aux pommes croustillant", "category": "laminated_pastries"}
+{"dish_en": "Ham and cheese feuilleté", "dish_fr": "feuilleté au jambon et fromage", "category": "laminated_pastries"}
+{"dish_en": "Vanilla crème brûlée", "dish_fr": "crème brûlée à la gousse de vanille", "category": "baked_custards"}
+{"dish_en": "Flan pâtissier", "dish_fr": "flan pâtissier parisien à la vanille", "category": "baked_custards"}
+{"dish_en": "Pots de crème au chocolat", "dish_fr": "petits pots de crème au chocolat noir", "category": "baked_custards"}
+{"dish_en": "Crema Catalana", "dish_fr": "crème catalane aux zestes d'agrumes", "category": "baked_custards"}
+{"dish_en": "Crème caramel", "dish_fr": "crème caramel renversée", "category": "baked_custards"}
+{"dish_en": "Coconut flan", "dish_fr": "flan crémeux au lait de coco", "category": "baked_custards"}
+{"dish_en": "Baked egg custard tart", "dish_fr": "tarte crémeuse aux œufs cuite au four", "category": "baked_custards"}
+{"dish_en": "Dulce de leche flan", "dish_fr": "flan crémeux au caramel de lait", "category": "baked_custards"}
+{"dish_en": "Mocha pot de crème", "dish_fr": "pot de crème au café moka", "category": "baked_custards"}
+{"dish_en": "Cardamom saffron baked custard", "dish_fr": "crème cuite à la cardamome et au safran", "category": "baked_custards"}
+{"dish_en": "Spiced pumpkin flan", "dish_fr": "flan de potiron épicé", "category": "baked_custards"}
+{"dish_en": "Lavender honey baked custard", "dish_fr": "crème cuite au miel de lavande", "category": "baked_custards"}
+{"dish_en": "Orange blossom baked custard", "dish_fr": "crème cuite à la fleur d'oranger", "category": "baked_custards"}
+{"dish_en": "Matcha green tea pot de crème", "dish_fr": "crème prise au thé vert matcha", "category": "baked_custards"}
+{"dish_en": "Bread and butter pudding", "dish_fr": "pudding au pain et crème anglaise cuite", "category": "baked_custards"}
+{"dish_en": "Baked ricotta custard with honey", "dish_fr": "crème cuite de ricotta au miel", "category": "baked_custards"}
+{"dish_en": "Chocolate soufflé", "dish_fr": "soufflé chaud au chocolat noir", "category": "egg_desserts"}
+{"dish_en": "Floating island (Île flottante)", "dish_fr": "île flottante sur crème anglaise", "category": "egg_desserts"}
+{"dish_en": "Grand Marnier soufflé", "dish_fr": "soufflé chaud au Grand Marnier", "category": "egg_desserts"}
+{"dish_en": "French crispy meringues", "dish_fr": "meringues françaises croquantes", "category": "egg_desserts"}
+{"dish_en": "Lemon meringue filling", "dish_fr": "crème au citron pour tarte meringuée", "category": "egg_desserts"}
+{"dish_en": "Berry pavlova", "dish_fr": "pavlova croustillante aux fruits rouges", "category": "egg_desserts"}
+{"dish_en": "Sponge roll cake (Génoise)", "dish_fr": "génoise roulée aux œufs", "category": "egg_desserts"}
+{"dish_en": "Wine sabayon with fresh berries", "dish_fr": "sabayon mousseux aux fruits frais", "category": "egg_desserts"}
+{"dish_en": "Marsala zabaione", "dish_fr": "zabaione italien au vin de Marsala", "category": "egg_desserts"}
+{"dish_en": "Passion fruit soufflé", "dish_fr": "soufflé léger au fruit de la passion", "category": "egg_desserts"}
+{"dish_en": "Hazelnut dacquoise", "dish_fr": "dacquoise fondante aux noisettes", "category": "egg_desserts"}
+{"dish_en": "Italian glossy meringue", "dish_fr": "meringue italienne soyeuse", "category": "egg_desserts"}
+{"dish_en": "Bordeaux canelés", "dish_fr": "canelés bordelais croustillants", "category": "egg_desserts"}
+{"dish_en": "Angel food cake", "dish_fr": "gâteau des anges aux blancs d'œufs", "category": "egg_desserts"}
+{"dish_en": "Macaron shells", "dish_fr": "coques de macarons parisiens", "category": "egg_desserts"}
+{"dish_en": "Baked Alaska (Omelette norvégienne)", "dish_fr": "omelette norvégienne flambée", "category": "egg_desserts"}
+{"dish_en": "Tarte Tatin", "dish_fr": "tarte Tatin aux pommes caramélisées", "category": "fruit_tarts"}
+{"dish_en": "Classic French apple tart", "dish_fr": "tarte fine aux pommes", "category": "fruit_tarts"}
+{"dish_en": "Fresh strawberry custard tart", "dish_fr": "tartelette aux fraises et crème pâtissière", "category": "fruit_tarts"}
+{"dish_en": "Lemon curd tart", "dish_fr": "tartelette crémeuse au citron", "category": "fruit_tarts"}
+{"dish_en": "Cherry clafoutis", "dish_fr": "clafoutis traditionnel aux cerises noires", "category": "fruit_tarts"}
+{"dish_en": "Apricot frangipane tart", "dish_fr": "tarte aux abricots et crème d'amandes", "category": "fruit_tarts"}
+{"dish_en": "Raspberry pistachio tart", "dish_fr": "tarte aux framboises et pistache", "category": "fruit_tarts"}
+{"dish_en": "Pear Bourdaloue tart", "dish_fr": "tarte Bourdaloue aux poires", "category": "fruit_tarts"}
+{"dish_en": "Plum tart (Tarte aux quetsches)", "dish_fr": "tarte alsacienne aux quetsches", "category": "fruit_tarts"}
+{"dish_en": "Fresh fig honey tart", "dish_fr": "tartelette aux figues fraîches et miel", "category": "fruit_tarts"}
+{"dish_en": "Wild blueberry tart", "dish_fr": "tarte montagnarde aux myrtilles", "category": "fruit_tarts"}
+{"dish_en": "Peach frangipane tart", "dish_fr": "tarte aux pêches et frangipane", "category": "fruit_tarts"}
+{"dish_en": "Rhubarb custard tart", "dish_fr": "tarte à la rhubarbe et crème vanillée", "category": "fruit_tarts"}
+{"dish_en": "Blackberry almond tart", "dish_fr": "tarte aux mûres sauvages", "category": "fruit_tarts"}
+{"dish_en": "Key lime tart", "dish_fr": "tarte crémeuse à la lime", "category": "fruit_tarts"}
+{"dish_en": "Blood orange citrus tart", "dish_fr": "tartelette aux agrumes et orange sanguine", "category": "fruit_tarts"}
+{"dish_en": "Quiche Lorraine", "dish_fr": "quiche lorraine traditionnelle", "category": "savory_pies"}
+{"dish_en": "Tourtière (Quebec meat pie)", "dish_fr": "tourtière québécoise à la viande", "category": "savory_pies"}
+{"dish_en": "Spanakopita (Spinach feta pie)", "dish_fr": "spanakopita aux épinards et feta", "category": "savory_pies"}
+{"dish_en": "Chicken pot pie", "dish_fr": "tourte au poulet et petits légumes", "category": "savory_pies"}
+{"dish_en": "British steak and ale pie", "dish_fr": "tourte au bœuf et à la bière", "category": "savory_pies"}
+{"dish_en": "Shepherd's pie", "dish_fr": "hachis Parmentier d'agneau", "category": "savory_pies"}
+{"dish_en": "French onion tart (Pissaladière)", "dish_fr": "pissaladière niçoise aux oignons et anchois", "category": "savory_pies"}
+{"dish_en": "Leek goat cheese quiche", "dish_fr": "quiche aux poireaux et fromage de chèvre", "category": "savory_pies"}
+{"dish_en": "Salmon en croûte with spinach", "dish_fr": "saumon en croûte feuilletée aux épinards", "category": "savory_pies"}
+{"dish_en": "Beef empanadas", "dish_fr": "empanadas argentines à la viande", "category": "savory_pies"}
+{"dish_en": "Cornish pasty", "dish_fr": "pasty traditionnel de Cornouailles", "category": "savory_pies"}
+{"dish_en": "Mushroom Gruyère quiche", "dish_fr": "quiche forestière aux champignons et gruyère", "category": "savory_pies"}
+{"dish_en": "Bacon cheddar egg pie", "dish_fr": "tourte aux œufs, lardons et cheddar", "category": "savory_pies"}
+{"dish_en": "Fish pie with potato crust", "dish_fr": "tourte de poisson gratinée", "category": "savory_pies"}
+{"dish_en": "Roasted vegetable pithiviers", "dish_fr": "pithiviers salé aux légumes rôtis", "category": "savory_pies"}
+{"dish_en": "Tomato mustard tart", "dish_fr": "tarte provençale à la tomate et moutarde", "category": "savory_pies"}
+{"dish_en": "Hollandaise sauce", "dish_fr": "sauce hollandaise émulsionnée au beurre", "category": "emulsified_sauces"}
+{"dish_en": "Béarnaise sauce", "dish_fr": "sauce béarnaise à l'estragon", "category": "emulsified_sauces"}
+{"dish_en": "Homemade mayonnaise", "dish_fr": "mayonnaise maison émulsionnée à la moutarde", "category": "emulsified_sauces"}
+{"dish_en": "Provençal aioli", "dish_fr": "aïoli provençal à l'ail frais", "category": "emulsified_sauces"}
+{"dish_en": "Tomato Choron sauce", "dish_fr": "sauce Choron tomatée", "category": "emulsified_sauces"}
+{"dish_en": "Sauce Mousseline", "dish_fr": "sauce mousseline légère à la crème fouettée", "category": "emulsified_sauces"}
+{"dish_en": "Sauce Foyot", "dish_fr": "sauce Foyot à la glace de viande", "category": "emulsified_sauces"}
+{"dish_en": "Blood orange Maltaise sauce", "dish_fr": "sauce maltaise à l'orange sanguine", "category": "emulsified_sauces"}
+{"dish_en": "Marseillaise rouille", "dish_fr": "rouille marseillaise pour bouillabaisse", "category": "emulsified_sauces"}
+{"dish_en": "Herb remoulade", "dish_fr": "sauce rémoulade aux herbes fraîches", "category": "emulsified_sauces"}
+{"dish_en": "Sauce gribiche", "dish_fr": "sauce gribiche aux câpres et cornichons", "category": "emulsified_sauces"}
+{"dish_en": "Sauce tartare", "dish_fr": "sauce tartare maison aux fines herbes", "category": "emulsified_sauces"}
+{"dish_en": "Caesar dressing emulsion", "dish_fr": "émulsion crémeuse pour salade César", "category": "emulsified_sauces"}
+{"dish_en": "Toum (Lebanese garlic paste)", "dish_fr": "crème d'ail libanaise toum", "category": "emulsified_sauces"}
+{"dish_en": "Skordalia garlic emulsion", "dish_fr": "skordalia grecque à l'ail", "category": "emulsified_sauces"}
+{"dish_en": "Emulsified chimichurri", "dish_fr": "sauce chimichurri émulsionnée aux herbes", "category": "emulsified_sauces"}
+{"dish_en": "Garlic herb snail butter", "dish_fr": "beurre d'escargot à l'ail et persil", "category": "compound_butters"}
+{"dish_en": "Café de Paris butter", "dish_fr": "beurre maître d'hôtel façon Café de Paris", "category": "compound_butters"}
+{"dish_en": "Maître d'Hôtel lemon herb butter", "dish_fr": "beurre maître d'hôtel au citron et persil", "category": "compound_butters"}
+{"dish_en": "Shallot red wine butter", "dish_fr": "beurre marchand de vin à l'échalote", "category": "compound_butters"}
+{"dish_en": "Savory anchovy butter", "dish_fr": "beurre d'anchois", "category": "compound_butters"}
+{"dish_en": "Black truffle butter", "dish_fr": "beurre à la truffe noire", "category": "compound_butters"}
+{"dish_en": "Blue cheese steak butter", "dish_fr": "beurre au bleu d'Auvergne pour grillade", "category": "compound_butters"}
+{"dish_en": "Smoked paprika lime butter", "dish_fr": "beurre au paprika fumé et citron vert", "category": "compound_butters"}
+{"dish_en": "Tarragon mustard butter", "dish_fr": "beurre à l'estragon et moutarde à l'ancienne", "category": "compound_butters"}
+{"dish_en": "Honey cinnamon butter", "dish_fr": "beurre doux au miel et à la cannelle", "category": "compound_butters"}
+{"dish_en": "Roasted garlic rosemary butter", "dish_fr": "beurre d'ail rôti au romarin", "category": "compound_butters"}
+{"dish_en": "Sun-dried tomato basil butter", "dish_fr": "beurre de tomates séchées au basilic", "category": "compound_butters"}
+{"dish_en": "Chipotle lime butter", "dish_fr": "beurre au piment chipotle et lime", "category": "compound_butters"}
+{"dish_en": "Lemon caper butter", "dish_fr": "beurre fondu aux câpres et citron", "category": "compound_butters"}
+{"dish_en": "Green peppercorn butter", "dish_fr": "beurre au poivre vert frais", "category": "compound_butters"}
+{"dish_en": "Maple bourbon butter", "dish_fr": "beurre au sirop d'érable et bourbon", "category": "compound_butters"}
+{"dish_en": "Marseillaise bouillabaisse", "dish_fr": "bouillabaisse marseillaise traditionnelle", "category": "shellfish_seafood"}
+{"dish_en": "Moules marinières with white wine", "dish_fr": "moules marinières au vin blanc et échalotes", "category": "shellfish_seafood"}
+{"dish_en": "Garlic butter shrimp", "dish_fr": "crevettes sautées au beurre d'ail et persil", "category": "shellfish_seafood"}
+{"dish_en": "Coquilles Saint-Jacques", "dish_fr": "coquilles Saint-Jacques gratinées", "category": "shellfish_seafood"}
+{"dish_en": "Grilled lobster with herb butter", "dish_fr": "homard grillé au beurre d'herbes", "category": "shellfish_seafood"}
+{"dish_en": "Pan-seared sea scallops", "dish_fr": "noix de Saint-Jacques poêlées", "category": "shellfish_seafood"}
+{"dish_en": "Seafood paella", "dish_fr": "paella valencienne aux fruits de mer", "category": "shellfish_seafood"}
+{"dish_en": "Oysters Rockefeller", "dish_fr": "huîtres chaudes gratinées à la Rockefeller", "category": "shellfish_seafood"}
+{"dish_en": "Calamari in white wine tomato sauce", "dish_fr": "calamars mijotés à la tomate et vin blanc", "category": "shellfish_seafood"}
+{"dish_en": "Clams Casino", "dish_fr": "palourdes gratinées aux herbes et bacon", "category": "shellfish_seafood"}
+{"dish_en": "Trout amandine", "dish_fr": "truite meunière aux amandes effilées", "category": "shellfish_seafood"}
+{"dish_en": "Dover sole meunière", "dish_fr": "sole meunière au beurre noisette et citron", "category": "shellfish_seafood"}
+{"dish_en": "Seafood risotto", "dish_fr": "risotto crémeux aux fruits de mer", "category": "shellfish_seafood"}
+{"dish_en": "Garlic butter crab legs", "dish_fr": "pinces de crabe au beurre clarifié à l'ail", "category": "shellfish_seafood"}
+{"dish_en": "Mussels in Normandy cider cream", "dish_fr": "moules à la crème et cidre normand", "category": "shellfish_seafood"}
+{"dish_en": "Grilled paprika octopus", "dish_fr": "poulpe grillé à l'huile d'olive et paprika", "category": "shellfish_seafood"}
+{"dish_en": "Salmon gravlax with dill", "dish_fr": "gravlax de saumon à l'aneth et baies roses", "category": "raw_cured_fish"}
+{"dish_en": "Tuna tartare with avocado", "dish_fr": "tartare de thon rouge à l'avocat et sésame", "category": "raw_cured_fish"}
+{"dish_en": "Salmon tartare with shallots", "dish_fr": "tartare de saumon frais aux échalotes", "category": "raw_cured_fish"}
+{"dish_en": "Sea bass ceviche with lime", "dish_fr": "ceviche de bar au citron vert et coriandre", "category": "raw_cured_fish"}
+{"dish_en": "Scallop carpaccio with truffle oil", "dish_fr": "carpaccio de Saint-Jacques à l'huile de truffe", "category": "raw_cured_fish"}
+{"dish_en": "Beef carpaccio with parmesan", "dish_fr": "carpaccio de bœuf au parmesan et roquette", "category": "raw_cured_fish"}
+{"dish_en": "Marinated tuna poke bowl", "dish_fr": "poke bowl de thon mariné au soja", "category": "raw_cured_fish"}
+{"dish_en": "Marinated anchovies (Boquerones)", "dish_fr": "anchois marinés au vinaigre et à l'ail", "category": "raw_cured_fish"}
+{"dish_en": "Sea bream citrus crudo", "dish_fr": "crudo de daurade aux agrumes et huile d'olive", "category": "raw_cured_fish"}
+{"dish_en": "Smoked salmon blinis", "dish_fr": "blinis au saumon fumé et crème d'aneth", "category": "raw_cured_fish"}
+{"dish_en": "Halibut mango ceviche", "dish_fr": "ceviche de flétan à la mangue", "category": "raw_cured_fish"}
+{"dish_en": "Classic beef tartare", "dish_fr": "tartare de bœuf traditionnel assaisonné au couteau", "category": "raw_cured_fish"}
+{"dish_en": "Marinated herring with sweet onions", "dish_fr": "hareng mariné aux oignons doux", "category": "raw_cured_fish"}
+{"dish_en": "Snapper tiradito", "dish_fr": "tiradito de vivaneau à l'aji amarillo", "category": "raw_cured_fish"}
+{"dish_en": "Octopus carpaccio", "dish_fr": "carpaccio de poulpe au citron et huile d'olive", "category": "raw_cured_fish"}
+{"dish_en": "Cured duck breast carpaccio", "dish_fr": "carpaccio de magret de canard séché", "category": "raw_cured_fish"}
+{"dish_en": "Roast chicken with herb butter", "dish_fr": "poulet rôti au beurre d'herbes", "category": "poultry_roasts"}
+{"dish_en": "Duck à l'orange", "dish_fr": "canard rôti à l'orange", "category": "poultry_roasts"}
+{"dish_en": "Roast turkey with chestnut stuffing", "dish_fr": "dinde rôtie farcie aux marrons", "category": "poultry_roasts"}
+{"dish_en": "Honey pan-seared duck breast", "dish_fr": "magret de canard poêlé au miel", "category": "poultry_roasts"}
+{"dish_en": "Rosemary garlic Cornish hen", "dish_fr": "coquelet rôti au romarin et ail", "category": "poultry_roasts"}
+{"dish_en": "Roast guinea fowl with shallots", "dish_fr": "pintade rôtie aux échalotes confites", "category": "poultry_roasts"}
+{"dish_en": "Chicken chasseur (Hunter's chicken)", "dish_fr": "poulet sauté chasseur aux champignons", "category": "poultry_roasts"}
+{"dish_en": "Chicken cordon bleu", "dish_fr": "cordon bleu de poulet au jambon et comté", "category": "poultry_roasts"}
+{"dish_en": "Lemon caper chicken piccata", "dish_fr": "escalope de poulet piccata au citron et câpres", "category": "poultry_roasts"}
+{"dish_en": "Roasted quail with grapes", "dish_fr": "cailles rôties aux raisins", "category": "poultry_roasts"}
+{"dish_en": "Truffled roast capon", "dish_fr": "chapon rôti au beurre truffé", "category": "poultry_roasts"}
+{"dish_en": "Mushroom-stuffed chicken ballotine", "dish_fr": "ballotine de volaille farcie aux champignons", "category": "poultry_roasts"}
+{"dish_en": "Chicken fricassee with cream", "dish_fr": "fricassée de poulet à l'ancienne et crème", "category": "poultry_roasts"}
+{"dish_en": "Roast poussin with forty garlic cloves", "dish_fr": "poussin rôti aux quarante gousses d'ail", "category": "poultry_roasts"}
+{"dish_en": "Chicken basquaise with peppers", "dish_fr": "poulet à la basquaise aux poivrons", "category": "poultry_roasts"}
+{"dish_en": "Crispy roast goose with apples", "dish_fr": "oie rôtie croustillante aux pommes", "category": "poultry_roasts"}
+{"dish_en": "Venison stew (Civet de chevreuil)", "dish_fr": "civet de chevreuil au vin rouge", "category": "game_meats"}
+{"dish_en": "Wild boar ragout with juniper", "dish_fr": "ragoût de sanglier mariné aux baies de genièvre", "category": "game_meats"}
+{"dish_en": "Roast pheasant with bacon", "dish_fr": "faisan rôti bardé de lard", "category": "game_meats"}
+{"dish_en": "Braised hare (Lièvre à la royale)", "dish_fr": "lièvre à la royale traditionnel", "category": "game_meats"}
+{"dish_en": "Venison tenderloin with lingonberries", "dish_fr": "filet de cerf rôti à la sauce aux airelles", "category": "game_meats"}
+{"dish_en": "Roast partridge with root vegetables", "dish_fr": "perdrix rôtie aux légumes d'antan", "category": "game_meats"}
+{"dish_en": "Wild duck with cherry reduction", "dish_fr": "colvert rôti à la réduction de cerises", "category": "game_meats"}
+{"dish_en": "Braised bison short ribs", "dish_fr": "travers de bison braisés au vin rouge", "category": "game_meats"}
+{"dish_en": "Thyme roasted wild quail", "dish_fr": "cailles rôties au thym sauvage", "category": "game_meats"}
+{"dish_en": "Venison cutlets with red currant sauce", "dish_fr": "côtelettes de chevreuil aux groseilles", "category": "game_meats"}
+{"dish_en": "Wild rabbit with prunes", "dish_fr": "lapin de garenne aux pruneaux", "category": "game_meats"}
+{"dish_en": "Wild boar chops with rosemary", "dish_fr": "côtes de sanglier au romarin", "category": "game_meats"}
+{"dish_en": "Wild guinea fowl braised in cider", "dish_fr": "pintade sauvage braisée au cidre", "category": "game_meats"}
+{"dish_en": "Elk steak with green peppercorn", "dish_fr": "pavé d'élan poêlé au poivre vert", "category": "game_meats"}
+{"dish_en": "Wood pigeon salmis", "dish_fr": "salmis de pigeon ramier", "category": "game_meats"}
+{"dish_en": "Game sausages with mashed potatoes", "dish_fr": "saucisses de gibier à la purée maison", "category": "game_meats"}
+{"dish_en": "Calf liver with deglazed shallots", "dish_fr": "foie de veau sauté aux échalotes déglacées", "category": "organ_meats_offal"}
+{"dish_en": "Pan-seared foie gras with apples", "dish_fr": "escalope de foie gras poêlée aux pommes", "category": "organ_meats_offal"}
+{"dish_en": "Veal sweetbreads in cream sauce", "dish_fr": "ris de veau braisés à la crème", "category": "organ_meats_offal"}
+{"dish_en": "Lyonnaise breaded tripe", "dish_fr": "tablier de sapeur pané à la lyonnaise", "category": "organ_meats_offal"}
+{"dish_en": "Warm beef tongue with gribiche", "dish_fr": "langue de bœuf tiède à la sauce gribiche", "category": "organ_meats_offal"}
+{"dish_en": "Veal kidneys in mustard cream", "dish_fr": "rognons de veau à la crème de moutarde", "category": "organ_meats_offal"}
+{"dish_en": "Marinated beef heart skewers", "dish_fr": "brochettes de cœur de bœuf marinées", "category": "organ_meats_offal"}
+{"dish_en": "Sautéed chicken livers with parsley", "dish_fr": "foies de volaille sautés au persil", "category": "organ_meats_offal"}
+{"dish_en": "Braised oxtail in red wine", "dish_fr": "queue de bœuf braisée au vin corsé", "category": "organ_meats_offal"}
+{"dish_en": "Roasted bone marrow on toast", "dish_fr": "os à moelle rôti sur toast grillé", "category": "organ_meats_offal"}
+{"dish_en": "Traditional Scottish haggis", "dish_fr": "panse de brebis farcie traditionnelle", "category": "organ_meats_offal"}
+{"dish_en": "Country pork pâté (Pâté de campagne)", "dish_fr": "pâté de campagne traditionnel au poivre vert", "category": "organ_meats_offal"}
+{"dish_en": "Pork rillettes du Mans", "dish_fr": "rillettes du Mans pur porc", "category": "organ_meats_offal"}
+{"dish_en": "Grilled andouillette sausage", "dish_fr": "andouillette grillée à la moutarde", "category": "organ_meats_offal"}
+{"dish_en": "Veal head with ravigote sauce", "dish_fr": "tête de veau sauce ravigote", "category": "organ_meats_offal"}
+{"dish_en": "Crispy stuffed pig's trotters", "dish_fr": "pieds de porc farcis croustillants", "category": "organ_meats_offal"}
+{"dish_en": "Artisanal fermented sauerkraut", "dish_fr": "choucroute artisanale fermentée", "category": "fermented_pickled"}
+{"dish_en": "Pickled red onions in vinegar", "dish_fr": "oignons rouges marinés au vinaigre", "category": "fermented_pickled"}
+{"dish_en": "Traditional fermented cabbage kimchi", "dish_fr": "kimchi traditionnel au chou fermenté", "category": "fermented_pickled"}
+{"dish_en": "Crunchy dill pickles", "dish_fr": "cornichons croquants à l'aneth", "category": "fermented_pickled"}
+{"dish_en": "Pickled sweet mustard seeds", "dish_fr": "graines de moutarde au vinaigre doux", "category": "fermented_pickled"}
+{"dish_en": "Natural sourdough starter culture", "dish_fr": "levain naturel maison pour pain", "category": "fermented_pickled"}
+{"dish_en": "Moroccan preserved lemons", "dish_fr": "citrons confits au sel à la marocaine", "category": "fermented_pickled"}
+{"dish_en": "Spiced pickled beetroots", "dish_fr": "betteraves marinées au vinaigre et clous de girofle", "category": "fermented_pickled"}
+{"dish_en": "Fermented black tea kombucha", "dish_fr": "kombucha fermenté maison au thé noir", "category": "fermented_pickled"}
+{"dish_en": "Cultured milk kefir", "dish_fr": "kéfir de lait fermenté", "category": "fermented_pickled"}
+{"dish_en": "Pickled green beans", "dish_fr": "haricots verts marinés au vinaigre", "category": "fermented_pickled"}
+{"dish_en": "Fermented water fruit kefir", "dish_fr": "kéfir de fruits fermenté", "category": "fermented_pickled"}
+{"dish_en": "Lacto-fermented sea salt carrots", "dish_fr": "carottes fermentées au sel de mer", "category": "fermented_pickled"}
+{"dish_en": "Pickled sliced jalapeños", "dish_fr": "piments jalapeños marinés", "category": "fermented_pickled"}
+{"dish_en": "Artisanal apple cider vinegar", "dish_fr": "vinaigre de cidre de pomme artisanal", "category": "fermented_pickled"}
+{"dish_en": "Homemade fermented miso paste", "dish_fr": "pâte de miso maison fermentée", "category": "fermented_pickled"}
+{"dish_en": "Authentic Salade Niçoise", "dish_fr": "salade niçoise authentique", "category": "fresh_salads"}
+{"dish_en": "Classic Caesar salad with croutons", "dish_fr": "salade César aux croûtons et parmesan", "category": "fresh_salads"}
+{"dish_en": "Greek salad (Horiatiki)", "dish_fr": "salade grecque traditionnelle à la feta", "category": "fresh_salads"}
+{"dish_en": "American Cobb salad", "dish_fr": "salade Cobb au poulet, avocat et œuf dur", "category": "fresh_salads"}
+{"dish_en": "Waldorf salad with apples and walnuts", "dish_fr": "salade Waldorf aux pommes et noix", "category": "fresh_salads"}
+{"dish_en": "Caprese salad with buffalo mozzarella", "dish_fr": "salade caprese à la mozzarella di bufala", "category": "fresh_salads"}
+{"dish_en": "Lebanese parsley tabbouleh", "dish_fr": "taboulé libanais au persil plat et menthe", "category": "fresh_salads"}
+{"dish_en": "Shaved fennel and orange salad", "dish_fr": "salade croquante de fenouil et oranges", "category": "fresh_salads"}
+{"dish_en": "Mixed garden green salad", "dish_fr": "salade verte panachée à la vinaigrette", "category": "fresh_salads"}
+{"dish_en": "Warm goat cheese salad", "dish_fr": "salade de chèvre chaud sur toasts", "category": "fresh_salads"}
+{"dish_en": "Lyonnaise salad with poached egg", "dish_fr": "salade lyonnaise aux lardons et œuf poché", "category": "fresh_salads"}
+{"dish_en": "Sesame ginger Asian chicken salad", "dish_fr": "salade de poulet asiatique au sésame", "category": "fresh_salads"}
+{"dish_en": "Arugula parmesan lemon salad", "dish_fr": "salade de roquette au parmesan et citron", "category": "fresh_salads"}
+{"dish_en": "Cucumber radish dill salad", "dish_fr": "salade fraîche de concombres et radis", "category": "fresh_salads"}
+{"dish_en": "Shaved raw asparagus salad", "dish_fr": "salade d'asperges crues au pecorino", "category": "fresh_salads"}
+{"dish_en": "Watermelon feta mint salad", "dish_fr": "salade fraîche de pastèque, feta et menthe", "category": "fresh_salads"}
+{"dish_en": "Warm quinoa roasted vegetable salad", "dish_fr": "salade tiède de quinoa aux légumes rôtis", "category": "warm_grain_salads"}
+{"dish_en": "Warm mushroom farro salad", "dish_fr": "salade tiède de farro aux champignons", "category": "warm_grain_salads"}
+{"dish_en": "Warm Puy lentil salad with bacon", "dish_fr": "salade tiède de lentilles du Puy aux lardons", "category": "warm_grain_salads"}
+{"dish_en": "Warm pearl barley salad with squash", "dish_fr": "salade tiède d'orge perlé à la courge", "category": "warm_grain_salads"}
+{"dish_en": "Warm bulgur chickpea salad", "dish_fr": "salade tiède de boulgour aux pois chiches", "category": "warm_grain_salads"}
+{"dish_en": "Warm wild rice cranberry salad", "dish_fr": "salade tiède de riz sauvage aux canneberges", "category": "warm_grain_salads"}
+{"dish_en": "Warm couscous pepper salad", "dish_fr": "salade tiède de couscous aux poivrons", "category": "warm_grain_salads"}
+{"dish_en": "Warm wheat berry goat cheese salad", "dish_fr": "salade tiède de grains de blé au chèvre", "category": "warm_grain_salads"}
+{"dish_en": "Warm spelt sun-dried tomato salad", "dish_fr": "salade tiède d'épeautre aux tomates séchées", "category": "warm_grain_salads"}
+{"dish_en": "Warm freekeh pomegranate salad", "dish_fr": "salade tiède de freekeh aux graines de grenade", "category": "warm_grain_salads"}
+{"dish_en": "Warm brown rice edamame bowl", "dish_fr": "bol tiède de riz complet à l'édamame", "category": "warm_grain_salads"}
+{"dish_en": "Warm buckwheat groat salad", "dish_fr": "salade tiède de sarrasin aux oignons caramélisés", "category": "warm_grain_salads"}
+{"dish_en": "Warm pearl couscous with spinach", "dish_fr": "salade tiède de couscous perlé aux épinards", "category": "warm_grain_salads"}
+{"dish_en": "Warm quinoa black bean salad", "dish_fr": "salade tiède de quinoa aux haricots noirs", "category": "warm_grain_salads"}
+{"dish_en": "Warm roasted carrot millet salad", "dish_fr": "salade tiède de millet aux carottes rôties", "category": "warm_grain_salads"}
+{"dish_en": "Warm herb sorghum salad", "dish_fr": "salade tiède de sorgho aux herbes fraîches", "category": "warm_grain_salads"}
+{"dish_en": "Gratin Dauphinois", "dish_fr": "gratin dauphinois traditionnel à la crème", "category": "potato_dishes"}
+{"dish_en": "Pommes Aligot with tome cheese", "dish_fr": "aligot de l'Aubrac à la tome fraîche", "category": "potato_dishes"}
+{"dish_en": "Golden Pommes Anna", "dish_fr": "pommes Anna dorées au beurre", "category": "potato_dishes"}
+{"dish_en": "Crispy Pommes Dauphine", "dish_fr": "pommes dauphine croustillantes", "category": "potato_dishes"}
+{"dish_en": "Baked Pommes Duchesse", "dish_fr": "pommes duchesse dorées au four", "category": "potato_dishes"}
+{"dish_en": "Fondant potatoes in broth", "dish_fr": "pommes de terre fondantes cuites au bouillon", "category": "potato_dishes"}
+{"dish_en": "Belgian double-cooked fries", "dish_fr": "frites belges maison en double cuisson", "category": "potato_dishes"}
+{"dish_en": "Butter-sautéed Pommes noisette", "dish_fr": "pommes noisette sautées au beurre", "category": "potato_dishes"}
+{"dish_en": "Savoyard tartiflette with Reblochon", "dish_fr": "tartiflette savoyarde au reblochon et lardons", "category": "potato_dishes"}
+{"dish_en": "Pommes Boulangère with onions", "dish_fr": "pommes boulangère aux oignons fondants", "category": "potato_dishes"}
+{"dish_en": "Homemade potato gnocchi", "dish_fr": "gnocchis de pommes de terre maison", "category": "potato_dishes"}
+{"dish_en": "Garlic herb Hasselback potatoes", "dish_fr": "pommes de terre hasselback à l'ail et herbes", "category": "potato_dishes"}
+{"dish_en": "Crispy potato Rösti", "dish_fr": "rösti croustillant de pommes de terre", "category": "potato_dishes"}
+{"dish_en": "Spanish Patatas bravas", "dish_fr": "patatas bravas espagnoles à la sauce pimentée", "category": "potato_dishes"}
+{"dish_en": "Robuchon-style potato purée", "dish_fr": "purée de pommes de terre façon Robuchon", "category": "potato_dishes"}
+{"dish_en": "Crispy potato latkes", "dish_fr": "galettes de pommes de terre croustillantes", "category": "potato_dishes"}
+{"dish_en": "Provençal ratatouille", "dish_fr": "ratatouille provençale mijotée", "category": "roasted_vegetables"}
+{"dish_en": "Garlic butter roasted green asparagus", "dish_fr": "asperges vertes rôties au beurre d'ail", "category": "roasted_vegetables"}
+{"dish_en": "Provençal vegetable tian", "dish_fr": "tian provençal de courgettes et tomates", "category": "roasted_vegetables"}
+{"dish_en": "Roasted Brussels sprouts with bacon", "dish_fr": "choux de Bruxelles rôtis aux lardons", "category": "roasted_vegetables"}
+{"dish_en": "Honey thyme glazed carrots", "dish_fr": "carottes rôties glacées au miel et thym", "category": "roasted_vegetables"}
+{"dish_en": "Parmesan roasted cauliflower", "dish_fr": "chou-fleur rôti doré au parmesan", "category": "roasted_vegetables"}
+{"dish_en": "Sage roasted butternut squash", "dish_fr": "courge butternut rôtie à la sauge", "category": "roasted_vegetables"}
+{"dish_en": "Balsamic glazed roasted shallots", "dish_fr": "échalotes confites glacées au balsamique", "category": "roasted_vegetables"}
+{"dish_en": "Olive oil roasted red peppers", "dish_fr": "poivrons rouges rôtis à l'huile d'olive", "category": "roasted_vegetables"}
+{"dish_en": "Roasted heirloom root vegetable medley", "dish_fr": "méli-mélo de légumes d'antan rôtis au four", "category": "roasted_vegetables"}
+{"dish_en": "Roasted eggplant caviar", "dish_fr": "caviar d'aubergines rôties à l'ail", "category": "roasted_vegetables"}
+{"dish_en": "Thyme roasted wild mushrooms", "dish_fr": "poêlée de champignons des bois rôtis au thym", "category": "roasted_vegetables"}
+{"dish_en": "Lemon garlic roasted artichoke hearts", "dish_fr": "cœurs d'artichaut rôtis à l'ail et citron", "category": "roasted_vegetables"}
+{"dish_en": "Orange braised roasted fennel bulbs", "dish_fr": "bulbes de fenouil braisés aux zestes d'orange", "category": "roasted_vegetables"}
+{"dish_en": "Rosemary roasted sweet potatoes", "dish_fr": "patates douces rôties au romarin", "category": "roasted_vegetables"}
+{"dish_en": "Maple glazed roasted parsnips", "dish_fr": "panais rôtis dorés au sirop d'érable", "category": "roasted_vegetables"}
+{"dish_en": "Homemade egg fettuccine", "dish_fr": "tagliatelles fraîches aux œufs", "category": "fresh_pasta"}
+{"dish_en": "Fresh lasagna Bolognese", "dish_fr": "lasagnes fraîches à la bolognaise", "category": "fresh_pasta"}
+{"dish_en": "Truffle cream tagliatelle", "dish_fr": "tagliatelles fraîches à la crème de truffe", "category": "fresh_pasta"}
+{"dish_en": "Garlic cream spinach fettuccine", "dish_fr": "fettuccines fraîches aux épinards", "category": "fresh_pasta"}
+{"dish_en": "Sage butter fresh gnocchi", "dish_fr": "gnocchis frais au beurre de sauge", "category": "fresh_pasta"}
+{"dish_en": "Lemon butter tagliolini", "dish_fr": "tagliolinis frais au beurre de citron", "category": "fresh_pasta"}
+{"dish_en": "Wild boar ragout pappardelle", "dish_fr": "pappardelles fraîches au ragoût de sanglier", "category": "fresh_pasta"}
+{"dish_en": "Broccoli rabe cavatelli", "dish_fr": "cavatellis frais aux brocolis", "category": "fresh_pasta"}
+{"dish_en": "Italian sausage orecchiette", "dish_fr": "orecchiettes fraîches à la saucisse italienne", "category": "fresh_pasta"}
+{"dish_en": "Alsatian butter spätzle", "dish_fr": "spätzle alsaciens dorés au beurre", "category": "fresh_pasta"}
+{"dish_en": "Parmesan Fettuccine Alfredo", "dish_fr": "fettuccines fraîches au beurre et parmesan", "category": "fresh_pasta"}
+{"dish_en": "Fresh spaghetti Carbonara", "dish_fr": "spaghettis frais à la vraie carbonara", "category": "fresh_pasta"}
+{"dish_en": "Mushroom ragù strozzapreti", "dish_fr": "strozzapretis frais aux champignons", "category": "fresh_pasta"}
+{"dish_en": "Fresh bucatini all'Amatriciana", "dish_fr": "bucatinis frais à la sauce amatriciana", "category": "fresh_pasta"}
+{"dish_en": "Tuscan garlic pici (Pici all'Aglione)", "dish_fr": "pici frais toscans à la sauce à l'ail", "category": "fresh_pasta"}
+{"dish_en": "Genovese pesto trenette", "dish_fr": "trenettes fraîches au pesto génois", "category": "fresh_pasta"}
+{"dish_en": "Braised beef savory ravioli", "dish_fr": "ravioles fraîches de viande braisée", "category": "stuffed_dumplings"}
+{"dish_en": "Ricotta spinach ravioli", "dish_fr": "raviolis frais à la ricotta et épinards", "category": "stuffed_dumplings"}
+{"dish_en": "French Ravioles du Dauphiné", "dish_fr": "ravioles du Dauphiné au comté et persil", "category": "stuffed_dumplings"}
+{"dish_en": "Lobster cream tortellini", "dish_fr": "tortellinis frais farcis au homard", "category": "stuffed_dumplings"}
+{"dish_en": "Potato cheese Polish pierogi", "dish_fr": "pierogis traditionnels à la pomme de terre", "category": "stuffed_dumplings"}
+{"dish_en": "Chinese pork dumplings (Jiaozi)", "dish_fr": "raviolis chinois traditionnels au porc", "category": "stuffed_dumplings"}
+{"dish_en": "Japanese crispy pork gyoza", "dish_fr": "gyozas croustillants au porc et chou", "category": "stuffed_dumplings"}
+{"dish_en": "Cantonese soup dumplings (Xiao Long Bao)", "dish_fr": "bouchées vapeur xiao long bao au bouillon", "category": "stuffed_dumplings"}
+{"dish_en": "Russian minced meat pelmeni", "dish_fr": "pelmenis russes farcis à la viande hachée", "category": "stuffed_dumplings"}
+{"dish_en": "Georgian spiced broth khinkali", "dish_fr": "khinkalis géorgiens au bouillon épicé", "category": "stuffed_dumplings"}
+{"dish_en": "Turkish manti with garlic yogurt", "dish_fr": "raviolis manti turcs au yaourt à l'ail", "category": "stuffed_dumplings"}
+{"dish_en": "German spinach meat Maultaschen", "dish_fr": "maultaschen souabes farcis à la viande et épinards", "category": "stuffed_dumplings"}
+{"dish_en": "Cantonese pork shrimp shumai", "dish_fr": "siu mai cantonais au porc et crevettes", "category": "stuffed_dumplings"}
+{"dish_en": "Spiced chicken empanadas", "dish_fr": "empanadas artisanales au poulet épicé", "category": "stuffed_dumplings"}
+{"dish_en": "Pork shrimp wonton soup", "dish_fr": "soupe de wontons frais au porc et crevettes", "category": "stuffed_dumplings"}
+{"dish_en": "Crystal shrimp dumplings (Har Gow)", "dish_fr": "raviolis translucides har gow aux crevettes", "category": "stuffed_dumplings"}
+{"dish_en": "Natural sourdough baguette", "dish_fr": "baguette de tradition au levain naturel", "category": "artisan_breads"}
+{"dish_en": "French country boule (Pain de campagne)", "dish_fr": "pain de campagne au levain", "category": "artisan_breads"}
+{"dish_en": "Italian olive oil ciabatta", "dish_fr": "ciabatta alvéolée à l'huile d'olive", "category": "artisan_breads"}
+{"dish_en": "Rosemary sea salt focaccia", "dish_fr": "focaccia moelleuse au romarin et fleur de sel", "category": "artisan_breads"}
+{"dish_en": "French black olive fougasse", "dish_fr": "fougasse provençale aux olives noires", "category": "artisan_breads"}
+{"dish_en": "Braided pure butter brioche loaf", "dish_fr": "pain brioché tressé pur beurre", "category": "artisan_breads"}
+{"dish_en": "Rye bread with caraway (Pain de seigle)", "dish_fr": "pain de seigle au carvi", "category": "artisan_breads"}
+{"dish_en": "Braided traditional challah", "dish_fr": "pain tressé traditionnel", "category": "artisan_breads"}
+{"dish_en": "Sesame seed artisan bagel", "dish_fr": "bagel artisanal aux graines de sésame", "category": "artisan_breads"}
+{"dish_en": "Garlic tandoor naan bread", "dish_fr": "pain naan cuit au tandoor à l'ail", "category": "artisan_breads"}
+{"dish_en": "Walnut artisan bread (Pain aux noix)", "dish_fr": "pain artisanal aux cerneaux de noix", "category": "artisan_breads"}
+{"dish_en": "Puffy pita bread pockets", "dish_fr": "pain pita soufflé traditionnel", "category": "artisan_breads"}
+{"dish_en": "Traditional Irish soda bread", "dish_fr": "pain irlandais traditionnel au babeurre", "category": "artisan_breads"}
+{"dish_en": "Griddle-cooked English muffins", "dish_fr": "muffins anglais cuits à la poêle", "category": "artisan_breads"}
+{"dish_en": "Whole wheat poolish loaf (Pain complet)", "dish_fr": "pain complet traditionnel sur poolish", "category": "artisan_breads"}
+{"dish_en": "Crispy wheat stalk baguette (Épi de blé)", "dish_fr": "baguette en épi de blé croustillante", "category": "artisan_breads"}

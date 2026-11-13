@@ -1,0 +1,78 @@
+# Copyright 2026 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#    http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+# ==============================================================================
+
+# Single-run DISCO configuration: Visual Symmetry Completion (Seed 2: Contrastive)
+#
+# Usage:
+#   python -m disco.eval_disco --config=configs/visual_symmetry_contrastive_disco.yaml
+
+name: "visual_symmetry_contrastive_disco"
+output_dir: "./outputs/visual_symmetry_contrastive_disco"
+task_suite: "visual_symmetry"
+
+target_model: "gemini-3.1-flash-image"
+agent_model: "gemini-3.8-flash"
+parser_model: "gemini-3.8-flash"
+rating_model: "gemini-3.8-flash"
+summarizer_model: "gemini-3.8-flash"
+
+seed: >
+  Discover contrastive hypotheses in visual symmetry completion. Each hypothesis
+  must compare exactly TWO conditions and assert that the model's accuracy is
+  significantly higher on Condition A than on Condition B.
+
+  STATE BOTH CONDITIONS BY THEIR EXACT NAMES. A condition is a shape_type from
+  the probe catalog (for example 'circle', 'square', 'chinese_char',
+  'complex_chinese', 'multi_glyph', 'nested_outlines', 'scatter_rings',
+  'starburst', 'filigree', 'maze', 'snowflake', 'wave_lines', 'dots',
+  'fine_noise'), optionally drawn on a named bg_color ('white', 'navy', 'black',
+  'darkslategray', ...). Write the comparison explicitly, using wording such as
+  "higher accuracy than", "fails more often than" or "worse than" -- for example
+  "complex_chinese completions succeed less often than chinese_char
+  completions". Do NOT describe a condition only by category ("geometric
+  primitives", "linguistic glyphs", "fine-stroked patterns"): a hypothesis whose
+  two conditions cannot be resolved to concrete probe settings will be verified
+  as an absolute claim about a single condition instead of as the comparison you
+  intended.
+
+  Vary exactly ONE factor. Compare two shape_types on the same background, or
+  one shape_type on two backgrounds -- never both at once, or the two
+  explanations are confounded.
+
+  The two conditions are probed as two independent balanced batches and compared
+  with a two-sample test, so state a claim about the DIFFERENCE between them,
+  not about either one against the 90 percent reference rate. Score both
+  conditions with the SAME success_criterion, and name it explicitly: 'both'
+  (the conjunction of self-symmetry and left-half preservation, the default),
+  'symmetry' alone, or 'preservation' alone. A reconstruction score is reported
+  for reference but must not be the basis of a claim.
+
+budget: 400
+chunk_size: 50
+alpha: 0.1
+kappa: 0.1741
+e_max: 50.0
+num_active_bins: 1
+alpha_calibration_mode: "good_event"
+p_value_mode: "randomized"
+enforce_exit_low: true
+allow_continuous_means_test: true
+enable_hypothesis_checker: true
+
+# Out-of-sample precision verification
+run_precision_check: true
+single_batch_null_prob: 0.90
+single_batch_alpha: 0.10
+single_batch_num_queries: 100

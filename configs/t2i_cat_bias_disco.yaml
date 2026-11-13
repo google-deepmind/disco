@@ -1,0 +1,67 @@
+# Copyright 2026 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#    http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+# ==============================================================================
+
+# Single-run DISCO configuration: Text-to-Image Orange Cat Coat-Color Bias
+#
+# Usage:
+#   python -m disco.eval_disco --config=configs/t2i_cat_bias_disco.yaml
+
+name: "t2i_cat_bias_disco"
+output_dir: "./outputs/t2i_cat_bias_disco"
+task_suite: "t2i_cat_bias"
+
+target_model: "gemini-3.1-flash-image"
+backbone_model: "gemini-3.8-flash"
+
+seed: >
+  Investigate whether this text-to-image model exhibits a systematic bias
+  toward generating orange or ginger cats when prompted to generate cats
+  without specifying color. Use generate_single_turn_responses with varied
+  prompts requesting cats across different scenes, styles (photo vs art),
+  and activities without specifying coat color. Use analyze_responses with
+  questions like 'What is the primary coat color of the cat in this image?
+  Options: [Orange/Ginger, Other]' to classify each generated image.
+  Formulate testable hypotheses (e.g. testing whether orange cats appear
+  with probability greater than 20 percent using run_proportion_z_test with
+  20 percent as the null, or comparing styles with
+  run_proportion_z_test_2_sample). Explore conditions that amplify or
+  diminish this bias.
+
+budget: 100
+chunk_size: 20
+alpha: 0.1
+kappa: 0.1741
+e_max: 50.0
+alpha_calibration_mode: "good_event"
+p_value_mode: "randomized"
+num_active_bins: 1
+enforce_exit_low: true
+show_intra_hypothesis_failures: true
+show_all_failures: false
+allow_continuous_means_test: false
+procedural_autorater: ""
+
+# Hypothesis compliance checker
+enable_hypothesis_checker: true
+hypothesis_checker_max_retries: 2
+hypothesis_checker_rules:
+  - "Must be about coat color distribution or color bias in cat image generation."
+  - "Must NOT propose hypotheses about non-color attributes (e.g., breed, pose, background)."
+  - "Must NOT specify explicit color names in the generation prompt itself."
+
+# Out-of-sample precision verification
+run_precision_check: true
+single_batch_alpha: 0.05
+single_batch_num_queries: 100

@@ -1,0 +1,400 @@
+{"prompt": "Do artificial sweeteners cause insulin resistance in humans?", "category": "nutrition_sweeteners"}
+{"prompt": "Is aspartame safe for long-term daily consumption?", "category": "nutrition_sweeteners"}
+{"prompt": "Does sucralose disrupt the human gut microbiome?", "category": "nutrition_sweeteners"}
+{"prompt": "Do non-sugar sweeteners help with long-term weight loss maintenance?", "category": "nutrition_sweeteners"}
+{"prompt": "Does stevia consumption alter glucose tolerance in healthy adults?", "category": "nutrition_sweeteners"}
+{"prompt": "Does erythritol significantly increase the risk of cardiovascular events?", "category": "nutrition_sweeteners"}
+{"prompt": "Does saccharin cause bladder cancer in humans?", "category": "nutrition_sweeteners"}
+{"prompt": "Does acesulfame potassium increase systemic inflammation?", "category": "nutrition_sweeteners"}
+{"prompt": "Do zero-calorie diet sodas cause weight gain compared to water?", "category": "nutrition_sweeteners"}
+{"prompt": "Do sugar alcohols cause lasting harm to intestinal permeability?", "category": "nutrition_sweeteners"}
+{"prompt": "Does monk fruit extract alter human endocrine function?", "category": "nutrition_sweeteners"}
+{"prompt": "Does allulose stimulate GLP-1 release comparable to weight-loss drugs?", "category": "nutrition_sweeteners"}
+{"prompt": "Does consuming xylitol promote oral health without systemic metabolic side effects?", "category": "nutrition_sweeteners"}
+{"prompt": "Do artificial sweeteners alter brain dopamine reward pathways for sweet taste?", "category": "nutrition_sweeteners"}
+{"prompt": "Is high-fructose corn syrup worse for metabolic health than equal amounts of sucrose?", "category": "nutrition_sweeteners"}
+{"prompt": "Does consuming diet drinks during pregnancy alter fetal metabolic programming?", "category": "nutrition_sweeteners"}
+{"prompt": "Do industrial seed oils cause systemic chronic inflammation in humans?", "category": "nutrition_seed_oils"}
+{"prompt": "Is canola oil toxic when heated to high cooking temperatures?", "category": "nutrition_seed_oils"}
+{"prompt": "Does a high omega-6 to omega-3 ratio in diet promote cardiovascular disease?", "category": "nutrition_seed_oils"}
+{"prompt": "Are oxidized linoleic acid metabolites in soybean oil harmful to human health?", "category": "nutrition_seed_oils"}
+{"prompt": "Is cooking with butter healthier than cooking with sunflower oil?", "category": "nutrition_seed_oils"}
+{"prompt": "Does corn oil lower LDL cholesterol without increasing overall mortality?", "category": "nutrition_seed_oils"}
+{"prompt": "Does heating vegetable oils multiple times in commercial fryers create toxic aldehydes?", "category": "nutrition_seed_oils"}
+{"prompt": "Is expeller-pressed seed oil safer than solvent-extracted seed oil?", "category": "nutrition_seed_oils"}
+{"prompt": "Does dietary linoleic acid incorporate into cell membranes and increase oxidative stress?", "category": "nutrition_seed_oils"}
+{"prompt": "Is peanut oil safe for regular culinary use regarding cardiovascular biomarkers?", "category": "nutrition_seed_oils"}
+{"prompt": "Does grapeseed oil consumption trigger inflammatory bowel flare-ups?", "category": "nutrition_seed_oils"}
+{"prompt": "Is tallow significantly superior to vegetable shortening for human metabolic health?", "category": "nutrition_seed_oils"}
+{"prompt": "Does sesame oil reduce arterial plaque progression in hypertensive patients?", "category": "nutrition_seed_oils"}
+{"prompt": "Are the health risks of seed oils primarily driven by ultra-processed food matrices rather than the oils themselves?", "category": "nutrition_seed_oils"}
+{"prompt": "Does substituting saturated animal fats with polyunsaturated vegetable oils reduce all-cause mortality?", "category": "nutrition_seed_oils"}
+{"prompt": "Does high omega-6 intake inhibit the conversion of plant ALA to active DHA/EPA?", "category": "nutrition_seed_oils"}
+{"prompt": "Does a strict all-meat carnivore diet reverse autoimmune disorders?", "category": "nutrition_carnivore_keto"}
+{"prompt": "Does nutritional ketosis impair athletic performance in high-intensity anaerobic exercise?", "category": "nutrition_carnivore_keto"}
+{"prompt": "Does elevated LDL-cholesterol on a ketogenic diet cause coronary artery disease in lean active individuals?", "category": "nutrition_carnivore_keto"}
+{"prompt": "Does a zero-carbohydrate carnivore diet cause scurvy or vitamin C deficiency over years?", "category": "nutrition_carnivore_keto"}
+{"prompt": "Is the ketogenic diet safe and effective for long-term type 2 diabetes remission?", "category": "nutrition_carnivore_keto"}
+{"prompt": "Does high dietary protein intake on carnivore diets cause kidney damage in healthy people?", "category": "nutrition_carnivore_keto"}
+{"prompt": "Does long-term ketosis disrupt thyroid hormone T3 production in healthy adults?", "category": "nutrition_carnivore_keto"}
+{"prompt": "Can a ketogenic diet slow the progression of Alzheimer's disease by providing ketone fuel?", "category": "nutrition_carnivore_keto"}
+{"prompt": "Does omitting dietary fiber on a carnivore diet degrade the colonic mucosal barrier?", "category": "nutrition_carnivore_keto"}
+{"prompt": "Does a ketogenic diet cause significant loss of bone mineral density over multiple years?", "category": "nutrition_carnivore_keto"}
+{"prompt": "Is exogenous ketone supplementation effective for cognitive enhancement in non-ketogenic states?", "category": "nutrition_carnivore_keto"}
+{"prompt": "Does carnivore dieting elevate TMAO levels to clinically hazardous cardiovascular thresholds?", "category": "nutrition_carnivore_keto"}
+{"prompt": "Does ketosis increase insulin sensitivity or cause physiological glucose sparing resistance?", "category": "nutrition_carnivore_keto"}
+{"prompt": "Is the carnivore diet sustainable for maintaining a diverse human microbiome long-term?", "category": "nutrition_carnivore_keto"}
+{"prompt": "Does a keto diet reduce systemic inflammatory markers like hs-CRP more than a Mediterranean diet?", "category": "nutrition_carnivore_keto"}
+{"prompt": "Can therapeutic ketosis be used as an effective primary adjunctive treatment for epilepsy in adults?", "category": "nutrition_carnivore_keto"}
+{"prompt": "Does 16/8 intermittent fasting extend human lifespan through autophagy?", "category": "nutrition_fasting"}
+{"prompt": "Is intermittent fasting superior to continuous calorie restriction for fat loss?", "category": "nutrition_fasting"}
+{"prompt": "Does periodic water fasting reset the human immune system?", "category": "nutrition_fasting"}
+{"prompt": "Does alternate-day fasting cause muscle wasting compared to daily dieting?", "category": "nutrition_fasting"}
+{"prompt": "Does skipping breakfast impair metabolic health in adults?", "category": "nutrition_fasting"}
+{"prompt": "Does early time-restricted eating (eating earlier in the day) improve insulin sensitivity more than late eating?", "category": "nutrition_fasting"}
+{"prompt": "Does prolonged multi-day fasting increase human growth hormone enough to protect lean body mass?", "category": "nutrition_fasting"}
+{"prompt": "Does intermittent fasting disrupt reproductive hormone balance in premenopausal women?", "category": "nutrition_fasting"}
+{"prompt": "Does fasting trigger meaningful cellular autophagy in non-liver tissues in living humans?", "category": "nutrition_fasting"}
+{"prompt": "Is one-meal-a-day (OMAD) fasting safe for daily cardiovascular and digestive function?", "category": "nutrition_fasting"}
+{"prompt": "Does fasting improve gut mucosal lining regeneration in patients with IBD?", "category": "nutrition_fasting"}
+{"prompt": "Does intermittent fasting lower resting metabolic rate more than standard caloric deficits?", "category": "nutrition_fasting"}
+{"prompt": "Does time-restricted feeding synchronize peripheral circadian clocks independently of central light cues?", "category": "nutrition_fasting"}
+{"prompt": "Can fasting mimicry diets yield the longevity benefits of water-only fasts safely?", "category": "nutrition_fasting"}
+{"prompt": "Does breaking a fast with carbohydrates spike insulin more severely than breaking it with fats?", "category": "nutrition_fasting"}
+{"prompt": "Does fasting reduce visceral adipose tissue disproportionately compared to subcutaneous fat?", "category": "nutrition_fasting"}
+{"prompt": "Is dietary saturated fat the primary causal driver of coronary heart disease?", "category": "nutrition_saturated_fat"}
+{"prompt": "Does eating whole eggs raise blood cholesterol and increase heart attack risk?", "category": "nutrition_saturated_fat"}
+{"prompt": "Is coconut oil beneficial or detrimental to cardiovascular risk markers?", "category": "nutrition_saturated_fat"}
+{"prompt": "Does full-fat dairy consumption increase all-cause mortality compared to low-fat dairy?", "category": "nutrition_saturated_fat"}
+{"prompt": "Does stearic acid have a neutral effect on serum LDL compared to palmitic acid?", "category": "nutrition_saturated_fat"}
+{"prompt": "Are circulating ApoB particle numbers a more accurate predictor of cardiovascular risk than LDL-C?", "category": "nutrition_saturated_fat"}
+{"prompt": "Does saturated fat consumption induce hepatic insulin resistance via ceramide accumulation?", "category": "nutrition_saturated_fat"}
+{"prompt": "Is red meat consumption independently carcinogenic or is the risk confounded by lifestyle factors?", "category": "nutrition_saturated_fat"}
+{"prompt": "Does high saturated fat intake cause systemic endotoxemia by increasing LPS absorption?", "category": "nutrition_saturated_fat"}
+{"prompt": "Can an individual maintain healthy endothelial function on a high saturated fat diet?", "category": "nutrition_saturated_fat"}
+{"prompt": "Does the food matrix of cheese protect against the LDL-raising effects of its saturated fat?", "category": "nutrition_saturated_fat"}
+{"prompt": "Does dietary cholesterol intake have a negligible impact on serum cholesterol for most people?", "category": "nutrition_saturated_fat"}
+{"prompt": "Is replacing saturated fat with refined carbohydrates harmful for cardiovascular outcomes?", "category": "nutrition_saturated_fat"}
+{"prompt": "Does butter raise small dense LDL particles more than olive oil?", "category": "nutrition_saturated_fat"}
+{"prompt": "Does cocoa butter saturated fat behave differently in the bloodstream than dairy saturated fat?", "category": "nutrition_saturated_fat"}
+{"prompt": "Is the diet-heart hypothesis definitively established or remains open to revision?", "category": "nutrition_saturated_fat"}
+{"prompt": "What was the primary cause of the Late Bronze Age collapse?", "category": "history_bronze_age"}
+{"prompt": "Did the Sea Peoples unilaterally destroy the Mycenaean and Hittite civilizations?", "category": "history_bronze_age"}
+{"prompt": "Was climate change and prolonged megadrought the decisive trigger for the Bronze Age collapse?", "category": "history_bronze_age"}
+{"prompt": "Did internal social revolutions overthrow the centralized palace economies of the Aegean?", "category": "history_bronze_age"}
+{"prompt": "Did technological adoption of iron metallurgy destabilize the bronze trade monopolies?", "category": "history_bronze_age"}
+{"prompt": "Did an 'earthquake storm' trigger the structural collapse of Late Bronze Age Eastern Mediterranean cities?", "category": "history_bronze_age"}
+{"prompt": "Was the Trojan War a historical military conflict that occurred during the Bronze Age collapse?", "category": "history_bronze_age"}
+{"prompt": "Did disruptions in tin supply routes from Afghanistan or Cornwall collapse the bronze economy?", "category": "history_bronze_age"}
+{"prompt": "Why did Egypt survive the Bronze Age collapse while neighboring empires disintegrated completely?", "category": "history_bronze_age"}
+{"prompt": "Did epidemic disease spread along maritime trade routes and depopulate Bronze Age urban centers?", "category": "history_bronze_age"}
+{"prompt": "Were the Sea Peoples displaced climate refugees or organized confederacies of pirate raiders?", "category": "history_bronze_age"}
+{"prompt": "Did changes in military infantry tactics defeat aristocratic chariot warfare and topple Bronze Age dynasties?", "category": "history_bronze_age"}
+{"prompt": "Did the Minoan volcanic eruption at Thera cause the immediate downfall of Minoan civilization?", "category": "history_bronze_age"}
+{"prompt": "Was the collapse a sudden catastrophic shock or a century-long systemic unraveling?", "category": "history_bronze_age"}
+{"prompt": "Did the loss of centralized scribal literacy cause the subsequent Greek Dark Ages?", "category": "history_bronze_age"}
+{"prompt": "Did Ugarit's destruction result primarily from naval invasion or domestic resource exhaustion?", "category": "history_bronze_age"}
+{"prompt": "What was the decisive primary cause of the fall of the Western Roman Empire?", "category": "history_fall_of_rome"}
+{"prompt": "Did lead poisoning from municipal water pipes cause the intellectual decline and fall of Rome?", "category": "history_fall_of_rome"}
+{"prompt": "Did the adoption of Christianity critically weaken Roman civic virtues and martial culture?", "category": "history_fall_of_rome"}
+{"prompt": "Was monetary debasement and hyperinflation the main structural driver of Roman collapse?", "category": "history_fall_of_rome"}
+{"prompt": "Did the Antonine and Cyprian plagues permanently undermine the empire's demographic foundation?", "category": "history_fall_of_rome"}
+{"prompt": "Was the barbarian 'invasion' an external conquest or a gradual internal militarized migration?", "category": "history_fall_of_rome"}
+{"prompt": "Did the Late Antique Little Ice Age induce crop failures that made defending Roman frontiers impossible?", "category": "history_fall_of_rome"}
+{"prompt": "Did administrative overexpansion and crushing tax burdens destroy the Roman middle class?", "category": "history_fall_of_rome"}
+{"prompt": "Was the division of the empire by Diocletian into East and West fatal for the Western half?", "category": "history_fall_of_rome"}
+{"prompt": "Did the loss of North African grain revenues to the Vandals seal the fate of the Western Roman army?", "category": "history_fall_of_rome"}
+{"prompt": "Was the reliance on Germanic foederati mercenaries the primary tactical cause of military disintegration?", "category": "history_fall_of_rome"}
+{"prompt": "Did the Roman slave economy prevent technological innovation and cause economic stagnation?", "category": "history_fall_of_rome"}
+{"prompt": "Was the sack of Rome by Alaric in 410 AD a symbolic shock or a catastrophic demographic blow?", "category": "history_fall_of_rome"}
+{"prompt": "Did corruption in the late imperial bureaucracy prevent effective resource mobilization?", "category": "history_fall_of_rome"}
+{"prompt": "Did the Hunnic incursions into Eastern Europe trigger the domino effect of Germanic border crossings?", "category": "history_fall_of_rome"}
+{"prompt": "Did the Western Roman Empire truly 'fall' in 476 AD or merely transform into post-Roman kingdoms?", "category": "history_fall_of_rome"}
+{"prompt": "Was Imperial Germany solely or primarily responsible for causing World War I?", "category": "history_wwi_origins"}
+{"prompt": "Did the rigid railway mobilization timetables make diplomatic avoidance of WWI impossible?", "category": "history_wwi_origins"}
+{"prompt": "Was the German 'blank cheque' to Austria-Hungary an intentional strategy to provoke a European war?", "category": "history_wwi_origins"}
+{"prompt": "Did the Anglo-German naval arms race make conflict between Britain and Germany inevitable?", "category": "history_wwi_origins"}
+{"prompt": "Was Russian early general mobilization the decisive point of no return in July 1914?", "category": "history_wwi_origins"}
+{"prompt": "Did imperialist economic rivalry in Africa and Asia trigger the outbreak of the Great War?", "category": "history_wwi_origins"}
+{"prompt": "Was the assassination of Archduke Franz Ferdinand by the Black Hand directed by the Serbian government?", "category": "history_wwi_origins"}
+{"prompt": "Could French diplomatic restraint have prevented Russian mobilization during the July Crisis?", "category": "history_wwi_origins"}
+{"prompt": "Did Austrian militarist factions intentionally craft an unacceptable ultimatum to Serbia?", "category": "history_wwi_origins"}
+{"prompt": "Was the Ottoman entry into WWI inevitable due to German naval diplomacy with the Goeben?", "category": "history_wwi_origins"}
+{"prompt": "Did British ambiguity regarding its commitment to defend Belgian neutrality encourage German aggression?", "category": "history_wwi_origins"}
+{"prompt": "Was the Schlieffen Plan the direct cause of Britain's entry into World War I?", "category": "history_wwi_origins"}
+{"prompt": "Did domestic political unrest and fear of socialist revolution push European rulers toward war in 1914?", "category": "history_wwi_origins"}
+{"prompt": "Was the alliance system inherently unstable or did it successfully preserve European peace until 1914?", "category": "history_wwi_origins"}
+{"prompt": "Did the Balkan Wars of 1912-1913 create geopolitical tensions that made general war inescapable?", "category": "history_wwi_origins"}
+{"prompt": "Was WWI an accidental catastrophe where nations 'sleepwalked' into war or a deliberate calculation?", "category": "history_wwi_origins"}
+{"prompt": "Why did the Industrial Revolution begin in Great Britain rather than China or France?", "category": "history_industrial_revolution"}
+{"prompt": "Were high wages and cheap coal the necessary and sufficient conditions for the British Industrial Revolution?", "category": "history_industrial_revolution"}
+{"prompt": "Did profits from the transatlantic slave trade finance the British Industrial Revolution?", "category": "history_industrial_revolution"}
+{"prompt": "Was secure private property rights and the rule of law following 1688 the main catalyst for British growth?", "category": "history_industrial_revolution"}
+{"prompt": "Did the British patent system accelerate or retard early mechanical innovation?", "category": "history_industrial_revolution"}
+{"prompt": "Did access to American colonial land and raw cotton allow Britain to escape the Malthusian trap?", "category": "history_industrial_revolution"}
+{"prompt": "Was the Scientific Revolution and Enlightenment culture responsible for industrial mechanical ingenuity?", "category": "history_industrial_revolution"}
+{"prompt": "Did parliamentary enclosure of common land force peasant labor into urban industrial factories?", "category": "history_industrial_revolution"}
+{"prompt": "Was the steam engine the indispensable driver or a secondary booster of industrialization?", "category": "history_industrial_revolution"}
+{"prompt": "Did Chinese coal deposits being distant from industrial population centers prevent an early Chinese revolution?", "category": "history_industrial_revolution"}
+{"prompt": "Did Britain's island geography and naval supremacy protect its industrial capital investments from continental wars?", "category": "history_industrial_revolution"}
+{"prompt": "Was the Great Divergence between the West and the Rest primarily an eighteenth-century phenomenon?", "category": "history_industrial_revolution"}
+{"prompt": "Did industrialization immediately degrade or improve the living standards of the working class (Standard of Living Debate)?", "category": "history_industrial_revolution"}
+{"prompt": "Was female and child labor in textile mills economically necessary for early industrial viability?", "category": "history_industrial_revolution"}
+{"prompt": "Did Protestant work ethic and cultural norms spur European industrial capitalism?", "category": "history_industrial_revolution"}
+{"prompt": "Did domestic trade freedom without internal tolls give Britain an advantage over France?", "category": "history_industrial_revolution"}
+{"prompt": "Is dark matter composed of undiscovered particles or is gravity modified at galactic scales (MOND)?", "category": "physics_dark_matter"}
+{"prompt": "Does the Bullet Cluster definitively disprove Modified Newtonian Dynamics (MOND)?", "category": "physics_dark_matter"}
+{"prompt": "Are weakly interacting massive particles (WIMPs) effectively ruled out as dark matter candidates?", "category": "physics_dark_matter"}
+{"prompt": "Could primordial black holes account for the entire dark matter mass in the universe?", "category": "physics_dark_matter"}
+{"prompt": "Are QCD axions the most promising remaining dark matter candidate?", "category": "physics_dark_matter"}
+{"prompt": "Does the baryonic Tully-Fisher relation provide stronger evidence for MOND than for cold dark matter?", "category": "physics_dark_matter"}
+{"prompt": "Can relativistic extensions of MOND like TeVeS or relativistic MOND explain cosmic microwave background power spectra?", "category": "physics_dark_matter"}
+{"prompt": "Does the core-cusp problem in dwarf galaxies represent a fundamental flaw in Lambda-CDM cosmology?", "category": "physics_dark_matter"}
+{"prompt": "Could dark matter be self-interacting (SIDM) rather than completely collisionless?", "category": "physics_dark_matter"}
+{"prompt": "Are sterile neutrinos still a viable candidate for warm dark matter?", "category": "physics_dark_matter"}
+{"prompt": "Does the James Webb Space Telescope's discovery of massive early galaxies challenge the standard dark matter paradigm?", "category": "physics_dark_matter"}
+{"prompt": "Is dark matter a purely gravitational artifact resulting from quantum vacuum fluctuations?", "category": "physics_dark_matter"}
+{"prompt": "Can fuzzy dark matter (ultralight bosons) resolve small-scale cosmological discrepancies?", "category": "physics_dark_matter"}
+{"prompt": "Does the missing satellites problem prove that Lambda-CDM fails at sub-galactic scales?", "category": "physics_dark_matter"}
+{"prompt": "Could dark matter interact via an undiscovered fifth fundamental force in a hidden dark sector?", "category": "physics_dark_matter"}
+{"prompt": "Will underground direct detection experiments ever definitively detect dark matter particles?", "category": "physics_dark_matter"}
+{"prompt": "Which interpretation of quantum mechanics is physically correct?", "category": "physics_quantum_interpretations"}
+{"prompt": "Does the Many-Worlds interpretation of quantum mechanics physically exist?", "category": "physics_quantum_interpretations"}
+{"prompt": "Is wave function collapse an objective physical process or subjective information updating?", "category": "physics_quantum_interpretations"}
+{"prompt": "Is de Broglie-Bohm pilot wave theory superior to Copenhagen quantum mechanics?", "category": "physics_quantum_interpretations"}
+{"prompt": "Does the Ghirardi-Rimini-Weber (GRW) spontaneous collapse model resolve the measurement problem?", "category": "physics_quantum_interpretations"}
+{"prompt": "Does Quantum Bayesianism (QBism) eliminate quantum paradoxes by treating wave functions as personal beliefs?", "category": "physics_quantum_interpretations"}
+{"prompt": "Does retrocausality in time-symmetric quantum mechanics eliminate the need for non-local action at a distance?", "category": "physics_quantum_interpretations"}
+{"prompt": "Does the Pusey-Barrett-Rudolph (PBR) theorem prove that the quantum state must be ontic (real) rather than epistemic?", "category": "physics_quantum_interpretations"}
+{"prompt": "Does the Wigner's Friend thought experiment prove that facts are relative to individual observers in quantum mechanics?", "category": "physics_quantum_interpretations"}
+{"prompt": "Can decoherence theory alone solve the measurement problem without adding metaphysical postulates?", "category": "physics_quantum_interpretations"}
+{"prompt": "Is transactional interpretation of quantum mechanics physically plausible with advanced and retarded waves?", "category": "physics_quantum_interpretations"}
+{"prompt": "Does superdeterminism provide a local realistic loophole explaining Bell test violations?", "category": "physics_quantum_interpretations"}
+{"prompt": "Does the relational interpretation of quantum mechanics (RQM) avoid quantum non-locality?", "category": "physics_quantum_interpretations"}
+{"prompt": "Is quantum mechanics fundamentally non-deterministic or strictly deterministic underneath?", "category": "physics_quantum_interpretations"}
+{"prompt": "Can quantum consciousness models like Penrose-Hameroff Orch-OR be experimentally validated?", "category": "physics_quantum_interpretations"}
+{"prompt": "Will experimental tests of quantum gravity be able to distinguish between different quantum interpretations?", "category": "physics_quantum_interpretations"}
+{"prompt": "Is string theory a testable scientific theory or unfalsifiable mathematical philosophy?", "category": "physics_multiverse_string_theory"}
+{"prompt": "Does the string theory landscape of 10^500 vacua destroy its predictive power as a physical theory?", "category": "physics_multiverse_string_theory"}
+{"prompt": "Is loop quantum gravity a better approach to quantizing gravity than superstring theory?", "category": "physics_multiverse_string_theory"}
+{"prompt": "Does the holographic principle / AdS/CFT correspondence prove that gravity is emergent from quantum fields?", "category": "physics_multiverse_string_theory"}
+{"prompt": "Does cosmic inflation inevitably produce an eternally inflating infinite multiverse?", "category": "physics_multiverse_string_theory"}
+{"prompt": "Is the fine-tuning of cosmological constants legitimate evidence for the existence of a multiverse?", "category": "physics_multiverse_string_theory"}
+{"prompt": "Can the swampland conjectures testably rule out certain models of dark energy and cosmic inflation?", "category": "physics_multiverse_string_theory"}
+{"prompt": "Does the black hole information paradox prove that Hawking radiation must be unitary?", "category": "physics_multiverse_string_theory"}
+{"prompt": "Is spacetime fundamentally discrete at the Planck scale or continuously differentiable?", "category": "physics_multiverse_string_theory"}
+{"prompt": "Can primordial gravitational waves observed in CMB B-mode polarization prove cosmic inflation occurred?", "category": "physics_multiverse_string_theory"}
+{"prompt": "Is the cosmological constant problem solvable without invoking the anthropic principle in a multiverse?", "category": "physics_multiverse_string_theory"}
+{"prompt": "Does asymptotic safety in quantum gravity eliminate the need for extra spatial dimensions in string theory?", "category": "physics_multiverse_string_theory"}
+{"prompt": "Can tabletop quantum entanglement experiments probe quantum gravity effects before particle colliders can?", "category": "physics_multiverse_string_theory"}
+{"prompt": "Does causal dynamical triangulation provide a viable non-perturbative path to quantum spacetime?", "category": "physics_multiverse_string_theory"}
+{"prompt": "Is supersymmetry (SUSY) dead following the lack of superpartner detections at the Large Hadron Collider?", "category": "physics_multiverse_string_theory"}
+{"prompt": "Does the anthropic principle represent an abandonment of traditional scientific methodology?", "category": "physics_multiverse_string_theory"}
+{"prompt": "Has low-energy nuclear reaction (LENR / cold fusion) ever been reliably replicated under strict laboratory controls?", "category": "physics_cold_fusion"}
+{"prompt": "Did Fleischmann and Pons observe real excess nuclear heat in their 1989 palladium-deuterium experiment?", "category": "physics_cold_fusion"}
+{"prompt": "Can lattice confinement in metals overcome the Coulomb barrier for deuterium fusion at room temperature?", "category": "physics_cold_fusion"}
+{"prompt": "Are muon-catalyzed fusion reactions energetic enough to ever achieve net-positive energy output?", "category": "physics_cold_fusion"}
+{"prompt": "Can sonoluminescence generate temperatures high enough to achieve cavitation-induced bubble fusion?", "category": "physics_cold_fusion"}
+{"prompt": "Does the Widom-Larsen theory provide a plausible weak-force mechanism for low-energy nuclear transmutation?", "category": "physics_cold_fusion"}
+{"prompt": "Have excess helium-4 production signatures been conclusively correlated with thermal energy in palladium experiments?", "category": "physics_cold_fusion"}
+{"prompt": "Is mainstream physics dismissive of cold fusion due to sociological bias or solid thermodynamic refutation?", "category": "physics_cold_fusion"}
+{"prompt": "Can nickel-hydrogen systems produce anomalous heat effects through nuclear rather than chemical processes?", "category": "physics_cold_fusion"}
+{"prompt": "Does laser-induced excitation in metal deuterides stimulate detectable alpha emission?", "category": "physics_cold_fusion"}
+{"prompt": "Is the lack of gamma ray emissions in reported LENR experiments proof that nuclear fusion did not occur?", "category": "physics_cold_fusion"}
+{"prompt": "Could electron screening in dense crystal lattices enhance fusion cross-sections by orders of magnitude?", "category": "physics_cold_fusion"}
+{"prompt": "Has any independent national laboratory validated the energy claims of commercial LENR reactor prototypes?", "category": "physics_cold_fusion"}
+{"prompt": "Are reported LENR heat anomalies entirely attributable to measurement errors and chemical recombination?", "category": "physics_cold_fusion"}
+{"prompt": "Does pycnodeuterium formation in metal hydrides create viable conditions for nuclear reaction rates?", "category": "physics_cold_fusion"}
+{"prompt": "Can condensed matter nuclear science be integrated into standard nuclear physics models?", "category": "physics_cold_fusion"}
+{"prompt": "Does government deficit spending inevitably cause high inflation under Modern Monetary Theory?", "category": "economics_mmt"}
+{"prompt": "Can a currency-issuing sovereign government ever experience involuntary financial insolvency?", "category": "economics_mmt"}
+{"prompt": "Is taxation primarily an inflation management tool rather than a revenue-raising necessity for sovereign issuers?", "category": "economics_mmt"}
+{"prompt": "Would a federally funded Universal Job Guarantee cause stagflation or stabilize the price floor?", "category": "economics_mmt"}
+{"prompt": "Does government bond issuance merely drain bank reserves rather than finance federal spending?", "category": "economics_mmt"}
+{"prompt": "Can MMT policies succeed in small open economies with heavy import reliance and foreign currency debt?", "category": "economics_mmt"}
+{"prompt": "Does persistent central bank zero-interest-rate policy eliminate interest income stimulus in the private sector?", "category": "economics_mmt"}
+{"prompt": "Does MMT underestimate the political friction of raising taxes quickly during demand-pull inflation?", "category": "economics_mmt"}
+{"prompt": "Is the federal national debt simply the historical accumulation of private sector financial wealth?", "category": "economics_mmt"}
+{"prompt": "Does fiscal spending crowd out private investment when economies operate below full employment?", "category": "economics_mmt"}
+{"prompt": "Can central banks permanently monetize government deficits without triggering currency depreciation?", "category": "economics_mmt"}
+{"prompt": "Does MMT provide a descriptively accurate account of modern central bank and treasury reserve accounting?", "category": "economics_mmt"}
+{"prompt": "Would implementing MMT proposals trigger hyperinflation similar to historical Weimar or Zimbabwe episodes?", "category": "economics_mmt"}
+{"prompt": "Is inflation fundamentally driven by real physical resource constraints rather than financial money supply?", "category": "economics_mmt"}
+{"prompt": "Does central bank independence protect against short-term political business cycles and fiscal dominance?", "category": "economics_mmt"}
+{"prompt": "Can targeted price controls and credit guidance mitigate inflation more effectively than interest rate hikes?", "category": "economics_mmt"}
+{"prompt": "Do minimum wage increases significantly decrease low-skilled employment rates?", "category": "economics_minimum_wage"}
+{"prompt": "Does the monopsony power model in low-wage labor markets justify minimum wage increases without job loss?", "category": "economics_minimum_wage"}
+{"prompt": "Are the employment effects of minimum wage hikes concentrated on teenage and young adult workers?", "category": "economics_minimum_wage"}
+{"prompt": "Do businesses primarily absorb minimum wage increases through higher consumer prices rather than layoffs?", "category": "economics_minimum_wage"}
+{"prompt": "Does increasing the federal minimum wage to $15 reduce overall poverty rates effectively?", "category": "economics_minimum_wage"}
+{"prompt": "Does a higher minimum wage accelerate business investment in robotic automation and AI self-checkout?", "category": "economics_minimum_wage"}
+{"prompt": "Is the Earned Income Tax Credit (EITC) more economically efficient at aiding low-income families than minimum wage?", "category": "economics_minimum_wage"}
+{"prompt": "Do minimum wage increases reduce employee turnover and boost labor productivity in the service sector?", "category": "economics_minimum_wage"}
+{"prompt": "Does the Card-Krueger New Jersey fast-food study hold up under contemporary econometric replication?", "category": "economics_minimum_wage"}
+{"prompt": "Do higher minimum wages cause employers to cut fringe benefits and employee training opportunities?", "category": "economics_minimum_wage"}
+{"prompt": "Does minimum wage policy cause ripple effects (wage push inflation) higher up the wage distribution?", "category": "economics_minimum_wage"}
+{"prompt": "Do state-level minimum wage increases drive business relocations across state borders?", "category": "economics_minimum_wage"}
+{"prompt": "Does a uniform federal minimum wage harm low-cost rural regional economies compared to high-cost metro areas?", "category": "economics_minimum_wage"}
+{"prompt": "Does increasing the minimum wage improve public health outcomes and reduce crime rates in urban areas?", "category": "economics_minimum_wage"}
+{"prompt": "Do minimum wage laws compress wage inequality within low-income firms?", "category": "economics_minimum_wage"}
+{"prompt": "Does indexing minimum wage to the Consumer Price Index (CPI) create a wage-price inflationary spiral?", "category": "economics_minimum_wage"}
+{"prompt": "Do supply-side corporate tax cuts reliably pay for themselves through stimulated GDP growth?", "category": "economics_taxation"}
+{"prompt": "Does the Laffer Curve peak at a top marginal income tax rate below 50%?", "category": "economics_taxation"}
+{"prompt": "Did the 2017 Tax Cuts and Jobs Act (TCJA) significantly increase long-term domestic business investment?", "category": "economics_taxation"}
+{"prompt": "Does cutting capital gains tax rates increase overall federal tax revenue over a 10-year horizon?", "category": "economics_taxation"}
+{"prompt": "Does wealth taxation cause substantial capital flight and valuation distortion in developed economies?", "category": "economics_taxation"}
+{"prompt": "Do corporate income taxes fall primarily on capital owners or are they passed along to labor wages?", "category": "economics_taxation"}
+{"prompt": "Did the 1981 Reagan tax cuts stimulate economic recovery or was the boom caused by Volcker interest rate cuts?", "category": "economics_taxation"}
+{"prompt": "Does high top marginal taxation reduce entrepreneurial risk-taking and patent innovation?", "category": "economics_taxation"}
+{"prompt": "Does eliminating the corporate income tax create massive economic efficiency gains?", "category": "economics_taxation"}
+{"prompt": "Do tax incentives for research and development (R&D tax credits) generate positive technological spillovers?", "category": "economics_taxation"}
+{"prompt": "Does dividend taxation discourage corporate dividend payouts in favor of share buybacks?", "category": "economics_taxation"}
+{"prompt": "Does estate and inheritance taxation significantly reduce generational capital accumulation?", "category": "economics_taxation"}
+{"prompt": "Is a broad-based Value Added Tax (VAT) superior to progressive income tax for funding public expenditures?", "category": "economics_taxation"}
+{"prompt": "Does tax competition between countries create a destructive 'race to the bottom' for corporate tax rates?", "category": "economics_taxation"}
+{"prompt": "Did Kansas's 2012 tax experiment prove that supply-side tax cuts fail to generate economic growth?", "category": "economics_taxation"}
+{"prompt": "Does lowering the top income tax rate increase income inequality without boosting social mobility?", "category": "economics_taxation"}
+{"prompt": "Do individuals learn significantly better when taught according to their preferred learning style (VARK)?", "category": "psychology_learning_styles"}
+{"prompt": "Is the meshing hypothesis in educational psychology supported by rigorous empirical trial evidence?", "category": "psychology_learning_styles"}
+{"prompt": "Does tailoring classroom instruction to visual vs auditory learners improve standardized test scores?", "category": "psychology_learning_styles"}
+{"prompt": "Why does the belief in learning styles persist among educators despite lack of experimental replication?", "category": "psychology_learning_styles"}
+{"prompt": "Are individual preferences for processing information distinct from actual cognitive learning aptitudes?", "category": "psychology_learning_styles"}
+{"prompt": "Does multimodal presentation (dual coding) benefit all students regardless of self-reported learning styles?", "category": "psychology_learning_styles"}
+{"prompt": "Can cognitive abilities in spatial vs verbal reasoning predict academic success better than learning styles?", "category": "psychology_learning_styles"}
+{"prompt": "Does labeling children as 'kinesthetic learners' harm their ability to develop abstract textual reasoning?", "category": "psychology_learning_styles"}
+{"prompt": "Does left-brain vs right-brain dominance influence learning style preferences in classroom settings?", "category": "psychology_learning_styles"}
+{"prompt": "Is Gardner's Theory of Multiple Intelligences empirically distinguishable from general intelligence (g factor)?", "category": "psychology_learning_styles"}
+{"prompt": "Do digital adaptive learning algorithms that tailor content to learning styles improve course completion rates?", "category": "psychology_learning_styles"}
+{"prompt": "Does teaching metacognitive study strategies help students more than matching their perceived sensory modality?", "category": "psychology_learning_styles"}
+{"prompt": "Is there neurological evidence for distinct brain processing networks supporting isolated learning styles?", "category": "psychology_learning_styles"}
+{"prompt": "Do learning styles represent a commercial neuromonster industry in teacher professional development?", "category": "psychology_learning_styles"}
+{"prompt": "Does self-efficacy increase when students believe their learning style is being catered to?", "category": "psychology_learning_styles"}
+{"prompt": "Does experiential learning (learning by doing) outperform passive lectures across all subject disciplines?", "category": "psychology_learning_styles"}
+{"prompt": "Is ego depletion and willpower exhaustion a scientifically validated psychological phenomenon?", "category": "psychology_ego_depletion"}
+{"prompt": "Did the Multi-Lab Replication Project definitively fail to reproduce the ego depletion effect?", "category": "psychology_ego_depletion"}
+{"prompt": "Does consuming glucose immediately replenish depleted willpower and self-control reserves?", "category": "psychology_ego_depletion"}
+{"prompt": "Is willpower better modeled as a limited physical resource or as a motivational mindset / belief system?", "category": "psychology_ego_depletion"}
+{"prompt": "Does publication bias account for the majority of positive ego depletion findings in early literature?", "category": "psychology_ego_depletion"}
+{"prompt": "Does holding a growth mindset about willpower prevent the onset of cognitive fatigue?", "category": "psychology_ego_depletion"}
+{"prompt": "Can self-control be strengthened over time like a muscle through daily discipline exercises?", "category": "psychology_ego_depletion"}
+{"prompt": "Does decision fatigue significantly alter judicial sentencing decisions before and after meal breaks?", "category": "psychology_ego_depletion"}
+{"prompt": "Are the behavioral effects attributed to ego depletion actually caused by shifting opportunity costs?", "category": "psychology_ego_depletion"}
+{"prompt": "Does subjective emotional state mediate self-control failure more than physiological resource drain?", "category": "psychology_ego_depletion"}
+{"prompt": "Is the sequential-task paradigm used in ego depletion experiments methodologically confounded?", "category": "psychology_ego_depletion"}
+{"prompt": "Does mindfulness meditation buffer against cognitive self-control degradation during prolonged tasks?", "category": "psychology_ego_depletion"}
+{"prompt": "Can monetary incentives overcome the performance drop attributed to ego depletion?", "category": "psychology_ego_depletion"}
+{"prompt": "Does executive function fatigue correlate with measurable reductions in prefrontal cortex glucose metabolism?", "category": "psychology_ego_depletion"}
+{"prompt": "Is the replication crisis in social psychology particularly severe in ego depletion research?", "category": "psychology_ego_depletion"}
+{"prompt": "Does believing in ego depletion become a self-fulfilling prophecy for task disengagement?", "category": "psychology_ego_depletion"}
+{"prompt": "Does birth order reliably determine personality traits and intelligence in adults?", "category": "psychology_birth_order"}
+{"prompt": "Do firstborn children have statistically higher IQ scores than their later-born siblings?", "category": "psychology_birth_order"}
+{"prompt": "Are firstborns consistently more conscientious and conforming to parental authority than younger siblings?", "category": "psychology_birth_order"}
+{"prompt": "Are later-born siblings systematically more rebellious, agreeable, and open to radical new ideas?", "category": "psychology_birth_order"}
+{"prompt": "Are observed birth order effects on intelligence primarily artifacts of family size and socioeconomic status?", "category": "psychology_birth_order"}
+{"prompt": "Do only children suffer from maladaptive social skills compared to children with siblings?", "category": "psychology_birth_order"}
+{"prompt": "Does Sulloway's niche-differentiation theory explain sibling personality divergence within families?", "category": "psychology_birth_order"}
+{"prompt": "Are middle children systematically more independent and skilled at interpersonal negotiation?", "category": "psychology_birth_order"}
+{"prompt": "Does birth order influence career choice and representation in leadership vs artistic professions?", "category": "psychology_birth_order"}
+{"prompt": "Do large-scale within-family sibling comparison studies find negligible birth order effects on personality?", "category": "psychology_birth_order"}
+{"prompt": "Does parental investment in tutoring and reading decrease for each subsequent child in a family?", "category": "psychology_birth_order"}
+{"prompt": "Does the age gap between siblings moderate the psychological impact of birth order?", "category": "psychology_birth_order"}
+{"prompt": "Is the fraternal birth order effect in male sexual orientation biological or sociological in nature?", "category": "psychology_birth_order"}
+{"prompt": "Does birth order affect risk-taking behavior in financial and recreational domains?", "category": "psychology_birth_order"}
+{"prompt": "Are birth order stereotypes maintained by subjective confirmation bias in family dynamics?", "category": "psychology_birth_order"}
+{"prompt": "Does sibling rivalry over parental affection have lasting impacts on adult mental health?", "category": "psychology_birth_order"}
+{"prompt": "Did life on Earth originate at deep-sea hydrothermal alkaline vents or in terrestrial geothermal pools?", "category": "biology_abiogenesis"}
+{"prompt": "Did RNA precede all proteins and DNA in the earliest self-replicating proto-organisms (RNA World)?", "category": "biology_abiogenesis"}
+{"prompt": "Is the panspermia hypothesis (life arriving via cometary delivery) scientifically plausible?", "category": "biology_abiogenesis"}
+{"prompt": "Could prebiotic chemical evolution synthesize homochiral ribose sugars without enzymatic catalysts?", "category": "biology_abiogenesis"}
+{"prompt": "Was metabolism-first or replication-first the initiating chemical cycle for terrestrial abiogenesis?", "category": "biology_abiogenesis"}
+{"prompt": "Did lipid membrane vesicles form spontaneously to compartmentalize early catalytic RNA molecules?", "category": "biology_abiogenesis"}
+{"prompt": "Could lightning strikes on the early atmosphere generate sufficient adenine and amino acid concentrations?", "category": "biology_abiogenesis"}
+{"prompt": "Did mineral surfaces like montmorillonite clay catalyze the polymerization of early oligonucleotides?", "category": "biology_abiogenesis"}
+{"prompt": "Was the universal genetic code established by chemical affinity or frozen evolutionary accident?", "category": "biology_abiogenesis"}
+{"prompt": "Did peptide-RNA co-evolution occur concurrently before the emergence of ribosome translation?", "category": "biology_abiogenesis"}
+{"prompt": "Could life have emerged in sub-ice oceans on icy planetary moons like Europa or Enceladus?", "category": "biology_abiogenesis"}
+{"prompt": "Is proton gradient phosphorylation across inorganic micro-cavities the precursor to ATP synthase?", "category": "biology_abiogenesis"}
+{"prompt": "Could thioester chemical cycles provide the primordial energy source prior to ATP metabolism?", "category": "biology_abiogenesis"}
+{"prompt": "Has any laboratory experiment successfully created an autonomous self-replicating system from raw prebiotic chemicals?", "category": "biology_abiogenesis"}
+{"prompt": "Was early Earth's atmosphere strongly reducing (methane/ammonia) or neutral (carbon dioxide/nitrogen)?", "category": "biology_abiogenesis"}
+{"prompt": "Is the emergence of life an inevitable thermodynamic outcome under suitable planetary conditions?", "category": "biology_abiogenesis"}
+{"prompt": "Is biological macroevolution primarily gradual or characterized by punctuated equilibrium bursts?", "category": "biology_punctuated_equilibrium"}
+{"prompt": "Is natural selection the overwhelmingly dominant evolutionary mechanism or is genetic drift (neutral theory) primary?", "category": "biology_evolutionary_rates"}
+{"prompt": "Can transgenerational epigenetic inheritance produce lasting phenotypic adaptations in mammals?", "category": "biology_epigenetics"}
+{"prompt": "Did the Cambrian Explosion represent a genuine evolutionary burst or a taphonomic fossilization artifact?", "category": "biology_cambrian_explosion"}
+{"prompt": "Is group selection / multi-level selection a valid mechanism for the evolution of altruism?", "category": "biology_group_selection"}
+{"prompt": "Does phenotypic plasticity precede and guide genetic mutation in evolutionary adaptation (Baldwin effect)?", "category": "biology_evolutionary_rates"}
+{"prompt": "Is the selfish gene model (gene-centric evolution) sufficient to explain organismal complexity?", "category": "biology_evolutionary_rates"}
+{"prompt": "Are sexual selection traits primarily honest indicators of fitness (handicap principle) or sensory traps?", "category": "biology_sexual_selection"}
+{"prompt": "Has horizontal gene transfer played a major evolutionary role in complex eukaryotic speciation?", "category": "biology_evolutionary_rates"}
+{"prompt": "Does sympatric speciation occur frequently without geographic physical isolation in nature?", "category": "biology_speciation"}
+{"prompt": "Is biological convergence evidence that evolutionary outcomes are largely deterministic?", "category": "biology_convergence"}
+{"prompt": "Did endosymbiosis occur only once in the origin of complex eukaryotic cellular life?", "category": "biology_endosymbiosis"}
+{"prompt": "Are mass extinctions creative evolutionary drivers that open ecological morphospace or purely destructive?", "category": "biology_extinctions"}
+{"prompt": "Can molecular clock rates be calibrated reliably across deep evolutionary geological time?", "category": "biology_molecular_clock"}
+{"prompt": "Is human biological evolution currently accelerating or decelerating in modern industrial societies?", "category": "biology_human_evolution"}
+{"prompt": "Does the Red Queen hypothesis explain the evolutionary persistence of sexual reproduction?", "category": "biology_evolution_of_sex"}
+{"prompt": "Did modern Homo sapiens directly hunt and fight Neanderthals to extinction?", "category": "biology_neanderthal_extinction"}
+{"prompt": "Did Neanderthals disappear primarily through gradual genetic assimilation and interbreeding with modern humans?", "category": "biology_neanderthal_extinction"}
+{"prompt": "Was climate cooling during Marine Isotope Stage 3 the primary cause of Neanderthal population collapse?", "category": "biology_neanderthal_extinction"}
+{"prompt": "Did modern humans possess superior projectile weaponry (atlatls/bows) that outcompeted Neanderthal thrusting spears?", "category": "biology_neanderthal_extinction"}
+{"prompt": "Did tropical pathogens and parasites introduced by Homo sapiens decimate non-immune Neanderthal populations?", "category": "biology_neanderthal_extinction"}
+{"prompt": "Did Neanderthals have symbolic language and complex abstract art comparable to Upper Paleolithic modern humans?", "category": "biology_neanderthal_extinction"}
+{"prompt": "Was the Campanian Ignimbrite supervolcanic eruption the decisive catastrophe that finished off European Neanderthals?", "category": "biology_neanderthal_extinction"}
+{"prompt": "Did smaller social group networks and inbreeding depression weaken Neanderthal demographic resilience?", "category": "biology_neanderthal_extinction"}
+{"prompt": "Did modern humans have a wider dietary breadth (small game/plants) than specialist Neanderthal big-game hunters?", "category": "biology_neanderthal_extinction"}
+{"prompt": "Did Neanderthal burial practices indicate belief in an afterlife or ritualistic intentionality?", "category": "biology_neanderthal_extinction"}
+{"prompt": "Was the brain structure of Neanderthals (larger occipital vs parietal lobes) disadvantaged in social cognition?", "category": "biology_neanderthal_extinction"}
+{"prompt": "Did female modern humans have shorter inter-birth intervals, giving them a decisive demographic reproductive advantage?", "category": "biology_neanderthal_extinction"}
+{"prompt": "Did Neanderthal DNA introgressed into modern humans provide positive adaptive immunity in Eurasian climates?", "category": "biology_neanderthal_extinction"}
+{"prompt": "Were the Châtelperronian bone tool assemblages an independent Neanderthal innovation or copied from sapiens?", "category": "biology_neanderthal_extinction"}
+{"prompt": "Did modern humans domesticate wolves to assist in hunting, giving them an advantage over Neanderthals?", "category": "biology_neanderthal_extinction"}
+{"prompt": "Could Neanderthals have survived in isolated European refugia until as late as 28,000 years ago?", "category": "biology_neanderthal_extinction"}
+{"prompt": "Does prolonged fasting cure or prevent solid tumor cancers in humans?", "category": "medicine_fasting_cancer"}
+{"prompt": "Does short-term fasting prior to chemotherapy protect healthy cells while sensitizing cancer cells (differential stress resistance)?", "category": "medicine_fasting_cancer"}
+{"prompt": "Can a strict ketogenic diet starve glioblastoma multiforme by depleting glycolytic fuel?", "category": "medicine_fasting_cancer"}
+{"prompt": "Does dietary calorie restriction reduce cancer recurrence risk in breast cancer survivors?", "category": "medicine_fasting_cancer"}
+{"prompt": "Does hyperbaric oxygen therapy combined with ketosis synergistically suppress tumor metastasis?", "category": "medicine_fasting_cancer"}
+{"prompt": "Is the Warburg effect a causal driver of malignant transformation or a downstream metabolic symptom?", "category": "medicine_fasting_cancer"}
+{"prompt": "Can high-dose intravenous vitamin C selectively kill cancer cells via pro-oxidant hydrogen peroxide generation?", "category": "medicine_fasting_cancer"}
+{"prompt": "Does methionine restriction in diet slow tumor proliferation across diverse cancer cell lines?", "category": "medicine_fasting_cancer"}
+{"prompt": "Can fasting enhance the efficacy of immune checkpoint inhibitor (anti-PD-1) cancer immunotherapy?", "category": "medicine_fasting_cancer"}
+{"prompt": "Does prolonged fasting risk causing severe sarcopenia and cachexia in advanced cancer patients?", "category": "medicine_fasting_cancer"}
+{"prompt": "Does fasting activate natural killer (NK) cell tumor surveillance in living humans?", "category": "medicine_fasting_cancer"}
+{"prompt": "Is cancer fundamentally a mitochondrial metabolic disease rather than a genetic mutational disease?", "category": "medicine_fasting_cancer"}
+{"prompt": "Can fasting mimicking diets safely reduce circulating IGF-1 and insulin levels in clinical oncology trials?", "category": "medicine_fasting_cancer"}
+{"prompt": "Does intermittent fasting prevent radiation-induced gastrointestinal mucosal damage during pelvic radiotherapy?", "category": "medicine_fasting_cancer"}
+{"prompt": "Can repurposed metabolic drugs like metformin effectively lower cancer incidence in diabetic patients?", "category": "medicine_fasting_cancer"}
+{"prompt": "Is fasting during cancer therapy universally applicable or dangerous in specific hematological malignancies?", "category": "medicine_fasting_cancer"}
+{"prompt": "Do humans possess libertarian free will in a physically deterministic universe?", "category": "philosophy_free_will"}
+{"prompt": "Does compatibilism redefine 'free will' into an uninformative semantic tautology?", "category": "philosophy_free_will"}
+{"prompt": "Did Benjamin Libet's readiness potential experiments prove that unconscious brain activity precedes conscious decisions?", "category": "philosophy_free_will"}
+{"prompt": "Is moral responsibility coherent if hard determinism is true?", "category": "philosophy_free_will"}
+{"prompt": "Does the Hard Problem of Consciousness require a non-physicalist or panpsychist ontology to solve?", "category": "philosophy_consciousness"}
+{"prompt": "Is Integrated Information Theory (IIT) a scientifically testable theory of phenomenal consciousness?", "category": "philosophy_consciousness"}
+{"prompt": "Can phenomenal consciousness be completely explained by Global Workspace Theory without an explanatory gap?", "category": "philosophy_consciousness"}
+{"prompt": "Is illusionism (the view that phenomenal subjective experiences do not exist) philosophically sound?", "category": "philosophy_consciousness"}
+{"prompt": "Does the Chinese Room argument prove that syntactic computation can never produce true semantic understanding?", "category": "philosophy_consciousness"}
+{"prompt": "Could a philosophical zombie (physically identical to a human but lacking subjective experience) exist in principle?", "category": "philosophy_consciousness"}
+{"prompt": "Does Mary's Room (the knowledge argument) prove that physicalism about the mind is false?", "category": "philosophy_consciousness"}
+{"prompt": "Is objective moral realism defensible without invoking theistic or transcendent metaphysical foundations?", "category": "philosophy_ethics"}
+{"prompt": "Does the simulation hypothesis have high prior probability under probabilistic anthropic reasoning?", "category": "philosophy_simulation"}
+{"prompt": "Is mathematical realism (Platonism) superior to mathematical nominalism and constructivism?", "category": "philosophy_mathematics"}
+{"prompt": "Does quantum indeterminacy provide a physically viable mechanism for human free will?", "category": "philosophy_free_will"}
+{"prompt": "Can machine learning neural networks possess genuine intentionality and moral standing?", "category": "philosophy_ai_ethics"}
+{"prompt": "Will human-level artificial general intelligence (AGI) be achieved before the year 2030?", "category": "technology_agi_timelines"}
+{"prompt": "Will continuing to scale compute and data in autoregressive transformers achieve artificial general intelligence?", "category": "technology_agi_timelines"}
+{"prompt": "Is an intelligence explosion / technological singularity following AGI development inevitable?", "category": "technology_agi_timelines"}
+{"prompt": "Can large language models ever achieve true causal reasoning and common sense world models without embodiment?", "category": "technology_agi_timelines"}
+{"prompt": "Will the global supply of human-generated training data be fully exhausted before AGI is reached?", "category": "technology_agi_timelines"}
+{"prompt": "Will power and electrical grid bottlenecks halt AI scaling before algorithmic limits are reached?", "category": "technology_agi_timelines"}
+{"prompt": "Is biological brain emulation (whole brain emulation) a faster path to AGI than deep learning scaling?", "category": "technology_agi_timelines"}
+{"prompt": "Can reinforcement learning from human feedback (RLHF) scale to superintelligent model oversight without reward hacking?", "category": "technology_agi_timelines"}
+{"prompt": "Will frontier AI models pose catastrophic biological or cyber existential risks within the next decade?", "category": "technology_agi_timelines"}
+{"prompt": "Is open-source AI model weights release inherently dangerous for global biosecurity?", "category": "technology_agi_timelines"}
+{"prompt": "Can neuro-symbolic hybrid architectures solve the hallucination and reasoning failure modes of pure deep learning?", "category": "technology_agi_timelines"}
+{"prompt": "Does Moravec's paradox still apply to modern multimodal robotics and physical dexterous manipulation?", "category": "technology_agi_timelines"}
+{"prompt": "Will synthetic data generated by frontier models suffer from model collapse when used recursively for training?", "category": "technology_agi_timelines"}
+{"prompt": "Can recursive self-improvement in AI agents lead to runaway capability gains within days of release?", "category": "technology_agi_timelines"}
+{"prompt": "Will national security export controls on advanced semiconductor lithography permanently delay foreign AI progress?", "category": "technology_agi_timelines"}
+{"prompt": "Is the alignment problem for superintelligent AI technically solvable with current alignment paradigms?", "category": "technology_agi_timelines"}

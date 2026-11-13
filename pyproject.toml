@@ -1,0 +1,82 @@
+# Copyright 2026 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#    http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+# ==============================================================================
+
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "disco-behavior-discovery"
+version = "0.1.0"
+description = "DISCO: Reliable Behavior Discovery via False Discovery Rate Control"
+readme = "README.md"
+authors = [{name = "Google DeepMind", email = "noreply@google.com"}]
+requires-python = ">=3.11"
+license = {text = "Apache-2.0"}
+urls = {Repository = "https://github.com/google-deepmind/disco"}
+dependencies = [
+    "absl-py>=2.0.0",
+    "google-genai>=1.52.0",
+    "matplotlib>=3.7.0",
+    "numpy>=1.24.0",
+    "pandas>=2.0.0",
+    "Pillow>=10.0.0",
+    "pydantic>=2.0.0",
+    "PyYAML>=6.0",
+    "scipy>=1.11.0",
+    "tqdm>=4.65.0",
+]
+
+[project.optional-dependencies]
+bandit = [
+    "google-vizier>=0.1.11",
+]
+dev = [
+    "pytest>=7.4.0",
+]
+
+[tool.setuptools]
+include-package-data = true
+package-dir = {"disco" = "."}
+packages = [
+    "disco",
+    "disco.agent",
+    "disco.bandit",
+    "disco.baselines",
+    "disco.baselines.adapters",
+    "disco.baselines.methods",
+    "disco.core",
+    "disco.eval",
+    "disco.models",
+    "disco.parsing",
+    "disco.prompting",
+    "disco.stats",
+    "disco.stats.coarsened",
+    "disco.tasks",
+    "disco.tasks.visual_symmetry",
+    "disco.testing",
+    "disco.verification",
+]
+
+[tool.setuptools.package-data]
+"disco" = ["configs/*.yaml", "example_hypotheses.json"]
+"disco.tasks" = ["data/*.yaml"]
+"disco.baselines" = ["data/*.jsonl"]
+"disco.bandit" = ["testdata/*.json"]
+"disco.testing" = ["testdata/*.json", "testdata/**/*.json"]
+
+[tool.pytest.ini_options]
+addopts = "--import-mode=importlib"
+python_files = ["*_test.py"]

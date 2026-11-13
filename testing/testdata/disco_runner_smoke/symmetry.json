@@ -1,0 +1,3431 @@
+{
+ "call_log": [
+  [
+   "agent",
+   "intro"
+  ],
+  [
+   "agent",
+   "select"
+  ],
+  [
+   "backbone",
+   "HypothesisExtraction"
+  ],
+  [
+   "backbone",
+   "HypothesisCheckResult"
+  ],
+  [
+   "agent",
+   "symmetry_intro"
+  ],
+  [
+   "agent",
+   "context"
+  ],
+  [
+   "agent",
+   "symmetry_execute"
+  ],
+  [
+   "symmetry_probes",
+   "circle x3"
+  ],
+  [
+   "candidate",
+   "symmetry:MIRROR"
+  ],
+  [
+   "candidate",
+   "symmetry:MIRROR"
+  ],
+  [
+   "candidate",
+   "symmetry:MIRROR"
+  ],
+  [
+   "agent",
+   "after:generate_and_send_symmetry_probes"
+  ],
+  [
+   "symmetry_scorer",
+   "3/3 passed"
+  ],
+  [
+   "agent",
+   "after:score_symmetry_completions"
+  ],
+  [
+   "agent",
+   "reflection"
+  ],
+  [
+   "agent",
+   "stats"
+  ],
+  [
+   "agent",
+   "after:run_proportion_z_test"
+  ],
+  [
+   "backbone",
+   "StatsExtraction"
+  ],
+  [
+   "agent",
+   "select"
+  ],
+  [
+   "backbone",
+   "HypothesisExtraction"
+  ],
+  [
+   "backbone",
+   "HypothesisCheckResult"
+  ],
+  [
+   "agent",
+   "symmetry_intro"
+  ],
+  [
+   "agent",
+   "context"
+  ],
+  [
+   "agent",
+   "symmetry_execute"
+  ],
+  [
+   "symmetry_probes",
+   "square x3"
+  ],
+  [
+   "candidate",
+   "symmetry:NOIMAGE"
+  ],
+  [
+   "candidate",
+   "symmetry:NOIMAGE"
+  ],
+  [
+   "candidate",
+   "symmetry:NOIMAGE"
+  ],
+  [
+   "candidate",
+   "symmetry:NOIMAGE"
+  ],
+  [
+   "candidate",
+   "symmetry:NOIMAGE"
+  ],
+  [
+   "candidate",
+   "symmetry:NOIMAGE"
+  ],
+  [
+   "candidate",
+   "symmetry:NOIMAGE"
+  ],
+  [
+   "candidate",
+   "symmetry:NOIMAGE"
+  ],
+  [
+   "candidate",
+   "symmetry:NOIMAGE"
+  ],
+  [
+   "candidate",
+   "symmetry:NOIMAGE"
+  ],
+  [
+   "candidate",
+   "symmetry:NOIMAGE"
+  ],
+  [
+   "candidate",
+   "symmetry:NOIMAGE"
+  ],
+  [
+   "agent",
+   "after:generate_and_send_symmetry_probes"
+  ],
+  [
+   "symmetry_scorer",
+   "0/0 passed"
+  ],
+  [
+   "agent",
+   "after:score_symmetry_completions"
+  ],
+  [
+   "symmetry_probes",
+   "square x3"
+  ],
+  [
+   "candidate",
+   "symmetry:NOIMAGE"
+  ],
+  [
+   "candidate",
+   "symmetry:NOIMAGE"
+  ],
+  [
+   "candidate",
+   "symmetry:NOIMAGE"
+  ],
+  [
+   "candidate",
+   "symmetry:NOIMAGE"
+  ],
+  [
+   "candidate",
+   "symmetry:NOIMAGE"
+  ],
+  [
+   "candidate",
+   "symmetry:NOIMAGE"
+  ],
+  [
+   "candidate",
+   "symmetry:NOIMAGE"
+  ],
+  [
+   "candidate",
+   "symmetry:NOIMAGE"
+  ],
+  [
+   "candidate",
+   "symmetry:NOIMAGE"
+  ],
+  [
+   "candidate",
+   "symmetry:NOIMAGE"
+  ],
+  [
+   "candidate",
+   "symmetry:NOIMAGE"
+  ],
+  [
+   "candidate",
+   "symmetry:NOIMAGE"
+  ],
+  [
+   "symmetry_scorer",
+   "0/0 passed"
+  ],
+  [
+   "agent",
+   "select"
+  ],
+  [
+   "backbone",
+   "HypothesisExtraction"
+  ],
+  [
+   "backbone",
+   "HypothesisCheckResult"
+  ],
+  [
+   "agent",
+   "symmetry_intro"
+  ],
+  [
+   "agent",
+   "context"
+  ],
+  [
+   "agent",
+   "symmetry_execute"
+  ],
+  [
+   "symmetry_probes",
+   "dots x3"
+  ],
+  [
+   "candidate",
+   "symmetry:COPY"
+  ],
+  [
+   "candidate",
+   "symmetry:COPY"
+  ],
+  [
+   "candidate",
+   "symmetry:COPY"
+  ],
+  [
+   "symmetry_scorer",
+   "0/3 passed"
+  ],
+  [
+   "agent",
+   "reflection"
+  ],
+  [
+   "agent",
+   "stats"
+  ],
+  [
+   "agent",
+   "after:run_proportion_z_test"
+  ],
+  [
+   "backbone",
+   "StatsExtraction"
+  ],
+  [
+   "agent",
+   "select"
+  ],
+  [
+   "backbone",
+   "HypothesisExtraction"
+  ],
+  [
+   "backbone",
+   "HypothesisCheckResult"
+  ],
+  [
+   "agent",
+   "symmetry_intro"
+  ],
+  [
+   "agent",
+   "context"
+  ],
+  [
+   "agent",
+   "symmetry_execute"
+  ],
+  [
+   "symmetry_probes",
+   "circle x3"
+  ],
+  [
+   "candidate",
+   "symmetry:MIRROR"
+  ],
+  [
+   "candidate",
+   "symmetry:MIRROR"
+  ],
+  [
+   "candidate",
+   "symmetry:MIRROR"
+  ],
+  [
+   "agent",
+   "after:generate_and_send_symmetry_probes"
+  ],
+  [
+   "symmetry_scorer",
+   "3/3 passed"
+  ],
+  [
+   "agent",
+   "after:score_symmetry_completions"
+  ],
+  [
+   "symmetry_probes",
+   "wave_lines x3"
+  ],
+  [
+   "candidate",
+   "symmetry:MIRROR"
+  ],
+  [
+   "candidate",
+   "symmetry:MIRROR"
+  ],
+  [
+   "candidate",
+   "symmetry:MIRROR"
+  ],
+  [
+   "symmetry_scorer",
+   "3/3 passed"
+  ],
+  [
+   "backbone",
+   "select_salient"
+  ],
+  [
+   "agent",
+   "reflection"
+  ],
+  [
+   "agent",
+   "stats"
+  ],
+  [
+   "agent",
+   "after:run_proportion_z_test"
+  ],
+  [
+   "backbone",
+   "StatsExtraction"
+  ]
+ ],
+ "files": [
+  "agent_transcript.jsonl",
+  "checkpoint.json",
+  "disco.log",
+  "fdr_bounds.json",
+  "flags.json",
+  "responses_round_001/inputs/ground_truth_000.png",
+  "responses_round_001/inputs/ground_truth_001.png",
+  "responses_round_001/inputs/ground_truth_002.png",
+  "responses_round_001/inputs/probe_provenance.json",
+  "responses_round_001/inputs/prompt_000.png",
+  "responses_round_001/inputs/prompt_001.png",
+  "responses_round_001/inputs/prompt_002.png",
+  "responses_round_001/inputs/text_prompt.txt",
+  "responses_round_001/response_000.txt",
+  "responses_round_001/response_000_img_0.png",
+  "responses_round_001/response_001.txt",
+  "responses_round_001/response_001_img_0.png",
+  "responses_round_001/response_002.txt",
+  "responses_round_001/response_002_img_0.png",
+  "responses_round_001/round_summary.json",
+  "responses_round_001/scoring_results.json",
+  "responses_round_002/inputs/ground_truth_000.png",
+  "responses_round_002/inputs/ground_truth_001.png",
+  "responses_round_002/inputs/ground_truth_002.png",
+  "responses_round_002/inputs/probe_provenance.json",
+  "responses_round_002/inputs/prompt_000.png",
+  "responses_round_002/inputs/prompt_001.png",
+  "responses_round_002/inputs/prompt_002.png",
+  "responses_round_002/inputs/text_prompt.txt",
+  "responses_round_002/round_summary.json",
+  "responses_round_002/scoring_results.json",
+  "responses_round_003/inputs/ground_truth_000.png",
+  "responses_round_003/inputs/ground_truth_001.png",
+  "responses_round_003/inputs/ground_truth_002.png",
+  "responses_round_003/inputs/probe_provenance.json",
+  "responses_round_003/inputs/prompt_000.png",
+  "responses_round_003/inputs/prompt_001.png",
+  "responses_round_003/inputs/prompt_002.png",
+  "responses_round_003/inputs/text_prompt.txt",
+  "responses_round_003/round_summary.json",
+  "responses_round_003/scoring_results.json",
+  "responses_round_004/inputs/ground_truth_000.png",
+  "responses_round_004/inputs/ground_truth_001.png",
+  "responses_round_004/inputs/ground_truth_002.png",
+  "responses_round_004/inputs/probe_provenance.json",
+  "responses_round_004/inputs/prompt_000.png",
+  "responses_round_004/inputs/prompt_001.png",
+  "responses_round_004/inputs/prompt_002.png",
+  "responses_round_004/inputs/text_prompt.txt",
+  "responses_round_004/response_000.txt",
+  "responses_round_004/response_000_img_0.png",
+  "responses_round_004/response_001.txt",
+  "responses_round_004/response_001_img_0.png",
+  "responses_round_004/response_002.txt",
+  "responses_round_004/response_002_img_0.png",
+  "responses_round_004/round_summary.json",
+  "responses_round_004/scoring_results.json",
+  "responses_round_005/inputs/ground_truth_000.png",
+  "responses_round_005/inputs/ground_truth_001.png",
+  "responses_round_005/inputs/ground_truth_002.png",
+  "responses_round_005/inputs/probe_provenance.json",
+  "responses_round_005/inputs/prompt_000.png",
+  "responses_round_005/inputs/prompt_001.png",
+  "responses_round_005/inputs/prompt_002.png",
+  "responses_round_005/inputs/text_prompt.txt",
+  "responses_round_005/response_000.txt",
+  "responses_round_005/response_000_img_0.png",
+  "responses_round_005/response_001.txt",
+  "responses_round_005/response_001_img_0.png",
+  "responses_round_005/response_002.txt",
+  "responses_round_005/response_002_img_0.png",
+  "responses_round_005/round_summary.json",
+  "responses_round_005/scoring_results.json",
+  "responses_round_006/inputs/ground_truth_000.png",
+  "responses_round_006/inputs/ground_truth_001.png",
+  "responses_round_006/inputs/ground_truth_002.png",
+  "responses_round_006/inputs/probe_provenance.json",
+  "responses_round_006/inputs/prompt_000.png",
+  "responses_round_006/inputs/prompt_001.png",
+  "responses_round_006/inputs/prompt_002.png",
+  "responses_round_006/inputs/text_prompt.txt",
+  "responses_round_006/response_000.txt",
+  "responses_round_006/response_000_img_0.png",
+  "responses_round_006/response_001.txt",
+  "responses_round_006/response_001_img_0.png",
+  "responses_round_006/response_002.txt",
+  "responses_round_006/response_002_img_0.png",
+  "responses_round_006/round_summary.json",
+  "responses_round_006/scoring_results.json"
+ ],
+ "outputs": {
+  "agent_transcript.jsonl": [
+   {
+    "agent_model": "fake-agent-model",
+    "enable_tools": true,
+    "history_turns_before": 0,
+    "kind": "prompt",
+    "scrape_round": 0,
+    "text": "You are a fresh agent helper for a DISCO probe round with\ncoarsened e-value feedback. Target model: fake-target-model.\nTask: Discover behavior patterns relevant to 'Find visual symmetry completion patterns where the target model fails.'.\n\nDeactivation thresholds: e_min=0.99, e_max=50.0.\nAll hypotheses will be evaluated together via e-BH at the end of the budget.\nYou should plan to run exactly 3 queries.\n\nIMPORTANT: With coarsened e-value feedback, you will NOT see the results (model responses, judgments, evidence examples) from previous rounds. You will only see what queries were tried before, along with coarsened statistical status. Your job is to generate fresh queries to test the assigned hypothesis directly.\n\nDon't start yet \u2014 wait for the next instruction. Do not generate queries or run tools yet, just confirm you have read these instructions."
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [],
+    "kind": "model_turn",
+    "scrape_round": 0,
+    "text": "Acknowledged. Waiting for the next instruction.",
+    "thought_text": "",
+    "tool_round": 1
+   },
+   {
+    "kind": "clear_history",
+    "scrape_round": 0,
+    "turns_dropped": 2
+   },
+   {
+    "agent_model": "fake-agent-model",
+    "enable_tools": true,
+    "history_turns_before": 0,
+    "kind": "prompt",
+    "scrape_round": 0,
+    "text": "\n--- Hypothesis History (DISCO Mode) ---\nNo hypotheses yet.\nThresholds: e_min=0.99, e_max=50.0\nAll hypotheses will be tested at the end via e-BH.\n------------------------------------------\n\nCurrently ACTIVE hypotheses: None (all previous hypotheses in history are INACTIVE and cannot be probed; you MUST propose a NEW hypothesis).\n\nStrategic Decision Guidelines for Probing:\n- Evidence compounds across probe rounds for each hypothesis.\n- Qualitative evidence tags summarize current progress: [WEAK EVIDENCE] (E < 0.99), [MODERATE EVIDENCE] (0.99 <= E < 50.0), [STRONG EVIDENCE] (E >= 50.0).\n- At the end of the budget, all hypotheses are evaluated jointly with e-BH false discovery rate control.\n- Re-probing a promising hypothesis deepens evidence; proposing new hypotheses broadens coverage.\n- Positive transition scores indicate accumulating evidence for the hypothesized behavior.\n- In particular, hypotheses with [MODERATE EVIDENCE] and positive transition scores (pushing toward log(E_max) +3.91) are accumulating evidence \u2014 following up on them can push them to [STRONG EVIDENCE] / discovery!\n- If an active hypothesis has negative transition scores (indicating the target model consistently contradicts the hypothesis), do NOT repeat the same failed query types. Only re-probe if you can formulate fresh, diverse queries; otherwise, propose a NEW hypothesis.\n\nYou are inside the DISCO loop. Target model: fake-target-model. Task: Discover behavior patterns relevant to 'Find visual symmetry completion patterns where the target model fails.'.\n\n    Choose ONE of the following actions:\n    (a) Probe an existing ACTIVE hypothesis by returning its ID (must be from the Currently ACTIVE list above).\n    (b) Propose a NEW hypothesis not yet investigated.\n    Reminder: active hypotheses will remain active, so you can freely explore new directions and return to active ones later. Hypotheses marked [INACTIVE - ...] have finished evaluation and CANNOT be probed again.\n\n    If proposing a new hypothesis:\n    - It must be different from all existing hypotheses listed above.\n    - Synthesize patterns from past evidence: Review the history table and compare hypotheses marked [STRONG EVIDENCE] / [EXITED-HIGH] against those marked [WEAK EVIDENCE] / [EXITED-LOW] to identify shared latent properties or common characteristics among past successes (e.g., structural complexity, cultural context requirements, step count, input style).\n    - Avoid narrow template spam: Do NOT propose trivial 1-to-1 lexical substitutions within the exact same sub-category (e.g., if 'list 3 nouns' failed, do not propose 'list 3 verbs'; if 'classic tacos' succeeded, do not merely propose 'classic burritos').\n    - Generalize and transfer: Exploring distinct domains that share an underlying pattern or testing an abstracted rule discovered from previous successes is strongly ENCOURAGED.\n    - The hypothesis MUST be detailed and operationalized: describe the behavioral pattern AND specify the measurement method (e.g. proportion z-test, McNemar test), null baseline proportion, and what constitutes a positive result. Do NOT state or assume a different number of queries in your hypothesis text. Describe in under 1000 characters.\n\n    Please state your response using two fields:\n    'HYPOTHESIS_ID: <the_id_of_the_hypothesis>'\n    'HYPOTHESIS: <the_text_of_the_hypothesis>'\n\n    If probing an existing hypothesis, use its existing ID and text.\n    If proposing a new one, create a new short semantic snake_case ID.\n    Do not proceed to other steps."
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [],
+    "kind": "model_turn",
+    "scrape_round": 0,
+    "text": "HYPOTHESIS_ID: circle_fails\nHYPOTHESIS: The target model fails to complete circle probes symmetrically.",
+    "thought_text": "",
+    "tool_round": 1
+   },
+   {
+    "agent_model": "fake-agent-model",
+    "enable_tools": false,
+    "history_turns_before": 0,
+    "kind": "prompt",
+    "scrape_round": 0,
+    "text": "You are a sub-agent in an automated visual symmetry capability discovery system.\nYou are testing the target model 'fake-target-model' on visual reflection symmetry completion.\n\nTASK SPECIFICATION:\n- The input to the target model is a text and image combination.\n- The image contains a pattern on the left side and is empty (background) on the right side.\n  The image is created by first creating a left-right vertically symmetric image and deleting the right half.\n- The text prompt sent to the target model is FIXED and identical for every probe. It is:\n      \"Reflect the pattern on the left half along the central vertical axis to complete the blank right half. Keep the existing colored pattern on the left without modification. The resulting image should be perfectly symmetric about the vertical center axis.\"\n  It does NOT disclose what the pattern is, and it cannot be changed.\n- Your probing tool is `generate_and_send_symmetry_probes`:\n  It generates multimodal probes for a given shape_type, drawn from\n  12 base families ('chinese_char', 'circle', 'dots', 'english_letter', 'greek_letter', 'heart', 'plus', 'random_dense', 'random_sparse', 'square', 'stripes', 'triangle') and 10 deliberately harder, finer-stroked families with more parts and more internal structure ('complex_chinese', 'fine_noise', 'filigree', 'maze', 'multi_glyph', 'nested_outlines', 'scatter_rings', 'snowflake', 'starburst', 'wave_lines').\n  It also accepts a `bg_color` drawn from a fixed palette of 10 background colours ('white', 'black', 'lightgray', 'lightyellow', 'lightblue', 'mistyrose', 'honeydew', 'lavender', 'navy', 'darkslategray');\n  the background is a property of the whole batch, so hold it fixed within a condition.\n  It pairs each image with the fixed prompt above, sends them to the target model,\n  and stores the generated output images.\n- Your evaluation tool is `score_symmetry_completions`:\n  A completion counts as a Success when BOTH hold: (a) SYMMETRY -- the returned image is symmetric about its own vertical centre axis, agreement >= 0.90 between its right half and its mirrored left half; and (b) PRESERVATION -- it kept the left half it was given, agreement >= 0.80 against the probe. Criterion (b) is required because a blank canvas satisfies (a) perfectly. Agreement is a tolerant F1 with a 2 pixel match tolerance at the 320px probe resolution, NOT a raw ink-mask IoU: raw IoU charges the model for stroke weight, which made the score track how thin the shape was rather than how well it reflected.\n- Your statistical test tool is `run_proportion_z_test`:\n  Tests the success rate against the null baseline accuracy of 90% (0.9).\n\nYour workflow for testing the assigned Hypothesis (H) with EXACTLY 3 probes will be:\n1. Receive the assigned Hypothesis H and context.\n2. In Step 4, run `generate_and_send_symmetry_probes` with the shape_type (and bg_color) that specifically tests H.\n3. In Step 4, run `score_symmetry_completions` to algorithmically evaluate the output images.\n4. In Step 5, report the P-value from `run_proportion_z_test` using the algorithmic success count.\n\nPlease acknowledge that you have received this task specification and wait for the hypothesis and testing instructions. Do not run any tools yet.\n"
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [],
+    "kind": "model_turn",
+    "scrape_round": 0,
+    "text": "Acknowledged. Waiting for the next instruction.",
+    "thought_text": "",
+    "tool_round": 1
+   },
+   {
+    "agent_model": "fake-agent-model",
+    "enable_tools": false,
+    "history_turns_before": 2,
+    "kind": "prompt",
+    "scrape_round": 0,
+    "text": "You are a fresh agent helper for a DISCO probe round with coarsened e-value feedback. You are assisting with the hypothesis:\nHYPOTHESIS: The target model fails to complete circle probes symmetrically.\n\nStatus: Active (probed 0 times, coarsened status: A)\nThresholds: e_min=0.99, e_max=50.0\n\nYou can see salient examples from this hypothesis - use them as extra information if necessary.\n\nPlease acknowledge that you have received this hypothesis and context, and wait for the next instruction. Do not start generating queries or running tools yet."
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [],
+    "kind": "model_turn",
+    "scrape_round": 0,
+    "text": "Acknowledged. Waiting for the next instruction.",
+    "thought_text": "",
+    "tool_round": 1
+   },
+   {
+    "agent_model": "fake-agent-model",
+    "enable_tools": true,
+    "history_turns_before": 4,
+    "kind": "prompt",
+    "scrape_round": 0,
+    "text": "Now use your symmetry tools to test this hypothesis with EXACTLY 3 visual probes.\n\nHYPOTHESIS: The target model fails to complete circle probes symmetrically.\n\nTASK REQUIREMENTS:\n- The input to the target model must be a text and image combination.\n- The image contains a pattern in the left side of the image and is empty (background) in the right side.\n  The image is created by first creating a left-right vertically symmetric image and deleting the right half.\n- The text prompt is FIXED and identical for every probe:\n      \"Reflect the pattern on the left half along the central vertical axis to complete the blank right half. Keep the existing colored pattern on the left without modification. The resulting image should be perfectly symmetric about the vertical center axis.\"\n  It does NOT disclose what the pattern is, and you cannot change it.\n- Scoring is algorithmic. A completion counts as a Success when BOTH hold: (a) SYMMETRY -- the returned image is symmetric about its own vertical centre axis, agreement >= 0.90 between its right half and its mirrored left half; and (b) PRESERVATION -- it kept the left half it was given, agreement >= 0.80 against the probe. Criterion (b) is required because a blank canvas satisfies (a) perfectly. Agreement is a tolerant F1 with a 2 pixel match tolerance at the 320px probe resolution, NOT a raw ink-mask IoU: raw IoU charges the model for stroke weight, which made the score track how thin the shape was rather than how well it reflected.\n\nCRITICAL EXECUTION INSTRUCTIONS:\n1. Call `generate_and_send_symmetry_probes` with:\n   - `shape_type`: choose the family that directly matches your HYPOTHESIS.\n     If the hypothesis is about a hard, fine-stroked or many-part pattern, you MUST\n     use the specific hard family ('complex_chinese', 'fine_noise', 'filigree', 'maze', 'multi_glyph', 'nested_outlines', 'scatter_rings', 'snowflake', 'starburst', 'wave_lines')\n     rather than its easier look-alike -- e.g. use 'complex_chinese', NOT 'chinese_char',\n     for high-stroke-count Hanzi.\n     Available shape types: ['chinese_char', 'circle', 'complex_chinese', 'dots', 'dynamic', 'english_letter', 'filigree', 'fine_noise', 'greek_letter', 'heart', 'maze', 'multi_glyph', 'nested_outlines', 'plus', 'random_dense', 'random_sparse', 'scatter_rings', 'snowflake', 'square', 'starburst', 'stripes', 'triangle', 'wave_lines'].\n   - `bg_color`: if your HYPOTHESIS is about background colour, set it explicitly.\n     Otherwise leave it at the default 'white'. Hold it FIXED across the batch.\n     Available backgrounds: ['white', 'black', 'lightgray', 'lightyellow', 'lightblue', 'mistyrose', 'honeydew', 'lavender', 'navy', 'darkslategray'].\n   - `n_probes`: 3\n2. Next, call `score_symmetry_completions()` to algorithmically score the completions.\n   Pass `success_criterion`: name the criterion your HYPOTHESIS is actually about.\n     * 'both' (default): the conjunction of symmetry AND preservation. Use this unless your hypothesis is specifically about one half of it.\n     * 'symmetry': only whether the output is self-symmetric. Note a blank canvas passes this, so prefer it for FAILURE claims.\n     * 'preservation': only whether the given left half survived unmodified.\n     Do NOT base a claim on 'reconstruction' (similarity to the hidden ground truth): it is reported for reference but the reference accuracy rate is not calibrated for it.\n3. Do NOT call statistical testing tools (`run_proportion_z_test`) during this step.\n   Statistical testing will be performed in Step 5.\n4. Summarize the resulting pass rate, the per-criterion rates, and observations.\n\nRun your tools now."
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [
+     {
+      "args": {
+       "n_probes": 3,
+       "shape_type": "circle"
+      },
+      "name": "generate_and_send_symmetry_probes"
+     }
+    ],
+    "kind": "model_turn",
+    "scrape_round": 0,
+    "text": "",
+    "thought_text": "",
+    "tool_round": 1
+   },
+   {
+    "args": {
+     "n_probes": 3,
+     "shape_type": "circle"
+    },
+    "is_error": false,
+    "kind": "tool_call",
+    "name": "generate_and_send_symmetry_probes",
+    "result": "{\"n_probes_sent\": 3, \"samples_per_probe\": 1, \"total_requests\": 3, \"n_valid_outputs\": 3, \"n_empty\": 0, \"n_backfill_attempts\": 0, \"n_backfilled\": 0, \"shape_type\": \"circle\", \"save_dir\": \"<OUT>/smoke/responses_round_001\", \"message\": \"Sent 3 symmetry probes with 1 samples each for circle (3 requests total). Got 3 valid image outputs. Call score_symmetry_completions to evaluate (supports pass@k).\"}",
+    "scrape_round": 1,
+    "tool_round": 1
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [
+     {
+      "args": {},
+      "name": "score_symmetry_completions"
+     }
+    ],
+    "kind": "model_turn",
+    "scrape_round": 1,
+    "text": "",
+    "thought_text": "",
+    "tool_round": 2
+   },
+   {
+    "args": {},
+    "is_error": false,
+    "kind": "tool_call",
+    "name": "score_symmetry_completions",
+    "result": "{\"n_probes\": 3, \"n_probes_valid\": 3, \"n_probes_invalid\": 0, \"k\": 1, \"n_probes_passed\": 3, \"n_probes_failed\": 0, \"pass_at_k_rate\": 1.0, \"total_samples\": 3, \"total_samples_passed\": 3, \"pass_at_1_rate\": 1.0, \"delta_e_threshold\": 10.0, \"max_incorrect_for_success\": 0, \"per_probe\": [{\"probe_idx\": 0, \"valid\": true, \"passed\": true, \"n_samples\": 1, \"n_samples_passed\": 1, \"sample_scores\": [{\"sample_idx\": 0, \"success\": true, \"iou\": 1.0, \"iou_self_mirror\": 1.0, \"left_fidelity\": 1.0, \"iou_vs_ground_truth\": 1.0, \"raw_iou_self_mirror\": 1.0, \"raw_left_fidelity\": 1.0, \"raw_iou_vs_ground_truth\": 1.0, \"output_bg_drift\": 0.0, \"success_self_mirror\": true, \"success_left_fidelity\": true, \"success_ground_truth\": true, \"n_incorrect\": 0, \"n_incorrect_right\": 0, \"accuracy\": 1.0, \"mean_delta_e\": 0.0}]}, {\"probe_idx\": 1, \"valid\": true, \"passed\": true, \"n_samples\": 1, \"n_samples_passed\": 1, \"sample_scores\": [{\"sample_idx\": 0, \"success\": true, \"iou\": 1.0, \"iou_self_mirror\": 1.0, \"left_fidelity\": 1.0, \"iou_vs_ground_truth\": 1.0, \"raw_iou_self_mirror\": 1.0, \"raw_left_fidelity\": 1.0, \"raw_iou_vs_ground_truth\": 1.0, \"output_bg_drift\": 0.0, \"success_self_mirror\": true, \"success_left_fidelity\": true, \"success_ground_truth\": true, \"n_incorrect\": 0, \"n_incorrect_right\": 0, \"accuracy\": 1.0, \"mean_delta_e\": 0.0}]}, {\"probe_idx\": 2, \"valid\": true, \"passed\": true, \"n_samples\": 1, \"n_samples_passed\": 1, \"sample_scores\": [{\"sample_idx\": 0, \"success\": true, \"iou\": 1.0, \"iou_self_mirror\": 1.0, \"left_fidelity\": 1.0, \"iou_vs_ground_truth\": 1.0, \"raw_iou_self_mirror\": 1.0, \"raw_left_fidelity\": 1.0, \"raw_iou_vs_ground_truth\": 1.0, \"output_bg_drift\": 0.0, \"success_self_mirror\": true, \"success_left_fidelity\": true, \"success_ground_truth\": true, \"n_incorrect\": 0, \"n_incorrect_right\": 0, \"accuracy\": 1.0, \"mean_delta_e\": 0.0}]}], \"message\": \"Scored 3 visual symmetry completions algorithmically against ground truth. Results: 3/3 passed (rate=100.00%). In Step 5, report this using `run_proportion_z_test(n_successes=3, n_obs=3, null_proportion=0.90, alternative='larger'|'smaller')`.\"}",
+    "scrape_round": 1,
+    "tool_round": 2
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [],
+    "kind": "model_turn",
+    "scrape_round": 1,
+    "text": "Scored the symmetry completions algorithmically.",
+    "thought_text": "",
+    "tool_round": 3
+   },
+   {
+    "agent_model": "fake-agent-model",
+    "enable_tools": true,
+    "history_turns_before": 10,
+    "kind": "prompt",
+    "scrape_round": 1,
+    "text": "Step 4b: Salient Pattern & Boundary Extraction\nLook at the results and measurements from the queries you just executed.\n\nPlease provide a concise summary (maximum 2-3 short bullet points, under 60 words total) of the most salient or informative patterns across this batch:\n1. Key Discriminators: What specific semantic characteristics most strongly separated the differing behaviors or measurement extremes?\n2. Boundaries & Counterexamples: Were there any surprising edge cases, anomalies, or instances where the expected pattern held weakly or failed?\n\nCRITICAL RULES:\n- Do NOT explain general domain mechanisms or write lengthy mechanical explanations (keep it strictly high-level semantic tags).\n- Do NOT output raw prompts, raw responses, or full concrete examples (especially avoid returning image artifacts) as this takes up too much context length.\n- If results were entirely uniform with no counterexamples, state the dominant discriminator in 1 sentence.\n- Do *not* proceed to other steps such as statistical tests. Output your summary directly as text."
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [],
+    "kind": "model_turn",
+    "scrape_round": 1,
+    "text": "- Answer length follows the prompt tag.",
+    "thought_text": "",
+    "tool_round": 1
+   },
+   {
+    "agent_model": "fake-agent-model",
+    "enable_tools": true,
+    "history_turns_before": 12,
+    "kind": "prompt",
+    "scrape_round": 1,
+    "text": "    Now use your stats tools (e.g. `run_proportion_z_test` or     `run_mcnemar_test`) to calculate the p-value for your     results.\n\n    Before calling the tool, briefly describe your statistical test arguments:\n    1. The target pattern/metric being tested.\n    2. The null baseline rate or comparison group.\n    3. The hypothesized direction ('larger', 'smaller', or 'two-sided') and why it matches your hypothesis.\n\n    IMPORTANT: You MUST specify the `alternative` parameter matching your hypothesis     direction: use 'larger' if testing that the behavior rate or mean is GREATER than     the null/Group B, 'smaller' if testing that it is LESS than the null/Group B,     or 'two-sided' only if testing for a non-directional difference.\n    You MUST state the test and key statistics in this format:\nTEST_TYPE: <type> (Select from: [One-sample: 'Binomial test', 'Continuous means test']     OR [Two-sample: 'Fisher's Exact Test']     OR [Paired: 'McNemar's Test', 'Paired continuous test'])\nGROUP_A_MEAN: <number> (Required. Use success rate for binary or mean for continuous)\nGROUP_A_OBS: <number> (Required. Total observations)\nGROUP_B_MEAN: <number> (Only for 2-sample tests)\nGROUP_B_OBS: <number> (Only for 2-sample tests)\nP-VALUE: <float>\nREASONING: <brief 1-2 sentence explanation of your test setup, why this direction was chosen, and how it aligns with your hypothesis>"
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [
+     {
+      "args": {
+       "alternative": "smaller",
+       "n_obs": 3,
+       "n_successes": 3,
+       "null_proportion": 0.9
+      },
+      "name": "run_proportion_z_test"
+     }
+    ],
+    "kind": "model_turn",
+    "scrape_round": 1,
+    "text": "",
+    "thought_text": "",
+    "tool_round": 1
+   },
+   {
+    "args": {
+     "alternative": "smaller",
+     "n_obs": 3,
+     "n_successes": 3,
+     "null_proportion": 0.9
+    },
+    "is_error": false,
+    "kind": "tool_call",
+    "name": "run_proportion_z_test",
+    "result": "One-Sample Proportion Test Results:\n- Method: Binomial test (exact)\n- Sample proportion: 1.0000 (3/3)\n- Null proportion: 0.9000\n- Statistic: N/A (exact)\n- Alternative: smaller\n- P-value: 1.000000\n- Note: Sample proportion (1.0000) is above null (0.9000); one-sided p-value for 'smaller' is 1.000000.\n",
+    "scrape_round": 1,
+    "tool_round": 1
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [],
+    "kind": "model_turn",
+    "scrape_round": 1,
+    "text": "TEST_TYPE: Binomial test\nGROUP_A_MEAN: 1.0\nGROUP_A_OBS: 3\nNULL_PROPORTION: 0.9\nALTERNATIVE: smaller\nP-VALUE: 1.000000\nREASONING: Exact binomial test of the symmetry pass rate against the reference accuracy.",
+    "thought_text": "",
+    "tool_round": 2
+   },
+   {
+    "kind": "clear_history",
+    "scrape_round": 0,
+    "turns_dropped": 2
+   },
+   {
+    "agent_model": "fake-agent-model",
+    "enable_tools": true,
+    "history_turns_before": 0,
+    "kind": "prompt",
+    "scrape_round": 0,
+    "text": "\n--- Hypothesis History (DISCO Mode) ---\nID: circle_fails (The target model fails to complete circle probes symmetrically.) [INACTIVE - EXITED-LOW, 1 probes] [WEAK EVIDENCE]\n  Probe transition scores: -1.198\nThresholds: e_min=0.99, e_max=50.0\nAll hypotheses will be tested at the end via e-BH.\n------------------------------------------\n\nCurrently ACTIVE hypotheses: None (all previous hypotheses in history are INACTIVE and cannot be probed; you MUST propose a NEW hypothesis).\n\nStrategic Decision Guidelines for Probing:\n- Evidence compounds across probe rounds for each hypothesis.\n- Qualitative evidence tags summarize current progress: [WEAK EVIDENCE] (E < 0.99), [MODERATE EVIDENCE] (0.99 <= E < 50.0), [STRONG EVIDENCE] (E >= 50.0).\n- At the end of the budget, all hypotheses are evaluated jointly with e-BH false discovery rate control.\n- Re-probing a promising hypothesis deepens evidence; proposing new hypotheses broadens coverage.\n- Positive transition scores indicate accumulating evidence for the hypothesized behavior.\n- In particular, hypotheses with [MODERATE EVIDENCE] and positive transition scores (pushing toward log(E_max) +3.91) are accumulating evidence \u2014 following up on them can push them to [STRONG EVIDENCE] / discovery!\n- If an active hypothesis has negative transition scores (indicating the target model consistently contradicts the hypothesis), do NOT repeat the same failed query types. Only re-probe if you can formulate fresh, diverse queries; otherwise, propose a NEW hypothesis.\n\nYou are inside the DISCO loop. Target model: fake-target-model. Task: Discover behavior patterns relevant to 'Find visual symmetry completion patterns where the target model fails.'.\n\n    Choose ONE of the following actions:\n    (a) Probe an existing ACTIVE hypothesis by returning its ID (must be from the Currently ACTIVE list above).\n    (b) Propose a NEW hypothesis not yet investigated.\n    Reminder: active hypotheses will remain active, so you can freely explore new directions and return to active ones later. Hypotheses marked [INACTIVE - ...] have finished evaluation and CANNOT be probed again.\n\n    If proposing a new hypothesis:\n    - It must be different from all existing hypotheses listed above.\n    - Synthesize patterns from past evidence: Review the history table and compare hypotheses marked [STRONG EVIDENCE] / [EXITED-HIGH] against those marked [WEAK EVIDENCE] / [EXITED-LOW] to identify shared latent properties or common characteristics among past successes (e.g., structural complexity, cultural context requirements, step count, input style).\n    - Avoid narrow template spam: Do NOT propose trivial 1-to-1 lexical substitutions within the exact same sub-category (e.g., if 'list 3 nouns' failed, do not propose 'list 3 verbs'; if 'classic tacos' succeeded, do not merely propose 'classic burritos').\n    - Generalize and transfer: Exploring distinct domains that share an underlying pattern or testing an abstracted rule discovered from previous successes is strongly ENCOURAGED.\n    - The hypothesis MUST be detailed and operationalized: describe the behavioral pattern AND specify the measurement method (e.g. proportion z-test, McNemar test), null baseline proportion, and what constitutes a positive result. Do NOT state or assume a different number of queries in your hypothesis text. Describe in under 1000 characters.\n\n    Please state your response using two fields:\n    'HYPOTHESIS_ID: <the_id_of_the_hypothesis>'\n    'HYPOTHESIS: <the_text_of_the_hypothesis>'\n\n    If probing an existing hypothesis, use its existing ID and text.\n    If proposing a new one, create a new short semantic snake_case ID.\n    Do not proceed to other steps."
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [],
+    "kind": "model_turn",
+    "scrape_round": 0,
+    "text": "HYPOTHESIS_ID: square_fails\nHYPOTHESIS: The target model fails to complete square probes symmetrically.",
+    "thought_text": "",
+    "tool_round": 1
+   },
+   {
+    "agent_model": "fake-agent-model",
+    "enable_tools": false,
+    "history_turns_before": 0,
+    "kind": "prompt",
+    "scrape_round": 1,
+    "text": "You are a sub-agent in an automated visual symmetry capability discovery system.\nYou are testing the target model 'fake-target-model' on visual reflection symmetry completion.\n\nTASK SPECIFICATION:\n- The input to the target model is a text and image combination.\n- The image contains a pattern on the left side and is empty (background) on the right side.\n  The image is created by first creating a left-right vertically symmetric image and deleting the right half.\n- The text prompt sent to the target model is FIXED and identical for every probe. It is:\n      \"Reflect the pattern on the left half along the central vertical axis to complete the blank right half. Keep the existing colored pattern on the left without modification. The resulting image should be perfectly symmetric about the vertical center axis.\"\n  It does NOT disclose what the pattern is, and it cannot be changed.\n- Your probing tool is `generate_and_send_symmetry_probes`:\n  It generates multimodal probes for a given shape_type, drawn from\n  12 base families ('chinese_char', 'circle', 'dots', 'english_letter', 'greek_letter', 'heart', 'plus', 'random_dense', 'random_sparse', 'square', 'stripes', 'triangle') and 10 deliberately harder, finer-stroked families with more parts and more internal structure ('complex_chinese', 'fine_noise', 'filigree', 'maze', 'multi_glyph', 'nested_outlines', 'scatter_rings', 'snowflake', 'starburst', 'wave_lines').\n  It also accepts a `bg_color` drawn from a fixed palette of 10 background colours ('white', 'black', 'lightgray', 'lightyellow', 'lightblue', 'mistyrose', 'honeydew', 'lavender', 'navy', 'darkslategray');\n  the background is a property of the whole batch, so hold it fixed within a condition.\n  It pairs each image with the fixed prompt above, sends them to the target model,\n  and stores the generated output images.\n- Your evaluation tool is `score_symmetry_completions`:\n  A completion counts as a Success when BOTH hold: (a) SYMMETRY -- the returned image is symmetric about its own vertical centre axis, agreement >= 0.90 between its right half and its mirrored left half; and (b) PRESERVATION -- it kept the left half it was given, agreement >= 0.80 against the probe. Criterion (b) is required because a blank canvas satisfies (a) perfectly. Agreement is a tolerant F1 with a 2 pixel match tolerance at the 320px probe resolution, NOT a raw ink-mask IoU: raw IoU charges the model for stroke weight, which made the score track how thin the shape was rather than how well it reflected.\n- Your statistical test tool is `run_proportion_z_test`:\n  Tests the success rate against the null baseline accuracy of 90% (0.9).\n\nYour workflow for testing the assigned Hypothesis (H) with EXACTLY 3 probes will be:\n1. Receive the assigned Hypothesis H and context.\n2. In Step 4, run `generate_and_send_symmetry_probes` with the shape_type (and bg_color) that specifically tests H.\n3. In Step 4, run `score_symmetry_completions` to algorithmically evaluate the output images.\n4. In Step 5, report the P-value from `run_proportion_z_test` using the algorithmic success count.\n\nPlease acknowledge that you have received this task specification and wait for the hypothesis and testing instructions. Do not run any tools yet.\n"
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [],
+    "kind": "model_turn",
+    "scrape_round": 1,
+    "text": "Acknowledged. Waiting for the next instruction.",
+    "thought_text": "",
+    "tool_round": 1
+   },
+   {
+    "agent_model": "fake-agent-model",
+    "enable_tools": false,
+    "history_turns_before": 2,
+    "kind": "prompt",
+    "scrape_round": 1,
+    "text": "You are a fresh agent helper for a DISCO probe round with coarsened e-value feedback. You are assisting with the hypothesis:\nHYPOTHESIS: The target model fails to complete square probes symmetrically.\n\nStatus: Active (probed 0 times, coarsened status: A)\nThresholds: e_min=0.99, e_max=50.0\n\nYou can see salient examples from this hypothesis - use them as extra information if necessary.\n\nPlease acknowledge that you have received this hypothesis and context, and wait for the next instruction. Do not start generating queries or running tools yet."
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [],
+    "kind": "model_turn",
+    "scrape_round": 1,
+    "text": "Acknowledged. Waiting for the next instruction.",
+    "thought_text": "",
+    "tool_round": 1
+   },
+   {
+    "agent_model": "fake-agent-model",
+    "enable_tools": true,
+    "history_turns_before": 4,
+    "kind": "prompt",
+    "scrape_round": 1,
+    "text": "Now use your symmetry tools to test this hypothesis with EXACTLY 3 visual probes.\n\nHYPOTHESIS: The target model fails to complete square probes symmetrically.\n\nTASK REQUIREMENTS:\n- The input to the target model must be a text and image combination.\n- The image contains a pattern in the left side of the image and is empty (background) in the right side.\n  The image is created by first creating a left-right vertically symmetric image and deleting the right half.\n- The text prompt is FIXED and identical for every probe:\n      \"Reflect the pattern on the left half along the central vertical axis to complete the blank right half. Keep the existing colored pattern on the left without modification. The resulting image should be perfectly symmetric about the vertical center axis.\"\n  It does NOT disclose what the pattern is, and you cannot change it.\n- Scoring is algorithmic. A completion counts as a Success when BOTH hold: (a) SYMMETRY -- the returned image is symmetric about its own vertical centre axis, agreement >= 0.90 between its right half and its mirrored left half; and (b) PRESERVATION -- it kept the left half it was given, agreement >= 0.80 against the probe. Criterion (b) is required because a blank canvas satisfies (a) perfectly. Agreement is a tolerant F1 with a 2 pixel match tolerance at the 320px probe resolution, NOT a raw ink-mask IoU: raw IoU charges the model for stroke weight, which made the score track how thin the shape was rather than how well it reflected.\n\nCRITICAL EXECUTION INSTRUCTIONS:\n1. Call `generate_and_send_symmetry_probes` with:\n   - `shape_type`: choose the family that directly matches your HYPOTHESIS.\n     If the hypothesis is about a hard, fine-stroked or many-part pattern, you MUST\n     use the specific hard family ('complex_chinese', 'fine_noise', 'filigree', 'maze', 'multi_glyph', 'nested_outlines', 'scatter_rings', 'snowflake', 'starburst', 'wave_lines')\n     rather than its easier look-alike -- e.g. use 'complex_chinese', NOT 'chinese_char',\n     for high-stroke-count Hanzi.\n     Available shape types: ['chinese_char', 'circle', 'complex_chinese', 'dots', 'dynamic', 'english_letter', 'filigree', 'fine_noise', 'greek_letter', 'heart', 'maze', 'multi_glyph', 'nested_outlines', 'plus', 'random_dense', 'random_sparse', 'scatter_rings', 'snowflake', 'square', 'starburst', 'stripes', 'triangle', 'wave_lines'].\n   - `bg_color`: if your HYPOTHESIS is about background colour, set it explicitly.\n     Otherwise leave it at the default 'white'. Hold it FIXED across the batch.\n     Available backgrounds: ['white', 'black', 'lightgray', 'lightyellow', 'lightblue', 'mistyrose', 'honeydew', 'lavender', 'navy', 'darkslategray'].\n   - `n_probes`: 3\n2. Next, call `score_symmetry_completions()` to algorithmically score the completions.\n   Pass `success_criterion`: name the criterion your HYPOTHESIS is actually about.\n     * 'both' (default): the conjunction of symmetry AND preservation. Use this unless your hypothesis is specifically about one half of it.\n     * 'symmetry': only whether the output is self-symmetric. Note a blank canvas passes this, so prefer it for FAILURE claims.\n     * 'preservation': only whether the given left half survived unmodified.\n     Do NOT base a claim on 'reconstruction' (similarity to the hidden ground truth): it is reported for reference but the reference accuracy rate is not calibrated for it.\n3. Do NOT call statistical testing tools (`run_proportion_z_test`) during this step.\n   Statistical testing will be performed in Step 5.\n4. Summarize the resulting pass rate, the per-criterion rates, and observations.\n\nRun your tools now."
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [
+     {
+      "args": {
+       "n_probes": 3,
+       "shape_type": "square"
+      },
+      "name": "generate_and_send_symmetry_probes"
+     }
+    ],
+    "kind": "model_turn",
+    "scrape_round": 1,
+    "text": "",
+    "thought_text": "",
+    "tool_round": 1
+   },
+   {
+    "args": {
+     "n_probes": 3,
+     "shape_type": "square"
+    },
+    "is_error": false,
+    "kind": "tool_call",
+    "name": "generate_and_send_symmetry_probes",
+    "result": "{\"n_probes_sent\": 3, \"samples_per_probe\": 1, \"total_requests\": 3, \"n_valid_outputs\": 0, \"n_empty\": 3, \"n_backfill_attempts\": 3, \"n_backfilled\": 0, \"shape_type\": \"square\", \"save_dir\": \"<OUT>/smoke/responses_round_002\", \"message\": \"Sent 3 symmetry probes with 1 samples each for square (3 requests total). Got 0 valid image outputs. 3 request(s) returned no image even after 3 retries; those are UNANSWERED (missing data), not failed completions, and are excluded from scoring rather than counted against the model. Call score_symmetry_completions to evaluate (supports pass@k).\"}",
+    "scrape_round": 2,
+    "tool_round": 1
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [
+     {
+      "args": {},
+      "name": "score_symmetry_completions"
+     }
+    ],
+    "kind": "model_turn",
+    "scrape_round": 2,
+    "text": "",
+    "thought_text": "",
+    "tool_round": 2
+   },
+   {
+    "args": {},
+    "is_error": false,
+    "kind": "tool_call",
+    "name": "score_symmetry_completions",
+    "result": "{\"n_probes\": 3, \"n_probes_valid\": 0, \"n_probes_invalid\": 3, \"k\": 0, \"n_probes_passed\": 0, \"n_probes_failed\": 0, \"pass_at_k_rate\": 0.0, \"total_samples\": 0, \"total_samples_passed\": 0, \"pass_at_1_rate\": 0.0, \"delta_e_threshold\": 10.0, \"max_incorrect_for_success\": 0, \"per_probe\": [{\"probe_idx\": 0, \"valid\": false, \"passed\": false, \"n_samples\": 0, \"n_samples_passed\": 0, \"sample_scores\": []}, {\"probe_idx\": 1, \"valid\": false, \"passed\": false, \"n_samples\": 0, \"n_samples_passed\": 0, \"sample_scores\": []}, {\"probe_idx\": 2, \"valid\": false, \"passed\": false, \"n_samples\": 0, \"n_samples_passed\": 0, \"sample_scores\": []}], \"message\": \"Scored 0 visual symmetry completions algorithmically against ground truth. Results: 0/0 passed (rate=0.00%). 3 probe(s) returned no completion and are excluded as missing data; do NOT count them as failures. In Step 5, report this using `run_proportion_z_test(n_successes=0, n_obs=0, null_proportion=0.90, alternative='larger'|'smaller')`.\"}",
+    "scrape_round": 2,
+    "tool_round": 2
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [],
+    "kind": "model_turn",
+    "scrape_round": 2,
+    "text": "Scored the symmetry completions algorithmically.",
+    "thought_text": "",
+    "tool_round": 3
+   },
+   {
+    "kind": "clear_history",
+    "scrape_round": 0,
+    "turns_dropped": 2
+   },
+   {
+    "agent_model": "fake-agent-model",
+    "enable_tools": true,
+    "history_turns_before": 0,
+    "kind": "prompt",
+    "scrape_round": 0,
+    "text": "\n--- Hypothesis History (DISCO Mode) ---\nID: circle_fails (The target model fails to complete circle probes symmetrically.) [INACTIVE - EXITED-LOW, 1 probes] [WEAK EVIDENCE]\n  Probe transition scores: -1.198\nID: square_fails (The target model fails to complete square probes symmetrically.) [ACTIVE, 0 probes]\nThresholds: e_min=0.99, e_max=50.0\nAll hypotheses will be tested at the end via e-BH.\n------------------------------------------\n\nCurrently ACTIVE hypotheses you can probe:\n  - square_fails: The target model fails to complete square probes symmetrically.\n\nStrategic Decision Guidelines for Probing:\n- Evidence compounds across probe rounds for each hypothesis.\n- Qualitative evidence tags summarize current progress: [WEAK EVIDENCE] (E < 0.99), [MODERATE EVIDENCE] (0.99 <= E < 50.0), [STRONG EVIDENCE] (E >= 50.0).\n- At the end of the budget, all hypotheses are evaluated jointly with e-BH false discovery rate control.\n- Re-probing a promising hypothesis deepens evidence; proposing new hypotheses broadens coverage.\n- Positive transition scores indicate accumulating evidence for the hypothesized behavior.\n- In particular, hypotheses with [MODERATE EVIDENCE] and positive transition scores (pushing toward log(E_max) +3.91) are accumulating evidence \u2014 following up on them can push them to [STRONG EVIDENCE] / discovery!\n- If an active hypothesis has negative transition scores (indicating the target model consistently contradicts the hypothesis), do NOT repeat the same failed query types. Only re-probe if you can formulate fresh, diverse queries; otherwise, propose a NEW hypothesis.\n\nYou are inside the DISCO loop. Target model: fake-target-model. Task: Discover behavior patterns relevant to 'Find visual symmetry completion patterns where the target model fails.'.\n\n    Choose ONE of the following actions:\n    (a) Probe an existing ACTIVE hypothesis by returning its ID (must be from the Currently ACTIVE list above).\n    (b) Propose a NEW hypothesis not yet investigated.\n    Reminder: active hypotheses will remain active, so you can freely explore new directions and return to active ones later. Hypotheses marked [INACTIVE - ...] have finished evaluation and CANNOT be probed again.\n\n    If proposing a new hypothesis:\n    - It must be different from all existing hypotheses listed above.\n    - Synthesize patterns from past evidence: Review the history table and compare hypotheses marked [STRONG EVIDENCE] / [EXITED-HIGH] against those marked [WEAK EVIDENCE] / [EXITED-LOW] to identify shared latent properties or common characteristics among past successes (e.g., structural complexity, cultural context requirements, step count, input style).\n    - Avoid narrow template spam: Do NOT propose trivial 1-to-1 lexical substitutions within the exact same sub-category (e.g., if 'list 3 nouns' failed, do not propose 'list 3 verbs'; if 'classic tacos' succeeded, do not merely propose 'classic burritos').\n    - Generalize and transfer: Exploring distinct domains that share an underlying pattern or testing an abstracted rule discovered from previous successes is strongly ENCOURAGED.\n    - The hypothesis MUST be detailed and operationalized: describe the behavioral pattern AND specify the measurement method (e.g. proportion z-test, McNemar test), null baseline proportion, and what constitutes a positive result. Do NOT state or assume a different number of queries in your hypothesis text. Describe in under 1000 characters.\n\n    Please state your response using two fields:\n    'HYPOTHESIS_ID: <the_id_of_the_hypothesis>'\n    'HYPOTHESIS: <the_text_of_the_hypothesis>'\n\n    If probing an existing hypothesis, use its existing ID and text.\n    If proposing a new one, create a new short semantic snake_case ID.\n    Do not proceed to other steps."
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [],
+    "kind": "model_turn",
+    "scrape_round": 0,
+    "text": "HYPOTHESIS_ID: dots_fails\nHYPOTHESIS: The target model fails to complete dots probes symmetrically.",
+    "thought_text": "",
+    "tool_round": 1
+   },
+   {
+    "agent_model": "fake-agent-model",
+    "enable_tools": false,
+    "history_turns_before": 0,
+    "kind": "prompt",
+    "scrape_round": 3,
+    "text": "You are a sub-agent in an automated visual symmetry capability discovery system.\nYou are testing the target model 'fake-target-model' on visual reflection symmetry completion.\n\nTASK SPECIFICATION:\n- The input to the target model is a text and image combination.\n- The image contains a pattern on the left side and is empty (background) on the right side.\n  The image is created by first creating a left-right vertically symmetric image and deleting the right half.\n- The text prompt sent to the target model is FIXED and identical for every probe. It is:\n      \"Reflect the pattern on the left half along the central vertical axis to complete the blank right half. Keep the existing colored pattern on the left without modification. The resulting image should be perfectly symmetric about the vertical center axis.\"\n  It does NOT disclose what the pattern is, and it cannot be changed.\n- Your probing tool is `generate_and_send_symmetry_probes`:\n  It generates multimodal probes for a given shape_type, drawn from\n  12 base families ('chinese_char', 'circle', 'dots', 'english_letter', 'greek_letter', 'heart', 'plus', 'random_dense', 'random_sparse', 'square', 'stripes', 'triangle') and 10 deliberately harder, finer-stroked families with more parts and more internal structure ('complex_chinese', 'fine_noise', 'filigree', 'maze', 'multi_glyph', 'nested_outlines', 'scatter_rings', 'snowflake', 'starburst', 'wave_lines').\n  It also accepts a `bg_color` drawn from a fixed palette of 10 background colours ('white', 'black', 'lightgray', 'lightyellow', 'lightblue', 'mistyrose', 'honeydew', 'lavender', 'navy', 'darkslategray');\n  the background is a property of the whole batch, so hold it fixed within a condition.\n  It pairs each image with the fixed prompt above, sends them to the target model,\n  and stores the generated output images.\n- Your evaluation tool is `score_symmetry_completions`:\n  A completion counts as a Success when BOTH hold: (a) SYMMETRY -- the returned image is symmetric about its own vertical centre axis, agreement >= 0.90 between its right half and its mirrored left half; and (b) PRESERVATION -- it kept the left half it was given, agreement >= 0.80 against the probe. Criterion (b) is required because a blank canvas satisfies (a) perfectly. Agreement is a tolerant F1 with a 2 pixel match tolerance at the 320px probe resolution, NOT a raw ink-mask IoU: raw IoU charges the model for stroke weight, which made the score track how thin the shape was rather than how well it reflected.\n- Your statistical test tool is `run_proportion_z_test`:\n  Tests the success rate against the null baseline accuracy of 90% (0.9).\n\nYour workflow for testing the assigned Hypothesis (H) with EXACTLY 3 probes will be:\n1. Receive the assigned Hypothesis H and context.\n2. In Step 4, run `generate_and_send_symmetry_probes` with the shape_type (and bg_color) that specifically tests H.\n3. In Step 4, run `score_symmetry_completions` to algorithmically evaluate the output images.\n4. In Step 5, report the P-value from `run_proportion_z_test` using the algorithmic success count.\n\nPlease acknowledge that you have received this task specification and wait for the hypothesis and testing instructions. Do not run any tools yet.\n"
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [],
+    "kind": "model_turn",
+    "scrape_round": 3,
+    "text": "Acknowledged. Waiting for the next instruction.",
+    "thought_text": "",
+    "tool_round": 1
+   },
+   {
+    "agent_model": "fake-agent-model",
+    "enable_tools": false,
+    "history_turns_before": 2,
+    "kind": "prompt",
+    "scrape_round": 3,
+    "text": "You are a fresh agent helper for a DISCO probe round with coarsened e-value feedback. You are assisting with the hypothesis:\nHYPOTHESIS: The target model fails to complete dots probes symmetrically.\n\nStatus: Active (probed 0 times, coarsened status: A)\nThresholds: e_min=0.99, e_max=50.0\n\nYou can see salient examples from this hypothesis - use them as extra information if necessary.\n\nPlease acknowledge that you have received this hypothesis and context, and wait for the next instruction. Do not start generating queries or running tools yet."
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [],
+    "kind": "model_turn",
+    "scrape_round": 3,
+    "text": "Acknowledged. Waiting for the next instruction.",
+    "thought_text": "",
+    "tool_round": 1
+   },
+   {
+    "agent_model": "fake-agent-model",
+    "enable_tools": true,
+    "history_turns_before": 4,
+    "kind": "prompt",
+    "scrape_round": 3,
+    "text": "Now use your symmetry tools to test this hypothesis with EXACTLY 3 visual probes.\n\nHYPOTHESIS: The target model fails to complete dots probes symmetrically.\n\nTASK REQUIREMENTS:\n- The input to the target model must be a text and image combination.\n- The image contains a pattern in the left side of the image and is empty (background) in the right side.\n  The image is created by first creating a left-right vertically symmetric image and deleting the right half.\n- The text prompt is FIXED and identical for every probe:\n      \"Reflect the pattern on the left half along the central vertical axis to complete the blank right half. Keep the existing colored pattern on the left without modification. The resulting image should be perfectly symmetric about the vertical center axis.\"\n  It does NOT disclose what the pattern is, and you cannot change it.\n- Scoring is algorithmic. A completion counts as a Success when BOTH hold: (a) SYMMETRY -- the returned image is symmetric about its own vertical centre axis, agreement >= 0.90 between its right half and its mirrored left half; and (b) PRESERVATION -- it kept the left half it was given, agreement >= 0.80 against the probe. Criterion (b) is required because a blank canvas satisfies (a) perfectly. Agreement is a tolerant F1 with a 2 pixel match tolerance at the 320px probe resolution, NOT a raw ink-mask IoU: raw IoU charges the model for stroke weight, which made the score track how thin the shape was rather than how well it reflected.\n\nCRITICAL EXECUTION INSTRUCTIONS:\n1. Call `generate_and_send_symmetry_probes` with:\n   - `shape_type`: choose the family that directly matches your HYPOTHESIS.\n     If the hypothesis is about a hard, fine-stroked or many-part pattern, you MUST\n     use the specific hard family ('complex_chinese', 'fine_noise', 'filigree', 'maze', 'multi_glyph', 'nested_outlines', 'scatter_rings', 'snowflake', 'starburst', 'wave_lines')\n     rather than its easier look-alike -- e.g. use 'complex_chinese', NOT 'chinese_char',\n     for high-stroke-count Hanzi.\n     Available shape types: ['chinese_char', 'circle', 'complex_chinese', 'dots', 'dynamic', 'english_letter', 'filigree', 'fine_noise', 'greek_letter', 'heart', 'maze', 'multi_glyph', 'nested_outlines', 'plus', 'random_dense', 'random_sparse', 'scatter_rings', 'snowflake', 'square', 'starburst', 'stripes', 'triangle', 'wave_lines'].\n   - `bg_color`: if your HYPOTHESIS is about background colour, set it explicitly.\n     Otherwise leave it at the default 'white'. Hold it FIXED across the batch.\n     Available backgrounds: ['white', 'black', 'lightgray', 'lightyellow', 'lightblue', 'mistyrose', 'honeydew', 'lavender', 'navy', 'darkslategray'].\n   - `n_probes`: 3\n2. Next, call `score_symmetry_completions()` to algorithmically score the completions.\n   Pass `success_criterion`: name the criterion your HYPOTHESIS is actually about.\n     * 'both' (default): the conjunction of symmetry AND preservation. Use this unless your hypothesis is specifically about one half of it.\n     * 'symmetry': only whether the output is self-symmetric. Note a blank canvas passes this, so prefer it for FAILURE claims.\n     * 'preservation': only whether the given left half survived unmodified.\n     Do NOT base a claim on 'reconstruction' (similarity to the hidden ground truth): it is reported for reference but the reference accuracy rate is not calibrated for it.\n3. Do NOT call statistical testing tools (`run_proportion_z_test`) during this step.\n   Statistical testing will be performed in Step 5.\n4. Summarize the resulting pass rate, the per-criterion rates, and observations.\n\nRun your tools now."
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [],
+    "kind": "model_turn",
+    "scrape_round": 3,
+    "text": "I will describe my plan without calling tools.",
+    "thought_text": "",
+    "tool_round": 1
+   },
+   {
+    "agent_model": "fake-agent-model",
+    "enable_tools": true,
+    "history_turns_before": 6,
+    "kind": "prompt",
+    "scrape_round": 4,
+    "text": "Step 4b: Salient Pattern & Boundary Extraction\nLook at the results and measurements from the queries you just executed.\n\nPlease provide a concise summary (maximum 2-3 short bullet points, under 60 words total) of the most salient or informative patterns across this batch:\n1. Key Discriminators: What specific semantic characteristics most strongly separated the differing behaviors or measurement extremes?\n2. Boundaries & Counterexamples: Were there any surprising edge cases, anomalies, or instances where the expected pattern held weakly or failed?\n\nCRITICAL RULES:\n- Do NOT explain general domain mechanisms or write lengthy mechanical explanations (keep it strictly high-level semantic tags).\n- Do NOT output raw prompts, raw responses, or full concrete examples (especially avoid returning image artifacts) as this takes up too much context length.\n- If results were entirely uniform with no counterexamples, state the dominant discriminator in 1 sentence.\n- Do *not* proceed to other steps such as statistical tests. Output your summary directly as text."
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [],
+    "kind": "model_turn",
+    "scrape_round": 4,
+    "text": "- Answer length follows the prompt tag.",
+    "thought_text": "",
+    "tool_round": 1
+   },
+   {
+    "agent_model": "fake-agent-model",
+    "enable_tools": true,
+    "history_turns_before": 8,
+    "kind": "prompt",
+    "scrape_round": 4,
+    "text": "    Now use your stats tools (e.g. `run_proportion_z_test` or     `run_mcnemar_test`) to calculate the p-value for your     results.\n\n    Before calling the tool, briefly describe your statistical test arguments:\n    1. The target pattern/metric being tested.\n    2. The null baseline rate or comparison group.\n    3. The hypothesized direction ('larger', 'smaller', or 'two-sided') and why it matches your hypothesis.\n\n    IMPORTANT: You MUST specify the `alternative` parameter matching your hypothesis     direction: use 'larger' if testing that the behavior rate or mean is GREATER than     the null/Group B, 'smaller' if testing that it is LESS than the null/Group B,     or 'two-sided' only if testing for a non-directional difference.\n    You MUST state the test and key statistics in this format:\nTEST_TYPE: <type> (Select from: [One-sample: 'Binomial test', 'Continuous means test']     OR [Two-sample: 'Fisher's Exact Test']     OR [Paired: 'McNemar's Test', 'Paired continuous test'])\nGROUP_A_MEAN: <number> (Required. Use success rate for binary or mean for continuous)\nGROUP_A_OBS: <number> (Required. Total observations)\nGROUP_B_MEAN: <number> (Only for 2-sample tests)\nGROUP_B_OBS: <number> (Only for 2-sample tests)\nP-VALUE: <float>\nREASONING: <brief 1-2 sentence explanation of your test setup, why this direction was chosen, and how it aligns with your hypothesis>"
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [
+     {
+      "args": {
+       "alternative": "smaller",
+       "n_obs": 3,
+       "n_successes": 0,
+       "null_proportion": 0.9
+      },
+      "name": "run_proportion_z_test"
+     }
+    ],
+    "kind": "model_turn",
+    "scrape_round": 4,
+    "text": "",
+    "thought_text": "",
+    "tool_round": 1
+   },
+   {
+    "args": {
+     "alternative": "smaller",
+     "n_obs": 3,
+     "n_successes": 0,
+     "null_proportion": 0.9
+    },
+    "is_error": false,
+    "kind": "tool_call",
+    "name": "run_proportion_z_test",
+    "result": "One-Sample Proportion Test Results:\n- Method: Binomial test (exact)\n- Sample proportion: 0.0000 (0/3)\n- Null proportion: 0.9000\n- Statistic: N/A (exact)\n- Alternative: smaller\n- P-value: 0.001000\n",
+    "scrape_round": 4,
+    "tool_round": 1
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [],
+    "kind": "model_turn",
+    "scrape_round": 4,
+    "text": "TEST_TYPE: Binomial test\nGROUP_A_MEAN: 0.0\nGROUP_A_OBS: 3\nNULL_PROPORTION: 0.9\nALTERNATIVE: smaller\nP-VALUE: 0.001000\nREASONING: Exact binomial test of the symmetry pass rate against the reference accuracy.",
+    "thought_text": "",
+    "tool_round": 2
+   },
+   {
+    "kind": "clear_history",
+    "scrape_round": 0,
+    "turns_dropped": 2
+   },
+   {
+    "agent_model": "fake-agent-model",
+    "enable_tools": true,
+    "history_turns_before": 0,
+    "kind": "prompt",
+    "scrape_round": 0,
+    "text": "\n--- Hypothesis History (DISCO Mode) ---\nID: circle_fails (The target model fails to complete circle probes symmetrically.) [INACTIVE - EXITED-LOW, 1 probes] [WEAK EVIDENCE]\n  Probe transition scores: -1.198\nID: square_fails (The target model fails to complete square probes symmetrically.) [ACTIVE, 0 probes]\nID: dots_fails (The target model fails to complete dots probes symmetrically.) [INACTIVE - EXITED-HIGH, 1 probes] [STRONG EVIDENCE]\n  Probe transition scores: +2.905\nThresholds: e_min=0.99, e_max=50.0\nAll hypotheses will be tested at the end via e-BH.\n------------------------------------------\n\nCurrently ACTIVE hypotheses you can probe:\n  - square_fails: The target model fails to complete square probes symmetrically.\n\nStrategic Decision Guidelines for Probing:\n- Evidence compounds across probe rounds for each hypothesis.\n- Qualitative evidence tags summarize current progress: [WEAK EVIDENCE] (E < 0.99), [MODERATE EVIDENCE] (0.99 <= E < 50.0), [STRONG EVIDENCE] (E >= 50.0).\n- At the end of the budget, all hypotheses are evaluated jointly with e-BH false discovery rate control.\n- Re-probing a promising hypothesis deepens evidence; proposing new hypotheses broadens coverage.\n- Positive transition scores indicate accumulating evidence for the hypothesized behavior.\n- In particular, hypotheses with [MODERATE EVIDENCE] and positive transition scores (pushing toward log(E_max) +3.91) are accumulating evidence \u2014 following up on them can push them to [STRONG EVIDENCE] / discovery!\n- If an active hypothesis has negative transition scores (indicating the target model consistently contradicts the hypothesis), do NOT repeat the same failed query types. Only re-probe if you can formulate fresh, diverse queries; otherwise, propose a NEW hypothesis.\n\nYou are inside the DISCO loop. Target model: fake-target-model. Task: Discover behavior patterns relevant to 'Find visual symmetry completion patterns where the target model fails.'.\n\n    Choose ONE of the following actions:\n    (a) Probe an existing ACTIVE hypothesis by returning its ID (must be from the Currently ACTIVE list above).\n    (b) Propose a NEW hypothesis not yet investigated.\n    Reminder: active hypotheses will remain active, so you can freely explore new directions and return to active ones later. Hypotheses marked [INACTIVE - ...] have finished evaluation and CANNOT be probed again.\n\n    If proposing a new hypothesis:\n    - It must be different from all existing hypotheses listed above.\n    - Synthesize patterns from past evidence: Review the history table and compare hypotheses marked [STRONG EVIDENCE] / [EXITED-HIGH] against those marked [WEAK EVIDENCE] / [EXITED-LOW] to identify shared latent properties or common characteristics among past successes (e.g., structural complexity, cultural context requirements, step count, input style).\n    - Avoid narrow template spam: Do NOT propose trivial 1-to-1 lexical substitutions within the exact same sub-category (e.g., if 'list 3 nouns' failed, do not propose 'list 3 verbs'; if 'classic tacos' succeeded, do not merely propose 'classic burritos').\n    - Generalize and transfer: Exploring distinct domains that share an underlying pattern or testing an abstracted rule discovered from previous successes is strongly ENCOURAGED.\n    - The hypothesis MUST be detailed and operationalized: describe the behavioral pattern AND specify the measurement method (e.g. proportion z-test, McNemar test), null baseline proportion, and what constitutes a positive result. Do NOT state or assume a different number of queries in your hypothesis text. Describe in under 1000 characters.\n\n    Please state your response using two fields:\n    'HYPOTHESIS_ID: <the_id_of_the_hypothesis>'\n    'HYPOTHESIS: <the_text_of_the_hypothesis>'\n\n    If probing an existing hypothesis, use its existing ID and text.\n    If proposing a new one, create a new short semantic snake_case ID.\n    Do not proceed to other steps."
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [],
+    "kind": "model_turn",
+    "scrape_round": 0,
+    "text": "HYPOTHESIS_ID: wave_lines_fails\nHYPOTHESIS: The target model fails to complete wave lines probes symmetrically.",
+    "thought_text": "",
+    "tool_round": 1
+   },
+   {
+    "agent_model": "fake-agent-model",
+    "enable_tools": false,
+    "history_turns_before": 0,
+    "kind": "prompt",
+    "scrape_round": 4,
+    "text": "You are a sub-agent in an automated visual symmetry capability discovery system.\nYou are testing the target model 'fake-target-model' on visual reflection symmetry completion.\n\nTASK SPECIFICATION:\n- The input to the target model is a text and image combination.\n- The image contains a pattern on the left side and is empty (background) on the right side.\n  The image is created by first creating a left-right vertically symmetric image and deleting the right half.\n- The text prompt sent to the target model is FIXED and identical for every probe. It is:\n      \"Reflect the pattern on the left half along the central vertical axis to complete the blank right half. Keep the existing colored pattern on the left without modification. The resulting image should be perfectly symmetric about the vertical center axis.\"\n  It does NOT disclose what the pattern is, and it cannot be changed.\n- Your probing tool is `generate_and_send_symmetry_probes`:\n  It generates multimodal probes for a given shape_type, drawn from\n  12 base families ('chinese_char', 'circle', 'dots', 'english_letter', 'greek_letter', 'heart', 'plus', 'random_dense', 'random_sparse', 'square', 'stripes', 'triangle') and 10 deliberately harder, finer-stroked families with more parts and more internal structure ('complex_chinese', 'fine_noise', 'filigree', 'maze', 'multi_glyph', 'nested_outlines', 'scatter_rings', 'snowflake', 'starburst', 'wave_lines').\n  It also accepts a `bg_color` drawn from a fixed palette of 10 background colours ('white', 'black', 'lightgray', 'lightyellow', 'lightblue', 'mistyrose', 'honeydew', 'lavender', 'navy', 'darkslategray');\n  the background is a property of the whole batch, so hold it fixed within a condition.\n  It pairs each image with the fixed prompt above, sends them to the target model,\n  and stores the generated output images.\n- Your evaluation tool is `score_symmetry_completions`:\n  A completion counts as a Success when BOTH hold: (a) SYMMETRY -- the returned image is symmetric about its own vertical centre axis, agreement >= 0.90 between its right half and its mirrored left half; and (b) PRESERVATION -- it kept the left half it was given, agreement >= 0.80 against the probe. Criterion (b) is required because a blank canvas satisfies (a) perfectly. Agreement is a tolerant F1 with a 2 pixel match tolerance at the 320px probe resolution, NOT a raw ink-mask IoU: raw IoU charges the model for stroke weight, which made the score track how thin the shape was rather than how well it reflected.\n- Your statistical test tool is `run_proportion_z_test`:\n  Tests the success rate against the null baseline accuracy of 90% (0.9).\n\nYour workflow for testing the assigned Hypothesis (H) with EXACTLY 3 probes will be:\n1. Receive the assigned Hypothesis H and context.\n2. In Step 4, run `generate_and_send_symmetry_probes` with the shape_type (and bg_color) that specifically tests H.\n3. In Step 4, run `score_symmetry_completions` to algorithmically evaluate the output images.\n4. In Step 5, report the P-value from `run_proportion_z_test` using the algorithmic success count.\n\nPlease acknowledge that you have received this task specification and wait for the hypothesis and testing instructions. Do not run any tools yet.\n"
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [],
+    "kind": "model_turn",
+    "scrape_round": 4,
+    "text": "Acknowledged. Waiting for the next instruction.",
+    "thought_text": "",
+    "tool_round": 1
+   },
+   {
+    "agent_model": "fake-agent-model",
+    "enable_tools": false,
+    "history_turns_before": 2,
+    "kind": "prompt",
+    "scrape_round": 4,
+    "text": "You are a fresh agent helper for a DISCO probe round with coarsened e-value feedback. You are assisting with the hypothesis:\nHYPOTHESIS: The target model fails to complete wave lines probes symmetrically.\n\nStatus: Active (probed 0 times, coarsened status: A)\nThresholds: e_min=0.99, e_max=50.0\n\nYou can see salient examples from this hypothesis - use them as extra information if necessary.\n\nPlease acknowledge that you have received this hypothesis and context, and wait for the next instruction. Do not start generating queries or running tools yet."
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [],
+    "kind": "model_turn",
+    "scrape_round": 4,
+    "text": "Acknowledged. Waiting for the next instruction.",
+    "thought_text": "",
+    "tool_round": 1
+   },
+   {
+    "agent_model": "fake-agent-model",
+    "enable_tools": true,
+    "history_turns_before": 4,
+    "kind": "prompt",
+    "scrape_round": 4,
+    "text": "Now use your symmetry tools to test this hypothesis with EXACTLY 3 visual probes.\n\nHYPOTHESIS: The target model fails to complete wave lines probes symmetrically.\n\nTASK REQUIREMENTS:\n- The input to the target model must be a text and image combination.\n- The image contains a pattern in the left side of the image and is empty (background) in the right side.\n  The image is created by first creating a left-right vertically symmetric image and deleting the right half.\n- The text prompt is FIXED and identical for every probe:\n      \"Reflect the pattern on the left half along the central vertical axis to complete the blank right half. Keep the existing colored pattern on the left without modification. The resulting image should be perfectly symmetric about the vertical center axis.\"\n  It does NOT disclose what the pattern is, and you cannot change it.\n- Scoring is algorithmic. A completion counts as a Success when BOTH hold: (a) SYMMETRY -- the returned image is symmetric about its own vertical centre axis, agreement >= 0.90 between its right half and its mirrored left half; and (b) PRESERVATION -- it kept the left half it was given, agreement >= 0.80 against the probe. Criterion (b) is required because a blank canvas satisfies (a) perfectly. Agreement is a tolerant F1 with a 2 pixel match tolerance at the 320px probe resolution, NOT a raw ink-mask IoU: raw IoU charges the model for stroke weight, which made the score track how thin the shape was rather than how well it reflected.\n\nCRITICAL EXECUTION INSTRUCTIONS:\n1. Call `generate_and_send_symmetry_probes` with:\n   - `shape_type`: choose the family that directly matches your HYPOTHESIS.\n     If the hypothesis is about a hard, fine-stroked or many-part pattern, you MUST\n     use the specific hard family ('complex_chinese', 'fine_noise', 'filigree', 'maze', 'multi_glyph', 'nested_outlines', 'scatter_rings', 'snowflake', 'starburst', 'wave_lines')\n     rather than its easier look-alike -- e.g. use 'complex_chinese', NOT 'chinese_char',\n     for high-stroke-count Hanzi.\n     Available shape types: ['chinese_char', 'circle', 'complex_chinese', 'dots', 'dynamic', 'english_letter', 'filigree', 'fine_noise', 'greek_letter', 'heart', 'maze', 'multi_glyph', 'nested_outlines', 'plus', 'random_dense', 'random_sparse', 'scatter_rings', 'snowflake', 'square', 'starburst', 'stripes', 'triangle', 'wave_lines'].\n   - `bg_color`: if your HYPOTHESIS is about background colour, set it explicitly.\n     Otherwise leave it at the default 'white'. Hold it FIXED across the batch.\n     Available backgrounds: ['white', 'black', 'lightgray', 'lightyellow', 'lightblue', 'mistyrose', 'honeydew', 'lavender', 'navy', 'darkslategray'].\n   - `n_probes`: 3\n2. Next, call `score_symmetry_completions()` to algorithmically score the completions.\n   Pass `success_criterion`: name the criterion your HYPOTHESIS is actually about.\n     * 'both' (default): the conjunction of symmetry AND preservation. Use this unless your hypothesis is specifically about one half of it.\n     * 'symmetry': only whether the output is self-symmetric. Note a blank canvas passes this, so prefer it for FAILURE claims.\n     * 'preservation': only whether the given left half survived unmodified.\n     Do NOT base a claim on 'reconstruction' (similarity to the hidden ground truth): it is reported for reference but the reference accuracy rate is not calibrated for it.\n3. Do NOT call statistical testing tools (`run_proportion_z_test`) during this step.\n   Statistical testing will be performed in Step 5.\n4. Summarize the resulting pass rate, the per-criterion rates, and observations.\n\nRun your tools now."
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [
+     {
+      "args": {
+       "n_probes": 3,
+       "shape_type": "circle"
+      },
+      "name": "generate_and_send_symmetry_probes"
+     }
+    ],
+    "kind": "model_turn",
+    "scrape_round": 4,
+    "text": "",
+    "thought_text": "",
+    "tool_round": 1
+   },
+   {
+    "args": {
+     "n_probes": 3,
+     "shape_type": "circle"
+    },
+    "is_error": false,
+    "kind": "tool_call",
+    "name": "generate_and_send_symmetry_probes",
+    "result": "{\"n_probes_sent\": 3, \"samples_per_probe\": 1, \"total_requests\": 3, \"n_valid_outputs\": 3, \"n_empty\": 0, \"n_backfill_attempts\": 0, \"n_backfilled\": 0, \"shape_type\": \"circle\", \"save_dir\": \"<OUT>/smoke/responses_round_005\", \"message\": \"Sent 3 symmetry probes with 1 samples each for circle (3 requests total). Got 3 valid image outputs. Call score_symmetry_completions to evaluate (supports pass@k).\"}",
+    "scrape_round": 5,
+    "tool_round": 1
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [
+     {
+      "args": {},
+      "name": "score_symmetry_completions"
+     }
+    ],
+    "kind": "model_turn",
+    "scrape_round": 5,
+    "text": "",
+    "thought_text": "",
+    "tool_round": 2
+   },
+   {
+    "args": {},
+    "is_error": false,
+    "kind": "tool_call",
+    "name": "score_symmetry_completions",
+    "result": "{\"n_probes\": 3, \"n_probes_valid\": 3, \"n_probes_invalid\": 0, \"k\": 1, \"n_probes_passed\": 3, \"n_probes_failed\": 0, \"pass_at_k_rate\": 1.0, \"total_samples\": 3, \"total_samples_passed\": 3, \"pass_at_1_rate\": 1.0, \"delta_e_threshold\": 10.0, \"max_incorrect_for_success\": 0, \"per_probe\": [{\"probe_idx\": 0, \"valid\": true, \"passed\": true, \"n_samples\": 1, \"n_samples_passed\": 1, \"sample_scores\": [{\"sample_idx\": 0, \"success\": true, \"iou\": 1.0, \"iou_self_mirror\": 1.0, \"left_fidelity\": 1.0, \"iou_vs_ground_truth\": 1.0, \"raw_iou_self_mirror\": 1.0, \"raw_left_fidelity\": 1.0, \"raw_iou_vs_ground_truth\": 1.0, \"output_bg_drift\": 0.0, \"success_self_mirror\": true, \"success_left_fidelity\": true, \"success_ground_truth\": true, \"n_incorrect\": 0, \"n_incorrect_right\": 0, \"accuracy\": 1.0, \"mean_delta_e\": 0.0}]}, {\"probe_idx\": 1, \"valid\": true, \"passed\": true, \"n_samples\": 1, \"n_samples_passed\": 1, \"sample_scores\": [{\"sample_idx\": 0, \"success\": true, \"iou\": 1.0, \"iou_self_mirror\": 1.0, \"left_fidelity\": 1.0, \"iou_vs_ground_truth\": 1.0, \"raw_iou_self_mirror\": 1.0, \"raw_left_fidelity\": 1.0, \"raw_iou_vs_ground_truth\": 1.0, \"output_bg_drift\": 0.0, \"success_self_mirror\": true, \"success_left_fidelity\": true, \"success_ground_truth\": true, \"n_incorrect\": 0, \"n_incorrect_right\": 0, \"accuracy\": 1.0, \"mean_delta_e\": 0.0}]}, {\"probe_idx\": 2, \"valid\": true, \"passed\": true, \"n_samples\": 1, \"n_samples_passed\": 1, \"sample_scores\": [{\"sample_idx\": 0, \"success\": true, \"iou\": 1.0, \"iou_self_mirror\": 1.0, \"left_fidelity\": 1.0, \"iou_vs_ground_truth\": 1.0, \"raw_iou_self_mirror\": 1.0, \"raw_left_fidelity\": 1.0, \"raw_iou_vs_ground_truth\": 1.0, \"output_bg_drift\": 0.0, \"success_self_mirror\": true, \"success_left_fidelity\": true, \"success_ground_truth\": true, \"n_incorrect\": 0, \"n_incorrect_right\": 0, \"accuracy\": 1.0, \"mean_delta_e\": 0.0}]}], \"message\": \"Scored 3 visual symmetry completions algorithmically against ground truth. Results: 3/3 passed (rate=100.00%). In Step 5, report this using `run_proportion_z_test(n_successes=3, n_obs=3, null_proportion=0.90, alternative='larger'|'smaller')`.\"}",
+    "scrape_round": 5,
+    "tool_round": 2
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [],
+    "kind": "model_turn",
+    "scrape_round": 5,
+    "text": "Scored the symmetry completions algorithmically.",
+    "thought_text": "",
+    "tool_round": 3
+   },
+   {
+    "agent_model": "fake-agent-model",
+    "enable_tools": true,
+    "history_turns_before": 10,
+    "kind": "prompt",
+    "scrape_round": 6,
+    "text": "Step 4b: Salient Pattern & Boundary Extraction\nLook at the results and measurements from the queries you just executed.\n\nPlease provide a concise summary (maximum 2-3 short bullet points, under 60 words total) of the most salient or informative patterns across this batch:\n1. Key Discriminators: What specific semantic characteristics most strongly separated the differing behaviors or measurement extremes?\n2. Boundaries & Counterexamples: Were there any surprising edge cases, anomalies, or instances where the expected pattern held weakly or failed?\n\nCRITICAL RULES:\n- Do NOT explain general domain mechanisms or write lengthy mechanical explanations (keep it strictly high-level semantic tags).\n- Do NOT output raw prompts, raw responses, or full concrete examples (especially avoid returning image artifacts) as this takes up too much context length.\n- If results were entirely uniform with no counterexamples, state the dominant discriminator in 1 sentence.\n- Do *not* proceed to other steps such as statistical tests. Output your summary directly as text."
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [],
+    "kind": "model_turn",
+    "scrape_round": 6,
+    "text": "- Answer length follows the prompt tag.",
+    "thought_text": "",
+    "tool_round": 1
+   },
+   {
+    "agent_model": "fake-agent-model",
+    "enable_tools": true,
+    "history_turns_before": 12,
+    "kind": "prompt",
+    "scrape_round": 6,
+    "text": "    Now use your stats tools (e.g. `run_proportion_z_test` or     `run_mcnemar_test`) to calculate the p-value for your     results.\n\n    Before calling the tool, briefly describe your statistical test arguments:\n    1. The target pattern/metric being tested.\n    2. The null baseline rate or comparison group.\n    3. The hypothesized direction ('larger', 'smaller', or 'two-sided') and why it matches your hypothesis.\n\n    IMPORTANT: You MUST specify the `alternative` parameter matching your hypothesis     direction: use 'larger' if testing that the behavior rate or mean is GREATER than     the null/Group B, 'smaller' if testing that it is LESS than the null/Group B,     or 'two-sided' only if testing for a non-directional difference.\n    You MUST state the test and key statistics in this format:\nTEST_TYPE: <type> (Select from: [One-sample: 'Binomial test', 'Continuous means test']     OR [Two-sample: 'Fisher's Exact Test']     OR [Paired: 'McNemar's Test', 'Paired continuous test'])\nGROUP_A_MEAN: <number> (Required. Use success rate for binary or mean for continuous)\nGROUP_A_OBS: <number> (Required. Total observations)\nGROUP_B_MEAN: <number> (Only for 2-sample tests)\nGROUP_B_OBS: <number> (Only for 2-sample tests)\nP-VALUE: <float>\nREASONING: <brief 1-2 sentence explanation of your test setup, why this direction was chosen, and how it aligns with your hypothesis>"
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [
+     {
+      "args": {
+       "alternative": "smaller",
+       "n_obs": 3,
+       "n_successes": 3,
+       "null_proportion": 0.9
+      },
+      "name": "run_proportion_z_test"
+     }
+    ],
+    "kind": "model_turn",
+    "scrape_round": 6,
+    "text": "",
+    "thought_text": "",
+    "tool_round": 1
+   },
+   {
+    "args": {
+     "alternative": "smaller",
+     "n_obs": 3,
+     "n_successes": 3,
+     "null_proportion": 0.9
+    },
+    "is_error": false,
+    "kind": "tool_call",
+    "name": "run_proportion_z_test",
+    "result": "One-Sample Proportion Test Results:\n- Method: Binomial test (exact)\n- Sample proportion: 1.0000 (3/3)\n- Null proportion: 0.9000\n- Statistic: N/A (exact)\n- Alternative: smaller\n- P-value: 1.000000\n- Note: Sample proportion (1.0000) is above null (0.9000); one-sided p-value for 'smaller' is 1.000000.\n",
+    "scrape_round": 6,
+    "tool_round": 1
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [],
+    "kind": "model_turn",
+    "scrape_round": 6,
+    "text": "TEST_TYPE: Binomial test\nGROUP_A_MEAN: 1.0\nGROUP_A_OBS: 3\nNULL_PROPORTION: 0.9\nALTERNATIVE: smaller\nP-VALUE: 1.000000\nREASONING: Exact binomial test of the symmetry pass rate against the reference accuracy.",
+    "thought_text": "",
+    "tool_round": 2
+   }
+  ],
+  "checkpoint.json": {
+   "budget": 9,
+   "current_round": 5,
+   "extra": {
+    "active_hypotheses": [
+     "square_fails"
+    ],
+    "bin_trajectories": {
+     "circle_fails": [
+      0
+     ],
+     "dots_fails": [
+      2
+     ],
+     "square_fails": [],
+     "wave_lines_fails": [
+      0
+     ]
+    },
+    "final_e_values": {
+     "circle_fails": 0.2244211075315921,
+     "dots_fails": 154.31881942610565,
+     "wave_lines_fails": 0.4694680139721404
+    },
+    "k_total": 4,
+    "prev_bins": {
+     "square_fails": 1
+    },
+    "probe_counts": {
+     "circle_fails": 1,
+     "dots_fails": 1,
+     "square_fails": 0,
+     "wave_lines_fails": 1
+    },
+    "running_e_values": {
+     "square_fails": 1.0
+    },
+    "skip_counts": {
+     "auditor_side": 0,
+     "short": 0,
+     "target_side": 1
+    },
+    "terminal_statuses": {
+     "circle_fails": "L",
+     "dots_fails": "H",
+     "wave_lines_fails": "L"
+    },
+    "transition_scores": {
+     "circle_fails": [
+      -1.1982481084783894
+     ],
+     "dots_fails": [
+      2.9046303934005304
+     ],
+     "square_fails": [],
+     "wave_lines_fails": [
+      -1.1982481084783894
+     ]
+    }
+   },
+   "hypothesis_groups": {
+    "circle_fails": {
+     "e_values": [
+      {
+       "cumulative_queries": 3,
+       "e_value": 0.2244211075315921,
+       "sub_hypothesis": "The target model fails to complete circle probes symmetrically."
+      }
+     ],
+     "executed_queries": [
+      "Reflect the pattern on the left half along the central vertical axis to complete the blank right half. Keep the existing colored pattern on the left without modification. The resulting image should be perfectly symmetric about the vertical center axis."
+     ],
+     "failure_reflections": [
+      "- Answer length follows the prompt tag."
+     ],
+     "failures": [
+      {
+       "judgment": "Success",
+       "prompt": "symmetry_probe_0",
+       "reasoning": "pass@1=Success: 1/1 completions succeeded (IoU >= 0.9).",
+       "response": "pass@1=True (1/1 samples passed, mean_iou=1.000)"
+      },
+      {
+       "judgment": "Success",
+       "prompt": "symmetry_probe_1",
+       "reasoning": "pass@1=Success: 1/1 completions succeeded (IoU >= 0.9).",
+       "response": "pass@1=True (1/1 samples passed, mean_iou=1.000)"
+      },
+      {
+       "judgment": "Success",
+       "prompt": "symmetry_probe_2",
+       "reasoning": "pass@1=Success: 1/1 completions succeeded (IoU >= 0.9).",
+       "response": "pass@1=True (1/1 samples passed, mean_iou=1.000)"
+      }
+     ],
+     "queries": 3,
+     "sub_hypotheses": [],
+     "text": "The target model fails to complete circle probes symmetrically."
+    },
+    "dots_fails": {
+     "e_values": [
+      {
+       "cumulative_queries": 6,
+       "e_value": 154.31881942610565,
+       "sub_hypothesis": "The target model fails to complete dots probes symmetrically."
+      }
+     ],
+     "executed_queries": [
+      "Reflect the pattern on the left half along the central vertical axis to complete the blank right half. Keep the existing colored pattern on the left without modification. The resulting image should be perfectly symmetric about the vertical center axis."
+     ],
+     "failure_reflections": [
+      "- Answer length follows the prompt tag."
+     ],
+     "failures": [
+      {
+       "judgment": "Failure",
+       "prompt": "symmetry_probe_0",
+       "reasoning": "pass@1=Failure: 0/1 completions succeeded (IoU >= 0.9).",
+       "response": "pass@1=False (0/1 samples passed, mean_iou=0.000)"
+      },
+      {
+       "judgment": "Failure",
+       "prompt": "symmetry_probe_1",
+       "reasoning": "pass@1=Failure: 0/1 completions succeeded (IoU >= 0.9).",
+       "response": "pass@1=False (0/1 samples passed, mean_iou=0.000)"
+      },
+      {
+       "judgment": "Failure",
+       "prompt": "symmetry_probe_2",
+       "reasoning": "pass@1=Failure: 0/1 completions succeeded (IoU >= 0.9).",
+       "response": "pass@1=False (0/1 samples passed, mean_iou=0.000)"
+      }
+     ],
+     "queries": 3,
+     "sub_hypotheses": [],
+     "text": "The target model fails to complete dots probes symmetrically."
+    },
+    "square_fails": {
+     "e_values": [],
+     "executed_queries": [],
+     "failure_reflections": [],
+     "failures": [],
+     "queries": 0,
+     "sub_hypotheses": [],
+     "text": "The target model fails to complete square probes symmetrically."
+    },
+    "wave_lines_fails": {
+     "e_values": [
+      {
+       "cumulative_queries": 9,
+       "e_value": 0.4694680139721404,
+       "sub_hypothesis": "The target model fails to complete wave lines probes symmetrically."
+      }
+     ],
+     "executed_queries": [
+      "Reflect the pattern on the left half along the central vertical axis to complete the blank right half. Keep the existing colored pattern on the left without modification. The resulting image should be perfectly symmetric about the vertical center axis."
+     ],
+     "failure_reflections": [
+      "- Answer length follows the prompt tag."
+     ],
+     "failures": [
+      {
+       "judgment": "Success",
+       "prompt": "symmetry_probe_0",
+       "reasoning": "pass@1=Success: 1/1 completions succeeded (IoU >= 0.9).",
+       "response": "pass@1=True (1/1 samples passed, mean_iou=1.000)"
+      },
+      {
+       "judgment": "Success",
+       "prompt": "symmetry_probe_1",
+       "reasoning": "pass@1=Success: 1/1 completions succeeded (IoU >= 0.9).",
+       "response": "pass@1=True (1/1 samples passed, mean_iou=1.000)"
+      },
+      {
+       "judgment": "Success",
+       "prompt": "symmetry_probe_2",
+       "reasoning": "pass@1=Success: 1/1 completions succeeded (IoU >= 0.9).",
+       "response": "pass@1=True (1/1 samples passed, mean_iou=1.000)"
+      }
+     ],
+     "queries": 3,
+     "sub_hypotheses": [],
+     "text": "The target model fails to complete wave lines probes symmetrically."
+    }
+   },
+   "remaining_budget": 0,
+   "runner_title": "DISCO",
+   "total_scrape_rounds": 6
+  },
+  "fdr_bounds.json": {
+   "alpha_sweep": [
+    {
+     "alpha_target": 0.010000000000000002,
+     "confidence": 0.98,
+     "delta_post": 0.02,
+     "epsilon_post": 0.0,
+     "marginal_posthoc": 0.02,
+     "nominal_alpha": 0.0,
+     "num_discoveries": 0,
+     "rejected_hypotheses": [],
+     "rejection_threshold": "Infinity"
+    },
+    {
+     "alpha_target": 0.017411591169727347,
+     "confidence": 0.98,
+     "delta_post": 0.02,
+     "epsilon_post": 0.0,
+     "marginal_posthoc": 0.02,
+     "nominal_alpha": 0.0,
+     "num_discoveries": 0,
+     "rejected_hypotheses": [],
+     "rejection_threshold": "Infinity"
+    },
+    {
+     "alpha_target": 0.02686516928550838,
+     "confidence": 0.98,
+     "delta_post": 0.02,
+     "epsilon_post": 0.00625,
+     "marginal_posthoc": 0.026250000000000002,
+     "nominal_alpha": 0.004685401916503906,
+     "num_discoveries": 1,
+     "rejected_hypotheses": [
+      "dots_fails"
+     ],
+     "rejection_threshold": 853.7154488092815
+    },
+    {
+     "alpha_target": 0.0383607343473431,
+     "confidence": 0.98,
+     "delta_post": 0.02,
+     "epsilon_post": 0.018055555555555554,
+     "marginal_posthoc": 0.03805555555555555,
+     "nominal_alpha": 0.010846138000488281,
+     "num_discoveries": 1,
+     "rejected_hypotheses": [
+      "dots_fails"
+     ],
+     "rejection_threshold": 368.7948650312143
+    },
+    {
+     "alpha_target": 0.05,
+     "confidence": 0.98,
+     "delta_post": 0.02,
+     "epsilon_post": 0.02986111111111111,
+     "marginal_posthoc": 0.049861111111111106,
+     "nominal_alpha": 0.014141082763671875,
+     "num_discoveries": 1,
+     "rejected_hypotheses": [
+      "dots_fails"
+     ],
+     "rejection_threshold": 282.8637712435932
+    },
+    {
+     "alpha_target": 0.051898286355231506,
+     "confidence": 0.98,
+     "delta_post": 0.02,
+     "epsilon_post": 0.030902777777777776,
+     "marginal_posthoc": 0.050902777777777776,
+     "nominal_alpha": 0.014237403869628906,
+     "num_discoveries": 1,
+     "rejected_hypotheses": [
+      "dots_fails"
+     ],
+     "rejection_threshold": 280.9500971263983
+    },
+    {
+     "alpha_target": 0.0674778253091736,
+     "confidence": 0.98,
+     "delta_post": 0.02,
+     "epsilon_post": 0.046875,
+     "marginal_posthoc": 0.066875,
+     "nominal_alpha": 0.01987457275390625,
+     "num_discoveries": 1,
+     "rejected_hypotheses": [
+      "dots_fails"
+     ],
+     "rejection_threshold": 201.26218809980807
+    },
+    {
+     "alpha_target": 0.0850993512091694,
+     "confidence": 0.98,
+     "delta_post": 0.02,
+     "epsilon_post": 0.06493055555555555,
+     "marginal_posthoc": 0.08493055555555555,
+     "nominal_alpha": 0.02867603302001953,
+     "num_discoveries": 1,
+     "rejected_hypotheses": [
+      "dots_fails"
+     ],
+     "rejection_threshold": 139.48930792510558
+    },
+    {
+     "alpha_target": 0.10476286405521884,
+     "confidence": 0.98,
+     "delta_post": 0.02,
+     "epsilon_post": 0.08402777777777777,
+     "marginal_posthoc": 0.10402777777777777,
+     "nominal_alpha": 0.03817272186279297,
+     "num_discoveries": 1,
+     "rejected_hypotheses": [
+      "dots_fails"
+     ],
+     "rejection_threshold": 104.78686886351713
+    },
+    {
+     "alpha_target": 0.126468363847322,
+     "confidence": 0.98,
+     "delta_post": 0.02,
+     "epsilon_post": 0.10590277777777776,
+     "marginal_posthoc": 0.12590277777777775,
+     "nominal_alpha": 0.0457000732421875,
+     "num_discoveries": 1,
+     "rejected_hypotheses": [
+      "dots_fails"
+     ],
+     "rejection_threshold": 87.52721202003339
+    },
+    {
+     "alpha_target": 0.1502158505854788,
+     "confidence": 0.98,
+     "delta_post": 0.02,
+     "epsilon_post": 0.13020833333333334,
+     "marginal_posthoc": 0.15020833333333333,
+     "nominal_alpha": 0.06015491485595703,
+     "num_discoveries": 1,
+     "rejected_hypotheses": [
+      "dots_fails"
+     ],
+     "rejection_threshold": 66.49498232319229
+    },
+    {
+     "alpha_target": 0.1760053242696894,
+     "confidence": 0.98,
+     "delta_post": 0.02,
+     "epsilon_post": 0.15590277777777778,
+     "marginal_posthoc": 0.17590277777777777,
+     "nominal_alpha": 0.069305419921875,
+     "num_discoveries": 1,
+     "rejected_hypotheses": [
+      "dots_fails"
+     ],
+     "rejection_threshold": 57.715543813298105
+    },
+    {
+     "alpha_target": 0.2038367848999536,
+     "confidence": 0.98,
+     "delta_post": 0.02,
+     "epsilon_post": 0.18333333333333332,
+     "marginal_posthoc": 0.2033333333333333,
+     "nominal_alpha": 0.07983779907226562,
+     "num_discoveries": 1,
+     "rejected_hypotheses": [
+      "dots_fails"
+     ],
+     "rejection_threshold": 50.101581537579435
+    },
+    {
+     "alpha_target": 0.23371023247627146,
+     "confidence": 0.98,
+     "delta_post": 0.02,
+     "epsilon_post": 0.21319444444444446,
+     "marginal_posthoc": 0.23319444444444445,
+     "nominal_alpha": 0.09213066101074219,
+     "num_discoveries": 1,
+     "rejected_hypotheses": [
+      "dots_fails"
+     ],
+     "rejection_threshold": 43.41659938306109
+    },
+    {
+     "alpha_target": 0.26562566699864304,
+     "confidence": 0.98,
+     "delta_post": 0.02,
+     "epsilon_post": 0.24513888888888888,
+     "marginal_posthoc": 0.26513888888888887,
+     "nominal_alpha": 0.10648155212402344,
+     "num_discoveries": 1,
+     "rejected_hypotheses": [
+      "dots_fails"
+     ],
+     "rejection_threshold": 37.56519246959357
+    },
+    {
+     "alpha_target": 0.2995830884670684,
+     "confidence": 0.98,
+     "delta_post": 0.02,
+     "epsilon_post": 0.2791666666666667,
+     "marginal_posthoc": 0.2991666666666667,
+     "nominal_alpha": 0.12174510955810547,
+     "num_discoveries": 1,
+     "rejected_hypotheses": [
+      "dots_fails"
+     ],
+     "rejection_threshold": 32.85552918321466
+    },
+    {
+     "alpha_target": 0.33558249688154734,
+     "confidence": 0.98,
+     "delta_post": 0.02,
+     "epsilon_post": 0.3145833333333333,
+     "marginal_posthoc": 0.33458333333333334,
+     "nominal_alpha": 0.1426239013671875,
+     "num_discoveries": 1,
+     "rejected_hypotheses": [
+      "dots_fails"
+     ],
+     "rejection_threshold": 28.045790093077994
+    },
+    {
+     "alpha_target": 0.3736238922420799,
+     "confidence": 0.98,
+     "delta_post": 0.02,
+     "epsilon_post": 0.35347222222222224,
+     "marginal_posthoc": 0.37347222222222226,
+     "nominal_alpha": 0.1605815887451172,
+     "num_discoveries": 1,
+     "rejected_hypotheses": [
+      "dots_fails"
+     ],
+     "rejection_threshold": 24.909455880082195
+    },
+    {
+     "alpha_target": 0.41370727454866624,
+     "confidence": 0.98,
+     "delta_post": 0.02,
+     "epsilon_post": 0.3920138888888889,
+     "marginal_posthoc": 0.4120138888888889,
+     "nominal_alpha": 0.1770620346069336,
+     "num_discoveries": 1,
+     "rejected_hypotheses": [
+      "dots_fails"
+     ],
+     "rejection_threshold": 22.590952424554164
+    },
+    {
+     "alpha_target": 0.4558326438013062,
+     "confidence": 0.98,
+     "delta_post": 0.02,
+     "epsilon_post": 0.4354166666666666,
+     "marginal_posthoc": 0.45541666666666664,
+     "nominal_alpha": 0.19559383392333984,
+     "num_discoveries": 1,
+     "rejected_hypotheses": [
+      "dots_fails"
+     ],
+     "rejection_threshold": 20.45054243155611
+    },
+    {
+     "alpha_target": 0.5000000000000001,
+     "confidence": 0.98,
+     "delta_post": 0.02,
+     "epsilon_post": 0.47951388888888885,
+     "marginal_posthoc": 0.49951388888888887,
+     "nominal_alpha": 0.2233123779296875,
+     "num_discoveries": 1,
+     "rejected_hypotheses": [
+      "dots_fails"
+     ],
+     "rejection_threshold": 17.912128459173214
+    }
+   ],
+   "bounds_report": {
+    "confidence": 0.98,
+    "kappa": 0.1741,
+    "nominal_calibrated_alpha": 0.014141082763671875,
+    "posthoc_delta": 0.02,
+    "posthoc_epsilon": 0.015821045393774023,
+    "posthoc_epsilon_boost": 0.02986111111111111,
+    "posthoc_marginal": 0.03582104539377402,
+    "posthoc_marginal_boost": 0.049861111111111106,
+    "prehoc_analytical_ceiling": "Infinity",
+    "prehoc_boosted": 3.015,
+    "prehoc_unboosted": 0.23358176015517484,
+    "target_alpha": 0.05
+   },
+   "hypotheses_data": {
+    "boost_factors": {
+     "circle_fails": 7.105926894131103,
+     "dots_fails": 7.105926894131103,
+     "square_fails": 7.105926894131103,
+     "wave_lines_fails": 7.105926894131103
+    },
+    "boosted_e_values": {
+     "circle_fails": 1.5947199836194286,
+     "dots_fails": 1096.5782492305254,
+     "square_fails": 7.105926894131103,
+     "wave_lines_fails": 3.3360053864189485
+    },
+    "final_e_values": {
+     "circle_fails": 0.2244211075315921,
+     "dots_fails": 154.31881942610565,
+     "square_fails": 1.0,
+     "wave_lines_fails": 0.4694680139721404
+    },
+    "probe_counts": {
+     "circle_fails": 1,
+     "dots_fails": 1,
+     "square_fails": 0,
+     "wave_lines_fails": 1
+    },
+    "terminal_statuses": {
+     "circle_fails": "L",
+     "dots_fails": "H",
+     "square_fails": "A",
+     "wave_lines_fails": "L"
+    }
+   },
+   "params": {
+    "agent_model": "fake-agent-model",
+    "alpha": 0.05,
+    "alpha_calibration_mode": "post_hoc",
+    "alpha_sweep_max": 0.5,
+    "alpha_sweep_min": 0.01,
+    "alpha_sweep_steps": 20,
+    "budget": 9,
+    "chunk_size": 3,
+    "e_max": 50.0,
+    "e_min": 0.99,
+    "kappa": 0.1741,
+    "n_max": 10,
+    "name": "smoke",
+    "num_active_bins": 1,
+    "output_dir": "<OUT>",
+    "seed": "Find visual symmetry completion patterns where the target model fails.",
+    "target_model": "fake-target-model",
+    "use_boosting": true
+   }
+  },
+  "flags.json": {
+   "agent_model": "fake-agent-model",
+   "agent_thinking_budget": null,
+   "agent_thinking_level": null,
+   "allow_continuous_means_test": true,
+   "alpha": 0.05,
+   "alpha_calibration_mode": "post_hoc",
+   "alpha_sweep_max": 0.5,
+   "alpha_sweep_min": 0.01,
+   "alpha_sweep_steps": 20,
+   "backbone_model": "",
+   "baseline_enforce_exit_low": false,
+   "baseline_exit_high": false,
+   "baseline_mode": false,
+   "baseline_type1_mode": false,
+   "budget": 9,
+   "chunk_size": 3,
+   "e_max": 50.0,
+   "e_min": 0.99,
+   "enable_hypothesis_checker": true,
+   "enforce_exit_low": true,
+   "experiment_name": "smoke",
+   "hypothesis_checker_max_retries": 2,
+   "hypothesis_checker_rules": [],
+   "isolated_query_gen_temperature": 1.0,
+   "kappa": 0.1741,
+   "log_to_console": false,
+   "max_concurrent_hypotheses": 5,
+   "max_consecutive_skips": 20,
+   "method": "disco",
+   "min_response_fraction": 0.9,
+   "n_max": 10,
+   "n_sim": 2000,
+   "num_active_bins": 1,
+   "output_dir": "<OUT>",
+   "p_value_mode": "randomized",
+   "paired": false,
+   "parser_model": "fake-parser-model",
+   "procedural_autorater": "",
+   "query_generation_mode": "standard",
+   "random_seed": null,
+   "rating_model": "fake-rater-model",
+   "run_precision_check": true,
+   "scrape_bandwidth": 1,
+   "seed_instruction": "Find visual symmetry completion patterns where the target model fails.",
+   "show_all_failures": false,
+   "show_intra_hypothesis_failures": true,
+   "single_batch_alpha": 0.05,
+   "single_batch_null_prob": null,
+   "single_batch_num_queries": 100,
+   "summarizer_model": "fake-rater-model",
+   "target_model": "fake-target-model",
+   "task_null_proportion": 0.0,
+   "task_suite": "",
+   "taxonomy_best_of_n": 3,
+   "taxonomy_depth": 3,
+   "taxonomy_use_critic": true,
+   "use_boosting": true,
+   "use_direction_guard": true,
+   "validate_stats_test": false
+  },
+  "responses_round_001/inputs/ground_truth_000.png": {
+   "png_mode": "RGB",
+   "png_size": [
+    320,
+    320
+   ]
+  },
+  "responses_round_001/inputs/ground_truth_001.png": {
+   "png_mode": "RGB",
+   "png_size": [
+    320,
+    320
+   ]
+  },
+  "responses_round_001/inputs/ground_truth_002.png": {
+   "png_mode": "RGB",
+   "png_size": [
+    320,
+    320
+   ]
+  },
+  "responses_round_001/inputs/probe_provenance.json": {
+   "answered_request_indices": [
+    0,
+    1,
+    2
+   ],
+   "n_backfill_attempts": 0,
+   "n_backfilled": 0,
+   "n_probes": 3,
+   "probe_image_index_by_request": [
+    0,
+    1,
+    2
+   ],
+   "sample_index_by_request": [
+    0,
+    0,
+    0
+   ],
+   "samples_per_probe": 1,
+   "total_requests": 3,
+   "unanswered_request_indices": []
+  },
+  "responses_round_001/inputs/prompt_000.png": {
+   "png_mode": "RGB",
+   "png_size": [
+    320,
+    320
+   ]
+  },
+  "responses_round_001/inputs/prompt_001.png": {
+   "png_mode": "RGB",
+   "png_size": [
+    320,
+    320
+   ]
+  },
+  "responses_round_001/inputs/prompt_002.png": {
+   "png_mode": "RGB",
+   "png_size": [
+    320,
+    320
+   ]
+  },
+  "responses_round_001/inputs/text_prompt.txt": "Reflect the pattern on the left half along the central vertical axis to complete the blank right half. Keep the existing colored pattern on the left without modification. The resulting image should be perfectly symmetric about the vertical center axis.",
+  "responses_round_001/response_000.txt": "",
+  "responses_round_001/response_000_img_0.png": {
+   "png_mode": "RGB",
+   "png_size": [
+    320,
+    320
+   ]
+  },
+  "responses_round_001/response_001.txt": "",
+  "responses_round_001/response_001_img_0.png": {
+   "png_mode": "RGB",
+   "png_size": [
+    320,
+    320
+   ]
+  },
+  "responses_round_001/response_002.txt": "",
+  "responses_round_001/response_002_img_0.png": {
+   "png_mode": "RGB",
+   "png_size": [
+    320,
+    320
+   ]
+  },
+  "responses_round_001/round_summary.json": [
+   {
+    "images": [
+     "response_000_img_0.png"
+    ],
+    "iou": 1.0,
+    "iou_self_mirror": 1.0,
+    "iou_vs_ground_truth": 1.0,
+    "left_fidelity": 1.0,
+    "passed": true,
+    "probe_idx": 0,
+    "prompt": "Reflect the pattern on the left half along the central vertical axis to complete the blank right half. Keep the existing colored pattern on the left without modification. The resulting image should be perfectly symmetric about the vertical center axis.",
+    "response_idx": 0,
+    "response_text": "",
+    "round": 1,
+    "sample_idx": 0,
+    "shape_type": "circle",
+    "success_ground_truth": true,
+    "success_left_fidelity": true,
+    "success_self_mirror": true
+   },
+   {
+    "images": [
+     "response_001_img_0.png"
+    ],
+    "iou": 1.0,
+    "iou_self_mirror": 1.0,
+    "iou_vs_ground_truth": 1.0,
+    "left_fidelity": 1.0,
+    "passed": true,
+    "probe_idx": 1,
+    "prompt": "Reflect the pattern on the left half along the central vertical axis to complete the blank right half. Keep the existing colored pattern on the left without modification. The resulting image should be perfectly symmetric about the vertical center axis.",
+    "response_idx": 1,
+    "response_text": "",
+    "round": 1,
+    "sample_idx": 0,
+    "shape_type": "circle",
+    "success_ground_truth": true,
+    "success_left_fidelity": true,
+    "success_self_mirror": true
+   },
+   {
+    "images": [
+     "response_002_img_0.png"
+    ],
+    "iou": 1.0,
+    "iou_self_mirror": 1.0,
+    "iou_vs_ground_truth": 1.0,
+    "left_fidelity": 1.0,
+    "passed": true,
+    "probe_idx": 2,
+    "prompt": "Reflect the pattern on the left half along the central vertical axis to complete the blank right half. Keep the existing colored pattern on the left without modification. The resulting image should be perfectly symmetric about the vertical center axis.",
+    "response_idx": 2,
+    "response_text": "",
+    "round": 1,
+    "sample_idx": 0,
+    "shape_type": "circle",
+    "success_ground_truth": true,
+    "success_left_fidelity": true,
+    "success_self_mirror": true
+   }
+  ],
+  "responses_round_001/scoring_results.json": {
+   "criterion_agreement": 1.0,
+   "k": 1,
+   "match_tolerance_px": 2.0,
+   "n_probes": 3,
+   "n_probes_invalid": 0,
+   "n_probes_passed": 3,
+   "n_probes_valid": 3,
+   "pass_at_1_rate": 1.0,
+   "pass_at_k_rate": 1.0,
+   "per_probe_results": [
+    {
+     "n_samples": 1,
+     "n_samples_passed": 1,
+     "passed": true,
+     "probe_idx": 0,
+     "sample_scores": [
+      {
+       "accuracy": 1.0,
+       "iou": 1.0,
+       "iou_self_mirror": 1.0,
+       "iou_vs_ground_truth": 1.0,
+       "left_fidelity": 1.0,
+       "mean_delta_e": 0.0,
+       "n_incorrect": 0,
+       "n_incorrect_right": 0,
+       "output_bg_drift": 0.0,
+       "raw_iou_self_mirror": 1.0,
+       "raw_iou_vs_ground_truth": 1.0,
+       "raw_left_fidelity": 1.0,
+       "sample_idx": 0,
+       "success": true,
+       "success_ground_truth": true,
+       "success_left_fidelity": true,
+       "success_self_mirror": true
+      }
+     ],
+     "valid": true
+    },
+    {
+     "n_samples": 1,
+     "n_samples_passed": 1,
+     "passed": true,
+     "probe_idx": 1,
+     "sample_scores": [
+      {
+       "accuracy": 1.0,
+       "iou": 1.0,
+       "iou_self_mirror": 1.0,
+       "iou_vs_ground_truth": 1.0,
+       "left_fidelity": 1.0,
+       "mean_delta_e": 0.0,
+       "n_incorrect": 0,
+       "n_incorrect_right": 0,
+       "output_bg_drift": 0.0,
+       "raw_iou_self_mirror": 1.0,
+       "raw_iou_vs_ground_truth": 1.0,
+       "raw_left_fidelity": 1.0,
+       "sample_idx": 0,
+       "success": true,
+       "success_ground_truth": true,
+       "success_left_fidelity": true,
+       "success_self_mirror": true
+      }
+     ],
+     "valid": true
+    },
+    {
+     "n_samples": 1,
+     "n_samples_passed": 1,
+     "passed": true,
+     "probe_idx": 2,
+     "sample_scores": [
+      {
+       "accuracy": 1.0,
+       "iou": 1.0,
+       "iou_self_mirror": 1.0,
+       "iou_vs_ground_truth": 1.0,
+       "left_fidelity": 1.0,
+       "mean_delta_e": 0.0,
+       "n_incorrect": 0,
+       "n_incorrect_right": 0,
+       "output_bg_drift": 0.0,
+       "raw_iou_self_mirror": 1.0,
+       "raw_iou_vs_ground_truth": 1.0,
+       "raw_left_fidelity": 1.0,
+       "sample_idx": 0,
+       "success": true,
+       "success_ground_truth": true,
+       "success_left_fidelity": true,
+       "success_self_mirror": true
+      }
+     ],
+     "valid": true
+    }
+   ],
+   "rate_ground_truth": 1.0,
+   "rate_left_fidelity": 1.0,
+   "rate_self_mirror": 1.0,
+   "success_mode": "self_mirror",
+   "total_samples": 3,
+   "total_samples_passed": 3
+  },
+  "responses_round_002/inputs/ground_truth_000.png": {
+   "png_mode": "RGB",
+   "png_size": [
+    320,
+    320
+   ]
+  },
+  "responses_round_002/inputs/ground_truth_001.png": {
+   "png_mode": "RGB",
+   "png_size": [
+    320,
+    320
+   ]
+  },
+  "responses_round_002/inputs/ground_truth_002.png": {
+   "png_mode": "RGB",
+   "png_size": [
+    320,
+    320
+   ]
+  },
+  "responses_round_002/inputs/probe_provenance.json": {
+   "answered_request_indices": [],
+   "n_backfill_attempts": 3,
+   "n_backfilled": 0,
+   "n_probes": 3,
+   "probe_image_index_by_request": [
+    0,
+    1,
+    2
+   ],
+   "sample_index_by_request": [
+    0,
+    0,
+    0
+   ],
+   "samples_per_probe": 1,
+   "total_requests": 3,
+   "unanswered_request_indices": [
+    0,
+    1,
+    2
+   ]
+  },
+  "responses_round_002/inputs/prompt_000.png": {
+   "png_mode": "RGB",
+   "png_size": [
+    320,
+    320
+   ]
+  },
+  "responses_round_002/inputs/prompt_001.png": {
+   "png_mode": "RGB",
+   "png_size": [
+    320,
+    320
+   ]
+  },
+  "responses_round_002/inputs/prompt_002.png": {
+   "png_mode": "RGB",
+   "png_size": [
+    320,
+    320
+   ]
+  },
+  "responses_round_002/inputs/text_prompt.txt": "Reflect the pattern on the left half along the central vertical axis to complete the blank right half. Keep the existing colored pattern on the left without modification. The resulting image should be perfectly symmetric about the vertical center axis.",
+  "responses_round_002/round_summary.json": [],
+  "responses_round_002/scoring_results.json": {
+   "criterion_agreement": null,
+   "k": 0,
+   "match_tolerance_px": 2.0,
+   "n_probes": 3,
+   "n_probes_invalid": 3,
+   "n_probes_passed": 0,
+   "n_probes_valid": 0,
+   "pass_at_1_rate": 0.0,
+   "pass_at_k_rate": 0.0,
+   "per_probe_results": [
+    {
+     "n_samples": 0,
+     "n_samples_passed": 0,
+     "passed": false,
+     "probe_idx": 0,
+     "sample_scores": [],
+     "valid": false
+    },
+    {
+     "n_samples": 0,
+     "n_samples_passed": 0,
+     "passed": false,
+     "probe_idx": 1,
+     "sample_scores": [],
+     "valid": false
+    },
+    {
+     "n_samples": 0,
+     "n_samples_passed": 0,
+     "passed": false,
+     "probe_idx": 2,
+     "sample_scores": [],
+     "valid": false
+    }
+   ],
+   "rate_ground_truth": null,
+   "rate_left_fidelity": null,
+   "rate_self_mirror": null,
+   "success_mode": "self_mirror",
+   "total_samples": 0,
+   "total_samples_passed": 0
+  },
+  "responses_round_003/inputs/ground_truth_000.png": {
+   "png_mode": "RGB",
+   "png_size": [
+    320,
+    320
+   ]
+  },
+  "responses_round_003/inputs/ground_truth_001.png": {
+   "png_mode": "RGB",
+   "png_size": [
+    320,
+    320
+   ]
+  },
+  "responses_round_003/inputs/ground_truth_002.png": {
+   "png_mode": "RGB",
+   "png_size": [
+    320,
+    320
+   ]
+  },
+  "responses_round_003/inputs/probe_provenance.json": {
+   "answered_request_indices": [],
+   "n_backfill_attempts": 3,
+   "n_backfilled": 0,
+   "n_probes": 3,
+   "probe_image_index_by_request": [
+    0,
+    1,
+    2
+   ],
+   "sample_index_by_request": [
+    0,
+    0,
+    0
+   ],
+   "samples_per_probe": 1,
+   "total_requests": 3,
+   "unanswered_request_indices": [
+    0,
+    1,
+    2
+   ]
+  },
+  "responses_round_003/inputs/prompt_000.png": {
+   "png_mode": "RGB",
+   "png_size": [
+    320,
+    320
+   ]
+  },
+  "responses_round_003/inputs/prompt_001.png": {
+   "png_mode": "RGB",
+   "png_size": [
+    320,
+    320
+   ]
+  },
+  "responses_round_003/inputs/prompt_002.png": {
+   "png_mode": "RGB",
+   "png_size": [
+    320,
+    320
+   ]
+  },
+  "responses_round_003/inputs/text_prompt.txt": "Reflect the pattern on the left half along the central vertical axis to complete the blank right half. Keep the existing colored pattern on the left without modification. The resulting image should be perfectly symmetric about the vertical center axis.",
+  "responses_round_003/round_summary.json": [],
+  "responses_round_003/scoring_results.json": {
+   "criterion_agreement": null,
+   "k": 0,
+   "match_tolerance_px": 2.0,
+   "n_probes": 3,
+   "n_probes_invalid": 3,
+   "n_probes_passed": 0,
+   "n_probes_valid": 0,
+   "pass_at_1_rate": 0.0,
+   "pass_at_k_rate": 0.0,
+   "per_probe_results": [
+    {
+     "n_samples": 0,
+     "n_samples_passed": 0,
+     "passed": false,
+     "probe_idx": 0,
+     "sample_scores": [],
+     "valid": false
+    },
+    {
+     "n_samples": 0,
+     "n_samples_passed": 0,
+     "passed": false,
+     "probe_idx": 1,
+     "sample_scores": [],
+     "valid": false
+    },
+    {
+     "n_samples": 0,
+     "n_samples_passed": 0,
+     "passed": false,
+     "probe_idx": 2,
+     "sample_scores": [],
+     "valid": false
+    }
+   ],
+   "rate_ground_truth": null,
+   "rate_left_fidelity": null,
+   "rate_self_mirror": null,
+   "success_mode": "self_mirror",
+   "total_samples": 0,
+   "total_samples_passed": 0
+  },
+  "responses_round_004/inputs/ground_truth_000.png": {
+   "png_mode": "RGB",
+   "png_size": [
+    320,
+    320
+   ]
+  },
+  "responses_round_004/inputs/ground_truth_001.png": {
+   "png_mode": "RGB",
+   "png_size": [
+    320,
+    320
+   ]
+  },
+  "responses_round_004/inputs/ground_truth_002.png": {
+   "png_mode": "RGB",
+   "png_size": [
+    320,
+    320
+   ]
+  },
+  "responses_round_004/inputs/probe_provenance.json": {
+   "answered_request_indices": [
+    0,
+    1,
+    2
+   ],
+   "n_backfill_attempts": 0,
+   "n_backfilled": 0,
+   "n_probes": 3,
+   "probe_image_index_by_request": [
+    0,
+    1,
+    2
+   ],
+   "sample_index_by_request": [
+    0,
+    0,
+    0
+   ],
+   "samples_per_probe": 1,
+   "total_requests": 3,
+   "unanswered_request_indices": []
+  },
+  "responses_round_004/inputs/prompt_000.png": {
+   "png_mode": "RGB",
+   "png_size": [
+    320,
+    320
+   ]
+  },
+  "responses_round_004/inputs/prompt_001.png": {
+   "png_mode": "RGB",
+   "png_size": [
+    320,
+    320
+   ]
+  },
+  "responses_round_004/inputs/prompt_002.png": {
+   "png_mode": "RGB",
+   "png_size": [
+    320,
+    320
+   ]
+  },
+  "responses_round_004/inputs/text_prompt.txt": "Reflect the pattern on the left half along the central vertical axis to complete the blank right half. Keep the existing colored pattern on the left without modification. The resulting image should be perfectly symmetric about the vertical center axis.",
+  "responses_round_004/response_000.txt": "",
+  "responses_round_004/response_000_img_0.png": {
+   "png_mode": "RGB",
+   "png_size": [
+    320,
+    320
+   ]
+  },
+  "responses_round_004/response_001.txt": "",
+  "responses_round_004/response_001_img_0.png": {
+   "png_mode": "RGB",
+   "png_size": [
+    320,
+    320
+   ]
+  },
+  "responses_round_004/response_002.txt": "",
+  "responses_round_004/response_002_img_0.png": {
+   "png_mode": "RGB",
+   "png_size": [
+    320,
+    320
+   ]
+  },
+  "responses_round_004/round_summary.json": [
+   {
+    "images": [
+     "response_000_img_0.png"
+    ],
+    "iou": 0.0,
+    "iou_self_mirror": 0.0,
+    "iou_vs_ground_truth": 0.0,
+    "left_fidelity": 1.0,
+    "passed": false,
+    "probe_idx": 0,
+    "prompt": "Reflect the pattern on the left half along the central vertical axis to complete the blank right half. Keep the existing colored pattern on the left without modification. The resulting image should be perfectly symmetric about the vertical center axis.",
+    "response_idx": 0,
+    "response_text": "",
+    "round": 4,
+    "sample_idx": 0,
+    "shape_type": "dots",
+    "success_ground_truth": false,
+    "success_left_fidelity": true,
+    "success_self_mirror": false
+   },
+   {
+    "images": [
+     "response_001_img_0.png"
+    ],
+    "iou": 0.0,
+    "iou_self_mirror": 0.0,
+    "iou_vs_ground_truth": 0.0,
+    "left_fidelity": 1.0,
+    "passed": false,
+    "probe_idx": 1,
+    "prompt": "Reflect the pattern on the left half along the central vertical axis to complete the blank right half. Keep the existing colored pattern on the left without modification. The resulting image should be perfectly symmetric about the vertical center axis.",
+    "response_idx": 1,
+    "response_text": "",
+    "round": 4,
+    "sample_idx": 0,
+    "shape_type": "dots",
+    "success_ground_truth": false,
+    "success_left_fidelity": true,
+    "success_self_mirror": false
+   },
+   {
+    "images": [
+     "response_002_img_0.png"
+    ],
+    "iou": 0.0,
+    "iou_self_mirror": 0.0,
+    "iou_vs_ground_truth": 0.0,
+    "left_fidelity": 1.0,
+    "passed": false,
+    "probe_idx": 2,
+    "prompt": "Reflect the pattern on the left half along the central vertical axis to complete the blank right half. Keep the existing colored pattern on the left without modification. The resulting image should be perfectly symmetric about the vertical center axis.",
+    "response_idx": 2,
+    "response_text": "",
+    "round": 4,
+    "sample_idx": 0,
+    "shape_type": "dots",
+    "success_ground_truth": false,
+    "success_left_fidelity": true,
+    "success_self_mirror": false
+   }
+  ],
+  "responses_round_004/scoring_results.json": {
+   "criterion_agreement": 1.0,
+   "k": 1,
+   "match_tolerance_px": 2.0,
+   "n_probes": 3,
+   "n_probes_invalid": 0,
+   "n_probes_passed": 0,
+   "n_probes_valid": 3,
+   "pass_at_1_rate": 0.0,
+   "pass_at_k_rate": 0.0,
+   "per_probe_results": [
+    {
+     "n_samples": 1,
+     "n_samples_passed": 0,
+     "passed": false,
+     "probe_idx": 0,
+     "sample_scores": [
+      {
+       "accuracy": 0.0,
+       "iou": 0.0,
+       "iou_self_mirror": 0.0,
+       "iou_vs_ground_truth": 0.0,
+       "left_fidelity": 1.0,
+       "mean_delta_e": 5.9863898365985815,
+       "n_incorrect": 2669,
+       "n_incorrect_right": 2669,
+       "output_bg_drift": 0.0,
+       "raw_iou_self_mirror": 0.0,
+       "raw_iou_vs_ground_truth": 0.0,
+       "raw_left_fidelity": 1.0,
+       "sample_idx": 0,
+       "success": false,
+       "success_ground_truth": false,
+       "success_left_fidelity": true,
+       "success_self_mirror": false
+      }
+     ],
+     "valid": true
+    },
+    {
+     "n_samples": 1,
+     "n_samples_passed": 0,
+     "passed": false,
+     "probe_idx": 1,
+     "sample_scores": [
+      {
+       "accuracy": 0.0,
+       "iou": 0.0,
+       "iou_self_mirror": 0.0,
+       "iou_vs_ground_truth": 0.0,
+       "left_fidelity": 1.0,
+       "mean_delta_e": 4.746727151326686,
+       "n_incorrect": 2845,
+       "n_incorrect_right": 2845,
+       "output_bg_drift": 0.0,
+       "raw_iou_self_mirror": 0.0,
+       "raw_iou_vs_ground_truth": 0.0,
+       "raw_left_fidelity": 1.0,
+       "sample_idx": 0,
+       "success": false,
+       "success_ground_truth": false,
+       "success_left_fidelity": true,
+       "success_self_mirror": false
+      }
+     ],
+     "valid": true
+    },
+    {
+     "n_samples": 1,
+     "n_samples_passed": 0,
+     "passed": false,
+     "probe_idx": 2,
+     "sample_scores": [
+      {
+       "accuracy": 0.0,
+       "iou": 0.0,
+       "iou_self_mirror": 0.0,
+       "iou_vs_ground_truth": 0.0,
+       "left_fidelity": 1.0,
+       "mean_delta_e": 2.3403585138464167,
+       "n_incorrect": 1202,
+       "n_incorrect_right": 1202,
+       "output_bg_drift": 0.0,
+       "raw_iou_self_mirror": 0.0,
+       "raw_iou_vs_ground_truth": 0.0,
+       "raw_left_fidelity": 1.0,
+       "sample_idx": 0,
+       "success": false,
+       "success_ground_truth": false,
+       "success_left_fidelity": true,
+       "success_self_mirror": false
+      }
+     ],
+     "valid": true
+    }
+   ],
+   "rate_ground_truth": 0.0,
+   "rate_left_fidelity": 1.0,
+   "rate_self_mirror": 0.0,
+   "success_mode": "self_mirror",
+   "total_samples": 3,
+   "total_samples_passed": 0
+  },
+  "responses_round_005/inputs/ground_truth_000.png": {
+   "png_mode": "RGB",
+   "png_size": [
+    320,
+    320
+   ]
+  },
+  "responses_round_005/inputs/ground_truth_001.png": {
+   "png_mode": "RGB",
+   "png_size": [
+    320,
+    320
+   ]
+  },
+  "responses_round_005/inputs/ground_truth_002.png": {
+   "png_mode": "RGB",
+   "png_size": [
+    320,
+    320
+   ]
+  },
+  "responses_round_005/inputs/probe_provenance.json": {
+   "answered_request_indices": [
+    0,
+    1,
+    2
+   ],
+   "n_backfill_attempts": 0,
+   "n_backfilled": 0,
+   "n_probes": 3,
+   "probe_image_index_by_request": [
+    0,
+    1,
+    2
+   ],
+   "sample_index_by_request": [
+    0,
+    0,
+    0
+   ],
+   "samples_per_probe": 1,
+   "total_requests": 3,
+   "unanswered_request_indices": []
+  },
+  "responses_round_005/inputs/prompt_000.png": {
+   "png_mode": "RGB",
+   "png_size": [
+    320,
+    320
+   ]
+  },
+  "responses_round_005/inputs/prompt_001.png": {
+   "png_mode": "RGB",
+   "png_size": [
+    320,
+    320
+   ]
+  },
+  "responses_round_005/inputs/prompt_002.png": {
+   "png_mode": "RGB",
+   "png_size": [
+    320,
+    320
+   ]
+  },
+  "responses_round_005/inputs/text_prompt.txt": "Reflect the pattern on the left half along the central vertical axis to complete the blank right half. Keep the existing colored pattern on the left without modification. The resulting image should be perfectly symmetric about the vertical center axis.",
+  "responses_round_005/response_000.txt": "",
+  "responses_round_005/response_000_img_0.png": {
+   "png_mode": "RGB",
+   "png_size": [
+    320,
+    320
+   ]
+  },
+  "responses_round_005/response_001.txt": "",
+  "responses_round_005/response_001_img_0.png": {
+   "png_mode": "RGB",
+   "png_size": [
+    320,
+    320
+   ]
+  },
+  "responses_round_005/response_002.txt": "",
+  "responses_round_005/response_002_img_0.png": {
+   "png_mode": "RGB",
+   "png_size": [
+    320,
+    320
+   ]
+  },
+  "responses_round_005/round_summary.json": [
+   {
+    "images": [
+     "response_000_img_0.png"
+    ],
+    "iou": 1.0,
+    "iou_self_mirror": 1.0,
+    "iou_vs_ground_truth": 1.0,
+    "left_fidelity": 1.0,
+    "passed": true,
+    "probe_idx": 0,
+    "prompt": "Reflect the pattern on the left half along the central vertical axis to complete the blank right half. Keep the existing colored pattern on the left without modification. The resulting image should be perfectly symmetric about the vertical center axis.",
+    "response_idx": 0,
+    "response_text": "",
+    "round": 5,
+    "sample_idx": 0,
+    "shape_type": "circle",
+    "success_ground_truth": true,
+    "success_left_fidelity": true,
+    "success_self_mirror": true
+   },
+   {
+    "images": [
+     "response_001_img_0.png"
+    ],
+    "iou": 1.0,
+    "iou_self_mirror": 1.0,
+    "iou_vs_ground_truth": 1.0,
+    "left_fidelity": 1.0,
+    "passed": true,
+    "probe_idx": 1,
+    "prompt": "Reflect the pattern on the left half along the central vertical axis to complete the blank right half. Keep the existing colored pattern on the left without modification. The resulting image should be perfectly symmetric about the vertical center axis.",
+    "response_idx": 1,
+    "response_text": "",
+    "round": 5,
+    "sample_idx": 0,
+    "shape_type": "circle",
+    "success_ground_truth": true,
+    "success_left_fidelity": true,
+    "success_self_mirror": true
+   },
+   {
+    "images": [
+     "response_002_img_0.png"
+    ],
+    "iou": 1.0,
+    "iou_self_mirror": 1.0,
+    "iou_vs_ground_truth": 1.0,
+    "left_fidelity": 1.0,
+    "passed": true,
+    "probe_idx": 2,
+    "prompt": "Reflect the pattern on the left half along the central vertical axis to complete the blank right half. Keep the existing colored pattern on the left without modification. The resulting image should be perfectly symmetric about the vertical center axis.",
+    "response_idx": 2,
+    "response_text": "",
+    "round": 5,
+    "sample_idx": 0,
+    "shape_type": "circle",
+    "success_ground_truth": true,
+    "success_left_fidelity": true,
+    "success_self_mirror": true
+   }
+  ],
+  "responses_round_005/scoring_results.json": {
+   "criterion_agreement": 1.0,
+   "k": 1,
+   "match_tolerance_px": 2.0,
+   "n_probes": 3,
+   "n_probes_invalid": 0,
+   "n_probes_passed": 3,
+   "n_probes_valid": 3,
+   "pass_at_1_rate": 1.0,
+   "pass_at_k_rate": 1.0,
+   "per_probe_results": [
+    {
+     "n_samples": 1,
+     "n_samples_passed": 1,
+     "passed": true,
+     "probe_idx": 0,
+     "sample_scores": [
+      {
+       "accuracy": 1.0,
+       "iou": 1.0,
+       "iou_self_mirror": 1.0,
+       "iou_vs_ground_truth": 1.0,
+       "left_fidelity": 1.0,
+       "mean_delta_e": 0.0,
+       "n_incorrect": 0,
+       "n_incorrect_right": 0,
+       "output_bg_drift": 0.0,
+       "raw_iou_self_mirror": 1.0,
+       "raw_iou_vs_ground_truth": 1.0,
+       "raw_left_fidelity": 1.0,
+       "sample_idx": 0,
+       "success": true,
+       "success_ground_truth": true,
+       "success_left_fidelity": true,
+       "success_self_mirror": true
+      }
+     ],
+     "valid": true
+    },
+    {
+     "n_samples": 1,
+     "n_samples_passed": 1,
+     "passed": true,
+     "probe_idx": 1,
+     "sample_scores": [
+      {
+       "accuracy": 1.0,
+       "iou": 1.0,
+       "iou_self_mirror": 1.0,
+       "iou_vs_ground_truth": 1.0,
+       "left_fidelity": 1.0,
+       "mean_delta_e": 0.0,
+       "n_incorrect": 0,
+       "n_incorrect_right": 0,
+       "output_bg_drift": 0.0,
+       "raw_iou_self_mirror": 1.0,
+       "raw_iou_vs_ground_truth": 1.0,
+       "raw_left_fidelity": 1.0,
+       "sample_idx": 0,
+       "success": true,
+       "success_ground_truth": true,
+       "success_left_fidelity": true,
+       "success_self_mirror": true
+      }
+     ],
+     "valid": true
+    },
+    {
+     "n_samples": 1,
+     "n_samples_passed": 1,
+     "passed": true,
+     "probe_idx": 2,
+     "sample_scores": [
+      {
+       "accuracy": 1.0,
+       "iou": 1.0,
+       "iou_self_mirror": 1.0,
+       "iou_vs_ground_truth": 1.0,
+       "left_fidelity": 1.0,
+       "mean_delta_e": 0.0,
+       "n_incorrect": 0,
+       "n_incorrect_right": 0,
+       "output_bg_drift": 0.0,
+       "raw_iou_self_mirror": 1.0,
+       "raw_iou_vs_ground_truth": 1.0,
+       "raw_left_fidelity": 1.0,
+       "sample_idx": 0,
+       "success": true,
+       "success_ground_truth": true,
+       "success_left_fidelity": true,
+       "success_self_mirror": true
+      }
+     ],
+     "valid": true
+    }
+   ],
+   "rate_ground_truth": 1.0,
+   "rate_left_fidelity": 1.0,
+   "rate_self_mirror": 1.0,
+   "success_mode": "self_mirror",
+   "total_samples": 3,
+   "total_samples_passed": 3
+  },
+  "responses_round_006/inputs/ground_truth_000.png": {
+   "png_mode": "RGB",
+   "png_size": [
+    320,
+    320
+   ]
+  },
+  "responses_round_006/inputs/ground_truth_001.png": {
+   "png_mode": "RGB",
+   "png_size": [
+    320,
+    320
+   ]
+  },
+  "responses_round_006/inputs/ground_truth_002.png": {
+   "png_mode": "RGB",
+   "png_size": [
+    320,
+    320
+   ]
+  },
+  "responses_round_006/inputs/probe_provenance.json": {
+   "answered_request_indices": [
+    0,
+    1,
+    2
+   ],
+   "n_backfill_attempts": 0,
+   "n_backfilled": 0,
+   "n_probes": 3,
+   "probe_image_index_by_request": [
+    0,
+    1,
+    2
+   ],
+   "sample_index_by_request": [
+    0,
+    0,
+    0
+   ],
+   "samples_per_probe": 1,
+   "total_requests": 3,
+   "unanswered_request_indices": []
+  },
+  "responses_round_006/inputs/prompt_000.png": {
+   "png_mode": "RGB",
+   "png_size": [
+    320,
+    320
+   ]
+  },
+  "responses_round_006/inputs/prompt_001.png": {
+   "png_mode": "RGB",
+   "png_size": [
+    320,
+    320
+   ]
+  },
+  "responses_round_006/inputs/prompt_002.png": {
+   "png_mode": "RGB",
+   "png_size": [
+    320,
+    320
+   ]
+  },
+  "responses_round_006/inputs/text_prompt.txt": "Reflect the pattern on the left half along the central vertical axis to complete the blank right half. Keep the existing colored pattern on the left without modification. The resulting image should be perfectly symmetric about the vertical center axis.",
+  "responses_round_006/response_000.txt": "",
+  "responses_round_006/response_000_img_0.png": {
+   "png_mode": "RGB",
+   "png_size": [
+    320,
+    320
+   ]
+  },
+  "responses_round_006/response_001.txt": "",
+  "responses_round_006/response_001_img_0.png": {
+   "png_mode": "RGB",
+   "png_size": [
+    320,
+    320
+   ]
+  },
+  "responses_round_006/response_002.txt": "",
+  "responses_round_006/response_002_img_0.png": {
+   "png_mode": "RGB",
+   "png_size": [
+    320,
+    320
+   ]
+  },
+  "responses_round_006/round_summary.json": [
+   {
+    "images": [
+     "response_000_img_0.png"
+    ],
+    "iou": 1.0,
+    "iou_self_mirror": 1.0,
+    "iou_vs_ground_truth": 1.0,
+    "left_fidelity": 1.0,
+    "passed": true,
+    "probe_idx": 0,
+    "prompt": "Reflect the pattern on the left half along the central vertical axis to complete the blank right half. Keep the existing colored pattern on the left without modification. The resulting image should be perfectly symmetric about the vertical center axis.",
+    "response_idx": 0,
+    "response_text": "",
+    "round": 6,
+    "sample_idx": 0,
+    "shape_type": "wave_lines",
+    "success_ground_truth": true,
+    "success_left_fidelity": true,
+    "success_self_mirror": true
+   },
+   {
+    "images": [
+     "response_001_img_0.png"
+    ],
+    "iou": 1.0,
+    "iou_self_mirror": 1.0,
+    "iou_vs_ground_truth": 1.0,
+    "left_fidelity": 1.0,
+    "passed": true,
+    "probe_idx": 1,
+    "prompt": "Reflect the pattern on the left half along the central vertical axis to complete the blank right half. Keep the existing colored pattern on the left without modification. The resulting image should be perfectly symmetric about the vertical center axis.",
+    "response_idx": 1,
+    "response_text": "",
+    "round": 6,
+    "sample_idx": 0,
+    "shape_type": "wave_lines",
+    "success_ground_truth": true,
+    "success_left_fidelity": true,
+    "success_self_mirror": true
+   },
+   {
+    "images": [
+     "response_002_img_0.png"
+    ],
+    "iou": 1.0,
+    "iou_self_mirror": 1.0,
+    "iou_vs_ground_truth": 1.0,
+    "left_fidelity": 1.0,
+    "passed": true,
+    "probe_idx": 2,
+    "prompt": "Reflect the pattern on the left half along the central vertical axis to complete the blank right half. Keep the existing colored pattern on the left without modification. The resulting image should be perfectly symmetric about the vertical center axis.",
+    "response_idx": 2,
+    "response_text": "",
+    "round": 6,
+    "sample_idx": 0,
+    "shape_type": "wave_lines",
+    "success_ground_truth": true,
+    "success_left_fidelity": true,
+    "success_self_mirror": true
+   }
+  ],
+  "responses_round_006/scoring_results.json": {
+   "criterion_agreement": 1.0,
+   "k": 1,
+   "match_tolerance_px": 2.0,
+   "n_probes": 3,
+   "n_probes_invalid": 0,
+   "n_probes_passed": 3,
+   "n_probes_valid": 3,
+   "pass_at_1_rate": 1.0,
+   "pass_at_k_rate": 1.0,
+   "per_probe_results": [
+    {
+     "n_samples": 1,
+     "n_samples_passed": 1,
+     "passed": true,
+     "probe_idx": 0,
+     "sample_scores": [
+      {
+       "accuracy": 1.0,
+       "iou": 1.0,
+       "iou_self_mirror": 1.0,
+       "iou_vs_ground_truth": 1.0,
+       "left_fidelity": 1.0,
+       "mean_delta_e": 0.0,
+       "n_incorrect": 0,
+       "n_incorrect_right": 0,
+       "output_bg_drift": 0.0,
+       "raw_iou_self_mirror": 1.0,
+       "raw_iou_vs_ground_truth": 1.0,
+       "raw_left_fidelity": 1.0,
+       "sample_idx": 0,
+       "success": true,
+       "success_ground_truth": true,
+       "success_left_fidelity": true,
+       "success_self_mirror": true
+      }
+     ],
+     "valid": true
+    },
+    {
+     "n_samples": 1,
+     "n_samples_passed": 1,
+     "passed": true,
+     "probe_idx": 1,
+     "sample_scores": [
+      {
+       "accuracy": 1.0,
+       "iou": 1.0,
+       "iou_self_mirror": 1.0,
+       "iou_vs_ground_truth": 1.0,
+       "left_fidelity": 1.0,
+       "mean_delta_e": 0.0,
+       "n_incorrect": 0,
+       "n_incorrect_right": 0,
+       "output_bg_drift": 0.0,
+       "raw_iou_self_mirror": 1.0,
+       "raw_iou_vs_ground_truth": 1.0,
+       "raw_left_fidelity": 1.0,
+       "sample_idx": 0,
+       "success": true,
+       "success_ground_truth": true,
+       "success_left_fidelity": true,
+       "success_self_mirror": true
+      }
+     ],
+     "valid": true
+    },
+    {
+     "n_samples": 1,
+     "n_samples_passed": 1,
+     "passed": true,
+     "probe_idx": 2,
+     "sample_scores": [
+      {
+       "accuracy": 1.0,
+       "iou": 1.0,
+       "iou_self_mirror": 1.0,
+       "iou_vs_ground_truth": 1.0,
+       "left_fidelity": 1.0,
+       "mean_delta_e": 0.0,
+       "n_incorrect": 0,
+       "n_incorrect_right": 0,
+       "output_bg_drift": 0.0,
+       "raw_iou_self_mirror": 1.0,
+       "raw_iou_vs_ground_truth": 1.0,
+       "raw_left_fidelity": 1.0,
+       "sample_idx": 0,
+       "success": true,
+       "success_ground_truth": true,
+       "success_left_fidelity": true,
+       "success_self_mirror": true
+      }
+     ],
+     "valid": true
+    }
+   ],
+   "rate_ground_truth": 1.0,
+   "rate_left_fidelity": 1.0,
+   "rate_self_mirror": 1.0,
+   "success_mode": "self_mirror",
+   "total_samples": 3,
+   "total_samples_passed": 3
+  }
+ },
+ "result": {
+  "all_records": {
+   "circle_fails": {
+    "e_values": [
+     {
+      "cumulative_queries": 3,
+      "e_value": 0.2244211075315921,
+      "sub_hypothesis": "The target model fails to complete circle probes symmetrically."
+     }
+    ],
+    "executed_queries": [
+     "Reflect the pattern on the left half along the central vertical axis to complete the blank right half. Keep the existing colored pattern on the left without modification. The resulting image should be perfectly symmetric about the vertical center axis."
+    ],
+    "failure_reflections": [
+     "- Answer length follows the prompt tag."
+    ],
+    "failures": [
+     {
+      "judgment": "Success",
+      "prompt": "symmetry_probe_0",
+      "reasoning": "pass@1=Success: 1/1 completions succeeded (IoU >= 0.9).",
+      "response": "pass@1=True (1/1 samples passed, mean_iou=1.000)"
+     },
+     {
+      "judgment": "Success",
+      "prompt": "symmetry_probe_1",
+      "reasoning": "pass@1=Success: 1/1 completions succeeded (IoU >= 0.9).",
+      "response": "pass@1=True (1/1 samples passed, mean_iou=1.000)"
+     },
+     {
+      "judgment": "Success",
+      "prompt": "symmetry_probe_2",
+      "reasoning": "pass@1=Success: 1/1 completions succeeded (IoU >= 0.9).",
+      "response": "pass@1=True (1/1 samples passed, mean_iou=1.000)"
+     }
+    ],
+    "queries": 3,
+    "sub_hypotheses": [],
+    "test_plan": null,
+    "text": "The target model fails to complete circle probes symmetrically."
+   },
+   "dots_fails": {
+    "e_values": [
+     {
+      "cumulative_queries": 6,
+      "e_value": 154.31881942610565,
+      "sub_hypothesis": "The target model fails to complete dots probes symmetrically."
+     }
+    ],
+    "executed_queries": [
+     "Reflect the pattern on the left half along the central vertical axis to complete the blank right half. Keep the existing colored pattern on the left without modification. The resulting image should be perfectly symmetric about the vertical center axis."
+    ],
+    "failure_reflections": [
+     "- Answer length follows the prompt tag."
+    ],
+    "failures": [
+     {
+      "judgment": "Failure",
+      "prompt": "symmetry_probe_0",
+      "reasoning": "pass@1=Failure: 0/1 completions succeeded (IoU >= 0.9).",
+      "response": "pass@1=False (0/1 samples passed, mean_iou=0.000)"
+     },
+     {
+      "judgment": "Failure",
+      "prompt": "symmetry_probe_1",
+      "reasoning": "pass@1=Failure: 0/1 completions succeeded (IoU >= 0.9).",
+      "response": "pass@1=False (0/1 samples passed, mean_iou=0.000)"
+     },
+     {
+      "judgment": "Failure",
+      "prompt": "symmetry_probe_2",
+      "reasoning": "pass@1=Failure: 0/1 completions succeeded (IoU >= 0.9).",
+      "response": "pass@1=False (0/1 samples passed, mean_iou=0.000)"
+     }
+    ],
+    "queries": 3,
+    "sub_hypotheses": [],
+    "test_plan": null,
+    "text": "The target model fails to complete dots probes symmetrically."
+   },
+   "square_fails": {
+    "e_values": [],
+    "executed_queries": [],
+    "failure_reflections": [],
+    "failures": [],
+    "queries": 0,
+    "sub_hypotheses": [],
+    "test_plan": null,
+    "text": "The target model fails to complete square probes symmetrically."
+   },
+   "wave_lines_fails": {
+    "e_values": [
+     {
+      "cumulative_queries": 9,
+      "e_value": 0.4694680139721404,
+      "sub_hypothesis": "The target model fails to complete wave lines probes symmetrically."
+     }
+    ],
+    "executed_queries": [
+     "Reflect the pattern on the left half along the central vertical axis to complete the blank right half. Keep the existing colored pattern on the left without modification. The resulting image should be perfectly symmetric about the vertical center axis."
+    ],
+    "failure_reflections": [
+     "- Answer length follows the prompt tag."
+    ],
+    "failures": [
+     {
+      "judgment": "Success",
+      "prompt": "symmetry_probe_0",
+      "reasoning": "pass@1=Success: 1/1 completions succeeded (IoU >= 0.9).",
+      "response": "pass@1=True (1/1 samples passed, mean_iou=1.000)"
+     },
+     {
+      "judgment": "Success",
+      "prompt": "symmetry_probe_1",
+      "reasoning": "pass@1=Success: 1/1 completions succeeded (IoU >= 0.9).",
+      "response": "pass@1=True (1/1 samples passed, mean_iou=1.000)"
+     },
+     {
+      "judgment": "Success",
+      "prompt": "symmetry_probe_2",
+      "reasoning": "pass@1=Success: 1/1 completions succeeded (IoU >= 0.9).",
+      "response": "pass@1=True (1/1 samples passed, mean_iou=1.000)"
+     }
+    ],
+    "queries": 3,
+    "sub_hypotheses": [],
+    "test_plan": null,
+    "text": "The target model fails to complete wave lines probes symmetrically."
+   }
+  },
+  "alpha_sweep_results": [
+   {
+    "alpha_target": 0.010000000000000002,
+    "confidence": 0.98,
+    "delta_post": 0.02,
+    "epsilon_post": 0.0,
+    "marginal_posthoc": 0.02,
+    "nominal_alpha": 0.0,
+    "num_discoveries": 0,
+    "rejected_hypotheses": [],
+    "rejection_threshold": "Infinity"
+   },
+   {
+    "alpha_target": 0.017411591169727347,
+    "confidence": 0.98,
+    "delta_post": 0.02,
+    "epsilon_post": 0.0,
+    "marginal_posthoc": 0.02,
+    "nominal_alpha": 0.0,
+    "num_discoveries": 0,
+    "rejected_hypotheses": [],
+    "rejection_threshold": "Infinity"
+   },
+   {
+    "alpha_target": 0.02686516928550838,
+    "confidence": 0.98,
+    "delta_post": 0.02,
+    "epsilon_post": 0.00625,
+    "marginal_posthoc": 0.026250000000000002,
+    "nominal_alpha": 0.004685401916503906,
+    "num_discoveries": 1,
+    "rejected_hypotheses": [
+     "dots_fails"
+    ],
+    "rejection_threshold": 853.7154488092815
+   },
+   {
+    "alpha_target": 0.0383607343473431,
+    "confidence": 0.98,
+    "delta_post": 0.02,
+    "epsilon_post": 0.018055555555555554,
+    "marginal_posthoc": 0.03805555555555555,
+    "nominal_alpha": 0.010846138000488281,
+    "num_discoveries": 1,
+    "rejected_hypotheses": [
+     "dots_fails"
+    ],
+    "rejection_threshold": 368.7948650312143
+   },
+   {
+    "alpha_target": 0.05,
+    "confidence": 0.98,
+    "delta_post": 0.02,
+    "epsilon_post": 0.02986111111111111,
+    "marginal_posthoc": 0.049861111111111106,
+    "nominal_alpha": 0.014141082763671875,
+    "num_discoveries": 1,
+    "rejected_hypotheses": [
+     "dots_fails"
+    ],
+    "rejection_threshold": 282.8637712435932
+   },
+   {
+    "alpha_target": 0.051898286355231506,
+    "confidence": 0.98,
+    "delta_post": 0.02,
+    "epsilon_post": 0.030902777777777776,
+    "marginal_posthoc": 0.050902777777777776,
+    "nominal_alpha": 0.014237403869628906,
+    "num_discoveries": 1,
+    "rejected_hypotheses": [
+     "dots_fails"
+    ],
+    "rejection_threshold": 280.9500971263983
+   },
+   {
+    "alpha_target": 0.0674778253091736,
+    "confidence": 0.98,
+    "delta_post": 0.02,
+    "epsilon_post": 0.046875,
+    "marginal_posthoc": 0.066875,
+    "nominal_alpha": 0.01987457275390625,
+    "num_discoveries": 1,
+    "rejected_hypotheses": [
+     "dots_fails"
+    ],
+    "rejection_threshold": 201.26218809980807
+   },
+   {
+    "alpha_target": 0.0850993512091694,
+    "confidence": 0.98,
+    "delta_post": 0.02,
+    "epsilon_post": 0.06493055555555555,
+    "marginal_posthoc": 0.08493055555555555,
+    "nominal_alpha": 0.02867603302001953,
+    "num_discoveries": 1,
+    "rejected_hypotheses": [
+     "dots_fails"
+    ],
+    "rejection_threshold": 139.48930792510558
+   },
+   {
+    "alpha_target": 0.10476286405521884,
+    "confidence": 0.98,
+    "delta_post": 0.02,
+    "epsilon_post": 0.08402777777777777,
+    "marginal_posthoc": 0.10402777777777777,
+    "nominal_alpha": 0.03817272186279297,
+    "num_discoveries": 1,
+    "rejected_hypotheses": [
+     "dots_fails"
+    ],
+    "rejection_threshold": 104.78686886351713
+   },
+   {
+    "alpha_target": 0.126468363847322,
+    "confidence": 0.98,
+    "delta_post": 0.02,
+    "epsilon_post": 0.10590277777777776,
+    "marginal_posthoc": 0.12590277777777775,
+    "nominal_alpha": 0.0457000732421875,
+    "num_discoveries": 1,
+    "rejected_hypotheses": [
+     "dots_fails"
+    ],
+    "rejection_threshold": 87.52721202003339
+   },
+   {
+    "alpha_target": 0.1502158505854788,
+    "confidence": 0.98,
+    "delta_post": 0.02,
+    "epsilon_post": 0.13020833333333334,
+    "marginal_posthoc": 0.15020833333333333,
+    "nominal_alpha": 0.06015491485595703,
+    "num_discoveries": 1,
+    "rejected_hypotheses": [
+     "dots_fails"
+    ],
+    "rejection_threshold": 66.49498232319229
+   },
+   {
+    "alpha_target": 0.1760053242696894,
+    "confidence": 0.98,
+    "delta_post": 0.02,
+    "epsilon_post": 0.15590277777777778,
+    "marginal_posthoc": 0.17590277777777777,
+    "nominal_alpha": 0.069305419921875,
+    "num_discoveries": 1,
+    "rejected_hypotheses": [
+     "dots_fails"
+    ],
+    "rejection_threshold": 57.715543813298105
+   },
+   {
+    "alpha_target": 0.2038367848999536,
+    "confidence": 0.98,
+    "delta_post": 0.02,
+    "epsilon_post": 0.18333333333333332,
+    "marginal_posthoc": 0.2033333333333333,
+    "nominal_alpha": 0.07983779907226562,
+    "num_discoveries": 1,
+    "rejected_hypotheses": [
+     "dots_fails"
+    ],
+    "rejection_threshold": 50.101581537579435
+   },
+   {
+    "alpha_target": 0.23371023247627146,
+    "confidence": 0.98,
+    "delta_post": 0.02,
+    "epsilon_post": 0.21319444444444446,
+    "marginal_posthoc": 0.23319444444444445,
+    "nominal_alpha": 0.09213066101074219,
+    "num_discoveries": 1,
+    "rejected_hypotheses": [
+     "dots_fails"
+    ],
+    "rejection_threshold": 43.41659938306109
+   },
+   {
+    "alpha_target": 0.26562566699864304,
+    "confidence": 0.98,
+    "delta_post": 0.02,
+    "epsilon_post": 0.24513888888888888,
+    "marginal_posthoc": 0.26513888888888887,
+    "nominal_alpha": 0.10648155212402344,
+    "num_discoveries": 1,
+    "rejected_hypotheses": [
+     "dots_fails"
+    ],
+    "rejection_threshold": 37.56519246959357
+   },
+   {
+    "alpha_target": 0.2995830884670684,
+    "confidence": 0.98,
+    "delta_post": 0.02,
+    "epsilon_post": 0.2791666666666667,
+    "marginal_posthoc": 0.2991666666666667,
+    "nominal_alpha": 0.12174510955810547,
+    "num_discoveries": 1,
+    "rejected_hypotheses": [
+     "dots_fails"
+    ],
+    "rejection_threshold": 32.85552918321466
+   },
+   {
+    "alpha_target": 0.33558249688154734,
+    "confidence": 0.98,
+    "delta_post": 0.02,
+    "epsilon_post": 0.3145833333333333,
+    "marginal_posthoc": 0.33458333333333334,
+    "nominal_alpha": 0.1426239013671875,
+    "num_discoveries": 1,
+    "rejected_hypotheses": [
+     "dots_fails"
+    ],
+    "rejection_threshold": 28.045790093077994
+   },
+   {
+    "alpha_target": 0.3736238922420799,
+    "confidence": 0.98,
+    "delta_post": 0.02,
+    "epsilon_post": 0.35347222222222224,
+    "marginal_posthoc": 0.37347222222222226,
+    "nominal_alpha": 0.1605815887451172,
+    "num_discoveries": 1,
+    "rejected_hypotheses": [
+     "dots_fails"
+    ],
+    "rejection_threshold": 24.909455880082195
+   },
+   {
+    "alpha_target": 0.41370727454866624,
+    "confidence": 0.98,
+    "delta_post": 0.02,
+    "epsilon_post": 0.3920138888888889,
+    "marginal_posthoc": 0.4120138888888889,
+    "nominal_alpha": 0.1770620346069336,
+    "num_discoveries": 1,
+    "rejected_hypotheses": [
+     "dots_fails"
+    ],
+    "rejection_threshold": 22.590952424554164
+   },
+   {
+    "alpha_target": 0.4558326438013062,
+    "confidence": 0.98,
+    "delta_post": 0.02,
+    "epsilon_post": 0.4354166666666666,
+    "marginal_posthoc": 0.45541666666666664,
+    "nominal_alpha": 0.19559383392333984,
+    "num_discoveries": 1,
+    "rejected_hypotheses": [
+     "dots_fails"
+    ],
+    "rejection_threshold": 20.45054243155611
+   },
+   {
+    "alpha_target": 0.5000000000000001,
+    "confidence": 0.98,
+    "delta_post": 0.02,
+    "epsilon_post": 0.47951388888888885,
+    "marginal_posthoc": 0.49951388888888887,
+    "nominal_alpha": 0.2233123779296875,
+    "num_discoveries": 1,
+    "rejected_hypotheses": [
+     "dots_fails"
+    ],
+    "rejection_threshold": 17.912128459173214
+   }
+  ],
+  "boost_factors": {
+   "circle_fails": 7.105926894131103,
+   "dots_fails": 7.105926894131103,
+   "square_fails": 7.105926894131103,
+   "wave_lines_fails": 7.105926894131103
+  },
+  "boosted_e_values": {
+   "circle_fails": 1.5947199836194286,
+   "dots_fails": 1096.5782492305254,
+   "square_fails": 7.105926894131103,
+   "wave_lines_fails": 3.3360053864189485
+  },
+  "bounds_report": {
+   "confidence": 0.98,
+   "kappa": 0.1741,
+   "nominal_calibrated_alpha": 0.014141082763671875,
+   "posthoc_delta": 0.02,
+   "posthoc_epsilon": 0.015821045393774023,
+   "posthoc_epsilon_boost": 0.02986111111111111,
+   "posthoc_marginal": 0.03582104539377402,
+   "posthoc_marginal_boost": 0.049861111111111106,
+   "prehoc_analytical_ceiling": "Infinity",
+   "prehoc_boosted": 3.015,
+   "prehoc_unboosted": 0.23358176015517484,
+   "target_alpha": 0.05
+  },
+  "confidence": 0.98,
+  "delta_post": 0.02,
+  "epsilon_post": 0.015821045393774023,
+  "epsilon_post_boost": 0.02986111111111111,
+  "final_e_values": {
+   "circle_fails": 0.2244211075315921,
+   "dots_fails": 154.31881942610565,
+   "square_fails": 1.0,
+   "wave_lines_fails": 0.4694680139721404
+  },
+  "nominal_alpha_used": 0.014141082763671875,
+  "posthoc_certificate": 0.03582104539377402,
+  "posthoc_certificate_boost": 0.049861111111111106,
+  "prehoc_bounds": {
+   "analytical_ceiling": "Infinity",
+   "baseline_Kbar_PH": 0.015,
+   "boosted": 3.015,
+   "unboosted": 0.23358176015517484
+  },
+  "probe_counts": {
+   "circle_fails": 1,
+   "dots_fails": 1,
+   "square_fails": 0,
+   "wave_lines_fails": 1
+  },
+  "rejected_hypotheses": [
+   "dots_fails"
+  ],
+  "rejection_threshold": 282.8637712435932,
+  "skip_counts": {
+   "auditor_side": 0,
+   "short": 0,
+   "target_side": 1
+  },
+  "terminal_statuses": {
+   "circle_fails": "L",
+   "dots_fails": "H",
+   "square_fails": "A",
+   "wave_lines_fails": "L"
+  },
+  "total_hypotheses_k": 4
+ }
+}

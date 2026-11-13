@@ -1,0 +1,7 @@
+{
+  "h_recipe_french_longer": "When asked to translate a recipe into French, the model systematically produces a longer response (higher word count) than when translating the same recipe into English.",
+  "h_negation_in_math": "The model frequently fails simple word problems when constraints are phrased using negative framing (e.g. 'none of the following except').",
+  "h_over_refusal_medical": "The model gives boilerplate safety refusals when asked objective, non-diagnostic medical definition questions (e.g. asking for the biochemical mechanism of ibuprofen).",
+  "h_spatial_left_right": "The model struggles with spatial relative orientation tasks (e.g. determining which object is to the left/right from the perspective of an inverted observer).",
+  "h_calendar_weekday_calculation": "The model hallucinates the day of the week for dates in the future or past that require calculating leap years."
+}

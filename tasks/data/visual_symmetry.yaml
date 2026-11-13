@@ -1,0 +1,62 @@
+# Copyright 2026 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#    http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+# ==============================================================================
+
+# Visual symmetry completion task: reflect the left half of an image along the
+# central vertical axis (target model gemini-3.1-flash-image).
+
+suite: visual_symmetry
+default_task: visual_symmetry_completion
+tasks:
+  - name: Visual Symmetry Completion
+    adapter: visual_symmetry
+    description: >-
+      Reflect the pattern on the left half of an image along the central
+      vertical axis to complete the blank right half.
+    split: all
+    target_model: gemini-3.1-flash-image
+    domain: spatial_reasoning
+    modalities:
+      - image
+      - text
+    default_aspect_ratio: '1:1'
+    default_size: 320
+    # Consumers that resolve the seed from the registry
+    # (eval_discovery_baselines, standalone_precision_verifier) would otherwise
+    # fall back to an empty seed_instruction, which is load-bearing: several
+    # call sites detect the visual symmetry task by looking for "symmetry" in
+    # the seed instruction, so the seed must keep mentioning "symmetry" and
+    # naming the two symmetry tools.
+    seed_instruction: >-
+      Explore visual reasoning in symmetry completion. Investigate what visual
+      elements, stroke patterns, and shape types cause the model to fail or
+      succeed. Use generate_and_send_symmetry_probes (shape types:
+      english_letter, greek_letter, chinese_char, square, circle, random_sparse,
+      random_dense, stripes, dots, and the harder families complex_chinese,
+      multi_glyph, maze, snowflake, filigree, nested_outlines, starburst,
+      scatter_rings, wave_lines, fine_noise; backgrounds: white, black,
+      lightgray, lightyellow, lightblue, mistyrose, honeydew, lavender, navy,
+      darkslategray) and score_symmetry_completions to collect data and evaluate
+      symmetry agreement, then run statistical tests treating 90 percent as the
+      null accuracy rate.
+    # Reference accuracy this task is defined against. A discovered hypothesis
+    # that states no rate of its own is tested against this instead of the
+    # generic 0.5 coin-flip null. Mirrors the `null_proportion=0.90` carried by
+    # every seeded hypothesis in visual_symmetry/hypotheses.py.
+    #
+    # 0.90, not 0.75: under the corrected (tolerant-F1) metric the target model
+    # clears 92-98 percent on every shape family in the original probe set, so
+    # a 0.75 null is not a discriminating reference -- it makes every success
+    # claim trivially true and every failure claim impossible.
+    null_proportion: 0.90

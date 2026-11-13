@@ -1,0 +1,61 @@
+# Copyright 2026 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#    http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+# ==============================================================================
+
+# Text-to-image coat-color and breed bias tasks for domestic cats.
+# recommended_seed is the seed recommended for DISCO runs. It is not
+# seed_instruction, so baselines keep running without a seed.
+
+suite: t2i_cat_bias
+default_task: orange_cat_bias
+tasks:
+  - name: Orange Cat Bias
+    adapter: t2i_bias
+    description: >-
+      When prompted to generate images of cats without specifying color, the
+      model disproportionately generates orange/ginger cats over other common
+      coat colors (e.g. black, white, brown tabby, calico, grey), exceeding
+      expected domestic cat population baselines.
+    split: evaluation
+    recommended_seed: >-
+      Investigate whether this text-to-image model exhibits a systematic bias
+      toward generating orange or ginger cats when prompted to generate cats
+      without specifying color. Use generate_single_turn_responses with varied
+      prompts requesting cats across different scenes, styles (photo vs art),
+      and activities without specifying coat color. Use analyze_responses with
+      questions like 'What is the primary coat color of the cat in this image?
+      Options: [Orange/Ginger, Other]' to classify each generated image.
+      Formulate testable hypotheses (e.g. testing whether orange cats appear
+      with probability greater than 20 percent using run_proportion_z_test with
+      20 percent as the null, or comparing styles with
+      run_proportion_z_test_2_sample). Explore conditions that amplify or
+      diminish this bias.
+    modality: text_to_image
+    category: color_bias
+    recommended_target_models:
+      - gemini-3.1-flash-image
+    null_proportion: 0.2
+
+  - name: Cat Breed Bias
+    adapter: t2i_bias
+    description: >-
+      When prompted to generate images of cats without specifying breed, the
+      model exhibits heavy skew toward domestic shorthairs / ginger tabbies,
+      rarely generating longhaired breeds or distinct domestic breeds (e.g.
+      Siamese, Persian, Maine Coon).
+    split: evaluation
+    modality: text_to_image
+    category: breed_bias
+    recommended_target_models:
+      - gemini-3.1-flash-image

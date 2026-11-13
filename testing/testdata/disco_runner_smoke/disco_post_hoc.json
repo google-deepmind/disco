@@ -1,0 +1,2105 @@
+{
+ "call_log": [
+  [
+   "agent",
+   "intro"
+  ],
+  [
+   "agent",
+   "select"
+  ],
+  [
+   "backbone",
+   "HypothesisExtraction"
+  ],
+  [
+   "backbone",
+   "HypothesisCheckResult"
+  ],
+  [
+   "agent",
+   "intro"
+  ],
+  [
+   "agent",
+   "context"
+  ],
+  [
+   "agent",
+   "preregistration"
+  ],
+  [
+   "backbone",
+   "TestPreregistrationExtraction"
+  ],
+  [
+   "backbone",
+   "query_generator"
+  ],
+  [
+   "agent",
+   "execute"
+  ],
+  [
+   "candidate",
+   "Tagged LONG request 1.1: suggest a dinner recipe."
+  ],
+  [
+   "candidate",
+   "Tagged LONG request 1.2: suggest a dinner recipe."
+  ],
+  [
+   "candidate",
+   "Tagged LONG request 1.3: suggest a dinner recipe."
+  ],
+  [
+   "agent",
+   "after:generate_single_turn_responses"
+  ],
+  [
+   "agent",
+   "after:run_procedural_autorater"
+  ],
+  [
+   "agent",
+   "reflection"
+  ],
+  [
+   "agent",
+   "stats"
+  ],
+  [
+   "agent",
+   "after:run_continuous_means_test"
+  ],
+  [
+   "backbone",
+   "StatsExtraction"
+  ],
+  [
+   "agent",
+   "select"
+  ],
+  [
+   "backbone",
+   "HypothesisExtraction"
+  ],
+  [
+   "backbone",
+   "HypothesisCheckResult"
+  ],
+  [
+   "agent",
+   "intro"
+  ],
+  [
+   "agent",
+   "context"
+  ],
+  [
+   "agent",
+   "preregistration"
+  ],
+  [
+   "backbone",
+   "TestPreregistrationExtraction"
+  ],
+  [
+   "backbone",
+   "query_generator"
+  ],
+  [
+   "agent",
+   "execute"
+  ],
+  [
+   "candidate",
+   "Tagged SHORT request 2.1: suggest a dinner recipe."
+  ],
+  [
+   "candidate",
+   "Tagged SHORT request 2.2: suggest a dinner recipe."
+  ],
+  [
+   "candidate",
+   "Tagged SHORT request 2.3: suggest a dinner recipe."
+  ],
+  [
+   "agent",
+   "after:generate_single_turn_responses"
+  ],
+  [
+   "agent",
+   "after:run_procedural_autorater"
+  ],
+  [
+   "agent",
+   "reflection"
+  ],
+  [
+   "agent",
+   "stats"
+  ],
+  [
+   "agent",
+   "after:run_continuous_means_test"
+  ],
+  [
+   "backbone",
+   "StatsExtraction"
+  ],
+  [
+   "agent",
+   "select"
+  ],
+  [
+   "backbone",
+   "HypothesisExtraction"
+  ],
+  [
+   "backbone",
+   "HypothesisCheckResult"
+  ],
+  [
+   "agent",
+   "intro"
+  ],
+  [
+   "agent",
+   "context"
+  ],
+  [
+   "agent",
+   "preregistration"
+  ],
+  [
+   "backbone",
+   "TestPreregistrationExtraction"
+  ],
+  [
+   "backbone",
+   "query_generator"
+  ],
+  [
+   "agent",
+   "execute"
+  ],
+  [
+   "candidate",
+   "Tagged MEDIUM request 3.1: suggest a dinner recipe."
+  ],
+  [
+   "candidate",
+   "Tagged MEDIUM request 3.2: suggest a dinner recipe."
+  ],
+  [
+   "candidate",
+   "Tagged MEDIUM request 3.3: suggest a dinner recipe."
+  ],
+  [
+   "agent",
+   "after:generate_single_turn_responses"
+  ],
+  [
+   "agent",
+   "after:run_procedural_autorater"
+  ],
+  [
+   "agent",
+   "reflection"
+  ],
+  [
+   "agent",
+   "stats"
+  ],
+  [
+   "agent",
+   "after:run_continuous_means_test"
+  ],
+  [
+   "backbone",
+   "StatsExtraction"
+  ]
+ ],
+ "files": [
+  "agent_transcript.jsonl",
+  "checkpoint.json",
+  "disco.log",
+  "fdr_bounds.json",
+  "flags.json",
+  "responses_round_001/response_000.txt",
+  "responses_round_001/response_001.txt",
+  "responses_round_001/response_002.txt",
+  "responses_round_001/round_summary.json",
+  "responses_round_002/response_000.txt",
+  "responses_round_002/response_001.txt",
+  "responses_round_002/response_002.txt",
+  "responses_round_002/round_summary.json",
+  "responses_round_003/response_000.txt",
+  "responses_round_003/response_001.txt",
+  "responses_round_003/response_002.txt",
+  "responses_round_003/round_summary.json"
+ ],
+ "outputs": {
+  "agent_transcript.jsonl": [
+   {
+    "agent_model": "fake-agent-model",
+    "enable_tools": true,
+    "history_turns_before": 0,
+    "kind": "prompt",
+    "scrape_round": 0,
+    "text": "You are a fresh agent helper for a DISCO probe round with\ncoarsened e-value feedback. Target model: fake-target-model.\nTask: Discover behavior patterns relevant to 'Find prompt tags that make the target model give long answers.'.\n\nDeactivation thresholds: e_min=0.99, e_max=50.0.\nAll hypotheses will be evaluated together via e-BH at the end of the budget.\nYou should plan to run exactly 3 queries.\n\nIMPORTANT: With coarsened e-value feedback, you will NOT see the results (model responses, judgments, evidence examples) from previous rounds. You will only see what queries were tried before, along with coarsened statistical status. Your job is to generate fresh queries to test the assigned hypothesis directly.\n\nDon't start yet \u2014 wait for the next instruction. Do not generate queries or run tools yet, just confirm you have read these instructions.\n\n    NOTE: In future steps, you will be asked to evaluate outputs of queries. For your future information, here are available evaluation tools for this task:\n    1. `analyze_responses`: Use this for semantic or qualitative criteria (e.g., assessing behavior patterns, adherence to guidelines, or categorical classifications).\n    2. `run_procedural_autorater(autorater_name='count_words')`: Use this if your hypothesis requires direct numeric or procedural measurements which align with the purpose of that procedural autorater.\n\n    During this future evaluation step, you will be asked to choose the measurement tool that best matches the nature of your hypothesis. If using numeric measurements from `run_procedural_autorater`:\n    - Use `run_proportion_z_test` or `run_proportion_z_test_2_sample` if your hypothesis is about the proportion of responses meeting a threshold.\n- Use `run_continuous_means_test` if your hypothesis is about the average numeric value across responses.\n- Use `run_paired_means_test` if your hypothesis is about the difference between paired responses (e.g. Group A vs Group B)."
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [],
+    "kind": "model_turn",
+    "scrape_round": 0,
+    "text": "Acknowledged. Waiting for the next instruction.",
+    "thought_text": "",
+    "tool_round": 1
+   },
+   {
+    "kind": "clear_history",
+    "scrape_round": 0,
+    "turns_dropped": 2
+   },
+   {
+    "agent_model": "fake-agent-model",
+    "enable_tools": true,
+    "history_turns_before": 0,
+    "kind": "prompt",
+    "scrape_round": 0,
+    "text": "\n--- Hypothesis History (DISCO Mode) ---\nNo hypotheses yet.\nThresholds: e_min=0.99, e_max=50.0\nAll hypotheses will be tested at the end via e-BH.\n------------------------------------------\n\nCurrently ACTIVE hypotheses: None (all previous hypotheses in history are INACTIVE and cannot be probed; you MUST propose a NEW hypothesis).\n\nStrategic Decision Guidelines for Probing:\n- Evidence compounds across probe rounds for each hypothesis.\n- Qualitative evidence tags summarize current progress: [WEAK EVIDENCE] (E < 0.99), [MODERATE EVIDENCE] (0.99 <= E < 50.0), [STRONG EVIDENCE] (E >= 50.0).\n- At the end of the budget, all hypotheses are evaluated jointly with e-BH false discovery rate control.\n- Re-probing a promising hypothesis deepens evidence; proposing new hypotheses broadens coverage.\n- Positive transition scores indicate accumulating evidence for the hypothesized behavior.\n- In particular, hypotheses with [MODERATE EVIDENCE] and positive transition scores (pushing toward log(E_max) +3.91) are accumulating evidence \u2014 following up on them can push them to [STRONG EVIDENCE] / discovery!\n- If an active hypothesis has negative transition scores (indicating the target model consistently contradicts the hypothesis), do NOT repeat the same failed query types. Only re-probe if you can formulate fresh, diverse queries; otherwise, propose a NEW hypothesis.\n\nYou are inside the DISCO loop. Target model: fake-target-model. Task: Discover behavior patterns relevant to 'Find prompt tags that make the target model give long answers.'.\n\n    Choose ONE of the following actions:\n    (a) Probe an existing ACTIVE hypothesis by returning its ID (must be from the Currently ACTIVE list above).\n    (b) Propose a NEW hypothesis not yet investigated.\n    Reminder: active hypotheses will remain active, so you can freely explore new directions and return to active ones later. Hypotheses marked [INACTIVE - ...] have finished evaluation and CANNOT be probed again.\n\n    If proposing a new hypothesis:\n    - It must be different from all existing hypotheses listed above.\n    - Synthesize patterns from past evidence: Review the history table and compare hypotheses marked [STRONG EVIDENCE] / [EXITED-HIGH] against those marked [WEAK EVIDENCE] / [EXITED-LOW] to identify shared latent properties or common characteristics among past successes (e.g., structural complexity, cultural context requirements, step count, input style).\n    - Avoid narrow template spam: Do NOT propose trivial 1-to-1 lexical substitutions within the exact same sub-category (e.g., if 'list 3 nouns' failed, do not propose 'list 3 verbs'; if 'classic tacos' succeeded, do not merely propose 'classic burritos').\n    - Generalize and transfer: Exploring distinct domains that share an underlying pattern or testing an abstracted rule discovered from previous successes is strongly ENCOURAGED.\n    - The hypothesis MUST be detailed and operationalized: describe the behavioral pattern AND specify the measurement method (e.g. proportion z-test, McNemar test), null baseline proportion, and what constitutes a positive result. Do NOT state or assume a different number of queries in your hypothesis text. Describe in under 1000 characters.\n\n    Please state your response using two fields:\n    'HYPOTHESIS_ID: <the_id_of_the_hypothesis>'\n    'HYPOTHESIS: <the_text_of_the_hypothesis>'\n\n    If probing an existing hypothesis, use its existing ID and text.\n    If proposing a new one, create a new short semantic snake_case ID.\n    Do not proceed to other steps."
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [],
+    "kind": "model_turn",
+    "scrape_round": 0,
+    "text": "HYPOTHESIS_ID: long_tags\nHYPOTHESIS: Requests tagged LONG get answers longer than 20 words.",
+    "thought_text": "",
+    "tool_round": 1
+   },
+   {
+    "agent_model": "fake-agent-model",
+    "enable_tools": false,
+    "history_turns_before": 0,
+    "kind": "prompt",
+    "scrape_round": 0,
+    "text": "You are a fresh agent helper for a DISCO probe round with\ncoarsened e-value feedback. Target model: fake-target-model.\nTask: Discover behavior patterns relevant to 'Find prompt tags that make the target model give long answers.'.\n\nDeactivation thresholds: e_min=0.99, e_max=50.0.\nAll hypotheses will be evaluated together via e-BH at the end of the budget.\nYou should plan to run exactly 3 queries.\n\nIMPORTANT: With coarsened e-value feedback, you will NOT see the results (model responses, judgments, evidence examples) from previous rounds. You will only see what queries were tried before, along with coarsened statistical status. Your job is to generate fresh queries to test the assigned hypothesis directly.\n\nDon't start yet \u2014 wait for the next instruction. Do not generate queries or run tools yet, just confirm you have read these instructions.\n\n    NOTE: In future steps, you will be asked to evaluate outputs of queries. For your future information, here are available evaluation tools for this task:\n    1. `analyze_responses`: Use this for semantic or qualitative criteria (e.g., assessing behavior patterns, adherence to guidelines, or categorical classifications).\n    2. `run_procedural_autorater(autorater_name='count_words')`: Use this if your hypothesis requires direct numeric or procedural measurements which align with the purpose of that procedural autorater.\n\n    During this future evaluation step, you will be asked to choose the measurement tool that best matches the nature of your hypothesis. If using numeric measurements from `run_procedural_autorater`:\n    - Use `run_proportion_z_test` or `run_proportion_z_test_2_sample` if your hypothesis is about the proportion of responses meeting a threshold.\n- Use `run_continuous_means_test` if your hypothesis is about the average numeric value across responses.\n- Use `run_paired_means_test` if your hypothesis is about the difference between paired responses (e.g. Group A vs Group B)."
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [],
+    "kind": "model_turn",
+    "scrape_round": 0,
+    "text": "Acknowledged. Waiting for the next instruction.",
+    "thought_text": "",
+    "tool_round": 1
+   },
+   {
+    "agent_model": "fake-agent-model",
+    "enable_tools": false,
+    "history_turns_before": 2,
+    "kind": "prompt",
+    "scrape_round": 0,
+    "text": "You are a fresh agent helper for a DISCO probe round with coarsened e-value feedback. You are assisting with the hypothesis:\nHYPOTHESIS: Requests tagged LONG get answers longer than 20 words.\n\nStatus: Active (probed 0 times, coarsened status: A)\nThresholds: e_min=0.99, e_max=50.0\n\nYou can see salient examples from this hypothesis - use them as extra information if necessary.\n\nPlease acknowledge that you have received this hypothesis and context, and wait for the next instruction. Do not start generating queries or running tools yet."
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [],
+    "kind": "model_turn",
+    "scrape_round": 0,
+    "text": "Acknowledged. Waiting for the next instruction.",
+    "thought_text": "",
+    "tool_round": 1
+   },
+   {
+    "agent_model": "fake-agent-model",
+    "enable_tools": false,
+    "history_turns_before": 4,
+    "kind": "prompt",
+    "scrape_round": 0,
+    "text": "    Step 2b: Statistical Test Pre-Registration\n    Before generating queries or observing any responses, you MUST specify your complete statistical test plan for:\n    HYPOTHESIS: Requests tagged LONG get answers longer than 20 words.\n\n    CRITICAL RULES FOR PRE-REGISTRATION:\n    1. Test Type:\n       - If testing a binary behavior rate against a null baseline, select 'Binomial test'.\n       - If comparing two independent groups, select 'Fisher's Exact Test'.\n       - If evaluating numeric continuous scores (e.g. lengths, continuous autorater scores), select 'Continuous means test'.\n       - If evaluating matched/paired queries, set IS_PAIRED: True and then pick the test that matches what you measure per pair:\n         * 'Binomial test' -- you reduce each pair to a win/loss and test how often one side wins against a specific rate.\n         * 'McNemar's Test' -- you reduce each pair to a win/loss and test against chance (0.50).\n         * 'Paired continuous test' -- you take the numeric difference between the two sides of each pair and test its mean.\n    2. Directionality:\n       - If the hypothesis claims that a behavior occurs at an elevated or non-trivial rate, set ALTERNATIVE: 'larger' against your null baseline.\n       - Do NOT choose 'smaller' to \"disprove\" the hypothesis if no examples occur. Directionality reflects what outcome would SUPPORT the hypothesis being true.\n       - Use 'two-sided' only if testing for a non-directional difference between two conditions.\n    3. Null Baseline:\n       - For rate tests ('Binomial test', 'Fisher's Exact Test', 'McNemar's Test'), specify a proportion between 0 and 1 (e.g. 0.50 for majority/chance, or 0.05 for rare baseline).\n       - For 'Continuous means test' and 'Paired continuous test', specify the null value of the mean in the metric's own units. This is usually 0 for a paired difference, and is NOT restricted to the range 0 to 1.\n    4. Unit of Analysis:\n       - If IS_PAIRED is True, one observation is one PAIR, not one response. A batch of 200 responses is 100 paired observations, so report 100 as your observation count.\n    5. Single Tool Call:\n       - When data is collected in Step 5, you will run EXACTLY ONE statistical test matching this pre-registered plan.\n\n    You MUST output your pre-registration in this format:\nTEST_TYPE: <type> (Select from: 'Binomial test', 'Fisher's Exact Test', 'Continuous means test', 'McNemar's Test', 'Paired continuous test')\nTARGET_METRIC: <exact metric or behavior rate to measure>\nNULL_BASELINE: <the value your metric is compared against. For rate tests, a number between 0 and 1, e.g. 0.50 or 0.05. For 'Continuous means test' and 'Paired continuous test', the null value of the mean in the metric's own units, e.g. 0 or 25 or -3.5>\nALTERNATIVE: <'larger', 'smaller', or 'two-sided'>\nIS_PAIRED: <'True' or 'False' (Set to True if testing matched pairs / contrastive conditions, False otherwise)>\nREASONING: <1-2 sentences explaining why this alternative direction and null baseline test whether the hypothesis is true>\n    Do NOT call any execution tools or generate queries in this step."
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [],
+    "kind": "model_turn",
+    "scrape_round": 0,
+    "text": "TEST_TYPE: Continuous means test\nTARGET_METRIC: Word count of each answer\nNULL_BASELINE: 20\nALTERNATIVE: larger\nIS_PAIRED: False\nREASONING: Answers longer than the null mean support the hypothesis.",
+    "thought_text": "",
+    "tool_round": 1
+   },
+   {
+    "agent_model": "fake-agent-model",
+    "enable_tools": true,
+    "history_turns_before": 6,
+    "kind": "prompt",
+    "scrape_round": 0,
+    "text": "The following 3 queries have been pre-generated for you. Use EXACTLY these queries:\n\n1. Tagged LONG request 1.1: suggest a dinner recipe.\n2. Tagged LONG request 1.2: suggest a dinner recipe.\n3. Tagged LONG request 1.3: suggest a dinner recipe.\n\nNow use your tools to execute EXACTLY the 3 queries you     generated against the target model and evaluate the responses.\n\n1. Call `generate_single_turn_responses` with your 3 prompts.\n2. Next, evaluate the responses using EITHER:\n   - `analyze_responses` (if evaluating qualitative criteria or categorical questions)\n   - OR `run_procedural_autorater` with autorater_name='count_words' (if performing programmatic/numeric measurements).\n\nCRITICAL INSTRUCTION:\n- Do NOT call any statistical testing tools (such as `run_proportion_z_test`, `run_proportion_z_test_2_sample`, `run_continuous_means_test`, or `run_paired_means_test`) during this step. Statistical testing will be performed in the next step (Step 5).\n- Only call `generate_single_turn_responses` and your chosen evaluation tool (`analyze_responses` or `run_procedural_autorater`), then summarize the results."
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [
+     {
+      "args": {
+       "prompts": [
+        "Tagged LONG request 1.1: suggest a dinner recipe.",
+        "Tagged LONG request 1.2: suggest a dinner recipe.",
+        "Tagged LONG request 1.3: suggest a dinner recipe."
+       ]
+      },
+      "name": "generate_single_turn_responses"
+     }
+    ],
+    "kind": "model_turn",
+    "scrape_round": 0,
+    "text": "",
+    "thought_text": "",
+    "tool_round": 1
+   },
+   {
+    "args": {
+     "prompts": [
+      "Tagged LONG request 1.1: suggest a dinner recipe.",
+      "Tagged LONG request 1.2: suggest a dinner recipe.",
+      "Tagged LONG request 1.3: suggest a dinner recipe."
+     ]
+    },
+    "is_error": false,
+    "kind": "tool_call",
+    "name": "generate_single_turn_responses",
+    "result": "Generated 3 valid response(s) from 'fake-target-model' for 3 prompt(s).\nResponses saved to: <OUT>/smoke/responses_round_001\n\n\n--- Response 1 ---\nword1 word2 word3 word4 word5 word6 word7 word8 word9 word10 word11 word12 word13 word14 word15 word16 word17 word18 word19 word20 word21 word22 word23 word24 word25 word26 word27 word28 word29 word30 word31 word32 word33 word34 word35 word36 word37 word38 word39 word40 word41 word42 word43 word44 word45 word46 word47 word48 word49 word50\n\n\n--- Response 2 ---\nword1 word2 word3 word4 word5 word6 word7 word8 word9 word10 word11 word12 word13 word14 word15 word16 word17 word18 word19 word20 word21 word22 word23 word24 word25 word26 word27 word28 word29 word30 word31 word32 word33 word34 word35 word36 word37 word38 word39 word40 word41 word42 word43 word44 word45 word46 word47 word48 word49 word50 word51\n\n\n--- Response 3 ---\nword1 word2 word3 word4 word5 word6 word7 word8 word9 word10 word11 word12 word13 word14 word15 word16 word17 word18 word19 word20 word21 word22 word23 word24 word25 word26 word27 word28 word29 word30 word31 word32 word33 word34 word35 word36 word37 word38 word39 word40 word41 word42 word43 word44 word45 word46 word47 word48 word49 word50 word51 word52\n",
+    "scrape_round": 1,
+    "tool_round": 1
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [
+     {
+      "args": {
+       "autorater_name": "count_words",
+       "params": {}
+      },
+      "name": "run_procedural_autorater"
+     }
+    ],
+    "kind": "model_turn",
+    "scrape_round": 1,
+    "text": "",
+    "thought_text": "",
+    "tool_round": 2
+   },
+   {
+    "args": {
+     "autorater_name": "count_words",
+     "params": {}
+    },
+    "is_error": false,
+    "kind": "tool_call",
+    "name": "run_procedural_autorater",
+    "result": "{\"autorater\": \"count_words\", \"total_responses\": 3, \"values\": [50.0, 51.0, 52.0], \"mean\": 51.0, \"std\": 0.816496580927726, \"min\": 50.0, \"max\": 52.0}",
+    "scrape_round": 1,
+    "tool_round": 2
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [],
+    "kind": "model_turn",
+    "scrape_round": 1,
+    "text": "Collected and measured all responses with count_words.",
+    "thought_text": "",
+    "tool_round": 3
+   },
+   {
+    "agent_model": "fake-agent-model",
+    "enable_tools": true,
+    "history_turns_before": 12,
+    "kind": "prompt",
+    "scrape_round": 1,
+    "text": "Step 4b: Salient Pattern & Boundary Extraction\nLook at the results and measurements from the queries you just executed.\n\nPlease provide a concise summary (maximum 2-3 short bullet points, under 60 words total) of the most salient or informative patterns across this batch:\n1. Key Discriminators: What specific semantic characteristics most strongly separated the differing behaviors or measurement extremes?\n2. Boundaries & Counterexamples: Were there any surprising edge cases, anomalies, or instances where the expected pattern held weakly or failed?\n\nCRITICAL RULES:\n- Do NOT explain general domain mechanisms or write lengthy mechanical explanations (keep it strictly high-level semantic tags).\n- Do NOT output raw prompts, raw responses, or full concrete examples (especially avoid returning image artifacts) as this takes up too much context length.\n- If results were entirely uniform with no counterexamples, state the dominant discriminator in 1 sentence.\n- Do *not* proceed to other steps such as statistical tests. Output your summary directly as text."
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [],
+    "kind": "model_turn",
+    "scrape_round": 1,
+    "text": "- Answer length follows the prompt tag.",
+    "thought_text": "",
+    "tool_round": 1
+   },
+   {
+    "agent_model": "fake-agent-model",
+    "enable_tools": true,
+    "history_turns_before": 14,
+    "kind": "prompt",
+    "scrape_round": 1,
+    "text": "    Step 5: Statistical Significance Testing\n    Now execute your pre-registered statistical test using your stats tools (e.g. `run_proportion_z_test`, `run_mcnemar_test`, `run_continuous_means_test`, or `run_paired_means_test`).\n\n    PRE-REGISTERED TEST PLAN:\n- Test Type: Continuous means test\n- Target Metric: Word count of each answer\n- Null Baseline: 20.0\n- Alternative Direction: larger\n\n    EXECUTION RULES:\n    1. You must run EXACTLY ONE statistical test tool call using the pre-registered parameters above (null_proportion=20.0, alternative='larger').\n    2. Do NOT run exploratory or secondary tool calls.\n    3. Compute and report the resulting p-value.\n\n    You MUST state the test and key statistics in this format:\nTEST_TYPE: <type> (Select from: [One-sample: 'Binomial test', 'Continuous means test']     OR [Two-sample: 'Fisher's Exact Test']     OR [Paired: 'McNemar's Test', 'Paired continuous test'])\nGROUP_A_MEAN: <number> (Required. Use success rate for binary or mean for continuous)\nGROUP_A_OBS: <number> (Required. Total observations)\nGROUP_B_MEAN: <number> (Only for 2-sample tests)\nGROUP_B_OBS: <number> (Only for 2-sample tests)\nP-VALUE: <float>\nREASONING: <brief 1-2 sentence explanation of your test setup, why this direction was chosen, and how it aligns with your hypothesis>"
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [
+     {
+      "args": {
+       "alternative": "larger",
+       "n_obs": 3,
+       "null_mean": 20.0,
+       "sample_mean": 51.0,
+       "sample_std": 0.816496580927726
+      },
+      "name": "run_continuous_means_test"
+     }
+    ],
+    "kind": "model_turn",
+    "scrape_round": 1,
+    "text": "",
+    "thought_text": "",
+    "tool_round": 1
+   },
+   {
+    "args": {
+     "alternative": "larger",
+     "n_obs": 3,
+     "null_mean": 20.0,
+     "sample_mean": 51.0,
+     "sample_std": 0.816496580927726
+    },
+    "is_error": false,
+    "kind": "tool_call",
+    "name": "run_continuous_means_test",
+    "result": "One-Sample Means Test Results:\n- Method: T-test (Student's t)\n- Sample mean: 51.0000\n- Sample std: 0.8165\n- Null mean: 20.0000\n- Statistic: 65.7609\n- Alternative: larger\n- P-value: 0.000116\n",
+    "scrape_round": 1,
+    "tool_round": 1
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [],
+    "kind": "model_turn",
+    "scrape_round": 1,
+    "text": "TEST_TYPE: Continuous means test\nGROUP_A_MEAN: 51.0\nGROUP_A_OBS: 3\nP-VALUE: 0.000116\nREASONING: One-sample t-test of word counts against the null mean.",
+    "thought_text": "",
+    "tool_round": 2
+   },
+   {
+    "kind": "clear_history",
+    "scrape_round": 0,
+    "turns_dropped": 2
+   },
+   {
+    "agent_model": "fake-agent-model",
+    "enable_tools": true,
+    "history_turns_before": 0,
+    "kind": "prompt",
+    "scrape_round": 0,
+    "text": "\n--- Hypothesis History (DISCO Mode) ---\nID: long_tags (Requests tagged LONG get answers longer than 20 words.) [INACTIVE - EXITED-HIGH, 1 probes] [STRONG EVIDENCE]\n  Probe transition scores: +2.905\nThresholds: e_min=0.99, e_max=50.0\nAll hypotheses will be tested at the end via e-BH.\n------------------------------------------\n\nCurrently ACTIVE hypotheses: None (all previous hypotheses in history are INACTIVE and cannot be probed; you MUST propose a NEW hypothesis).\n\nStrategic Decision Guidelines for Probing:\n- Evidence compounds across probe rounds for each hypothesis.\n- Qualitative evidence tags summarize current progress: [WEAK EVIDENCE] (E < 0.99), [MODERATE EVIDENCE] (0.99 <= E < 50.0), [STRONG EVIDENCE] (E >= 50.0).\n- At the end of the budget, all hypotheses are evaluated jointly with e-BH false discovery rate control.\n- Re-probing a promising hypothesis deepens evidence; proposing new hypotheses broadens coverage.\n- Positive transition scores indicate accumulating evidence for the hypothesized behavior.\n- In particular, hypotheses with [MODERATE EVIDENCE] and positive transition scores (pushing toward log(E_max) +3.91) are accumulating evidence \u2014 following up on them can push them to [STRONG EVIDENCE] / discovery!\n- If an active hypothesis has negative transition scores (indicating the target model consistently contradicts the hypothesis), do NOT repeat the same failed query types. Only re-probe if you can formulate fresh, diverse queries; otherwise, propose a NEW hypothesis.\n\nYou are inside the DISCO loop. Target model: fake-target-model. Task: Discover behavior patterns relevant to 'Find prompt tags that make the target model give long answers.'.\n\n    Choose ONE of the following actions:\n    (a) Probe an existing ACTIVE hypothesis by returning its ID (must be from the Currently ACTIVE list above).\n    (b) Propose a NEW hypothesis not yet investigated.\n    Reminder: active hypotheses will remain active, so you can freely explore new directions and return to active ones later. Hypotheses marked [INACTIVE - ...] have finished evaluation and CANNOT be probed again.\n\n    If proposing a new hypothesis:\n    - It must be different from all existing hypotheses listed above.\n    - Synthesize patterns from past evidence: Review the history table and compare hypotheses marked [STRONG EVIDENCE] / [EXITED-HIGH] against those marked [WEAK EVIDENCE] / [EXITED-LOW] to identify shared latent properties or common characteristics among past successes (e.g., structural complexity, cultural context requirements, step count, input style).\n    - Avoid narrow template spam: Do NOT propose trivial 1-to-1 lexical substitutions within the exact same sub-category (e.g., if 'list 3 nouns' failed, do not propose 'list 3 verbs'; if 'classic tacos' succeeded, do not merely propose 'classic burritos').\n    - Generalize and transfer: Exploring distinct domains that share an underlying pattern or testing an abstracted rule discovered from previous successes is strongly ENCOURAGED.\n    - The hypothesis MUST be detailed and operationalized: describe the behavioral pattern AND specify the measurement method (e.g. proportion z-test, McNemar test), null baseline proportion, and what constitutes a positive result. Do NOT state or assume a different number of queries in your hypothesis text. Describe in under 1000 characters.\n\n    Please state your response using two fields:\n    'HYPOTHESIS_ID: <the_id_of_the_hypothesis>'\n    'HYPOTHESIS: <the_text_of_the_hypothesis>'\n\n    If probing an existing hypothesis, use its existing ID and text.\n    If proposing a new one, create a new short semantic snake_case ID.\n    Do not proceed to other steps."
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [],
+    "kind": "model_turn",
+    "scrape_round": 0,
+    "text": "HYPOTHESIS_ID: short_tags\nHYPOTHESIS: Requests tagged SHORT get answers longer than 20 words.",
+    "thought_text": "",
+    "tool_round": 1
+   },
+   {
+    "agent_model": "fake-agent-model",
+    "enable_tools": false,
+    "history_turns_before": 0,
+    "kind": "prompt",
+    "scrape_round": 1,
+    "text": "You are a fresh agent helper for a DISCO probe round with\ncoarsened e-value feedback. Target model: fake-target-model.\nTask: Discover behavior patterns relevant to 'Find prompt tags that make the target model give long answers.'.\n\nDeactivation thresholds: e_min=0.99, e_max=50.0.\nAll hypotheses will be evaluated together via e-BH at the end of the budget.\nYou should plan to run exactly 3 queries.\n\nIMPORTANT: With coarsened e-value feedback, you will NOT see the results (model responses, judgments, evidence examples) from previous rounds. You will only see what queries were tried before, along with coarsened statistical status. Your job is to generate fresh queries to test the assigned hypothesis directly.\n\nDon't start yet \u2014 wait for the next instruction. Do not generate queries or run tools yet, just confirm you have read these instructions.\n\n    NOTE: In future steps, you will be asked to evaluate outputs of queries. For your future information, here are available evaluation tools for this task:\n    1. `analyze_responses`: Use this for semantic or qualitative criteria (e.g., assessing behavior patterns, adherence to guidelines, or categorical classifications).\n    2. `run_procedural_autorater(autorater_name='count_words')`: Use this if your hypothesis requires direct numeric or procedural measurements which align with the purpose of that procedural autorater.\n\n    During this future evaluation step, you will be asked to choose the measurement tool that best matches the nature of your hypothesis. If using numeric measurements from `run_procedural_autorater`:\n    - Use `run_proportion_z_test` or `run_proportion_z_test_2_sample` if your hypothesis is about the proportion of responses meeting a threshold.\n- Use `run_continuous_means_test` if your hypothesis is about the average numeric value across responses.\n- Use `run_paired_means_test` if your hypothesis is about the difference between paired responses (e.g. Group A vs Group B)."
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [],
+    "kind": "model_turn",
+    "scrape_round": 1,
+    "text": "Acknowledged. Waiting for the next instruction.",
+    "thought_text": "",
+    "tool_round": 1
+   },
+   {
+    "agent_model": "fake-agent-model",
+    "enable_tools": false,
+    "history_turns_before": 2,
+    "kind": "prompt",
+    "scrape_round": 1,
+    "text": "You are a fresh agent helper for a DISCO probe round with coarsened e-value feedback. You are assisting with the hypothesis:\nHYPOTHESIS: Requests tagged SHORT get answers longer than 20 words.\n\nStatus: Active (probed 0 times, coarsened status: A)\nThresholds: e_min=0.99, e_max=50.0\n\nYou can see salient examples from this hypothesis - use them as extra information if necessary.\n\nPlease acknowledge that you have received this hypothesis and context, and wait for the next instruction. Do not start generating queries or running tools yet."
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [],
+    "kind": "model_turn",
+    "scrape_round": 1,
+    "text": "Acknowledged. Waiting for the next instruction.",
+    "thought_text": "",
+    "tool_round": 1
+   },
+   {
+    "agent_model": "fake-agent-model",
+    "enable_tools": false,
+    "history_turns_before": 4,
+    "kind": "prompt",
+    "scrape_round": 1,
+    "text": "    Step 2b: Statistical Test Pre-Registration\n    Before generating queries or observing any responses, you MUST specify your complete statistical test plan for:\n    HYPOTHESIS: Requests tagged SHORT get answers longer than 20 words.\n\n    CRITICAL RULES FOR PRE-REGISTRATION:\n    1. Test Type:\n       - If testing a binary behavior rate against a null baseline, select 'Binomial test'.\n       - If comparing two independent groups, select 'Fisher's Exact Test'.\n       - If evaluating numeric continuous scores (e.g. lengths, continuous autorater scores), select 'Continuous means test'.\n       - If evaluating matched/paired queries, set IS_PAIRED: True and then pick the test that matches what you measure per pair:\n         * 'Binomial test' -- you reduce each pair to a win/loss and test how often one side wins against a specific rate.\n         * 'McNemar's Test' -- you reduce each pair to a win/loss and test against chance (0.50).\n         * 'Paired continuous test' -- you take the numeric difference between the two sides of each pair and test its mean.\n    2. Directionality:\n       - If the hypothesis claims that a behavior occurs at an elevated or non-trivial rate, set ALTERNATIVE: 'larger' against your null baseline.\n       - Do NOT choose 'smaller' to \"disprove\" the hypothesis if no examples occur. Directionality reflects what outcome would SUPPORT the hypothesis being true.\n       - Use 'two-sided' only if testing for a non-directional difference between two conditions.\n    3. Null Baseline:\n       - For rate tests ('Binomial test', 'Fisher's Exact Test', 'McNemar's Test'), specify a proportion between 0 and 1 (e.g. 0.50 for majority/chance, or 0.05 for rare baseline).\n       - For 'Continuous means test' and 'Paired continuous test', specify the null value of the mean in the metric's own units. This is usually 0 for a paired difference, and is NOT restricted to the range 0 to 1.\n    4. Unit of Analysis:\n       - If IS_PAIRED is True, one observation is one PAIR, not one response. A batch of 200 responses is 100 paired observations, so report 100 as your observation count.\n    5. Single Tool Call:\n       - When data is collected in Step 5, you will run EXACTLY ONE statistical test matching this pre-registered plan.\n\n    You MUST output your pre-registration in this format:\nTEST_TYPE: <type> (Select from: 'Binomial test', 'Fisher's Exact Test', 'Continuous means test', 'McNemar's Test', 'Paired continuous test')\nTARGET_METRIC: <exact metric or behavior rate to measure>\nNULL_BASELINE: <the value your metric is compared against. For rate tests, a number between 0 and 1, e.g. 0.50 or 0.05. For 'Continuous means test' and 'Paired continuous test', the null value of the mean in the metric's own units, e.g. 0 or 25 or -3.5>\nALTERNATIVE: <'larger', 'smaller', or 'two-sided'>\nIS_PAIRED: <'True' or 'False' (Set to True if testing matched pairs / contrastive conditions, False otherwise)>\nREASONING: <1-2 sentences explaining why this alternative direction and null baseline test whether the hypothesis is true>\n    Do NOT call any execution tools or generate queries in this step."
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [],
+    "kind": "model_turn",
+    "scrape_round": 1,
+    "text": "TEST_TYPE: Continuous means test\nTARGET_METRIC: Word count of each answer\nNULL_BASELINE: 20\nALTERNATIVE: larger\nIS_PAIRED: False\nREASONING: Answers longer than the null mean support the hypothesis.",
+    "thought_text": "",
+    "tool_round": 1
+   },
+   {
+    "agent_model": "fake-agent-model",
+    "enable_tools": true,
+    "history_turns_before": 6,
+    "kind": "prompt",
+    "scrape_round": 1,
+    "text": "The following 3 queries have been pre-generated for you. Use EXACTLY these queries:\n\n1. Tagged SHORT request 2.1: suggest a dinner recipe.\n2. Tagged SHORT request 2.2: suggest a dinner recipe.\n3. Tagged SHORT request 2.3: suggest a dinner recipe.\n\nNow use your tools to execute EXACTLY the 3 queries you     generated against the target model and evaluate the responses.\n\n1. Call `generate_single_turn_responses` with your 3 prompts.\n2. Next, evaluate the responses using EITHER:\n   - `analyze_responses` (if evaluating qualitative criteria or categorical questions)\n   - OR `run_procedural_autorater` with autorater_name='count_words' (if performing programmatic/numeric measurements).\n\nCRITICAL INSTRUCTION:\n- Do NOT call any statistical testing tools (such as `run_proportion_z_test`, `run_proportion_z_test_2_sample`, `run_continuous_means_test`, or `run_paired_means_test`) during this step. Statistical testing will be performed in the next step (Step 5).\n- Only call `generate_single_turn_responses` and your chosen evaluation tool (`analyze_responses` or `run_procedural_autorater`), then summarize the results."
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [
+     {
+      "args": {
+       "prompts": [
+        "Tagged SHORT request 2.1: suggest a dinner recipe.",
+        "Tagged SHORT request 2.2: suggest a dinner recipe.",
+        "Tagged SHORT request 2.3: suggest a dinner recipe."
+       ]
+      },
+      "name": "generate_single_turn_responses"
+     }
+    ],
+    "kind": "model_turn",
+    "scrape_round": 1,
+    "text": "",
+    "thought_text": "",
+    "tool_round": 1
+   },
+   {
+    "args": {
+     "prompts": [
+      "Tagged SHORT request 2.1: suggest a dinner recipe.",
+      "Tagged SHORT request 2.2: suggest a dinner recipe.",
+      "Tagged SHORT request 2.3: suggest a dinner recipe."
+     ]
+    },
+    "is_error": false,
+    "kind": "tool_call",
+    "name": "generate_single_turn_responses",
+    "result": "Generated 3 valid response(s) from 'fake-target-model' for 3 prompt(s).\nResponses saved to: <OUT>/smoke/responses_round_002\n\n\n--- Response 1 ---\nword1 word2 word3\n\n\n--- Response 2 ---\nword1 word2 word3 word4\n\n\n--- Response 3 ---\nword1 word2 word3 word4 word5\n",
+    "scrape_round": 2,
+    "tool_round": 1
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [
+     {
+      "args": {
+       "autorater_name": "count_words",
+       "params": {}
+      },
+      "name": "run_procedural_autorater"
+     }
+    ],
+    "kind": "model_turn",
+    "scrape_round": 2,
+    "text": "",
+    "thought_text": "",
+    "tool_round": 2
+   },
+   {
+    "args": {
+     "autorater_name": "count_words",
+     "params": {}
+    },
+    "is_error": false,
+    "kind": "tool_call",
+    "name": "run_procedural_autorater",
+    "result": "{\"autorater\": \"count_words\", \"total_responses\": 3, \"values\": [3.0, 4.0, 5.0], \"mean\": 4.0, \"std\": 0.816496580927726, \"min\": 3.0, \"max\": 5.0}",
+    "scrape_round": 2,
+    "tool_round": 2
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [],
+    "kind": "model_turn",
+    "scrape_round": 2,
+    "text": "Collected and measured all responses with count_words.",
+    "thought_text": "",
+    "tool_round": 3
+   },
+   {
+    "agent_model": "fake-agent-model",
+    "enable_tools": true,
+    "history_turns_before": 12,
+    "kind": "prompt",
+    "scrape_round": 2,
+    "text": "Step 4b: Salient Pattern & Boundary Extraction\nLook at the results and measurements from the queries you just executed.\n\nPlease provide a concise summary (maximum 2-3 short bullet points, under 60 words total) of the most salient or informative patterns across this batch:\n1. Key Discriminators: What specific semantic characteristics most strongly separated the differing behaviors or measurement extremes?\n2. Boundaries & Counterexamples: Were there any surprising edge cases, anomalies, or instances where the expected pattern held weakly or failed?\n\nCRITICAL RULES:\n- Do NOT explain general domain mechanisms or write lengthy mechanical explanations (keep it strictly high-level semantic tags).\n- Do NOT output raw prompts, raw responses, or full concrete examples (especially avoid returning image artifacts) as this takes up too much context length.\n- If results were entirely uniform with no counterexamples, state the dominant discriminator in 1 sentence.\n- Do *not* proceed to other steps such as statistical tests. Output your summary directly as text."
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [],
+    "kind": "model_turn",
+    "scrape_round": 2,
+    "text": "- Answer length follows the prompt tag.",
+    "thought_text": "",
+    "tool_round": 1
+   },
+   {
+    "agent_model": "fake-agent-model",
+    "enable_tools": true,
+    "history_turns_before": 14,
+    "kind": "prompt",
+    "scrape_round": 2,
+    "text": "    Step 5: Statistical Significance Testing\n    Now execute your pre-registered statistical test using your stats tools (e.g. `run_proportion_z_test`, `run_mcnemar_test`, `run_continuous_means_test`, or `run_paired_means_test`).\n\n    PRE-REGISTERED TEST PLAN:\n- Test Type: Continuous means test\n- Target Metric: Word count of each answer\n- Null Baseline: 20.0\n- Alternative Direction: larger\n\n    EXECUTION RULES:\n    1. You must run EXACTLY ONE statistical test tool call using the pre-registered parameters above (null_proportion=20.0, alternative='larger').\n    2. Do NOT run exploratory or secondary tool calls.\n    3. Compute and report the resulting p-value.\n\n    You MUST state the test and key statistics in this format:\nTEST_TYPE: <type> (Select from: [One-sample: 'Binomial test', 'Continuous means test']     OR [Two-sample: 'Fisher's Exact Test']     OR [Paired: 'McNemar's Test', 'Paired continuous test'])\nGROUP_A_MEAN: <number> (Required. Use success rate for binary or mean for continuous)\nGROUP_A_OBS: <number> (Required. Total observations)\nGROUP_B_MEAN: <number> (Only for 2-sample tests)\nGROUP_B_OBS: <number> (Only for 2-sample tests)\nP-VALUE: <float>\nREASONING: <brief 1-2 sentence explanation of your test setup, why this direction was chosen, and how it aligns with your hypothesis>"
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [
+     {
+      "args": {
+       "alternative": "larger",
+       "n_obs": 3,
+       "null_mean": 20.0,
+       "sample_mean": 4.0,
+       "sample_std": 0.816496580927726
+      },
+      "name": "run_continuous_means_test"
+     }
+    ],
+    "kind": "model_turn",
+    "scrape_round": 2,
+    "text": "",
+    "thought_text": "",
+    "tool_round": 1
+   },
+   {
+    "args": {
+     "alternative": "larger",
+     "n_obs": 3,
+     "null_mean": 20.0,
+     "sample_mean": 4.0,
+     "sample_std": 0.816496580927726
+    },
+    "is_error": false,
+    "kind": "tool_call",
+    "name": "run_continuous_means_test",
+    "result": "One-Sample Means Test Results:\n- Method: T-test (Student's t)\n- Sample mean: 4.0000\n- Sample std: 0.8165\n- Null mean: 20.0000\n- Statistic: -33.9411\n- Alternative: larger\n- P-value: 0.999567\n",
+    "scrape_round": 2,
+    "tool_round": 1
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [],
+    "kind": "model_turn",
+    "scrape_round": 2,
+    "text": "TEST_TYPE: Continuous means test\nGROUP_A_MEAN: 4.0\nGROUP_A_OBS: 3\nP-VALUE: 0.999567\nREASONING: One-sample t-test of word counts against the null mean.",
+    "thought_text": "",
+    "tool_round": 2
+   },
+   {
+    "kind": "clear_history",
+    "scrape_round": 0,
+    "turns_dropped": 2
+   },
+   {
+    "agent_model": "fake-agent-model",
+    "enable_tools": true,
+    "history_turns_before": 0,
+    "kind": "prompt",
+    "scrape_round": 0,
+    "text": "\n--- Hypothesis History (DISCO Mode) ---\nID: long_tags (Requests tagged LONG get answers longer than 20 words.) [INACTIVE - EXITED-HIGH, 1 probes] [STRONG EVIDENCE]\n  Probe transition scores: +2.905\nID: short_tags (Requests tagged SHORT get answers longer than 20 words.) [INACTIVE - EXITED-LOW, 1 probes] [WEAK EVIDENCE]\n  Probe transition scores: -1.198\nThresholds: e_min=0.99, e_max=50.0\nAll hypotheses will be tested at the end via e-BH.\n------------------------------------------\n\nCurrently ACTIVE hypotheses: None (all previous hypotheses in history are INACTIVE and cannot be probed; you MUST propose a NEW hypothesis).\n\nStrategic Decision Guidelines for Probing:\n- Evidence compounds across probe rounds for each hypothesis.\n- Qualitative evidence tags summarize current progress: [WEAK EVIDENCE] (E < 0.99), [MODERATE EVIDENCE] (0.99 <= E < 50.0), [STRONG EVIDENCE] (E >= 50.0).\n- At the end of the budget, all hypotheses are evaluated jointly with e-BH false discovery rate control.\n- Re-probing a promising hypothesis deepens evidence; proposing new hypotheses broadens coverage.\n- Positive transition scores indicate accumulating evidence for the hypothesized behavior.\n- In particular, hypotheses with [MODERATE EVIDENCE] and positive transition scores (pushing toward log(E_max) +3.91) are accumulating evidence \u2014 following up on them can push them to [STRONG EVIDENCE] / discovery!\n- If an active hypothesis has negative transition scores (indicating the target model consistently contradicts the hypothesis), do NOT repeat the same failed query types. Only re-probe if you can formulate fresh, diverse queries; otherwise, propose a NEW hypothesis.\n\nYou are inside the DISCO loop. Target model: fake-target-model. Task: Discover behavior patterns relevant to 'Find prompt tags that make the target model give long answers.'.\n\n    Choose ONE of the following actions:\n    (a) Probe an existing ACTIVE hypothesis by returning its ID (must be from the Currently ACTIVE list above).\n    (b) Propose a NEW hypothesis not yet investigated.\n    Reminder: active hypotheses will remain active, so you can freely explore new directions and return to active ones later. Hypotheses marked [INACTIVE - ...] have finished evaluation and CANNOT be probed again.\n\n    If proposing a new hypothesis:\n    - It must be different from all existing hypotheses listed above.\n    - Synthesize patterns from past evidence: Review the history table and compare hypotheses marked [STRONG EVIDENCE] / [EXITED-HIGH] against those marked [WEAK EVIDENCE] / [EXITED-LOW] to identify shared latent properties or common characteristics among past successes (e.g., structural complexity, cultural context requirements, step count, input style).\n    - Avoid narrow template spam: Do NOT propose trivial 1-to-1 lexical substitutions within the exact same sub-category (e.g., if 'list 3 nouns' failed, do not propose 'list 3 verbs'; if 'classic tacos' succeeded, do not merely propose 'classic burritos').\n    - Generalize and transfer: Exploring distinct domains that share an underlying pattern or testing an abstracted rule discovered from previous successes is strongly ENCOURAGED.\n    - The hypothesis MUST be detailed and operationalized: describe the behavioral pattern AND specify the measurement method (e.g. proportion z-test, McNemar test), null baseline proportion, and what constitutes a positive result. Do NOT state or assume a different number of queries in your hypothesis text. Describe in under 1000 characters.\n\n    Please state your response using two fields:\n    'HYPOTHESIS_ID: <the_id_of_the_hypothesis>'\n    'HYPOTHESIS: <the_text_of_the_hypothesis>'\n\n    If probing an existing hypothesis, use its existing ID and text.\n    If proposing a new one, create a new short semantic snake_case ID.\n    Do not proceed to other steps."
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [],
+    "kind": "model_turn",
+    "scrape_round": 0,
+    "text": "HYPOTHESIS_ID: medium_tags\nHYPOTHESIS: Requests tagged MEDIUM get answers longer than 20 words.",
+    "thought_text": "",
+    "tool_round": 1
+   },
+   {
+    "agent_model": "fake-agent-model",
+    "enable_tools": false,
+    "history_turns_before": 0,
+    "kind": "prompt",
+    "scrape_round": 2,
+    "text": "You are a fresh agent helper for a DISCO probe round with\ncoarsened e-value feedback. Target model: fake-target-model.\nTask: Discover behavior patterns relevant to 'Find prompt tags that make the target model give long answers.'.\n\nDeactivation thresholds: e_min=0.99, e_max=50.0.\nAll hypotheses will be evaluated together via e-BH at the end of the budget.\nYou should plan to run exactly 3 queries.\n\nIMPORTANT: With coarsened e-value feedback, you will NOT see the results (model responses, judgments, evidence examples) from previous rounds. You will only see what queries were tried before, along with coarsened statistical status. Your job is to generate fresh queries to test the assigned hypothesis directly.\n\nDon't start yet \u2014 wait for the next instruction. Do not generate queries or run tools yet, just confirm you have read these instructions.\n\n    NOTE: In future steps, you will be asked to evaluate outputs of queries. For your future information, here are available evaluation tools for this task:\n    1. `analyze_responses`: Use this for semantic or qualitative criteria (e.g., assessing behavior patterns, adherence to guidelines, or categorical classifications).\n    2. `run_procedural_autorater(autorater_name='count_words')`: Use this if your hypothesis requires direct numeric or procedural measurements which align with the purpose of that procedural autorater.\n\n    During this future evaluation step, you will be asked to choose the measurement tool that best matches the nature of your hypothesis. If using numeric measurements from `run_procedural_autorater`:\n    - Use `run_proportion_z_test` or `run_proportion_z_test_2_sample` if your hypothesis is about the proportion of responses meeting a threshold.\n- Use `run_continuous_means_test` if your hypothesis is about the average numeric value across responses.\n- Use `run_paired_means_test` if your hypothesis is about the difference between paired responses (e.g. Group A vs Group B)."
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [],
+    "kind": "model_turn",
+    "scrape_round": 2,
+    "text": "Acknowledged. Waiting for the next instruction.",
+    "thought_text": "",
+    "tool_round": 1
+   },
+   {
+    "agent_model": "fake-agent-model",
+    "enable_tools": false,
+    "history_turns_before": 2,
+    "kind": "prompt",
+    "scrape_round": 2,
+    "text": "You are a fresh agent helper for a DISCO probe round with coarsened e-value feedback. You are assisting with the hypothesis:\nHYPOTHESIS: Requests tagged MEDIUM get answers longer than 20 words.\n\nStatus: Active (probed 0 times, coarsened status: A)\nThresholds: e_min=0.99, e_max=50.0\n\nYou can see salient examples from this hypothesis - use them as extra information if necessary.\n\nPlease acknowledge that you have received this hypothesis and context, and wait for the next instruction. Do not start generating queries or running tools yet."
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [],
+    "kind": "model_turn",
+    "scrape_round": 2,
+    "text": "Acknowledged. Waiting for the next instruction.",
+    "thought_text": "",
+    "tool_round": 1
+   },
+   {
+    "agent_model": "fake-agent-model",
+    "enable_tools": false,
+    "history_turns_before": 4,
+    "kind": "prompt",
+    "scrape_round": 2,
+    "text": "    Step 2b: Statistical Test Pre-Registration\n    Before generating queries or observing any responses, you MUST specify your complete statistical test plan for:\n    HYPOTHESIS: Requests tagged MEDIUM get answers longer than 20 words.\n\n    CRITICAL RULES FOR PRE-REGISTRATION:\n    1. Test Type:\n       - If testing a binary behavior rate against a null baseline, select 'Binomial test'.\n       - If comparing two independent groups, select 'Fisher's Exact Test'.\n       - If evaluating numeric continuous scores (e.g. lengths, continuous autorater scores), select 'Continuous means test'.\n       - If evaluating matched/paired queries, set IS_PAIRED: True and then pick the test that matches what you measure per pair:\n         * 'Binomial test' -- you reduce each pair to a win/loss and test how often one side wins against a specific rate.\n         * 'McNemar's Test' -- you reduce each pair to a win/loss and test against chance (0.50).\n         * 'Paired continuous test' -- you take the numeric difference between the two sides of each pair and test its mean.\n    2. Directionality:\n       - If the hypothesis claims that a behavior occurs at an elevated or non-trivial rate, set ALTERNATIVE: 'larger' against your null baseline.\n       - Do NOT choose 'smaller' to \"disprove\" the hypothesis if no examples occur. Directionality reflects what outcome would SUPPORT the hypothesis being true.\n       - Use 'two-sided' only if testing for a non-directional difference between two conditions.\n    3. Null Baseline:\n       - For rate tests ('Binomial test', 'Fisher's Exact Test', 'McNemar's Test'), specify a proportion between 0 and 1 (e.g. 0.50 for majority/chance, or 0.05 for rare baseline).\n       - For 'Continuous means test' and 'Paired continuous test', specify the null value of the mean in the metric's own units. This is usually 0 for a paired difference, and is NOT restricted to the range 0 to 1.\n    4. Unit of Analysis:\n       - If IS_PAIRED is True, one observation is one PAIR, not one response. A batch of 200 responses is 100 paired observations, so report 100 as your observation count.\n    5. Single Tool Call:\n       - When data is collected in Step 5, you will run EXACTLY ONE statistical test matching this pre-registered plan.\n\n    You MUST output your pre-registration in this format:\nTEST_TYPE: <type> (Select from: 'Binomial test', 'Fisher's Exact Test', 'Continuous means test', 'McNemar's Test', 'Paired continuous test')\nTARGET_METRIC: <exact metric or behavior rate to measure>\nNULL_BASELINE: <the value your metric is compared against. For rate tests, a number between 0 and 1, e.g. 0.50 or 0.05. For 'Continuous means test' and 'Paired continuous test', the null value of the mean in the metric's own units, e.g. 0 or 25 or -3.5>\nALTERNATIVE: <'larger', 'smaller', or 'two-sided'>\nIS_PAIRED: <'True' or 'False' (Set to True if testing matched pairs / contrastive conditions, False otherwise)>\nREASONING: <1-2 sentences explaining why this alternative direction and null baseline test whether the hypothesis is true>\n    Do NOT call any execution tools or generate queries in this step."
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [],
+    "kind": "model_turn",
+    "scrape_round": 2,
+    "text": "TEST_TYPE: Continuous means test\nTARGET_METRIC: Word count of each answer\nNULL_BASELINE: 20\nALTERNATIVE: larger\nIS_PAIRED: False\nREASONING: Answers longer than the null mean support the hypothesis.",
+    "thought_text": "",
+    "tool_round": 1
+   },
+   {
+    "agent_model": "fake-agent-model",
+    "enable_tools": true,
+    "history_turns_before": 6,
+    "kind": "prompt",
+    "scrape_round": 2,
+    "text": "The following 3 queries have been pre-generated for you. Use EXACTLY these queries:\n\n1. Tagged MEDIUM request 3.1: suggest a dinner recipe.\n2. Tagged MEDIUM request 3.2: suggest a dinner recipe.\n3. Tagged MEDIUM request 3.3: suggest a dinner recipe.\n\nNow use your tools to execute EXACTLY the 3 queries you     generated against the target model and evaluate the responses.\n\n1. Call `generate_single_turn_responses` with your 3 prompts.\n2. Next, evaluate the responses using EITHER:\n   - `analyze_responses` (if evaluating qualitative criteria or categorical questions)\n   - OR `run_procedural_autorater` with autorater_name='count_words' (if performing programmatic/numeric measurements).\n\nCRITICAL INSTRUCTION:\n- Do NOT call any statistical testing tools (such as `run_proportion_z_test`, `run_proportion_z_test_2_sample`, `run_continuous_means_test`, or `run_paired_means_test`) during this step. Statistical testing will be performed in the next step (Step 5).\n- Only call `generate_single_turn_responses` and your chosen evaluation tool (`analyze_responses` or `run_procedural_autorater`), then summarize the results."
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [
+     {
+      "args": {
+       "prompts": [
+        "Tagged MEDIUM request 3.1: suggest a dinner recipe.",
+        "Tagged MEDIUM request 3.2: suggest a dinner recipe.",
+        "Tagged MEDIUM request 3.3: suggest a dinner recipe."
+       ]
+      },
+      "name": "generate_single_turn_responses"
+     }
+    ],
+    "kind": "model_turn",
+    "scrape_round": 2,
+    "text": "",
+    "thought_text": "",
+    "tool_round": 1
+   },
+   {
+    "args": {
+     "prompts": [
+      "Tagged MEDIUM request 3.1: suggest a dinner recipe.",
+      "Tagged MEDIUM request 3.2: suggest a dinner recipe.",
+      "Tagged MEDIUM request 3.3: suggest a dinner recipe."
+     ]
+    },
+    "is_error": false,
+    "kind": "tool_call",
+    "name": "generate_single_turn_responses",
+    "result": "Generated 3 valid response(s) from 'fake-target-model' for 3 prompt(s).\nResponses saved to: <OUT>/smoke/responses_round_003\n\n\n--- Response 1 ---\nword1 word2 word3 word4 word5 word6 word7 word8 word9 word10 word11 word12 word13 word14 word15 word16 word17 word18 word19 word20 word21\n\n\n--- Response 2 ---\nword1 word2 word3 word4 word5 word6 word7 word8 word9 word10 word11 word12 word13 word14 word15 word16 word17 word18 word19 word20 word21 word22 word23\n\n\n--- Response 3 ---\nword1 word2 word3 word4 word5 word6 word7 word8 word9 word10 word11 word12 word13 word14 word15 word16 word17 word18 word19 word20 word21 word22 word23 word24 word25\n",
+    "scrape_round": 3,
+    "tool_round": 1
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [
+     {
+      "args": {
+       "autorater_name": "count_words",
+       "params": {}
+      },
+      "name": "run_procedural_autorater"
+     }
+    ],
+    "kind": "model_turn",
+    "scrape_round": 3,
+    "text": "",
+    "thought_text": "",
+    "tool_round": 2
+   },
+   {
+    "args": {
+     "autorater_name": "count_words",
+     "params": {}
+    },
+    "is_error": false,
+    "kind": "tool_call",
+    "name": "run_procedural_autorater",
+    "result": "{\"autorater\": \"count_words\", \"total_responses\": 3, \"values\": [21.0, 23.0, 25.0], \"mean\": 23.0, \"std\": 1.632993161855452, \"min\": 21.0, \"max\": 25.0}",
+    "scrape_round": 3,
+    "tool_round": 2
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [],
+    "kind": "model_turn",
+    "scrape_round": 3,
+    "text": "Collected and measured all responses with count_words.",
+    "thought_text": "",
+    "tool_round": 3
+   },
+   {
+    "agent_model": "fake-agent-model",
+    "enable_tools": true,
+    "history_turns_before": 12,
+    "kind": "prompt",
+    "scrape_round": 3,
+    "text": "Step 4b: Salient Pattern & Boundary Extraction\nLook at the results and measurements from the queries you just executed.\n\nPlease provide a concise summary (maximum 2-3 short bullet points, under 60 words total) of the most salient or informative patterns across this batch:\n1. Key Discriminators: What specific semantic characteristics most strongly separated the differing behaviors or measurement extremes?\n2. Boundaries & Counterexamples: Were there any surprising edge cases, anomalies, or instances where the expected pattern held weakly or failed?\n\nCRITICAL RULES:\n- Do NOT explain general domain mechanisms or write lengthy mechanical explanations (keep it strictly high-level semantic tags).\n- Do NOT output raw prompts, raw responses, or full concrete examples (especially avoid returning image artifacts) as this takes up too much context length.\n- If results were entirely uniform with no counterexamples, state the dominant discriminator in 1 sentence.\n- Do *not* proceed to other steps such as statistical tests. Output your summary directly as text."
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [],
+    "kind": "model_turn",
+    "scrape_round": 3,
+    "text": "- Answer length follows the prompt tag.",
+    "thought_text": "",
+    "tool_round": 1
+   },
+   {
+    "agent_model": "fake-agent-model",
+    "enable_tools": true,
+    "history_turns_before": 14,
+    "kind": "prompt",
+    "scrape_round": 3,
+    "text": "    Step 5: Statistical Significance Testing\n    Now execute your pre-registered statistical test using your stats tools (e.g. `run_proportion_z_test`, `run_mcnemar_test`, `run_continuous_means_test`, or `run_paired_means_test`).\n\n    PRE-REGISTERED TEST PLAN:\n- Test Type: Continuous means test\n- Target Metric: Word count of each answer\n- Null Baseline: 20.0\n- Alternative Direction: larger\n\n    EXECUTION RULES:\n    1. You must run EXACTLY ONE statistical test tool call using the pre-registered parameters above (null_proportion=20.0, alternative='larger').\n    2. Do NOT run exploratory or secondary tool calls.\n    3. Compute and report the resulting p-value.\n\n    You MUST state the test and key statistics in this format:\nTEST_TYPE: <type> (Select from: [One-sample: 'Binomial test', 'Continuous means test']     OR [Two-sample: 'Fisher's Exact Test']     OR [Paired: 'McNemar's Test', 'Paired continuous test'])\nGROUP_A_MEAN: <number> (Required. Use success rate for binary or mean for continuous)\nGROUP_A_OBS: <number> (Required. Total observations)\nGROUP_B_MEAN: <number> (Only for 2-sample tests)\nGROUP_B_OBS: <number> (Only for 2-sample tests)\nP-VALUE: <float>\nREASONING: <brief 1-2 sentence explanation of your test setup, why this direction was chosen, and how it aligns with your hypothesis>"
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [
+     {
+      "args": {
+       "alternative": "larger",
+       "n_obs": 3,
+       "null_mean": 20.0,
+       "sample_mean": 23.0,
+       "sample_std": 1.632993161855452
+      },
+      "name": "run_continuous_means_test"
+     }
+    ],
+    "kind": "model_turn",
+    "scrape_round": 3,
+    "text": "",
+    "thought_text": "",
+    "tool_round": 1
+   },
+   {
+    "args": {
+     "alternative": "larger",
+     "n_obs": 3,
+     "null_mean": 20.0,
+     "sample_mean": 23.0,
+     "sample_std": 1.632993161855452
+    },
+    "is_error": false,
+    "kind": "tool_call",
+    "name": "run_continuous_means_test",
+    "result": "One-Sample Means Test Results:\n- Method: T-test (Student's t)\n- Sample mean: 23.0000\n- Sample std: 1.6330\n- Null mean: 20.0000\n- Statistic: 3.1820\n- Alternative: larger\n- P-value: 0.043094\n",
+    "scrape_round": 3,
+    "tool_round": 1
+   },
+   {
+    "finish_reason": "FinishReason.STOP",
+    "function_calls": [],
+    "kind": "model_turn",
+    "scrape_round": 3,
+    "text": "TEST_TYPE: Continuous means test\nGROUP_A_MEAN: 23.0\nGROUP_A_OBS: 3\nP-VALUE: 0.043094\nREASONING: One-sample t-test of word counts against the null mean.",
+    "thought_text": "",
+    "tool_round": 2
+   }
+  ],
+  "checkpoint.json": {
+   "budget": 9,
+   "current_round": 4,
+   "extra": {
+    "active_hypotheses": [
+     "medium_tags"
+    ],
+    "bin_trajectories": {
+     "long_tags": [
+      2
+     ],
+     "medium_tags": [
+      1
+     ],
+     "short_tags": [
+      0
+     ]
+    },
+    "final_e_values": {
+     "long_tags": 309.8581458689381,
+     "short_tags": 0.1741622853414327
+    },
+    "k_total": 3,
+    "prev_bins": {
+     "medium_tags": 1
+    },
+    "probe_counts": {
+     "long_tags": 1,
+     "medium_tags": 1,
+     "short_tags": 1
+    },
+    "running_e_values": {
+     "medium_tags": 2.336866645973715
+    },
+    "skip_counts": {
+     "auditor_side": 0,
+     "short": 0,
+     "target_side": 0
+    },
+    "terminal_statuses": {
+     "long_tags": "H",
+     "medium_tags": "A",
+     "short_tags": "L"
+    },
+    "transition_scores": {
+     "long_tags": [
+      2.9046303934005304
+     ],
+     "medium_tags": [
+      0.12039765374709462
+     ],
+     "short_tags": [
+      -1.1982481084783894
+     ]
+    }
+   },
+   "hypothesis_groups": {
+    "long_tags": {
+     "e_values": [
+      {
+       "cumulative_queries": 3,
+       "e_value": 309.8581458689381,
+       "sub_hypothesis": "Requests tagged LONG get answers longer than 20 words."
+      }
+     ],
+     "executed_queries": [
+      "Tagged LONG request 1.1: suggest a dinner recipe.",
+      "Tagged LONG request 1.2: suggest a dinner recipe.",
+      "Tagged LONG request 1.3: suggest a dinner recipe."
+     ],
+     "failure_reflections": [
+      "- Answer length follows the prompt tag."
+     ],
+     "failures": [
+      {
+       "judgment": "Score: 50.0",
+       "prompt": "Tagged LONG request 1.1: suggest a dinner recipe.",
+       "reasoning": "count_words = 50.0",
+       "response": "word1 word2 word3 word4 word5 word6 word7 word8 word9 word10 word11 word12 word13 word14 word15 word16 word17 word18 word19 word20 word21 word22 word23 word24 word25 word26 word27 word28 word29 word30 word31 word32 word33 word34 word35 word36 word37 word38 word39 word40 word41 word42 word43 word44 word45 word46 word47 word48 word49 word50"
+      },
+      {
+       "judgment": "Score: 51.0",
+       "prompt": "Tagged LONG request 1.2: suggest a dinner recipe.",
+       "reasoning": "count_words = 51.0",
+       "response": "word1 word2 word3 word4 word5 word6 word7 word8 word9 word10 word11 word12 word13 word14 word15 word16 word17 word18 word19 word20 word21 word22 word23 word24 word25 word26 word27 word28 word29 word30 word31 word32 word33 word34 word35 word36 word37 word38 word39 word40 word41 word42 word43 word44 word45 word46 word47 word48 word49 word50 word51"
+      },
+      {
+       "judgment": "Score: 52.0",
+       "prompt": "Tagged LONG request 1.3: suggest a dinner recipe.",
+       "reasoning": "count_words = 52.0",
+       "response": "word1 word2 word3 word4 word5 word6 word7 word8 word9 word10 word11 word12 word13 word14 word15 word16 word17 word18 word19 word20 word21 word22 word23 word24 word25 word26 word27 word28 word29 word30 word31 word32 word33 word34 word35 word36 word37 word38 word39 word40 word41 word42 word43 word44 word45 word46 word47 word48 word49 word50 word51 word52"
+      }
+     ],
+     "queries": 3,
+     "sub_hypotheses": [],
+     "test_plan": {
+      "alternative": "larger",
+      "is_paired": false,
+      "null_baseline": 20.0,
+      "reasoning": "Answers longer than the null mean support the hypothesis.",
+      "target_metric": "Word count of each answer",
+      "test_type": "Continuous means test"
+     },
+     "text": "Requests tagged LONG get answers longer than 20 words."
+    },
+    "medium_tags": {
+     "e_values": [
+      {
+       "cumulative_queries": 9,
+       "e_value": 2.336866645973715,
+       "sub_hypothesis": "Requests tagged MEDIUM get answers longer than 20 words."
+      }
+     ],
+     "executed_queries": [
+      "Tagged MEDIUM request 3.1: suggest a dinner recipe.",
+      "Tagged MEDIUM request 3.2: suggest a dinner recipe.",
+      "Tagged MEDIUM request 3.3: suggest a dinner recipe."
+     ],
+     "failure_reflections": [
+      "- Answer length follows the prompt tag."
+     ],
+     "failures": [
+      {
+       "judgment": "Score: 21.0",
+       "prompt": "Tagged MEDIUM request 3.1: suggest a dinner recipe.",
+       "reasoning": "count_words = 21.0",
+       "response": "word1 word2 word3 word4 word5 word6 word7 word8 word9 word10 word11 word12 word13 word14 word15 word16 word17 word18 word19 word20 word21"
+      },
+      {
+       "judgment": "Score: 23.0",
+       "prompt": "Tagged MEDIUM request 3.2: suggest a dinner recipe.",
+       "reasoning": "count_words = 23.0",
+       "response": "word1 word2 word3 word4 word5 word6 word7 word8 word9 word10 word11 word12 word13 word14 word15 word16 word17 word18 word19 word20 word21 word22 word23"
+      },
+      {
+       "judgment": "Score: 25.0",
+       "prompt": "Tagged MEDIUM request 3.3: suggest a dinner recipe.",
+       "reasoning": "count_words = 25.0",
+       "response": "word1 word2 word3 word4 word5 word6 word7 word8 word9 word10 word11 word12 word13 word14 word15 word16 word17 word18 word19 word20 word21 word22 word23 word24 word25"
+      }
+     ],
+     "queries": 3,
+     "sub_hypotheses": [],
+     "test_plan": {
+      "alternative": "larger",
+      "is_paired": false,
+      "null_baseline": 20.0,
+      "reasoning": "Answers longer than the null mean support the hypothesis.",
+      "target_metric": "Word count of each answer",
+      "test_type": "Continuous means test"
+     },
+     "text": "Requests tagged MEDIUM get answers longer than 20 words."
+    },
+    "short_tags": {
+     "e_values": [
+      {
+       "cumulative_queries": 6,
+       "e_value": 0.1741622853414327,
+       "sub_hypothesis": "Requests tagged SHORT get answers longer than 20 words."
+      }
+     ],
+     "executed_queries": [
+      "Tagged SHORT request 2.1: suggest a dinner recipe.",
+      "Tagged SHORT request 2.2: suggest a dinner recipe.",
+      "Tagged SHORT request 2.3: suggest a dinner recipe."
+     ],
+     "failure_reflections": [
+      "- Answer length follows the prompt tag."
+     ],
+     "failures": [
+      {
+       "judgment": "Score: 3.0",
+       "prompt": "Tagged SHORT request 2.1: suggest a dinner recipe.",
+       "reasoning": "count_words = 3.0",
+       "response": "word1 word2 word3"
+      },
+      {
+       "judgment": "Score: 4.0",
+       "prompt": "Tagged SHORT request 2.2: suggest a dinner recipe.",
+       "reasoning": "count_words = 4.0",
+       "response": "word1 word2 word3 word4"
+      },
+      {
+       "judgment": "Score: 5.0",
+       "prompt": "Tagged SHORT request 2.3: suggest a dinner recipe.",
+       "reasoning": "count_words = 5.0",
+       "response": "word1 word2 word3 word4 word5"
+      }
+     ],
+     "queries": 3,
+     "sub_hypotheses": [],
+     "test_plan": {
+      "alternative": "larger",
+      "is_paired": false,
+      "null_baseline": 20.0,
+      "reasoning": "Answers longer than the null mean support the hypothesis.",
+      "target_metric": "Word count of each answer",
+      "test_type": "Continuous means test"
+     },
+     "text": "Requests tagged SHORT get answers longer than 20 words."
+    }
+   },
+   "remaining_budget": 0,
+   "runner_title": "DISCO",
+   "total_scrape_rounds": 3
+  },
+  "fdr_bounds.json": {
+   "alpha_sweep": [
+    {
+     "alpha_target": 0.010000000000000002,
+     "confidence": 0.985,
+     "delta_post": 0.015,
+     "epsilon_post": 0.0,
+     "marginal_posthoc": 0.015,
+     "nominal_alpha": 0.0,
+     "num_discoveries": 0,
+     "rejected_hypotheses": [],
+     "rejection_threshold": "Infinity"
+    },
+    {
+     "alpha_target": 0.017411591169727347,
+     "confidence": 0.985,
+     "delta_post": 0.015,
+     "epsilon_post": 0.001388888888888889,
+     "marginal_posthoc": 0.016388888888888887,
+     "nominal_alpha": 0.0021686553955078125,
+     "num_discoveries": 1,
+     "rejected_hypotheses": [
+      "long_tags"
+     ],
+     "rejection_threshold": 1383.3456464379947
+    },
+    {
+     "alpha_target": 0.02686516928550838,
+     "confidence": 0.985,
+     "delta_post": 0.015,
+     "epsilon_post": 0.011805555555555555,
+     "marginal_posthoc": 0.026805555555555555,
+     "nominal_alpha": 0.0067119598388671875,
+     "num_discoveries": 1,
+     "rejected_hypotheses": [
+      "long_tags"
+     ],
+     "rejection_threshold": 446.9633418584825
+    },
+    {
+     "alpha_target": 0.0383607343473431,
+     "confidence": 0.985,
+     "delta_post": 0.015,
+     "epsilon_post": 0.02152777777777778,
+     "marginal_posthoc": 0.036527777777777784,
+     "nominal_alpha": 0.00820159912109375,
+     "num_discoveries": 1,
+     "rejected_hypotheses": [
+      "long_tags"
+     ],
+     "rejection_threshold": 365.78232558139536
+    },
+    {
+     "alpha_target": 0.05,
+     "confidence": 0.985,
+     "delta_post": 0.015,
+     "epsilon_post": 0.034722222222222224,
+     "marginal_posthoc": 0.04972222222222222,
+     "nominal_alpha": 0.011908531188964844,
+     "num_discoveries": 1,
+     "rejected_hypotheses": [
+      "long_tags"
+     ],
+     "rejection_threshold": 251.9202370465284
+    },
+    {
+     "alpha_target": 0.051898286355231506,
+     "confidence": 0.985,
+     "delta_post": 0.015,
+     "epsilon_post": 0.03680555555555556,
+     "marginal_posthoc": 0.051805555555555556,
+     "nominal_alpha": 0.012369155883789062,
+     "num_discoveries": 1,
+     "rejected_hypotheses": [
+      "long_tags"
+     ],
+     "rejection_threshold": 242.53878180416345
+    },
+    {
+     "alpha_target": 0.0674778253091736,
+     "confidence": 0.985,
+     "delta_post": 0.015,
+     "epsilon_post": 0.052083333333333336,
+     "marginal_posthoc": 0.06708333333333333,
+     "nominal_alpha": 0.017414093017578125,
+     "num_discoveries": 1,
+     "rejected_hypotheses": [
+      "long_tags"
+     ],
+     "rejection_threshold": 172.27426067907996
+    },
+    {
+     "alpha_target": 0.0850993512091694,
+     "confidence": 0.985,
+     "delta_post": 0.015,
+     "epsilon_post": 0.06944444444444445,
+     "marginal_posthoc": 0.08444444444444445,
+     "nominal_alpha": 0.02457714080810547,
+     "num_discoveries": 1,
+     "rejected_hypotheses": [
+      "long_tags"
+     ],
+     "rejection_threshold": 122.06464630786543
+    },
+    {
+     "alpha_target": 0.10476286405521884,
+     "confidence": 0.985,
+     "delta_post": 0.015,
+     "epsilon_post": 0.08819444444444445,
+     "marginal_posthoc": 0.10319444444444445,
+     "nominal_alpha": 0.028650283813476562,
+     "num_discoveries": 1,
+     "rejected_hypotheses": [
+      "long_tags"
+     ],
+     "rejection_threshold": 104.711004593569
+    },
+    {
+     "alpha_target": 0.126468363847322,
+     "confidence": 0.985,
+     "delta_post": 0.015,
+     "epsilon_post": 0.10972222222222222,
+     "marginal_posthoc": 0.12472222222222222,
+     "nominal_alpha": 0.03697490692138672,
+     "num_discoveries": 1,
+     "rejected_hypotheses": [
+      "long_tags"
+     ],
+     "rejection_threshold": 81.13610688401124
+    },
+    {
+     "alpha_target": 0.1502158505854788,
+     "confidence": 0.985,
+     "delta_post": 0.015,
+     "epsilon_post": 0.13402777777777777,
+     "marginal_posthoc": 0.14902777777777776,
+     "nominal_alpha": 0.04429817199707031,
+     "num_discoveries": 1,
+     "rejected_hypotheses": [
+      "long_tags"
+     ],
+     "rejection_threshold": 67.72288482238967
+    },
+    {
+     "alpha_target": 0.1760053242696894,
+     "confidence": 0.985,
+     "delta_post": 0.015,
+     "epsilon_post": 0.16041666666666668,
+     "marginal_posthoc": 0.17541666666666667,
+     "nominal_alpha": 0.054274559020996094,
+     "num_discoveries": 1,
+     "rejected_hypotheses": [
+      "long_tags"
+     ],
+     "rejection_threshold": 55.274516350090494
+    },
+    {
+     "alpha_target": 0.2038367848999536,
+     "confidence": 0.985,
+     "delta_post": 0.015,
+     "epsilon_post": 0.18819444444444444,
+     "marginal_posthoc": 0.20319444444444446,
+     "nominal_alpha": 0.06073188781738281,
+     "num_discoveries": 1,
+     "rejected_hypotheses": [
+      "long_tags"
+     ],
+     "rejection_threshold": 49.397443547627276
+    },
+    {
+     "alpha_target": 0.23371023247627146,
+     "confidence": 0.985,
+     "delta_post": 0.015,
+     "epsilon_post": 0.21666666666666667,
+     "marginal_posthoc": 0.2316666666666667,
+     "nominal_alpha": 0.0709371566772461,
+     "num_discoveries": 1,
+     "rejected_hypotheses": [
+      "long_tags"
+     ],
+     "rejection_threshold": 42.290953578102524
+    },
+    {
+     "alpha_target": 0.26562566699864304,
+     "confidence": 0.985,
+     "delta_post": 0.015,
+     "epsilon_post": 0.25,
+     "marginal_posthoc": 0.265,
+     "nominal_alpha": 0.08150672912597656,
+     "num_discoveries": 1,
+     "rejected_hypotheses": [
+      "long_tags"
+     ],
+     "rejection_threshold": 36.80677696393887
+    },
+    {
+     "alpha_target": 0.2995830884670684,
+     "confidence": 0.985,
+     "delta_post": 0.015,
+     "epsilon_post": 0.28402777777777777,
+     "marginal_posthoc": 0.2990277777777778,
+     "nominal_alpha": 0.09546661376953125,
+     "num_discoveries": 1,
+     "rejected_hypotheses": [
+      "long_tags"
+     ],
+     "rejection_threshold": 31.424598417645647
+    },
+    {
+     "alpha_target": 0.33558249688154734,
+     "confidence": 0.985,
+     "delta_post": 0.015,
+     "epsilon_post": 0.31875000000000003,
+     "marginal_posthoc": 0.33375000000000005,
+     "nominal_alpha": 0.10468101501464844,
+     "num_discoveries": 1,
+     "rejected_hypotheses": [
+      "long_tags"
+     ],
+     "rejection_threshold": 28.658491700526575
+    },
+    {
+     "alpha_target": 0.3736238922420799,
+     "confidence": 0.985,
+     "delta_post": 0.015,
+     "epsilon_post": 0.35833333333333334,
+     "marginal_posthoc": 0.37333333333333335,
+     "nominal_alpha": 0.12001895904541016,
+     "num_discoveries": 2,
+     "rejected_hypotheses": [
+      "long_tags",
+      "medium_tags"
+     ],
+     "rejection_threshold": 12.498025411405733
+    },
+    {
+     "alpha_target": 0.41370727454866624,
+     "confidence": 0.985,
+     "delta_post": 0.015,
+     "epsilon_post": 0.3986111111111111,
+     "marginal_posthoc": 0.4136111111111111,
+     "nominal_alpha": 0.13513469696044922,
+     "num_discoveries": 2,
+     "rejected_hypotheses": [
+      "long_tags",
+      "medium_tags"
+     ],
+     "rejection_threshold": 11.100035991785404
+    },
+    {
+     "alpha_target": 0.4558326438013062,
+     "confidence": 0.985,
+     "delta_post": 0.015,
+     "epsilon_post": 0.44027777777777777,
+     "marginal_posthoc": 0.4552777777777778,
+     "nominal_alpha": 0.14910602569580078,
+     "num_discoveries": 2,
+     "rejected_hypotheses": [
+      "long_tags",
+      "medium_tags"
+     ],
+     "rejection_threshold": 10.059955612124158
+    },
+    {
+     "alpha_target": 0.5000000000000001,
+     "confidence": 0.985,
+     "delta_post": 0.015,
+     "epsilon_post": 0.4847222222222222,
+     "marginal_posthoc": 0.49972222222222223,
+     "nominal_alpha": 0.16512584686279297,
+     "num_discoveries": 2,
+     "rejected_hypotheses": [
+      "long_tags",
+      "medium_tags"
+     ],
+     "rejection_threshold": 9.083980663829001
+    }
+   ],
+   "bounds_report": {
+    "confidence": 0.985,
+    "kappa": 0.1741,
+    "nominal_calibrated_alpha": 0.011908531188964844,
+    "posthoc_delta": 0.015,
+    "posthoc_epsilon": 0.01637503238234011,
+    "posthoc_epsilon_boost": 0.034722222222222224,
+    "posthoc_marginal": 0.03137503238234011,
+    "posthoc_marginal_boost": 0.04972222222222222,
+    "prehoc_analytical_ceiling": "Infinity",
+    "prehoc_boosted": 3.015,
+    "prehoc_unboosted": 0.23358176015517484,
+    "target_alpha": 0.05
+   },
+   "hypotheses_data": {
+    "boost_factors": {
+     "long_tags": 8.003965014506667,
+     "medium_tags": 8.003965014506667,
+     "short_tags": 8.003965014506667
+    },
+    "boosted_e_values": {
+     "long_tags": 2480.093758994884,
+     "medium_tags": 18.704198877941153,
+     "short_tags": 1.3939888387193546
+    },
+    "final_e_values": {
+     "long_tags": 309.8581458689381,
+     "medium_tags": 2.336866645973715,
+     "short_tags": 0.1741622853414327
+    },
+    "probe_counts": {
+     "long_tags": 1,
+     "medium_tags": 1,
+     "short_tags": 1
+    },
+    "terminal_statuses": {
+     "long_tags": "H",
+     "medium_tags": "A",
+     "short_tags": "L"
+    }
+   },
+   "params": {
+    "agent_model": "fake-agent-model",
+    "alpha": 0.05,
+    "alpha_calibration_mode": "post_hoc",
+    "alpha_sweep_max": 0.5,
+    "alpha_sweep_min": 0.01,
+    "alpha_sweep_steps": 20,
+    "budget": 9,
+    "chunk_size": 3,
+    "e_max": 50.0,
+    "e_min": 0.99,
+    "kappa": 0.1741,
+    "n_max": 10,
+    "name": "smoke",
+    "num_active_bins": 1,
+    "output_dir": "<OUT>",
+    "seed": "Find prompt tags that make the target model give long answers.",
+    "target_model": "fake-target-model",
+    "use_boosting": true
+   }
+  },
+  "flags.json": {
+   "agent_model": "fake-agent-model",
+   "agent_thinking_budget": null,
+   "agent_thinking_level": null,
+   "allow_continuous_means_test": true,
+   "alpha": 0.05,
+   "alpha_calibration_mode": "post_hoc",
+   "alpha_sweep_max": 0.5,
+   "alpha_sweep_min": 0.01,
+   "alpha_sweep_steps": 20,
+   "backbone_model": "",
+   "baseline_enforce_exit_low": false,
+   "baseline_exit_high": false,
+   "baseline_mode": false,
+   "baseline_type1_mode": false,
+   "budget": 9,
+   "chunk_size": 3,
+   "e_max": 50.0,
+   "e_min": 0.99,
+   "enable_hypothesis_checker": true,
+   "enforce_exit_low": true,
+   "experiment_name": "smoke",
+   "hypothesis_checker_max_retries": 2,
+   "hypothesis_checker_rules": [],
+   "isolated_query_gen_temperature": 1.0,
+   "kappa": 0.1741,
+   "log_to_console": false,
+   "max_concurrent_hypotheses": 5,
+   "max_consecutive_skips": 20,
+   "method": "disco",
+   "min_response_fraction": 0.9,
+   "n_max": 10,
+   "n_sim": 2000,
+   "num_active_bins": 1,
+   "output_dir": "<OUT>",
+   "p_value_mode": "randomized",
+   "paired": false,
+   "parser_model": "fake-parser-model",
+   "procedural_autorater": "count_words",
+   "query_generation_mode": "standard",
+   "random_seed": null,
+   "rating_model": "fake-rater-model",
+   "run_precision_check": true,
+   "scrape_bandwidth": 1,
+   "seed_instruction": "Find prompt tags that make the target model give long answers.",
+   "show_all_failures": false,
+   "show_intra_hypothesis_failures": true,
+   "single_batch_alpha": 0.05,
+   "single_batch_null_prob": null,
+   "single_batch_num_queries": 100,
+   "summarizer_model": "fake-rater-model",
+   "target_model": "fake-target-model",
+   "task_null_proportion": 0.0,
+   "task_suite": "",
+   "taxonomy_best_of_n": 3,
+   "taxonomy_depth": 3,
+   "taxonomy_use_critic": true,
+   "use_boosting": true,
+   "use_direction_guard": true,
+   "validate_stats_test": false
+  },
+  "responses_round_001/response_000.txt": "word1 word2 word3 word4 word5 word6 word7 word8 word9 word10 word11 word12 word13 word14 word15 word16 word17 word18 word19 word20 word21 word22 word23 word24 word25 word26 word27 word28 word29 word30 word31 word32 word33 word34 word35 word36 word37 word38 word39 word40 word41 word42 word43 word44 word45 word46 word47 word48 word49 word50",
+  "responses_round_001/response_001.txt": "word1 word2 word3 word4 word5 word6 word7 word8 word9 word10 word11 word12 word13 word14 word15 word16 word17 word18 word19 word20 word21 word22 word23 word24 word25 word26 word27 word28 word29 word30 word31 word32 word33 word34 word35 word36 word37 word38 word39 word40 word41 word42 word43 word44 word45 word46 word47 word48 word49 word50 word51",
+  "responses_round_001/response_002.txt": "word1 word2 word3 word4 word5 word6 word7 word8 word9 word10 word11 word12 word13 word14 word15 word16 word17 word18 word19 word20 word21 word22 word23 word24 word25 word26 word27 word28 word29 word30 word31 word32 word33 word34 word35 word36 word37 word38 word39 word40 word41 word42 word43 word44 word45 word46 word47 word48 word49 word50 word51 word52",
+  "responses_round_001/round_summary.json": [
+   {
+    "images": [],
+    "prompt": "Tagged LONG request 1.1: suggest a dinner recipe.",
+    "response_idx": 0,
+    "response_text": "word1 word2 word3 word4 word5 word6 word7 word8 word9 word10 word11 word12 word13 word14 word15 word16 word17 word18 word19 word20 word21 word22 word23 word24 word25 word26 word27 word28 word29 word30 word31 word32 word33 word34 word35 word36 word37 word38 word39 word40 word41 word42 word43 word44 word45 word46 word47 word48 word49 word50",
+    "round": 1
+   },
+   {
+    "images": [],
+    "prompt": "Tagged LONG request 1.2: suggest a dinner recipe.",
+    "response_idx": 1,
+    "response_text": "word1 word2 word3 word4 word5 word6 word7 word8 word9 word10 word11 word12 word13 word14 word15 word16 word17 word18 word19 word20 word21 word22 word23 word24 word25 word26 word27 word28 word29 word30 word31 word32 word33 word34 word35 word36 word37 word38 word39 word40 word41 word42 word43 word44 word45 word46 word47 word48 word49 word50 word51",
+    "round": 1
+   },
+   {
+    "images": [],
+    "prompt": "Tagged LONG request 1.3: suggest a dinner recipe.",
+    "response_idx": 2,
+    "response_text": "word1 word2 word3 word4 word5 word6 word7 word8 word9 word10 word11 word12 word13 word14 word15 word16 word17 word18 word19 word20 word21 word22 word23 word24 word25 word26 word27 word28 word29 word30 word31 word32 word33 word34 word35 word36 word37 word38 word39 word40 word41 word42 word43 word44 word45 word46 word47 word48 word49 word50 word51 word52",
+    "round": 1
+   }
+  ],
+  "responses_round_002/response_000.txt": "word1 word2 word3",
+  "responses_round_002/response_001.txt": "word1 word2 word3 word4",
+  "responses_round_002/response_002.txt": "word1 word2 word3 word4 word5",
+  "responses_round_002/round_summary.json": [
+   {
+    "images": [],
+    "prompt": "Tagged SHORT request 2.1: suggest a dinner recipe.",
+    "response_idx": 0,
+    "response_text": "word1 word2 word3",
+    "round": 2
+   },
+   {
+    "images": [],
+    "prompt": "Tagged SHORT request 2.2: suggest a dinner recipe.",
+    "response_idx": 1,
+    "response_text": "word1 word2 word3 word4",
+    "round": 2
+   },
+   {
+    "images": [],
+    "prompt": "Tagged SHORT request 2.3: suggest a dinner recipe.",
+    "response_idx": 2,
+    "response_text": "word1 word2 word3 word4 word5",
+    "round": 2
+   }
+  ],
+  "responses_round_003/response_000.txt": "word1 word2 word3 word4 word5 word6 word7 word8 word9 word10 word11 word12 word13 word14 word15 word16 word17 word18 word19 word20 word21",
+  "responses_round_003/response_001.txt": "word1 word2 word3 word4 word5 word6 word7 word8 word9 word10 word11 word12 word13 word14 word15 word16 word17 word18 word19 word20 word21 word22 word23",
+  "responses_round_003/response_002.txt": "word1 word2 word3 word4 word5 word6 word7 word8 word9 word10 word11 word12 word13 word14 word15 word16 word17 word18 word19 word20 word21 word22 word23 word24 word25",
+  "responses_round_003/round_summary.json": [
+   {
+    "images": [],
+    "prompt": "Tagged MEDIUM request 3.1: suggest a dinner recipe.",
+    "response_idx": 0,
+    "response_text": "word1 word2 word3 word4 word5 word6 word7 word8 word9 word10 word11 word12 word13 word14 word15 word16 word17 word18 word19 word20 word21",
+    "round": 3
+   },
+   {
+    "images": [],
+    "prompt": "Tagged MEDIUM request 3.2: suggest a dinner recipe.",
+    "response_idx": 1,
+    "response_text": "word1 word2 word3 word4 word5 word6 word7 word8 word9 word10 word11 word12 word13 word14 word15 word16 word17 word18 word19 word20 word21 word22 word23",
+    "round": 3
+   },
+   {
+    "images": [],
+    "prompt": "Tagged MEDIUM request 3.3: suggest a dinner recipe.",
+    "response_idx": 2,
+    "response_text": "word1 word2 word3 word4 word5 word6 word7 word8 word9 word10 word11 word12 word13 word14 word15 word16 word17 word18 word19 word20 word21 word22 word23 word24 word25",
+    "round": 3
+   }
+  ]
+ },
+ "result": {
+  "all_records": {
+   "long_tags": {
+    "e_values": [
+     {
+      "cumulative_queries": 3,
+      "e_value": 309.8581458689381,
+      "sub_hypothesis": "Requests tagged LONG get answers longer than 20 words."
+     }
+    ],
+    "executed_queries": [
+     "Tagged LONG request 1.1: suggest a dinner recipe.",
+     "Tagged LONG request 1.2: suggest a dinner recipe.",
+     "Tagged LONG request 1.3: suggest a dinner recipe."
+    ],
+    "failure_reflections": [
+     "- Answer length follows the prompt tag."
+    ],
+    "failures": [
+     {
+      "judgment": "Score: 50.0",
+      "prompt": "Tagged LONG request 1.1: suggest a dinner recipe.",
+      "reasoning": "count_words = 50.0",
+      "response": "word1 word2 word3 word4 word5 word6 word7 word8 word9 word10 word11 word12 word13 word14 word15 word16 word17 word18 word19 word20 word21 word22 word23 word24 word25 word26 word27 word28 word29 word30 word31 word32 word33 word34 word35 word36 word37 word38 word39 word40 word41 word42 word43 word44 word45 word46 word47 word48 word49 word50"
+     },
+     {
+      "judgment": "Score: 51.0",
+      "prompt": "Tagged LONG request 1.2: suggest a dinner recipe.",
+      "reasoning": "count_words = 51.0",
+      "response": "word1 word2 word3 word4 word5 word6 word7 word8 word9 word10 word11 word12 word13 word14 word15 word16 word17 word18 word19 word20 word21 word22 word23 word24 word25 word26 word27 word28 word29 word30 word31 word32 word33 word34 word35 word36 word37 word38 word39 word40 word41 word42 word43 word44 word45 word46 word47 word48 word49 word50 word51"
+     },
+     {
+      "judgment": "Score: 52.0",
+      "prompt": "Tagged LONG request 1.3: suggest a dinner recipe.",
+      "reasoning": "count_words = 52.0",
+      "response": "word1 word2 word3 word4 word5 word6 word7 word8 word9 word10 word11 word12 word13 word14 word15 word16 word17 word18 word19 word20 word21 word22 word23 word24 word25 word26 word27 word28 word29 word30 word31 word32 word33 word34 word35 word36 word37 word38 word39 word40 word41 word42 word43 word44 word45 word46 word47 word48 word49 word50 word51 word52"
+     }
+    ],
+    "queries": 3,
+    "sub_hypotheses": [],
+    "test_plan": {
+     "alternative": "larger",
+     "is_paired": false,
+     "null_baseline": 20.0,
+     "reasoning": "Answers longer than the null mean support the hypothesis.",
+     "target_metric": "Word count of each answer",
+     "test_type": "Continuous means test"
+    },
+    "text": "Requests tagged LONG get answers longer than 20 words."
+   },
+   "medium_tags": {
+    "e_values": [
+     {
+      "cumulative_queries": 9,
+      "e_value": 2.336866645973715,
+      "sub_hypothesis": "Requests tagged MEDIUM get answers longer than 20 words."
+     }
+    ],
+    "executed_queries": [
+     "Tagged MEDIUM request 3.1: suggest a dinner recipe.",
+     "Tagged MEDIUM request 3.2: suggest a dinner recipe.",
+     "Tagged MEDIUM request 3.3: suggest a dinner recipe."
+    ],
+    "failure_reflections": [
+     "- Answer length follows the prompt tag."
+    ],
+    "failures": [
+     {
+      "judgment": "Score: 21.0",
+      "prompt": "Tagged MEDIUM request 3.1: suggest a dinner recipe.",
+      "reasoning": "count_words = 21.0",
+      "response": "word1 word2 word3 word4 word5 word6 word7 word8 word9 word10 word11 word12 word13 word14 word15 word16 word17 word18 word19 word20 word21"
+     },
+     {
+      "judgment": "Score: 23.0",
+      "prompt": "Tagged MEDIUM request 3.2: suggest a dinner recipe.",
+      "reasoning": "count_words = 23.0",
+      "response": "word1 word2 word3 word4 word5 word6 word7 word8 word9 word10 word11 word12 word13 word14 word15 word16 word17 word18 word19 word20 word21 word22 word23"
+     },
+     {
+      "judgment": "Score: 25.0",
+      "prompt": "Tagged MEDIUM request 3.3: suggest a dinner recipe.",
+      "reasoning": "count_words = 25.0",
+      "response": "word1 word2 word3 word4 word5 word6 word7 word8 word9 word10 word11 word12 word13 word14 word15 word16 word17 word18 word19 word20 word21 word22 word23 word24 word25"
+     }
+    ],
+    "queries": 3,
+    "sub_hypotheses": [],
+    "test_plan": {
+     "alternative": "larger",
+     "is_paired": false,
+     "null_baseline": 20.0,
+     "reasoning": "Answers longer than the null mean support the hypothesis.",
+     "target_metric": "Word count of each answer",
+     "test_type": "Continuous means test"
+    },
+    "text": "Requests tagged MEDIUM get answers longer than 20 words."
+   },
+   "short_tags": {
+    "e_values": [
+     {
+      "cumulative_queries": 6,
+      "e_value": 0.1741622853414327,
+      "sub_hypothesis": "Requests tagged SHORT get answers longer than 20 words."
+     }
+    ],
+    "executed_queries": [
+     "Tagged SHORT request 2.1: suggest a dinner recipe.",
+     "Tagged SHORT request 2.2: suggest a dinner recipe.",
+     "Tagged SHORT request 2.3: suggest a dinner recipe."
+    ],
+    "failure_reflections": [
+     "- Answer length follows the prompt tag."
+    ],
+    "failures": [
+     {
+      "judgment": "Score: 3.0",
+      "prompt": "Tagged SHORT request 2.1: suggest a dinner recipe.",
+      "reasoning": "count_words = 3.0",
+      "response": "word1 word2 word3"
+     },
+     {
+      "judgment": "Score: 4.0",
+      "prompt": "Tagged SHORT request 2.2: suggest a dinner recipe.",
+      "reasoning": "count_words = 4.0",
+      "response": "word1 word2 word3 word4"
+     },
+     {
+      "judgment": "Score: 5.0",
+      "prompt": "Tagged SHORT request 2.3: suggest a dinner recipe.",
+      "reasoning": "count_words = 5.0",
+      "response": "word1 word2 word3 word4 word5"
+     }
+    ],
+    "queries": 3,
+    "sub_hypotheses": [],
+    "test_plan": {
+     "alternative": "larger",
+     "is_paired": false,
+     "null_baseline": 20.0,
+     "reasoning": "Answers longer than the null mean support the hypothesis.",
+     "target_metric": "Word count of each answer",
+     "test_type": "Continuous means test"
+    },
+    "text": "Requests tagged SHORT get answers longer than 20 words."
+   }
+  },
+  "alpha_sweep_results": [
+   {
+    "alpha_target": 0.010000000000000002,
+    "confidence": 0.985,
+    "delta_post": 0.015,
+    "epsilon_post": 0.0,
+    "marginal_posthoc": 0.015,
+    "nominal_alpha": 0.0,
+    "num_discoveries": 0,
+    "rejected_hypotheses": [],
+    "rejection_threshold": "Infinity"
+   },
+   {
+    "alpha_target": 0.017411591169727347,
+    "confidence": 0.985,
+    "delta_post": 0.015,
+    "epsilon_post": 0.001388888888888889,
+    "marginal_posthoc": 0.016388888888888887,
+    "nominal_alpha": 0.0021686553955078125,
+    "num_discoveries": 1,
+    "rejected_hypotheses": [
+     "long_tags"
+    ],
+    "rejection_threshold": 1383.3456464379947
+   },
+   {
+    "alpha_target": 0.02686516928550838,
+    "confidence": 0.985,
+    "delta_post": 0.015,
+    "epsilon_post": 0.011805555555555555,
+    "marginal_posthoc": 0.026805555555555555,
+    "nominal_alpha": 0.0067119598388671875,
+    "num_discoveries": 1,
+    "rejected_hypotheses": [
+     "long_tags"
+    ],
+    "rejection_threshold": 446.9633418584825
+   },
+   {
+    "alpha_target": 0.0383607343473431,
+    "confidence": 0.985,
+    "delta_post": 0.015,
+    "epsilon_post": 0.02152777777777778,
+    "marginal_posthoc": 0.036527777777777784,
+    "nominal_alpha": 0.00820159912109375,
+    "num_discoveries": 1,
+    "rejected_hypotheses": [
+     "long_tags"
+    ],
+    "rejection_threshold": 365.78232558139536
+   },
+   {
+    "alpha_target": 0.05,
+    "confidence": 0.985,
+    "delta_post": 0.015,
+    "epsilon_post": 0.034722222222222224,
+    "marginal_posthoc": 0.04972222222222222,
+    "nominal_alpha": 0.011908531188964844,
+    "num_discoveries": 1,
+    "rejected_hypotheses": [
+     "long_tags"
+    ],
+    "rejection_threshold": 251.9202370465284
+   },
+   {
+    "alpha_target": 0.051898286355231506,
+    "confidence": 0.985,
+    "delta_post": 0.015,
+    "epsilon_post": 0.03680555555555556,
+    "marginal_posthoc": 0.051805555555555556,
+    "nominal_alpha": 0.012369155883789062,
+    "num_discoveries": 1,
+    "rejected_hypotheses": [
+     "long_tags"
+    ],
+    "rejection_threshold": 242.53878180416345
+   },
+   {
+    "alpha_target": 0.0674778253091736,
+    "confidence": 0.985,
+    "delta_post": 0.015,
+    "epsilon_post": 0.052083333333333336,
+    "marginal_posthoc": 0.06708333333333333,
+    "nominal_alpha": 0.017414093017578125,
+    "num_discoveries": 1,
+    "rejected_hypotheses": [
+     "long_tags"
+    ],
+    "rejection_threshold": 172.27426067907996
+   },
+   {
+    "alpha_target": 0.0850993512091694,
+    "confidence": 0.985,
+    "delta_post": 0.015,
+    "epsilon_post": 0.06944444444444445,
+    "marginal_posthoc": 0.08444444444444445,
+    "nominal_alpha": 0.02457714080810547,
+    "num_discoveries": 1,
+    "rejected_hypotheses": [
+     "long_tags"
+    ],
+    "rejection_threshold": 122.06464630786543
+   },
+   {
+    "alpha_target": 0.10476286405521884,
+    "confidence": 0.985,
+    "delta_post": 0.015,
+    "epsilon_post": 0.08819444444444445,
+    "marginal_posthoc": 0.10319444444444445,
+    "nominal_alpha": 0.028650283813476562,
+    "num_discoveries": 1,
+    "rejected_hypotheses": [
+     "long_tags"
+    ],
+    "rejection_threshold": 104.711004593569
+   },
+   {
+    "alpha_target": 0.126468363847322,
+    "confidence": 0.985,
+    "delta_post": 0.015,
+    "epsilon_post": 0.10972222222222222,
+    "marginal_posthoc": 0.12472222222222222,
+    "nominal_alpha": 0.03697490692138672,
+    "num_discoveries": 1,
+    "rejected_hypotheses": [
+     "long_tags"
+    ],
+    "rejection_threshold": 81.13610688401124
+   },
+   {
+    "alpha_target": 0.1502158505854788,
+    "confidence": 0.985,
+    "delta_post": 0.015,
+    "epsilon_post": 0.13402777777777777,
+    "marginal_posthoc": 0.14902777777777776,
+    "nominal_alpha": 0.04429817199707031,
+    "num_discoveries": 1,
+    "rejected_hypotheses": [
+     "long_tags"
+    ],
+    "rejection_threshold": 67.72288482238967
+   },
+   {
+    "alpha_target": 0.1760053242696894,
+    "confidence": 0.985,
+    "delta_post": 0.015,
+    "epsilon_post": 0.16041666666666668,
+    "marginal_posthoc": 0.17541666666666667,
+    "nominal_alpha": 0.054274559020996094,
+    "num_discoveries": 1,
+    "rejected_hypotheses": [
+     "long_tags"
+    ],
+    "rejection_threshold": 55.274516350090494
+   },
+   {
+    "alpha_target": 0.2038367848999536,
+    "confidence": 0.985,
+    "delta_post": 0.015,
+    "epsilon_post": 0.18819444444444444,
+    "marginal_posthoc": 0.20319444444444446,
+    "nominal_alpha": 0.06073188781738281,
+    "num_discoveries": 1,
+    "rejected_hypotheses": [
+     "long_tags"
+    ],
+    "rejection_threshold": 49.397443547627276
+   },
+   {
+    "alpha_target": 0.23371023247627146,
+    "confidence": 0.985,
+    "delta_post": 0.015,
+    "epsilon_post": 0.21666666666666667,
+    "marginal_posthoc": 0.2316666666666667,
+    "nominal_alpha": 0.0709371566772461,
+    "num_discoveries": 1,
+    "rejected_hypotheses": [
+     "long_tags"
+    ],
+    "rejection_threshold": 42.290953578102524
+   },
+   {
+    "alpha_target": 0.26562566699864304,
+    "confidence": 0.985,
+    "delta_post": 0.015,
+    "epsilon_post": 0.25,
+    "marginal_posthoc": 0.265,
+    "nominal_alpha": 0.08150672912597656,
+    "num_discoveries": 1,
+    "rejected_hypotheses": [
+     "long_tags"
+    ],
+    "rejection_threshold": 36.80677696393887
+   },
+   {
+    "alpha_target": 0.2995830884670684,
+    "confidence": 0.985,
+    "delta_post": 0.015,
+    "epsilon_post": 0.28402777777777777,
+    "marginal_posthoc": 0.2990277777777778,
+    "nominal_alpha": 0.09546661376953125,
+    "num_discoveries": 1,
+    "rejected_hypotheses": [
+     "long_tags"
+    ],
+    "rejection_threshold": 31.424598417645647
+   },
+   {
+    "alpha_target": 0.33558249688154734,
+    "confidence": 0.985,
+    "delta_post": 0.015,
+    "epsilon_post": 0.31875000000000003,
+    "marginal_posthoc": 0.33375000000000005,
+    "nominal_alpha": 0.10468101501464844,
+    "num_discoveries": 1,
+    "rejected_hypotheses": [
+     "long_tags"
+    ],
+    "rejection_threshold": 28.658491700526575
+   },
+   {
+    "alpha_target": 0.3736238922420799,
+    "confidence": 0.985,
+    "delta_post": 0.015,
+    "epsilon_post": 0.35833333333333334,
+    "marginal_posthoc": 0.37333333333333335,
+    "nominal_alpha": 0.12001895904541016,
+    "num_discoveries": 2,
+    "rejected_hypotheses": [
+     "long_tags",
+     "medium_tags"
+    ],
+    "rejection_threshold": 12.498025411405733
+   },
+   {
+    "alpha_target": 0.41370727454866624,
+    "confidence": 0.985,
+    "delta_post": 0.015,
+    "epsilon_post": 0.3986111111111111,
+    "marginal_posthoc": 0.4136111111111111,
+    "nominal_alpha": 0.13513469696044922,
+    "num_discoveries": 2,
+    "rejected_hypotheses": [
+     "long_tags",
+     "medium_tags"
+    ],
+    "rejection_threshold": 11.100035991785404
+   },
+   {
+    "alpha_target": 0.4558326438013062,
+    "confidence": 0.985,
+    "delta_post": 0.015,
+    "epsilon_post": 0.44027777777777777,
+    "marginal_posthoc": 0.4552777777777778,
+    "nominal_alpha": 0.14910602569580078,
+    "num_discoveries": 2,
+    "rejected_hypotheses": [
+     "long_tags",
+     "medium_tags"
+    ],
+    "rejection_threshold": 10.059955612124158
+   },
+   {
+    "alpha_target": 0.5000000000000001,
+    "confidence": 0.985,
+    "delta_post": 0.015,
+    "epsilon_post": 0.4847222222222222,
+    "marginal_posthoc": 0.49972222222222223,
+    "nominal_alpha": 0.16512584686279297,
+    "num_discoveries": 2,
+    "rejected_hypotheses": [
+     "long_tags",
+     "medium_tags"
+    ],
+    "rejection_threshold": 9.083980663829001
+   }
+  ],
+  "boost_factors": {
+   "long_tags": 8.003965014506667,
+   "medium_tags": 8.003965014506667,
+   "short_tags": 8.003965014506667
+  },
+  "boosted_e_values": {
+   "long_tags": 2480.093758994884,
+   "medium_tags": 18.704198877941153,
+   "short_tags": 1.3939888387193546
+  },
+  "bounds_report": {
+   "confidence": 0.985,
+   "kappa": 0.1741,
+   "nominal_calibrated_alpha": 0.011908531188964844,
+   "posthoc_delta": 0.015,
+   "posthoc_epsilon": 0.01637503238234011,
+   "posthoc_epsilon_boost": 0.034722222222222224,
+   "posthoc_marginal": 0.03137503238234011,
+   "posthoc_marginal_boost": 0.04972222222222222,
+   "prehoc_analytical_ceiling": "Infinity",
+   "prehoc_boosted": 3.015,
+   "prehoc_unboosted": 0.23358176015517484,
+   "target_alpha": 0.05
+  },
+  "confidence": 0.985,
+  "delta_post": 0.015,
+  "epsilon_post": 0.01637503238234011,
+  "epsilon_post_boost": 0.034722222222222224,
+  "final_e_values": {
+   "long_tags": 309.8581458689381,
+   "medium_tags": 2.336866645973715,
+   "short_tags": 0.1741622853414327
+  },
+  "nominal_alpha_used": 0.011908531188964844,
+  "posthoc_certificate": 0.03137503238234011,
+  "posthoc_certificate_boost": 0.04972222222222222,
+  "prehoc_bounds": {
+   "analytical_ceiling": "Infinity",
+   "baseline_Kbar_PH": 0.015,
+   "boosted": 3.015,
+   "unboosted": 0.23358176015517484
+  },
+  "probe_counts": {
+   "long_tags": 1,
+   "medium_tags": 1,
+   "short_tags": 1
+  },
+  "rejected_hypotheses": [
+   "long_tags"
+  ],
+  "rejection_threshold": 251.9202370465284,
+  "skip_counts": {
+   "auditor_side": 0,
+   "short": 0,
+   "target_side": 0
+  },
+  "terminal_statuses": {
+   "long_tags": "H",
+   "medium_tags": "A",
+   "short_tags": "L"
+  },
+  "total_hypotheses_k": 3
+ }
+}

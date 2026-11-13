@@ -1,0 +1,74 @@
+# Copyright 2026 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#    http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+# ==============================================================================
+
+# Single-run DISCO configuration: Visual Symmetry Completion (Seed 1: Broad)
+#
+# Usage:
+#   python -m disco.eval_disco --config=configs/visual_symmetry_broad_disco.yaml
+
+name: "visual_symmetry_broad_disco"
+output_dir: "./outputs/visual_symmetry_broad_disco"
+task_suite: "visual_symmetry"
+
+target_model: "gemini-3.1-flash-image"
+agent_model: "gemini-3.8-flash"
+parser_model: "gemini-3.8-flash"
+rating_model: "gemini-3.8-flash"
+summarizer_model: "gemini-3.8-flash"
+
+seed: >
+  Explore visual reasoning in symmetry completion. Investigate what visual
+  elements, stroke patterns, shape types and background colours cause the model
+  to succeed or to fail. Discover both favorable conditions where the model
+  reliably solves reflection completion with accuracy above 90 percent—such as
+  canonical geometric shapes (circle, square), familiar symmetric letters, or
+  clean continuous lines—and unfavorable conditions where its accuracy drops
+  below 90 percent—such as fine-stroked or many-part patterns (complex_chinese,
+  multi_glyph, maze, snowflake, filigree, nested_outlines, starburst,
+  scatter_rings, wave_lines, fine_noise), dense textures, unfamiliar glyphs,
+  fragmented and noisy strokes, or non-white backgrounds (black, navy,
+  darkslategray, lightblue, lavender, mistyrose, honeydew, lightyellow,
+  lightgray). Use generate_and_send_symmetry_probes and
+  score_symmetry_completions to collect data, treating 90 percent as the null
+  accuracy rate and choosing the one-sided direction that matches each
+  hypothesis (alternative='larger' for success conditions, 'smaller' for failure
+  conditions). Each hypothesis must name exactly one success criterion via
+  score_symmetry_completions' success_criterion argument: 'both' (the
+  conjunction of self-symmetry and left-half preservation, the default and the
+  criterion the 90 percent rate is calibrated against), 'symmetry' alone, or
+  'preservation' alone. Prefer 'both' unless the hypothesis is specifically
+  about one half of it; note a blank canvas passes 'symmetry' alone, so use that
+  criterion for failure claims rather than success claims. A reconstruction
+  score (similarity to the hidden ground truth) is always reported for
+  reference, but do NOT state a hypothesis whose claim rests on it: the 90
+  percent rate is not calibrated for reconstruction.
+
+budget: 400
+chunk_size: 50
+alpha: 0.1
+kappa: 0.1741
+e_max: 50.0
+num_active_bins: 1
+alpha_calibration_mode: "good_event"
+p_value_mode: "randomized"
+enforce_exit_low: true
+allow_continuous_means_test: true
+enable_hypothesis_checker: true
+
+# Out-of-sample precision verification
+run_precision_check: true
+single_batch_null_prob: 0.90
+single_batch_alpha: 0.10
+single_batch_num_queries: 100
