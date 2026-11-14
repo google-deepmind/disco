@@ -25,8 +25,9 @@ class TerminalStatus:
 
   Attributes:
     kind: One of "L" (exited low), "H" (exited high), "A" (active/survived).
-    bin_idx: For sub-binned active hypotheses, the 1-indexed bin in 1..J. None
-      when kind is "L"/"H", or when using unbinned mode (J=0 / unbinned).
+    bin_idx: For sub-binned active hypotheses, the 1-indexed active bin in
+      1..num_bins. None when kind is "L"/"H", or when using unbinned mode
+      (num_active_bins=0).
   """
 
   kind: str  # "L", "H", "A"
@@ -42,7 +43,7 @@ class TerminalStatus:
 
   @classmethod
   def active(cls, bin_idx: int | None = None) -> "TerminalStatus":
-    """Active/survived. bin_idx=None for continuous / unbinned mode (J=0)."""
+    """Active/survived. bin_idx=None for unbinned mode (num_active_bins=0)."""
     return cls(kind="A", bin_idx=bin_idx)
 
   @property
@@ -151,7 +152,7 @@ def compute_strip_bins(e_min: float, e_max: float, num_bins: int) -> np.ndarray:
   Args:
     e_min: Lower strip boundary (0.0 for binary coarsening when num_bins=1).
     e_max: Upper strip boundary.
-    num_bins: Number of bins (J).
+    num_bins: Number of active sub-bins in [e_min, e_max).
 
   Returns:
     Array of shape (num_bins + 1,) with edges from e_min to e_max.
@@ -173,7 +174,7 @@ def map_to_bin_idx(
     bin_edges: np.ndarray,
     num_bins: int,
 ) -> int | np.ndarray:
-  """Maps e-value(s) to bin index: 0=L, 1..J=active, J+1=H."""
+  """Maps e-value(s) to bin index: 0=L, 1..num_bins=active, num_bins+1=H."""
   m_arr = np.asarray(m_vals, dtype=float)
   scalar_input = m_arr.ndim == 0
   m_arr = np.atleast_1d(m_arr)

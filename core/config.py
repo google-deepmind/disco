@@ -118,9 +118,8 @@ class DiscoConfig:
   # One of 'pre_hoc', 'post_hoc', 'good_event', 'nominal'.
   alpha_calibration_mode: str = "good_event"
   n_max: int = 3  # Max probes per hypothesis before timeout deactivation.
-  num_active_bins: int = (
-      1  # 0 = unbinned/exact, 1 = binary active strip, >1 = multi-bin.
-  )
+  # 0 = unbinned/exact, 1 = single active bin [e_min, e_max), >1 = multi-bin.
+  num_active_bins: int = 1
   n_sim: int = 100_000  # Monte Carlo samples for null table precomputation.
   # Whether the DISCO probe agent sees failure examples from prior
   # sub-hypotheses within the same hypothesis (coarsening-safe).

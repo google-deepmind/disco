@@ -61,9 +61,8 @@ class BanditConfig:
   enforce_exit_low: bool = True
   n_max: int = 10
   k_bar: int | None = None
-  num_active_bins: int = (
-      1  # 0 = unbinned/exact, 1 = binary active strip, J > 1 = multi-bin
-  )
+  # 0 = unbinned/exact, 1 = single active bin [e_min, e_max), >1 = multi-bin
+  num_active_bins: int = 1
   alpha_calibration_mode: str = (
       "post_hoc"  # "nominal", "pre_hoc", "post_hoc", "good_event"
   )
@@ -274,8 +273,9 @@ class DISCOContextualCandidateSelector(_ContextualSelectorBase):
 
   Respects e-value coarsening by regressing on cumulative expected log e-value
   increments looked up from null tables via
-  ``null_tables_lib.lookup_transition_score`` (finite J), or on exact clamped
-  log e-values (J = infinity, ``num_active_bins = 0``).
+  ``null_tables_lib.lookup_transition_score`` (binned mode, finite |P|), or on
+  exact clamped log e-values (unbinned mode, |P| = infinity,
+  ``num_active_bins = 0``).
   """
 
   def __init__(
@@ -297,7 +297,7 @@ class DISCOContextualCandidateSelector(_ContextualSelectorBase):
   def update_transition(
       self, arm_id: str, feature: np.ndarray, prev_bin: int, curr_bin: int
   ) -> None:
-    """Updates the cumulative expected log e-value score for this arm (finite J)."""
+    """Updates the cumulative expected log e-value score (binned mode)."""
     score_inc = null_tables_lib.lookup_transition_score(
         self.null_tables, prev_bin, curr_bin
     )
@@ -308,7 +308,7 @@ class DISCOContextualCandidateSelector(_ContextualSelectorBase):
   def update_exact(
       self, arm_id: str, feature: np.ndarray, log_e_score: float
   ) -> None:
-    """Updates the cumulative log e-value score directly (J = infinity mode)."""
+    """Updates the cumulative log e-value score directly (unbinned mode)."""
     self.arm_features[arm_id] = feature
     self.arm_scores[arm_id] = log_e_score
     self.arm_probes[arm_id] = self.arm_probes.get(arm_id, 0) + 1

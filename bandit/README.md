@@ -101,7 +101,7 @@ python -m disco.bandit.tune_bandit_disco \
 
 * `--runner_type`: Which bandit runner(s) to tune:
   * `disco`: DISCO (optimizes $\kappa$, $n_{\max}$, $e_{\max}$, $e_{\min}$, and
-    active binning $\mathcal{P}$; choose between post-hoc / good-event /
+    coarsening partition $\mathcal{P}$; choose between post-hoc / good-event /
     pre-hoc calibration via
     `--alpha_calibration_mode=post_hoc|good_event|pre_hoc`).
   * `offline_ebh`: BUW-eBH (optimizes $\kappa$, $n_{\max}$, and $e_{\max}$).

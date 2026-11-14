@@ -32,8 +32,8 @@ from disco.stats.coarsened import status as status_lib
 class NullCoarsenedTables:
   """Lookup tables for null random walk with coarsened e-processes."""
 
-  num_bins: int  # J >= 1, 1 = ternary
-  bin_edges: np.ndarray  # shape (J+1,) from e_min to e_max
+  num_bins: int  # active sub-bins in [e_min, e_max) (>= 1)
+  bin_edges: np.ndarray  # shape (num_bins+1,) from e_min to e_max
   E_A_table: (
       np.ndarray
   )  # shape (n_max,) — E_A(m) = E[M^free_m | survives m steps in strip]
@@ -56,22 +56,22 @@ class NullCoarsenedTables:
   k_max: int
   r_hat_transition: (
       np.ndarray
-  )  # shape (J+2, J+2) — E[log(E_m) | b_prev, b_curr]
+  )  # shape (num_bins+2, num_bins+2) — E[log(E_m) | b_prev, b_curr]
   r_hat_transition_counts: (
       np.ndarray
-  )  # shape (J+2, J+2) — sample counts per cell
-  r_hat_marginal: np.ndarray  # shape (J+2,) — E[log(E_m) | b_curr]
+  )  # shape (num_bins+2, num_bins+2) — sample counts per cell
+  r_hat_marginal: np.ndarray  # shape (num_bins+2,) — E[log(E_m) | b_curr]
   min_transition_samples: int = 50
   bin_log_centers: np.ndarray | None = (
-      None  # shape (J+2,) — log centers of bins
+      None  # shape (num_bins+2,) — log centers of bins
   )
   phi_L_grid: np.ndarray | None = None  # shape (n_max, k_max) — phi(L,m,k)
   E_bin_table: np.ndarray | None = (
-      None  # shape (J, n_max) — E[M^free_m | survives, M_m in B_j]
+      None  # shape (num_bins, n_max) — E[M^free_m | survives, M_m in B_j]
   )
   E_bin_max: float = 1.0  # max_{j,m} E_bin_table[j,m]
   phi_bin_grid: np.ndarray | None = (
-      None  # shape (J, n_max, k_max) — phi(B_j, m, k)
+      None  # shape (num_bins, n_max, k_max) — phi(B_j, m, k)
   )
   # Raw MC paths stored for recompute_phi_at_alpha (computing phi at different
   # alpha_bh values post-hoc). Memory cost: ~80 MB at n_sim=200k, n_max=50.
@@ -141,10 +141,10 @@ def lookup_transition_score(
 
   Args:
     tables: Precomputed NullCoarsenedTables instance.
-    prev_bin: Source bin index (0=L, 1..J=active, J+1=H).
+    prev_bin: Source bin index (0=L, 1..num_bins=active, num_bins+1=H).
     curr_bin: Destination bin index.
     prior_base: Base pseudo-count N_0 for Bayesian shrinkage.
-    prior_scale: Resolution scale parameter (J_0).
+    prior_scale: Resolution scale parameter.
 
   Returns:
     Estimated expected log e-value increment for this transition.
@@ -170,9 +170,9 @@ def lookup_transition_score(
     else:
       midpoint_inc = float(tables.r_hat_marginal[curr_bin])
 
-  # Adaptive pseudo-count scaling with bin resolution J:
-  # At small J (coarse), empirical null data dominates.
-  # At large J (fine), midpoint precision increases, so midpoint prior
+  # Adaptive pseudo-count scaling with active bin resolution:
+  # At few active bins (coarse), empirical null data dominates.
+  # At many active bins (fine), midpoint precision increases, so midpoint prior
   # dominates.
   num_bins = tables.num_bins
   n0 = prior_base * (1.0 + num_bins / prior_scale)
@@ -209,7 +209,7 @@ def compute_null_coarsened_tables(
     e_max: Upper strip boundary.
     n_max: Maximum number of probes (walk length).
     k_max: Maximum number of hypotheses for boost factor grid.
-    num_bins: Number of log-spaced bins (J >= 1, 1 = binary/ternary).
+    num_bins: Number of log-spaced active sub-bins in [e_min, e_max) (>= 1).
     alpha: Significance level for boost factor computation.
     n_sim: Number of Monte Carlo trajectories.
     seed: RNG seed for reproducibility.
@@ -338,7 +338,7 @@ def compute_null_coarsened_tables(
       e_l_table[m_idx] = 0.0
 
   # --- Step 4b: Bin-transition score tables for spatial GP ---
-  num_total_bins = num_bins + 2  # 0=L, 1..J=active, J+1=H
+  num_total_bins = num_bins + 2  # 0=L, 1..num_bins=active, num_bins+1=H
 
   # Prepend M_0 = 1.0 for "previous state at step 0"
   m_free_with_init = np.concatenate(
@@ -418,7 +418,8 @@ def compute_null_coarsened_tables(
   else:
     log_e_l = float(np.log(e_min)) if e_min > 0.0 else 0.0
 
-  # Compute geometric log centers for all bins (0=L, 1..J=active, J+1=H)
+  # Compute geometric log centers for all bins (0=L, 1..num_bins=active,
+  # num_bins+1=H)
   bin_log_centers = np.zeros(num_total_bins)
   bin_log_centers[0] = log_e_l
   bin_log_centers[num_bins + 1] = log_e_h

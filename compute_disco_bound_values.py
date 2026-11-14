@@ -67,15 +67,15 @@ _KAPPA = flags.DEFINE_string(
 _NUM_BINS = flags.DEFINE_string(
     "num_bins",
     "1,2,3,5",
-    "Comma-separated list of active bin counts (1 = binary active strip [0,"
-    " e_max)).",
+    "Comma-separated list of non-high-exiting bin counts J below e_max"
+    " (so total partition size |P| = J + 1; 1 = binary DISCO |P| = 2).",
 )
 _E_MIN = flags.DEFINE_float(
     "e_min",
     0.0,
-    "Lower threshold e_min for multi-bin active partitions (J > 1). When set >"
-    " 0, the lowest active bin is [0, e_min) and the remaining J-1 bins are"
-    " log-spaced between e_min and e_max.",
+    "Lower threshold e_min for multi-bin partitions (J > 1). When set > 0,"
+    " the low-exit bin is [0, e_min) and the remaining J-1 active bins are"
+    " log-spaced between e_min and e_max (giving |P| = J + 1 total bins).",
 )
 _ALPHA = flags.DEFINE_float(
     "alpha",
@@ -592,13 +592,13 @@ def generate_text_reports(
         kp_str = f"{r['kappa']:.2g}"
         emax_str = f"{r['e_max']:.0f}"
         nmax_str = f"{r['n_max']}"
-        j_str = f"{r['num_bins']}"
+        p_str = f"{r['num_bins'] + 1}"
         ph_str = format_2sigfigs(r["P_H"], is_sci=True)
         ea_str = format_2sigfigs(r["E_bin_max"])
         fdr_base_str = format_2sigfigs(r["prehoc_baseline"])
         apre_str = format_2sigfigs(r["calibrated_alpha_baseline"])
         lines.append(
-            f"{kp_str} & {emax_str} & {nmax_str} & {j_str} &"
+            f"{kp_str} & {emax_str} & {nmax_str} & {p_str} &"
             f" {ph_str} & {ea_str} &"
             f" {fdr_base_str} &"
             f" {apre_str} \\\\"

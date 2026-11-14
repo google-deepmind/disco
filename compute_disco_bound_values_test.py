@@ -238,8 +238,9 @@ class ComputeDiscoBoundValuesTest(absltest.TestCase):
         is_tuple_mode=True,
     )
 
-    # 1. Header checks
+    # 1. Header and |P| = J + 1 value checks (num_bins=1 -> |P|=2)
     self.assertIn(r"$|\mathcal{P}|$", out)
+    self.assertIn("0.5 & 100 & 5 & 2 &", out)
     self.assertIn(r"$\mathrm{Bound}$ & $\alpha^\star$", out)
 
     # 2. Columns removed checks

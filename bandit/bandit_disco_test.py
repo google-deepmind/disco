@@ -120,7 +120,7 @@ class BanditDiscoTest(absltest.TestCase):
     self.assertGreater(result.total_hypotheses_tested, 0)
 
   def test_disco_multibin_run(self):
-    """Tests DISCO on Bernoulli bandit with multi-bin partition (J=3)."""
+    """Tests DISCO on Bernoulli bandit with multi-bin active strip."""
     config = bandit_disco.BanditConfig(
         env_type="bernoulli",
         budget=100,
@@ -177,7 +177,7 @@ class BanditDiscoTest(absltest.TestCase):
     self.assertLess(cert_low_bin.epsilon_post, cert_high_bin.epsilon_post)
 
   def test_disco_unbinned_bernoulli_run(self):
-    """Tests DISCO on Bernoulli bandit with unbinned e-values (J = infinity, num_active_bins=0)."""
+    """Tests DISCO on Bernoulli bandit with unbinned e-values (|P|=infinity)."""
     config = bandit_disco.BanditConfig(
         env_type="bernoulli",
         budget=100,
@@ -204,7 +204,7 @@ class BanditDiscoTest(absltest.TestCase):
     self.assertIsNotNone(result.posthoc_certificate)
 
   def test_disco_unbinned_contextual_run(self):
-    """Tests DISCO on Contextual bandit with unbinned e-values (J = infinity, num_active_bins=0)."""
+    """Tests DISCO on Contextual bandit with unbinned e-values (|P|=infinity)."""
     config = bandit_disco.BanditConfig(
         env_type="contextual",
         budget=100,

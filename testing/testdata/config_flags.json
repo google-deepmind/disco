@@ -65,7 +65,7 @@
    "num_active_bins": {
     "allow_override_cpp": false,
     "default": 1,
-    "help": "Number of active bins for coarsened e-processes (0=unbinned/exact, 1=binary active strip, >1=multi-bin).",
+    "help": "Number of active sub-bins in [e_min, e_max) for coarsened e-processes (0=unbinned/exact, 1=single active bin [e_min, e_max), >1=multi-bin).",
     "name": "num_active_bins",
     "type": "int"
    },
@@ -156,7 +156,7 @@
    "num_active_bins": {
     "allow_override_cpp": false,
     "default": 1,
-    "help": "Number of active bins for coarsened e-processes (0=unbinned/exact, 1=binary active strip, >1=multi-bin).",
+    "help": "Number of active sub-bins in [e_min, e_max) for coarsened e-processes (0=unbinned/exact, 1=single active bin [e_min, e_max), >1=multi-bin).",
     "name": "num_active_bins",
     "type": "int"
    },

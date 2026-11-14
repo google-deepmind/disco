@@ -357,7 +357,8 @@ class DiscoPolicy(ModePolicy):
     """Returns the banner string for DISCO mode."""
     return (
         "\n--- DISCO: Null tables precomputed"
-        f" (n_max={self.config.n_max}, bins={self.effective_bins}) ---"
+        f" (n_max={self.config.n_max},"
+        f" num_active_bins={self.config.num_active_bins}) ---"
     )
 
   def after_e_value(

@@ -108,8 +108,8 @@ _K_BAR = flags.DEFINE_integer(
 _NUM_ACTIVE_BINS = flags.DEFINE_integer(
     "num_active_bins",
     1,
-    "Number of active bins J (0 = unbinned/exact, 1 = binary active strip, J >"
-    " 1 = multi-bin refinement).",
+    "Number of active sub-bins in [e_min, e_max) (0 = unbinned/exact, 1 ="
+    " single active bin [e_min, e_max), > 1 = multi-bin refinement).",
 )
 _ALPHA_CALIBRATION_MODE = flags.DEFINE_enum(
     "alpha_calibration_mode",
@@ -860,17 +860,17 @@ def _compute_bounds_report(
       alpha_star=alpha_for_prehoc,
   )
   if config.num_active_bins == 0:
-    # For J=infinity, E_B^max = e_max, not the ternary E_A_max
+    # For unbinned mode (|P| = infinity), E_B^max = e_max, not E_A_max
     prehoc_bounds["unboosted"] = (
         alpha_for_prehoc * config.e_max + prehoc_bounds["baseline_Kbar_PH"]
     )
 
-  j_label = (
-      "continuous"
+  bins_label = (
+      "unbinned"
       if config.num_active_bins == 0
-      else f"J={config.num_active_bins}"
+      else f"active_bins={config.num_active_bins}"
   )
-  print(f"\n=== FDR Certificates & Bounds (DISCO, {j_label}) ===")
+  print(f"\n=== FDR Certificates & Bounds (DISCO, {bins_label}) ===")
   print(
       f"Nominal Calibrated Alpha:    {nom_alpha_mean:.4f} (Target Alpha*:"
       f" {config.alpha:.4f}, Kappa: {config.kappa:.2f})"

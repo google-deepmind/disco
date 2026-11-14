@@ -148,8 +148,9 @@ FLAG_SPECS: Final[dict[str, FlagSpec]] = {
     "num_active_bins": FlagSpec(
         kind="integer",
         help=(
-            "Number of active bins for coarsened e-processes"
-            " (0=unbinned/exact, 1=binary active strip, >1=multi-bin)."
+            "Number of active sub-bins in [e_min, e_max) for coarsened"
+            " e-processes (0=unbinned/exact, 1=single active bin [e_min,"
+            " e_max), >1=multi-bin)."
         ),
     ),
 }
