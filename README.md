@@ -1,7 +1,7 @@
 # DISCO: Reliable Behavior Discovery via False Discovery Rate Control
 
 This codebase implements the **DISCO** (*Discovery through Iterative Search with
-Discovery through Iterative Search with COarsened $e$-processes*) algorithm and
+COarsened $e$-processes*) algorithm and
 baselines from the paper *Reliable Behavior Discovery via False Discovery
 Rate Control* (Madras et al., 2026).
 
