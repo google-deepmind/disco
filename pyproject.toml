@@ -25,7 +25,6 @@ readme = "README.md"
 authors = [{name = "Google DeepMind", email = "noreply@google.com"}]
 requires-python = ">=3.11"
 license = {text = "Apache-2.0"}
-urls = {Repository = "https://github.com/google-deepmind/disco"}
 dependencies = [
     "absl-py>=2.0.0",
     "google-genai>=1.52.0",
@@ -38,6 +37,10 @@ dependencies = [
     "scipy>=1.11.0",
     "tqdm>=4.65.0",
 ]
+
+[project.urls]
+Repository = "https://github.com/google-deepmind/disco"
+Paper = "https://arxiv.org/abs/2611.27104"
 
 [project.optional-dependencies]
 bandit = [
