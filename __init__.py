@@ -14,3 +14,6 @@
 # ==============================================================================
 
 """DISCO: Reliable Behavior Discovery via False Discovery Rate Control."""
+
+__version__ = "0.1.0"
+
